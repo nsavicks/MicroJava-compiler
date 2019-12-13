@@ -1,0 +1,324 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+
+// import java.io.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+
+parser code {:
+	
+	boolean errorDetected = false;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+    
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+    
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+// Terminals
+
+terminal PROGRAM, BREAK, CLASS, ABSTRACT, ELSE, CONST, IF, NEW, PRINT, READ, RETURN, VOID, FOR, EXT, CONTINUE, PLUS, SUB, MUL, DIV, MOD, EQ, NEQ, GE, GEQ, LE, LEQ, AND, OR, ASSIGN, INC, DEC, SEMI, COMMA, DOT, LPAREN, RPAREN, LSQUARE, RSQUARE, LBRACE, RBRACE;
+terminal Boolean BOOL;
+terminal Integer NUMBER;
+terminal String IDENT;
+terminal Character CHAR;
+
+// Non Terminals
+
+
+nonterminal Mulop, Addop, Relop, Assignop;
+nonterminal DesignatorItem, DesignatorList, Designator;
+nonterminal ActParsSingle, FactorActParsSingle, FactorExprSingle, Factor;
+nonterminal TermItem, TermList, Term;
+nonterminal ExprItem, ExprList, SubSingle, Expr;
+nonterminal CondFact, CondTermItem, CondTermList, CondTerm, ConditionList, ConditionSingle, Condition;
+nonterminal ActParsList, ActPars;
+nonterminal DesignatorStatementItem, DesignatorStatement, DesignatorStatementSingle, ElseStatementSingle, ExprSingle, CommaNumConstSingle, StatementList, Statement;
+nonterminal Type;
+nonterminal SquareSingle, TypeIdentItem, TypeIdentList, FormPars;
+nonterminal RetType, FormParsSingle, AbstractMethodDecl, VarDeclList, MethodDecl, ExtendsSingle, AbstractMethodDeclItem, AbstractMethodDeclList, AbstractClassMethodDeclSingle, AbstractClassDecl, MethodDeclList, ClassMethodDeclSingle, ClassDecl;
+nonterminal IdentListItem, IdentList, VarDecl, ConstLiteral, ConstDeclListItem, ConstDeclList, ConstDecl, Declaration, DeclarationList;
+nonterminal Program;
+
+precedence left ELSE;
+
+// Smene
+
+Program ::= (Program) PROGRAM IDENT DeclarationList LBRACE MethodDeclList RBRACE;
+
+DeclarationList ::= (DeclarationListNode) DeclarationList Declaration
+                    |
+                    (NoDeclarationList) /* epsilon */;
+
+Declaration ::= (ConstDeclaration) ConstDecl
+                |
+                (VarDeclaration) VarDecl
+                |
+                (AbstractClassDeclaration) AbstractClassDecl
+                |
+                (ClassDeclaration) ClassDecl;
+
+ConstDecl ::= (ConstDecl) CONST Type IDENT ASSIGN ConstLiteral ConstDeclList SEMI;
+
+ConstDeclList ::= (ConstDeclListNode) ConstDeclList ConstDeclListItem
+                    |
+                    (NoConstDeclList) /* epsilon */;
+
+ConstDeclListItem ::= (ConstDeclListItem) COMMA IDENT ASSIGN ConstLiteral;
+
+ConstLiteral ::= (ConstLiteralNum) NUMBER:value
+                |
+                (ConstLiteralChar) CHAR:value
+                |
+                (ConstLiteralBool) BOOL:value
+                ;
+
+VarDecl ::= (VarDecl) Type IDENT SquareSingle IdentList SEMI;
+
+IdentList ::= (IdentListNode) IdentList IdentListItem
+            |
+            (NoIdentList) /* epsilon */;
+
+IdentListItem ::= (IdentListItem) COMMA IDENT SquareSingle;
+
+ClassDecl ::= (ClassDecl) CLASS IDENT ExtendsSingle LBRACE VarDeclList ClassMethodDeclSingle RBRACE;
+
+ClassMethodDeclSingle ::= (ClassMethodDeclSingle) LBRACE MethodDeclList RBRACE;
+
+MethodDeclList ::= (MethodDeclListNode) MethodDeclList MethodDecl
+                    |
+                    (NoMethodDeclList) /* epsilon */;
+
+AbstractClassDecl ::= (AbstractClassDecl) ABSTRACT CLASS IDENT ExtendsSingle LBRACE VarDeclList AbstractClassMethodDeclSingle RBRACE;
+
+AbstractClassMethodDeclSingle ::= (AbstractClassMethodDeclSingle) LBRACE AbstractMethodDeclList RBRACE;
+
+AbstractMethodDeclList ::= (AbstractMethodDeclListNode) AbstractMethodDeclList AbstractMethodDeclItem
+                        |
+                        (NoAbstractMethodDeclList) /* epsilon */;
+
+AbstractMethodDeclItem ::= (MethodDeclItemNode) MethodDecl
+                            |
+                            (AbstractMethodDeclItemNode) AbstractMethodDecl;
+
+ExtendsSingle ::= (ExtendsSingleNode) EXT Type
+                    |
+                    (NoExtendsSingle) /* epsilon */;
+
+MethodDecl ::= (MethodDecl) RetType IDENT LPAREN FormParsSingle RPAREN VarDeclList LBRACE StatementList RBRACE;
+
+VarDeclList ::= (VarDeclListNode) VarDeclList VarDecl
+                |
+                (NoVarDeclList) /* epsilon */;
+
+AbstractMethodDecl ::= (AbstractMethodDecl) ABSTRACT RetType IDENT LPAREN FormParsSingle RPAREN SEMI;
+
+FormParsSingle ::= (FormParsSingleNode) FormPars
+                    |
+                    (NoFormParsSingle) /* epsilon */;
+
+RetType ::= (RetTypeNode) Type
+            |
+            (RetTypeVoid) VOID;
+
+FormPars ::= (FormPars) Type IDENT SquareSingle TypeIdentList;
+
+TypeIdentList ::= (TypeIdentListNode) TypeIdentList TypeIdentItem
+                    |
+                    (NoTypeIdentList) /* epsilon */;
+
+TypeIdentItem ::= (TypeIdentItem) COMMA Type IDENT SquareSingle;
+
+SquareSingle ::= (SquareSingleNode) LSQUARE RSQUARE
+                |
+                (NoSquareSingle) /* epsilon */;
+
+Type ::= (Type) IDENT;
+
+Statement ::= (StatementDesignator) DesignatorStatement SEMI
+            |
+            (StatementIf) IF LPAREN Condition RPAREN Statement ElseStatementSingle
+            |
+            (StatementFor) FOR LPAREN DesignatorStatementSingle SEMI ConditionSingle SEMI DesignatorStatementSingle RPAREN Statement
+            |
+            (StatementBreak) BREAK SEMI
+            |
+            (StatementContinue) CONTINUE SEMI
+            |
+            (StatementReturn) RETURN ExprSingle SEMI
+            |
+            (StatementRead) READ LPAREN Designator RPAREN SEMI
+            |
+            (StatementPrint) PRINT LPAREN Expr CommaNumConstSingle RPAREN SEMI
+            |
+            (StatementStatementList) LBRACE StatementList RBRACE;
+
+ConditionSingle ::= (ConditionSingleNode) Condition
+                    |
+                    (NoConditionSingle) /* epsilon */;
+
+StatementList ::= (StatementListNode) StatementList Statement
+                    |
+                    (NoStatementList) /* epsilon */;
+
+CommaNumConstSingle ::= (CommaNumConstSingleNode) COMMA NUMBER
+                        |
+                        (NoCommaNumConstSingle) /* epsilon */;
+
+ExprSingle ::= (ExprSingleNode) Expr
+                |
+                (NoExprSingle) /* epsilon */;
+
+ElseStatementSingle ::= (ElseStatementSingleNode) ELSE Statement
+                        |
+                        (NoElseStatementSingle) /* epsilon */;
+
+DesignatorStatementSingle ::= (DesignatorStatementSingleNode) DesignatorStatement
+                            |
+                            (NoDesignatorStatementSingle) /* epsilon */;
+
+DesignatorStatement ::= (DesignatorStatement) Designator DesignatorStatementItem;
+
+DesignatorStatementItem ::= (DesignatorItemAssign) Assignop Expr
+                    |
+                    (DesignatorItemActPars) LPAREN  ActParsSingle RPAREN
+                    |
+                    (DesignatorItemInc) INC
+                    |
+                    (DesignatorItemDec) DEC;
+
+ActPars ::= (ActPars) Expr ActParsList;
+
+ActParsList ::= (ActParsListNode) ActParsList COMMA Expr
+                |
+                (NoActParsList) /* epsilon */;
+
+Condition ::= (Condition) CondTerm ConditionList;
+
+ConditionList ::= (ConditionListNode) ConditionList OR CondTerm
+                |
+                (NoConditionList) /* epsilon */;
+
+CondTerm ::= (CondTerm) CondFact CondTermList;
+
+CondTermList ::= (CondTermListNode) CondTermList CondTermItem
+                |
+                (NoCondTermList) /* epsilon */;
+
+CondTermItem ::= (CondTermItem) AND CondFact;
+
+CondFact ::= (CondFactExpr) Expr
+            |
+            (CondFactRelop) Expr Relop Expr;
+
+Expr ::= (Expr) SubSingle Term ExprList;
+
+SubSingle ::= (SubSingleNode) SUB
+            |
+            (NoSubSingle) /* epsilon */;
+
+ExprList ::= (ExprListNode) ExprList ExprItem
+            |
+            (NoExprList) /* epsilon */;
+
+ExprItem ::= (ExprItem) Addop Term;
+
+Term ::= (Term) Factor TermList;
+
+TermList ::= (TermListNode) TermList TermItem
+            |
+            (NoTermList) /* epsilon */;
+
+TermItem ::= Mulop Factor;
+
+Factor ::= (FactorDesignator) Designator FactorActParsSingle
+            |
+            (FactorConstant) ConstLiteral
+            |
+            (FactorNew) NEW Type FactorExprSingle
+            |
+            (FactorExpr) LPAREN Expr RPAREN;
+
+FactorExprSingle ::= (FactorExprSingleNode) LSQUARE Expr RSQUARE
+                |
+                (NoFactorExprSingle) /* epsilon */;
+
+FactorActParsSingle ::= (FactorActParsSingleNode) LPAREN ActParsSingle RPAREN
+                |
+                (NoFactorActParsSingle) /* epsilon */;
+
+ActParsSingle ::= (ActParsSingleNode) ActPars
+            |
+            (NoActParsSingle) /* epsilon */;
+
+Designator ::= (Designator) IDENT DesignatorList;
+
+DesignatorList ::= (DesignatorListNode) DesignatorList DesignatorItem
+                    |
+                    (NoDesignatorList) /* epsilon */;
+
+DesignatorItem ::= (DesignatorDotItem) DOT IDENT
+                    |
+                    (DesignatorArrayItem) LSQUARE Expr RSQUARE;
+
+Assignop ::= (Assignop) ASSIGN;
+
+Relop ::= (Equalop) EQ
+        |
+        (NotEqualop) NEQ
+        |
+        (Greaterop) GE
+        |
+        (GreaterEqualop) GEQ
+        |
+        (Lesserop) LE
+        |
+        (LesserEqualop) LEQ;
+
+Addop ::= (Addop) PLUS
+        |
+        (Subop) SUB;
+
+Mulop ::= (Mulop) MUL
+        |
+        (Divop) DIV
+        |
+        (Modop) MOD;
