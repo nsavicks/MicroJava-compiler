@@ -1,19 +1,17 @@
 // generated with ast extension for cup
 // version 0.8
-// 28/10/2019 19:19:40
+// 21/11/2019 18:17:11
 
 
 package rs.ac.bg.etf.pp1.ast;
 
-public class TypeIdentItem implements SyntaxNode {
+public class TypeIdentSingleNode extends TypeIdentSingle {
 
-    private SyntaxNode parent;
-    private int line;
     private Type Type;
     private String I2;
     private SquareSingle SquareSingle;
 
-    public TypeIdentItem (Type Type, String I2, SquareSingle SquareSingle) {
+    public TypeIdentSingleNode (Type Type, String I2, SquareSingle SquareSingle) {
         this.Type=Type;
         if(Type!=null) Type.setParent(this);
         this.I2=I2;
@@ -45,22 +43,6 @@ public class TypeIdentItem implements SyntaxNode {
         this.SquareSingle=SquareSingle;
     }
 
-    public SyntaxNode getParent() {
-        return parent;
-    }
-
-    public void setParent(SyntaxNode parent) {
-        this.parent=parent;
-    }
-
-    public int getLine() {
-        return line;
-    }
-
-    public void setLine(int line) {
-        this.line=line;
-    }
-
     public void accept(Visitor visitor) {
         visitor.visit(this);
     }
@@ -85,7 +67,7 @@ public class TypeIdentItem implements SyntaxNode {
     public String toString(String tab) {
         StringBuffer buffer=new StringBuffer();
         buffer.append(tab);
-        buffer.append("TypeIdentItem(\n");
+        buffer.append("TypeIdentSingleNode(\n");
 
         if(Type!=null)
             buffer.append(Type.toString("  "+tab));
@@ -103,7 +85,7 @@ public class TypeIdentItem implements SyntaxNode {
         buffer.append("\n");
 
         buffer.append(tab);
-        buffer.append(") [TypeIdentItem]");
+        buffer.append(") [TypeIdentSingleNode]");
         return buffer.toString();
     }
 }

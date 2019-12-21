@@ -1,17 +1,16 @@
-program MJProgram
-	int x; int y;
+program test
+
+abstract class p extends q {
 {
-	
-	int k () int c; {
-		c = 1;
-		return c+2;
-	}
-	
-	int main() {
-		y = 2;
-		x = y + 2;
-		y = k() + 3;
-		print(y);
-		return 0;
-	}
+    abstract void f();
+    abstract void f1(int x);
+    abstract f2();
+    f3();
+    void f4(){}
+    int f5(int x){}
+    abstract void f6 int x);
+}
+}
+
+{
 }

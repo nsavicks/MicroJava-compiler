@@ -43,6 +43,12 @@ parser code {:
             msg.append (" na liniji ").append(((Symbol)info).left);
         log.info(msg.toString());
     }
+
+    public int error_sync_size()
+    {
+        return 1;
+    }
+
     
 :}
 
@@ -88,10 +94,12 @@ nonterminal CondTermList CondTermList;
 nonterminal CondTerm CondTerm;
 nonterminal ConditionList ConditionList;
 nonterminal ConditionSingle ConditionSingle;
+nonterminal ForConditionSingle ForConditionSingle;
 nonterminal Condition Condition;
 nonterminal ActParsList ActParsList;
 nonterminal ActPars ActPars;
 nonterminal DesignatorStatementItem DesignatorStatementItem;
+nonterminal DesignatorAssignItem DesignatorAssignItem;
 nonterminal DesignatorStatement DesignatorStatement;
 nonterminal DesignatorStatementSingle DesignatorStatementSingle;
 nonterminal ElseStatementSingle ElseStatementSingle;
@@ -101,7 +109,7 @@ nonterminal StatementList StatementList;
 nonterminal Statement Statement;
 nonterminal Type Type;
 nonterminal SquareSingle SquareSingle;
-nonterminal TypeIdentItem TypeIdentItem;
+nonterminal TypeIdentSingle TypeIdentSingle;
 nonterminal TypeIdentList TypeIdentList;
 nonterminal FormPars FormPars;
 nonterminal RetType RetType;
@@ -116,10 +124,13 @@ nonterminal AbstractClassMethodDeclSingle AbstractClassMethodDeclSingle;
 nonterminal AbstractClassDecl AbstractClassDecl;
 nonterminal MethodDeclList MethodDeclList;
 nonterminal ClassMethodDeclSingle ClassMethodDeclSingle;
+nonterminal ClassDeclIdent ClassDeclIdent;
 nonterminal ClassDecl ClassDecl;
 nonterminal IdentListItem IdentListItem;
 nonterminal IdentList IdentList;
+nonterminal IdentSingle IdentSingle;
 nonterminal VarDecl VarDecl;
+nonterminal VarDeclPartial VarDeclPartial;
 nonterminal ConstLiteral ConstLiteral;
 nonterminal ConstDeclListItem ConstDeclListItem;
 nonterminal ConstDeclList ConstDeclList;
@@ -161,15 +172,21 @@ ConstLiteral ::= (ConstLiteralNum) NUMBER:value {: RESULT=new ConstLiteralNum(va
                 (ConstLiteralBool) BOOL:value {: RESULT=new ConstLiteralBool(value); RESULT.setLine(valueleft); :}
                 ;
 
-VarDecl ::= (VarDecl) Type:T1 IDENT:I2 SquareSingle:S3 IdentList:I4 SEMI {: RESULT=new VarDecl(T1, I2, S3, I4); RESULT.setLine(T1left); :};
-
-IdentList ::= (IdentListNode) IdentList:I1 IdentListItem:I2 {: RESULT=new IdentListNode(I1, I2); RESULT.setLine(I1left); :}
+VarDecl ::= (VarDeclNode) Type:T1 IdentList:I2 SEMI {: RESULT=new VarDeclNode(T1, I2); RESULT.setLine(T1left); :}
             |
-            (NoIdentList) {: RESULT=new NoIdentList(); :} /* epsilon */;
+            (ErrorVarDecl) error SEMI:l
+            {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :} {: RESULT=new ErrorVarDecl(); :};
 
-IdentListItem ::= (IdentListItem) COMMA IDENT:I1 SquareSingle:S2 {: RESULT=new IdentListItem(I1, S2); RESULT.setLine(I1left); :};
+IdentList ::= (IdentListNode) IdentList:I1 COMMA IdentSingle:I2 {: RESULT=new IdentListNode(I1, I2); RESULT.setLine(I1left); :}
+            |
+            (IdentListSingle) IdentSingle:I1 {: RESULT=new IdentListSingle(I1); RESULT.setLine(I1left); :};
 
-ClassDecl ::= (ClassDecl) CLASS IDENT:I1 ExtendsSingle:E2 LBRACE VarDeclList:V3 ClassMethodDeclSingle:C4 RBRACE {: RESULT=new ClassDecl(I1, E2, V3, C4); RESULT.setLine(I1left); :};
+IdentSingle ::= (IdentSingleNode) IDENT:I1 SquareSingle:S2 {: RESULT=new IdentSingleNode(I1, S2); RESULT.setLine(I1left); :}
+                |
+                (ErrorIdentSingle) error:l
+                {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :} {: RESULT=new ErrorIdentSingle(); :};
+
+ClassDecl ::= (ClassDecl) ClassDeclIdent:C1 ExtendsSingle:E2 LBRACE VarDeclList:V3 ClassMethodDeclSingle:C4 RBRACE {: RESULT=new ClassDecl(C1, E2, V3, C4); RESULT.setLine(C1left); :};
 
 ClassMethodDeclSingle ::= (ClassMethodDeclSingle) LBRACE MethodDeclList:M1 RBRACE {: RESULT=new ClassMethodDeclSingle(M1); RESULT.setLine(M1left); :};
 
@@ -177,7 +194,7 @@ MethodDeclList ::= (MethodDeclListNode) MethodDeclList:M1 MethodDecl:M2 {: RESUL
                     |
                     (NoMethodDeclList) {: RESULT=new NoMethodDeclList(); :} /* epsilon */;
 
-AbstractClassDecl ::= (AbstractClassDecl) ABSTRACT CLASS IDENT:I1 ExtendsSingle:E2 LBRACE VarDeclList:V3 AbstractClassMethodDeclSingle:A4 RBRACE {: RESULT=new AbstractClassDecl(I1, E2, V3, A4); RESULT.setLine(I1left); :};
+AbstractClassDecl ::= (AbstractClassDecl) ABSTRACT ClassDeclIdent:C1 ExtendsSingle:E2 LBRACE VarDeclList:V3 AbstractClassMethodDeclSingle:A4 RBRACE {: RESULT=new AbstractClassDecl(C1, E2, V3, A4); RESULT.setLine(C1left); :};
 
 AbstractClassMethodDeclSingle ::= (AbstractClassMethodDeclSingle) LBRACE AbstractMethodDeclList:A1 RBRACE {: RESULT=new AbstractClassMethodDeclSingle(A1); RESULT.setLine(A1left); :};
 
@@ -189,9 +206,17 @@ AbstractMethodDeclItem ::= (MethodDeclItemNode) MethodDecl:M1 {: RESULT=new Meth
                             |
                             (AbstractMethodDeclItemNode) AbstractMethodDecl:A1 {: RESULT=new AbstractMethodDeclItemNode(A1); RESULT.setLine(A1left); :};
 
+ClassDeclIdent ::= (ClassDeclIdentNode) CLASS IDENT:I1 {: RESULT=new ClassDeclIdentNode(I1); RESULT.setLine(I1left); :}
+                    |
+                    (ErrorClassDeclIdent) error:l
+                    {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :} {: RESULT=new ErrorClassDeclIdent(); :};
+
 ExtendsSingle ::= (ExtendsSingleNode) EXT Type:T1 {: RESULT=new ExtendsSingleNode(T1); RESULT.setLine(T1left); :}
                     |
-                    (NoExtendsSingle) {: RESULT=new NoExtendsSingle(); :} /* epsilon */;
+                    (NoExtendsSingle) {: RESULT=new NoExtendsSingle(); :} /* epsilon */
+                    |
+                    (ErrorExtendsSingle) EXT error:l
+                    {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :} {: RESULT=new ErrorExtendsSingle(); :};
 
 MethodDecl ::= (MethodDecl) RetType:R1 IDENT:I2 LPAREN FormParsSingle:F3 RPAREN VarDeclList:V4 LBRACE StatementList:S5 RBRACE {: RESULT=new MethodDecl(R1, I2, F3, V4, S5); RESULT.setLine(R1left); :};
 
@@ -199,7 +224,10 @@ VarDeclList ::= (VarDeclListNode) VarDeclList:V1 VarDecl:V2 {: RESULT=new VarDec
                 |
                 (NoVarDeclList) {: RESULT=new NoVarDeclList(); :} /* epsilon */;
 
-AbstractMethodDecl ::= (AbstractMethodDecl) ABSTRACT RetType:R1 IDENT:I2 LPAREN FormParsSingle:F3 RPAREN SEMI {: RESULT=new AbstractMethodDecl(R1, I2, F3); RESULT.setLine(R1left); :};
+AbstractMethodDecl ::= (AbstractMethodDeclNode) ABSTRACT RetType:R1 IDENT:I2 LPAREN FormParsSingle:F3 RPAREN SEMI {: RESULT=new AbstractMethodDeclNode(R1, I2, F3); RESULT.setLine(R1left); :}
+                        |
+                        (ErrorAbstractMethodDecl) error:l SEMI
+                        {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :} {: RESULT=new ErrorAbstractMethodDecl(); :};
 
 FormParsSingle ::= (FormParsSingleNode) FormPars:F1 {: RESULT=new FormParsSingleNode(F1); RESULT.setLine(F1left); :}
                     |
@@ -209,13 +237,16 @@ RetType ::= (RetTypeNode) Type:T1 {: RESULT=new RetTypeNode(T1); RESULT.setLine(
             |
             (RetTypeVoid) VOID {: RESULT=new RetTypeVoid(); :};
 
-FormPars ::= (FormPars) Type:T1 IDENT:I2 SquareSingle:S3 TypeIdentList:T4 {: RESULT=new FormPars(T1, I2, S3, T4); RESULT.setLine(T1left); :};
+FormPars ::= (FormPars) TypeIdentList:T1 {: RESULT=new FormPars(T1); RESULT.setLine(T1left); :};
 
-TypeIdentList ::= (TypeIdentListNode) TypeIdentList:T1 TypeIdentItem:T2 {: RESULT=new TypeIdentListNode(T1, T2); RESULT.setLine(T1left); :}
+TypeIdentList ::= (TypeIdentListNode) TypeIdentList:T1 COMMA TypeIdentSingle:T2 {: RESULT=new TypeIdentListNode(T1, T2); RESULT.setLine(T1left); :}
                     |
-                    (NoTypeIdentList) {: RESULT=new NoTypeIdentList(); :} /* epsilon */;
+                    (SingleTypeIdentList) TypeIdentSingle:T1 {: RESULT=new SingleTypeIdentList(T1); RESULT.setLine(T1left); :};
 
-TypeIdentItem ::= (TypeIdentItem) COMMA Type:T1 IDENT:I2 SquareSingle:S3 {: RESULT=new TypeIdentItem(T1, I2, S3); RESULT.setLine(T1left); :};
+TypeIdentSingle ::= (TypeIdentSingleNode) Type:T1 IDENT:I2 SquareSingle:S3 {: RESULT=new TypeIdentSingleNode(T1, I2, S3); RESULT.setLine(T1left); :}
+                    |
+                    (ErrorTypeIdentSingle) error:l
+                    {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :} {: RESULT=new ErrorTypeIdentSingle(); :};
 
 SquareSingle ::= (SquareSingleNode) LSQUARE RSQUARE {: RESULT=new SquareSingleNode(); :}
                 |
@@ -227,7 +258,7 @@ Statement ::= (StatementDesignator) DesignatorStatement:D1 SEMI {: RESULT=new St
             |
             (StatementIf) IF LPAREN Condition:C1 RPAREN Statement:S2 ElseStatementSingle:E3 {: RESULT=new StatementIf(C1, S2, E3); RESULT.setLine(C1left); :}
             |
-            (StatementFor) FOR LPAREN DesignatorStatementSingle:D1 SEMI ConditionSingle:C2 SEMI DesignatorStatementSingle:D3 RPAREN Statement:S4 {: RESULT=new StatementFor(D1, C2, D3, S4); RESULT.setLine(D1left); :}
+            (StatementFor) FOR LPAREN DesignatorStatementSingle:D1 SEMI ForConditionSingle:F2 DesignatorStatementSingle:D3 RPAREN Statement:S4 {: RESULT=new StatementFor(D1, F2, D3, S4); RESULT.setLine(D1left); :}
             |
             (StatementBreak) BREAK SEMI {: RESULT=new StatementBreak(); :}
             |
@@ -240,6 +271,11 @@ Statement ::= (StatementDesignator) DesignatorStatement:D1 SEMI {: RESULT=new St
             (StatementPrint) PRINT LPAREN Expr:E1 CommaNumConstSingle:C2 RPAREN SEMI {: RESULT=new StatementPrint(E1, C2); RESULT.setLine(E1left); :}
             |
             (StatementStatementList) LBRACE StatementList:S1 RBRACE {: RESULT=new StatementStatementList(S1); RESULT.setLine(S1left); :};
+
+ForConditionSingle ::= (ForConditionSingleNode) ConditionSingle:C1 SEMI {: RESULT=new ForConditionSingleNode(C1); RESULT.setLine(C1left); :}
+                        |
+                        (ErrorForConditionSingleNode) error SEMI:l
+                        {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :} {: RESULT=new ErrorForConditionSingleNode(); :};
 
 ConditionSingle ::= (ConditionSingleNode) Condition:C1 {: RESULT=new ConditionSingleNode(C1); RESULT.setLine(C1left); :}
                     |
@@ -265,15 +301,20 @@ DesignatorStatementSingle ::= (DesignatorStatementSingleNode) DesignatorStatemen
                             |
                             (NoDesignatorStatementSingle) {: RESULT=new NoDesignatorStatementSingle(); :} /* epsilon */;
 
-DesignatorStatement ::= (DesignatorStatement) Designator:D1 DesignatorStatementItem:D2 {: RESULT=new DesignatorStatement(D1, D2); RESULT.setLine(D1left); :};
+DesignatorStatement ::= (DesignatorStatementNode) Designator:D1 DesignatorStatementItem:D2 {: RESULT=new DesignatorStatementNode(D1, D2); RESULT.setLine(D1left); :}
+                        |
+                        (DesignatorAssignStatementNode) DesignatorAssignItem:D1 {: RESULT=new DesignatorAssignStatementNode(D1); RESULT.setLine(D1left); :};
 
-DesignatorStatementItem ::= (DesignatorItemAssign) Assignop:A1 Expr:E2 {: RESULT=new DesignatorItemAssign(A1, E2); RESULT.setLine(A1left); :}
-                    |
-                    (DesignatorItemActPars) LPAREN  ActParsSingle:A1 RPAREN {: RESULT=new DesignatorItemActPars(A1); RESULT.setLine(A1left); :}
+DesignatorStatementItem ::= (DesignatorItemActPars) LPAREN  ActParsSingle:A1 RPAREN {: RESULT=new DesignatorItemActPars(A1); RESULT.setLine(A1left); :}
                     |
                     (DesignatorItemInc) INC {: RESULT=new DesignatorItemInc(); :}
                     |
                     (DesignatorItemDec) DEC {: RESULT=new DesignatorItemDec(); :};
+
+DesignatorAssignItem ::= (DesignatorAssignItemNode) Designator:D1 Assignop:A2 Expr:E3 {: RESULT=new DesignatorAssignItemNode(D1, A2, E3); RESULT.setLine(D1left); :}
+                        |
+                        (ErrorDesignatorAssignItem) error:l
+                        {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :} {: RESULT=new ErrorDesignatorAssignItem(); :};
 
 ActPars ::= (ActPars) Expr:E1 ActParsList:A2 {: RESULT=new ActPars(E1, A2); RESULT.setLine(E1left); :};
 

@@ -1,13 +1,13 @@
 // generated with ast extension for cup
 // version 0.8
-// 28/10/2019 19:19:40
+// 21/11/2019 18:17:12
 
 
 package rs.ac.bg.etf.pp1.ast;
 
-public class NoTypeIdentList extends TypeIdentList {
+public class ErrorDesignatorAssignItem extends DesignatorAssignItem {
 
-    public NoTypeIdentList () {
+    public ErrorDesignatorAssignItem () {
     }
 
     public void accept(Visitor visitor) {
@@ -28,10 +28,10 @@ public class NoTypeIdentList extends TypeIdentList {
     public String toString(String tab) {
         StringBuffer buffer=new StringBuffer();
         buffer.append(tab);
-        buffer.append("NoTypeIdentList(\n");
+        buffer.append("ErrorDesignatorAssignItem(\n");
 
         buffer.append(tab);
-        buffer.append(") [NoTypeIdentList]");
+        buffer.append(") [ErrorDesignatorAssignItem]");
         return buffer.toString();
     }
 }

@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 28/10/2019 19:19:39
+// 21/11/2019 18:17:11
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -9,13 +9,14 @@ public class ClassDecl implements SyntaxNode {
 
     private SyntaxNode parent;
     private int line;
-    private String I1;
+    private ClassDeclIdent ClassDeclIdent;
     private ExtendsSingle ExtendsSingle;
     private VarDeclList VarDeclList;
     private ClassMethodDeclSingle ClassMethodDeclSingle;
 
-    public ClassDecl (String I1, ExtendsSingle ExtendsSingle, VarDeclList VarDeclList, ClassMethodDeclSingle ClassMethodDeclSingle) {
-        this.I1=I1;
+    public ClassDecl (ClassDeclIdent ClassDeclIdent, ExtendsSingle ExtendsSingle, VarDeclList VarDeclList, ClassMethodDeclSingle ClassMethodDeclSingle) {
+        this.ClassDeclIdent=ClassDeclIdent;
+        if(ClassDeclIdent!=null) ClassDeclIdent.setParent(this);
         this.ExtendsSingle=ExtendsSingle;
         if(ExtendsSingle!=null) ExtendsSingle.setParent(this);
         this.VarDeclList=VarDeclList;
@@ -24,12 +25,12 @@ public class ClassDecl implements SyntaxNode {
         if(ClassMethodDeclSingle!=null) ClassMethodDeclSingle.setParent(this);
     }
 
-    public String getI1() {
-        return I1;
+    public ClassDeclIdent getClassDeclIdent() {
+        return ClassDeclIdent;
     }
 
-    public void setI1(String I1) {
-        this.I1=I1;
+    public void setClassDeclIdent(ClassDeclIdent ClassDeclIdent) {
+        this.ClassDeclIdent=ClassDeclIdent;
     }
 
     public ExtendsSingle getExtendsSingle() {
@@ -77,6 +78,7 @@ public class ClassDecl implements SyntaxNode {
     }
 
     public void childrenAccept(Visitor visitor) {
+        if(ClassDeclIdent!=null) ClassDeclIdent.accept(visitor);
         if(ExtendsSingle!=null) ExtendsSingle.accept(visitor);
         if(VarDeclList!=null) VarDeclList.accept(visitor);
         if(ClassMethodDeclSingle!=null) ClassMethodDeclSingle.accept(visitor);
@@ -84,12 +86,14 @@ public class ClassDecl implements SyntaxNode {
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
+        if(ClassDeclIdent!=null) ClassDeclIdent.traverseTopDown(visitor);
         if(ExtendsSingle!=null) ExtendsSingle.traverseTopDown(visitor);
         if(VarDeclList!=null) VarDeclList.traverseTopDown(visitor);
         if(ClassMethodDeclSingle!=null) ClassMethodDeclSingle.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
+        if(ClassDeclIdent!=null) ClassDeclIdent.traverseBottomUp(visitor);
         if(ExtendsSingle!=null) ExtendsSingle.traverseBottomUp(visitor);
         if(VarDeclList!=null) VarDeclList.traverseBottomUp(visitor);
         if(ClassMethodDeclSingle!=null) ClassMethodDeclSingle.traverseBottomUp(visitor);
@@ -101,7 +105,10 @@ public class ClassDecl implements SyntaxNode {
         buffer.append(tab);
         buffer.append("ClassDecl(\n");
 
-        buffer.append(" "+tab+I1);
+        if(ClassDeclIdent!=null)
+            buffer.append(ClassDeclIdent.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
         buffer.append("\n");
 
         if(ExtendsSingle!=null)

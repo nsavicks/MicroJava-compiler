@@ -43,6 +43,12 @@ parser code {:
             msg.append (" na liniji ").append(((Symbol)info).left);
         log.info(msg.toString());
     }
+
+    public int error_sync_size()
+    {
+        return 1;
+    }
+
     
 :}
 
@@ -69,13 +75,13 @@ nonterminal DesignatorItem, DesignatorList, Designator;
 nonterminal ActParsSingle, FactorActParsSingle, FactorExprSingle, Factor;
 nonterminal TermItem, TermList, Term;
 nonterminal ExprItem, ExprList, SubSingle, Expr;
-nonterminal CondFact, CondTermItem, CondTermList, CondTerm, ConditionList, ConditionSingle, Condition;
+nonterminal CondFact, CondTermItem, CondTermList, CondTerm, ConditionList, ConditionSingle, ForConditionSingle, Condition;
 nonterminal ActParsList, ActPars;
-nonterminal DesignatorStatementItem, DesignatorStatement, DesignatorStatementSingle, ElseStatementSingle, ExprSingle, CommaNumConstSingle, StatementList, Statement;
+nonterminal DesignatorStatementItem, DesignatorAssignItem, DesignatorStatement, DesignatorStatementSingle, ElseStatementSingle, ExprSingle, CommaNumConstSingle, StatementList, Statement;
 nonterminal Type;
-nonterminal SquareSingle, TypeIdentItem, TypeIdentList, FormPars;
-nonterminal RetType, FormParsSingle, AbstractMethodDecl, VarDeclList, MethodDecl, ExtendsSingle, AbstractMethodDeclItem, AbstractMethodDeclList, AbstractClassMethodDeclSingle, AbstractClassDecl, MethodDeclList, ClassMethodDeclSingle, ClassDecl;
-nonterminal IdentListItem, IdentList, VarDecl, ConstLiteral, ConstDeclListItem, ConstDeclList, ConstDecl, Declaration, DeclarationList;
+nonterminal SquareSingle, TypeIdentSingle, TypeIdentList, FormPars;
+nonterminal RetType, FormParsSingle, AbstractMethodDecl, VarDeclList, MethodDecl, ExtendsSingle, AbstractMethodDeclItem, AbstractMethodDeclList, AbstractClassMethodDeclSingle, AbstractClassDecl, MethodDeclList, ClassMethodDeclSingle, ClassDeclIdent, ClassDecl;
+nonterminal IdentListItem, IdentList, IdentSingle, VarDecl, VarDeclPartial, ConstLiteral, ConstDeclListItem, ConstDeclList, ConstDecl, Declaration, DeclarationList;
 nonterminal Program;
 
 precedence left ELSE;
@@ -111,15 +117,21 @@ ConstLiteral ::= (ConstLiteralNum) NUMBER:value
                 (ConstLiteralBool) BOOL:value
                 ;
 
-VarDecl ::= (VarDecl) Type IDENT SquareSingle IdentList SEMI;
-
-IdentList ::= (IdentListNode) IdentList IdentListItem
+VarDecl ::= (VarDeclNode) Type IdentList SEMI
             |
-            (NoIdentList) /* epsilon */;
+            (ErrorVarDecl) error SEMI:l
+            {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :};
 
-IdentListItem ::= (IdentListItem) COMMA IDENT SquareSingle;
+IdentList ::= (IdentListNode) IdentList COMMA IdentSingle
+            |
+            (IdentListSingle) IdentSingle;
 
-ClassDecl ::= (ClassDecl) CLASS IDENT ExtendsSingle LBRACE VarDeclList ClassMethodDeclSingle RBRACE;
+IdentSingle ::= (IdentSingleNode) IDENT SquareSingle
+                |
+                (ErrorIdentSingle) error:l
+                {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :};
+
+ClassDecl ::= (ClassDecl) ClassDeclIdent ExtendsSingle LBRACE VarDeclList ClassMethodDeclSingle RBRACE;
 
 ClassMethodDeclSingle ::= (ClassMethodDeclSingle) LBRACE MethodDeclList RBRACE;
 
@@ -127,7 +139,7 @@ MethodDeclList ::= (MethodDeclListNode) MethodDeclList MethodDecl
                     |
                     (NoMethodDeclList) /* epsilon */;
 
-AbstractClassDecl ::= (AbstractClassDecl) ABSTRACT CLASS IDENT ExtendsSingle LBRACE VarDeclList AbstractClassMethodDeclSingle RBRACE;
+AbstractClassDecl ::= (AbstractClassDecl) ABSTRACT ClassDeclIdent ExtendsSingle LBRACE VarDeclList AbstractClassMethodDeclSingle RBRACE;
 
 AbstractClassMethodDeclSingle ::= (AbstractClassMethodDeclSingle) LBRACE AbstractMethodDeclList RBRACE;
 
@@ -139,9 +151,17 @@ AbstractMethodDeclItem ::= (MethodDeclItemNode) MethodDecl
                             |
                             (AbstractMethodDeclItemNode) AbstractMethodDecl;
 
+ClassDeclIdent ::= (ClassDeclIdentNode) CLASS IDENT
+                    |
+                    (ErrorClassDeclIdent) error:l
+                    {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :};
+
 ExtendsSingle ::= (ExtendsSingleNode) EXT Type
                     |
-                    (NoExtendsSingle) /* epsilon */;
+                    (NoExtendsSingle) /* epsilon */
+                    |
+                    (ErrorExtendsSingle) EXT error:l
+                    {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :};
 
 MethodDecl ::= (MethodDecl) RetType IDENT LPAREN FormParsSingle RPAREN VarDeclList LBRACE StatementList RBRACE;
 
@@ -149,7 +169,10 @@ VarDeclList ::= (VarDeclListNode) VarDeclList VarDecl
                 |
                 (NoVarDeclList) /* epsilon */;
 
-AbstractMethodDecl ::= (AbstractMethodDecl) ABSTRACT RetType IDENT LPAREN FormParsSingle RPAREN SEMI;
+AbstractMethodDecl ::= (AbstractMethodDeclNode) ABSTRACT RetType IDENT LPAREN FormParsSingle RPAREN SEMI
+                        |
+                        (ErrorAbstractMethodDecl) error:l SEMI
+                        {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :};
 
 FormParsSingle ::= (FormParsSingleNode) FormPars
                     |
@@ -159,13 +182,16 @@ RetType ::= (RetTypeNode) Type
             |
             (RetTypeVoid) VOID;
 
-FormPars ::= (FormPars) Type IDENT SquareSingle TypeIdentList;
+FormPars ::= (FormPars) TypeIdentList;
 
-TypeIdentList ::= (TypeIdentListNode) TypeIdentList TypeIdentItem
+TypeIdentList ::= (TypeIdentListNode) TypeIdentList COMMA TypeIdentSingle
                     |
-                    (NoTypeIdentList) /* epsilon */;
+                    (SingleTypeIdentList) TypeIdentSingle;
 
-TypeIdentItem ::= (TypeIdentItem) COMMA Type IDENT SquareSingle;
+TypeIdentSingle ::= (TypeIdentSingleNode) Type IDENT SquareSingle
+                    |
+                    (ErrorTypeIdentSingle) error:l
+                    {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :};
 
 SquareSingle ::= (SquareSingleNode) LSQUARE RSQUARE
                 |
@@ -177,7 +203,7 @@ Statement ::= (StatementDesignator) DesignatorStatement SEMI
             |
             (StatementIf) IF LPAREN Condition RPAREN Statement ElseStatementSingle
             |
-            (StatementFor) FOR LPAREN DesignatorStatementSingle SEMI ConditionSingle SEMI DesignatorStatementSingle RPAREN Statement
+            (StatementFor) FOR LPAREN DesignatorStatementSingle SEMI ForConditionSingle DesignatorStatementSingle RPAREN Statement
             |
             (StatementBreak) BREAK SEMI
             |
@@ -190,6 +216,11 @@ Statement ::= (StatementDesignator) DesignatorStatement SEMI
             (StatementPrint) PRINT LPAREN Expr CommaNumConstSingle RPAREN SEMI
             |
             (StatementStatementList) LBRACE StatementList RBRACE;
+
+ForConditionSingle ::= (ForConditionSingleNode) ConditionSingle SEMI
+                        |
+                        (ErrorForConditionSingleNode) error SEMI:l
+                        {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :};
 
 ConditionSingle ::= (ConditionSingleNode) Condition
                     |
@@ -215,15 +246,20 @@ DesignatorStatementSingle ::= (DesignatorStatementSingleNode) DesignatorStatemen
                             |
                             (NoDesignatorStatementSingle) /* epsilon */;
 
-DesignatorStatement ::= (DesignatorStatement) Designator DesignatorStatementItem;
+DesignatorStatement ::= (DesignatorStatementNode) Designator DesignatorStatementItem
+                        |
+                        (DesignatorAssignStatementNode) DesignatorAssignItem;
 
-DesignatorStatementItem ::= (DesignatorItemAssign) Assignop Expr
-                    |
-                    (DesignatorItemActPars) LPAREN  ActParsSingle RPAREN
+DesignatorStatementItem ::= (DesignatorItemActPars) LPAREN  ActParsSingle RPAREN
                     |
                     (DesignatorItemInc) INC
                     |
                     (DesignatorItemDec) DEC;
+
+DesignatorAssignItem ::= (DesignatorAssignItemNode) Designator Assignop Expr
+                        |
+                        (ErrorDesignatorAssignItem) error:l
+                        {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :};
 
 ActPars ::= (ActPars) Expr ActParsList;
 

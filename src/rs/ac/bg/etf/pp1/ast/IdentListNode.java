@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 28/10/2019 19:19:39
+// 21/11/2019 18:17:11
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -8,13 +8,13 @@ package rs.ac.bg.etf.pp1.ast;
 public class IdentListNode extends IdentList {
 
     private IdentList IdentList;
-    private IdentListItem IdentListItem;
+    private IdentSingle IdentSingle;
 
-    public IdentListNode (IdentList IdentList, IdentListItem IdentListItem) {
+    public IdentListNode (IdentList IdentList, IdentSingle IdentSingle) {
         this.IdentList=IdentList;
         if(IdentList!=null) IdentList.setParent(this);
-        this.IdentListItem=IdentListItem;
-        if(IdentListItem!=null) IdentListItem.setParent(this);
+        this.IdentSingle=IdentSingle;
+        if(IdentSingle!=null) IdentSingle.setParent(this);
     }
 
     public IdentList getIdentList() {
@@ -25,12 +25,12 @@ public class IdentListNode extends IdentList {
         this.IdentList=IdentList;
     }
 
-    public IdentListItem getIdentListItem() {
-        return IdentListItem;
+    public IdentSingle getIdentSingle() {
+        return IdentSingle;
     }
 
-    public void setIdentListItem(IdentListItem IdentListItem) {
-        this.IdentListItem=IdentListItem;
+    public void setIdentSingle(IdentSingle IdentSingle) {
+        this.IdentSingle=IdentSingle;
     }
 
     public void accept(Visitor visitor) {
@@ -39,18 +39,18 @@ public class IdentListNode extends IdentList {
 
     public void childrenAccept(Visitor visitor) {
         if(IdentList!=null) IdentList.accept(visitor);
-        if(IdentListItem!=null) IdentListItem.accept(visitor);
+        if(IdentSingle!=null) IdentSingle.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
         if(IdentList!=null) IdentList.traverseTopDown(visitor);
-        if(IdentListItem!=null) IdentListItem.traverseTopDown(visitor);
+        if(IdentSingle!=null) IdentSingle.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
         if(IdentList!=null) IdentList.traverseBottomUp(visitor);
-        if(IdentListItem!=null) IdentListItem.traverseBottomUp(visitor);
+        if(IdentSingle!=null) IdentSingle.traverseBottomUp(visitor);
         accept(visitor);
     }
 
@@ -65,8 +65,8 @@ public class IdentListNode extends IdentList {
             buffer.append(tab+"  null");
         buffer.append("\n");
 
-        if(IdentListItem!=null)
-            buffer.append(IdentListItem.toString("  "+tab));
+        if(IdentSingle!=null)
+            buffer.append(IdentSingle.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");

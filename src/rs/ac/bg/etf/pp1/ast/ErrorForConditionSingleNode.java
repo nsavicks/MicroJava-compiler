@@ -1,13 +1,13 @@
 // generated with ast extension for cup
 // version 0.8
-// 28/10/2019 19:19:39
+// 21/11/2019 18:17:12
 
 
 package rs.ac.bg.etf.pp1.ast;
 
-public class NoIdentList extends IdentList {
+public class ErrorForConditionSingleNode extends ForConditionSingle {
 
-    public NoIdentList () {
+    public ErrorForConditionSingleNode () {
     }
 
     public void accept(Visitor visitor) {
@@ -28,10 +28,10 @@ public class NoIdentList extends IdentList {
     public String toString(String tab) {
         StringBuffer buffer=new StringBuffer();
         buffer.append(tab);
-        buffer.append("NoIdentList(\n");
+        buffer.append("ErrorForConditionSingleNode(\n");
 
         buffer.append(tab);
-        buffer.append(") [NoIdentList]");
+        buffer.append(") [ErrorForConditionSingleNode]");
         return buffer.toString();
     }
 }

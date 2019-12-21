@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 28/10/2019 19:19:40
+// 21/11/2019 18:17:11
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -8,13 +8,13 @@ package rs.ac.bg.etf.pp1.ast;
 public class TypeIdentListNode extends TypeIdentList {
 
     private TypeIdentList TypeIdentList;
-    private TypeIdentItem TypeIdentItem;
+    private TypeIdentSingle TypeIdentSingle;
 
-    public TypeIdentListNode (TypeIdentList TypeIdentList, TypeIdentItem TypeIdentItem) {
+    public TypeIdentListNode (TypeIdentList TypeIdentList, TypeIdentSingle TypeIdentSingle) {
         this.TypeIdentList=TypeIdentList;
         if(TypeIdentList!=null) TypeIdentList.setParent(this);
-        this.TypeIdentItem=TypeIdentItem;
-        if(TypeIdentItem!=null) TypeIdentItem.setParent(this);
+        this.TypeIdentSingle=TypeIdentSingle;
+        if(TypeIdentSingle!=null) TypeIdentSingle.setParent(this);
     }
 
     public TypeIdentList getTypeIdentList() {
@@ -25,12 +25,12 @@ public class TypeIdentListNode extends TypeIdentList {
         this.TypeIdentList=TypeIdentList;
     }
 
-    public TypeIdentItem getTypeIdentItem() {
-        return TypeIdentItem;
+    public TypeIdentSingle getTypeIdentSingle() {
+        return TypeIdentSingle;
     }
 
-    public void setTypeIdentItem(TypeIdentItem TypeIdentItem) {
-        this.TypeIdentItem=TypeIdentItem;
+    public void setTypeIdentSingle(TypeIdentSingle TypeIdentSingle) {
+        this.TypeIdentSingle=TypeIdentSingle;
     }
 
     public void accept(Visitor visitor) {
@@ -39,18 +39,18 @@ public class TypeIdentListNode extends TypeIdentList {
 
     public void childrenAccept(Visitor visitor) {
         if(TypeIdentList!=null) TypeIdentList.accept(visitor);
-        if(TypeIdentItem!=null) TypeIdentItem.accept(visitor);
+        if(TypeIdentSingle!=null) TypeIdentSingle.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
         if(TypeIdentList!=null) TypeIdentList.traverseTopDown(visitor);
-        if(TypeIdentItem!=null) TypeIdentItem.traverseTopDown(visitor);
+        if(TypeIdentSingle!=null) TypeIdentSingle.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
         if(TypeIdentList!=null) TypeIdentList.traverseBottomUp(visitor);
-        if(TypeIdentItem!=null) TypeIdentItem.traverseBottomUp(visitor);
+        if(TypeIdentSingle!=null) TypeIdentSingle.traverseBottomUp(visitor);
         accept(visitor);
     }
 
@@ -65,8 +65,8 @@ public class TypeIdentListNode extends TypeIdentList {
             buffer.append(tab+"  null");
         buffer.append("\n");
 
-        if(TypeIdentItem!=null)
-            buffer.append(TypeIdentItem.toString("  "+tab));
+        if(TypeIdentSingle!=null)
+            buffer.append(TypeIdentSingle.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");
