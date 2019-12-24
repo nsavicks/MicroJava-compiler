@@ -1,0 +1,66 @@
+INFO  19:25:31,497 - #2 program
+INFO  19:25:31,500 - #44 test
+INFO  19:25:31,500 - #5 abstract
+INFO  19:25:31,507 - #4 class
+INFO  19:25:31,507 - #44 p
+INFO  19:25:31,507 - #15 extends
+INFO  19:25:31,507 - #44 q
+INFO  19:25:31,507 - #40 {
+INFO  19:25:31,515 - #40 {
+INFO  19:25:31,526 - #5 abstract
+INFO  19:25:31,536 - #13 void
+INFO  19:25:31,536 - #44 f
+INFO  19:25:31,544 - #36 (
+INFO  19:25:31,544 - #37 )
+INFO  19:25:31,552 - #33 ;
+INFO  19:25:31,552 - #5 abstract
+INFO  19:25:31,552 - #13 void
+INFO  19:25:31,552 - #44 f1
+INFO  19:25:31,552 - #36 (
+INFO  19:25:31,552 - #44 int
+INFO  19:25:31,553 - #44 x
+INFO  19:25:31,553 - #37 )
+INFO  19:25:31,574 - #33 ;
+INFO  19:25:31,574 - #5 abstract
+INFO  19:25:31,574 - #44 f2
+INFO  19:25:31,575 - #36 (
+ERROR 19:25:31,575 - 
+Sintaksna greska na liniji 7
+INFO  19:25:31,575 - #37 )
+INFO  19:25:31,583 - #33 ;
+INFO  19:25:31,583 - #44 f3
+ERROR 19:25:31,583 - Izvrsen oporavak u liniji 0
+INFO  19:25:31,591 - #36 (
+ERROR 19:25:31,591 - 
+Sintaksna greska na liniji 8
+INFO  19:25:31,591 - #37 )
+INFO  19:25:31,591 - #33 ;
+INFO  19:25:31,591 - #13 void
+ERROR 19:25:31,591 - Izvrsen oporavak u liniji 0
+INFO  19:25:31,591 - #44 f4
+INFO  19:25:31,591 - #36 (
+INFO  19:25:31,591 - #37 )
+INFO  19:25:31,592 - #40 {
+INFO  19:25:31,592 - #41 }
+INFO  19:25:31,598 - #44 int
+INFO  19:25:31,607 - #44 f5
+INFO  19:25:31,607 - #36 (
+INFO  19:25:31,607 - #44 int
+INFO  19:25:31,607 - #44 x
+INFO  19:25:31,607 - #37 )
+INFO  19:25:31,607 - #40 {
+INFO  19:25:31,608 - #41 }
+INFO  19:25:31,608 - #5 abstract
+INFO  19:25:31,608 - #13 void
+INFO  19:25:31,608 - #44 f6
+INFO  19:25:31,608 - #44 int
+ERROR 19:25:31,608 - 
+Sintaksna greska na liniji 11
+INFO  19:25:31,608 - #44 x
+INFO  19:25:31,608 - #37 )
+INFO  19:25:31,608 - #33 ;
+INFO  19:25:31,608 - #41 }
+ERROR 19:25:31,608 - Izvrsen oporavak u liniji 0
+INFO  19:25:31,608 - #41 }
+INFO  19:25:31,618 - #40 {
+INFO  19:25:31,628 - #41 }

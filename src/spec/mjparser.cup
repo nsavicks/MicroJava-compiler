@@ -133,7 +133,9 @@ IdentSingle ::= (IdentSingleNode) IDENT SquareSingle
 
 ClassDecl ::= (ClassDecl) ClassDeclIdent ExtendsSingle LBRACE VarDeclList ClassMethodDeclSingle RBRACE;
 
-ClassMethodDeclSingle ::= (ClassMethodDeclSingle) LBRACE MethodDeclList RBRACE;
+ClassMethodDeclSingle ::= (ClassMethodDeclSingleNode) LBRACE MethodDeclList RBRACE
+                            |
+                            (NoClassMethodDeclSingle) /* epsilon */;
 
 MethodDeclList ::= (MethodDeclListNode) MethodDeclList MethodDecl
                     |
@@ -141,7 +143,9 @@ MethodDeclList ::= (MethodDeclListNode) MethodDeclList MethodDecl
 
 AbstractClassDecl ::= (AbstractClassDecl) ABSTRACT ClassDeclIdent ExtendsSingle LBRACE VarDeclList AbstractClassMethodDeclSingle RBRACE;
 
-AbstractClassMethodDeclSingle ::= (AbstractClassMethodDeclSingle) LBRACE AbstractMethodDeclList RBRACE;
+AbstractClassMethodDeclSingle ::= (AbstractClassMethodDeclSingleNode) LBRACE AbstractMethodDeclList RBRACE
+                                   |
+                                   (NoAbstractClassMethodSingle) /* epsilon */;
 
 AbstractMethodDeclList ::= (AbstractMethodDeclListNode) AbstractMethodDeclList AbstractMethodDeclItem
                         |
@@ -248,7 +252,7 @@ DesignatorStatementSingle ::= (DesignatorStatementSingleNode) DesignatorStatemen
 
 DesignatorStatement ::= (DesignatorStatementNode) Designator DesignatorStatementItem
                         |
-                        (DesignatorAssignStatementNode) DesignatorAssignItem;
+                        (DesignatorStatementAssignNode) DesignatorAssignItem;
 
 DesignatorStatementItem ::= (DesignatorItemActPars) LPAREN  ActParsSingle RPAREN
                     |

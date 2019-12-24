@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 21/11/2019 18:17:12
+// 23/11/2019 23:31:1
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -26,6 +26,7 @@ public interface Visitor {
     public void visit(CommaNumConstSingle CommaNumConstSingle);
     public void visit(ElseStatementSingle ElseStatementSingle);
     public void visit(AbstractMethodDecl AbstractMethodDecl);
+    public void visit(AbstractClassMethodDeclSingle AbstractClassMethodDeclSingle);
     public void visit(TypeIdentList TypeIdentList);
     public void visit(RetType RetType);
     public void visit(IdentList IdentList);
@@ -45,6 +46,7 @@ public interface Visitor {
     public void visit(ActParsSingle ActParsSingle);
     public void visit(DesignatorStatement DesignatorStatement);
     public void visit(SubSingle SubSingle);
+    public void visit(ClassMethodDeclSingle ClassMethodDeclSingle);
     public void visit(Statement Statement);
     public void visit(VarDecl VarDecl);
     public void visit(AbstractMethodDeclItem AbstractMethodDeclItem);
@@ -108,7 +110,7 @@ public interface Visitor {
     public void visit(DesignatorItemDec DesignatorItemDec);
     public void visit(DesignatorItemInc DesignatorItemInc);
     public void visit(DesignatorItemActPars DesignatorItemActPars);
-    public void visit(DesignatorAssignStatementNode DesignatorAssignStatementNode);
+    public void visit(DesignatorStatementAssignNode DesignatorStatementAssignNode);
     public void visit(DesignatorStatementNode DesignatorStatementNode);
     public void visit(NoDesignatorStatementSingle NoDesignatorStatementSingle);
     public void visit(DesignatorStatementSingleNode DesignatorStatementSingleNode);
@@ -159,11 +161,13 @@ public interface Visitor {
     public void visit(MethodDeclItemNode MethodDeclItemNode);
     public void visit(NoAbstractMethodDeclList NoAbstractMethodDeclList);
     public void visit(AbstractMethodDeclListNode AbstractMethodDeclListNode);
-    public void visit(AbstractClassMethodDeclSingle AbstractClassMethodDeclSingle);
+    public void visit(NoAbstractClassMethodSingle NoAbstractClassMethodSingle);
+    public void visit(AbstractClassMethodDeclSingleNode AbstractClassMethodDeclSingleNode);
     public void visit(AbstractClassDecl AbstractClassDecl);
     public void visit(NoMethodDeclList NoMethodDeclList);
     public void visit(MethodDeclListNode MethodDeclListNode);
-    public void visit(ClassMethodDeclSingle ClassMethodDeclSingle);
+    public void visit(NoClassMethodDeclSingle NoClassMethodDeclSingle);
+    public void visit(ClassMethodDeclSingleNode ClassMethodDeclSingleNode);
     public void visit(ClassDecl ClassDecl);
     public void visit(ErrorIdentSingle ErrorIdentSingle);
     public void visit(IdentSingleNode IdentSingleNode);

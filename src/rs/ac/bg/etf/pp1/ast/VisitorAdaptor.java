@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 21/11/2019 18:17:12
+// 23/11/2019 23:31:1
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -26,6 +26,7 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(CommaNumConstSingle CommaNumConstSingle) { }
     public void visit(ElseStatementSingle ElseStatementSingle) { }
     public void visit(AbstractMethodDecl AbstractMethodDecl) { }
+    public void visit(AbstractClassMethodDeclSingle AbstractClassMethodDeclSingle) { }
     public void visit(TypeIdentList TypeIdentList) { }
     public void visit(RetType RetType) { }
     public void visit(IdentList IdentList) { }
@@ -45,6 +46,7 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(ActParsSingle ActParsSingle) { }
     public void visit(DesignatorStatement DesignatorStatement) { }
     public void visit(SubSingle SubSingle) { }
+    public void visit(ClassMethodDeclSingle ClassMethodDeclSingle) { }
     public void visit(Statement Statement) { }
     public void visit(VarDecl VarDecl) { }
     public void visit(AbstractMethodDeclItem AbstractMethodDeclItem) { }
@@ -108,7 +110,7 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(DesignatorItemDec DesignatorItemDec) { visit(); }
     public void visit(DesignatorItemInc DesignatorItemInc) { visit(); }
     public void visit(DesignatorItemActPars DesignatorItemActPars) { visit(); }
-    public void visit(DesignatorAssignStatementNode DesignatorAssignStatementNode) { visit(); }
+    public void visit(DesignatorStatementAssignNode DesignatorStatementAssignNode) { visit(); }
     public void visit(DesignatorStatementNode DesignatorStatementNode) { visit(); }
     public void visit(NoDesignatorStatementSingle NoDesignatorStatementSingle) { visit(); }
     public void visit(DesignatorStatementSingleNode DesignatorStatementSingleNode) { visit(); }
@@ -159,11 +161,13 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(MethodDeclItemNode MethodDeclItemNode) { visit(); }
     public void visit(NoAbstractMethodDeclList NoAbstractMethodDeclList) { visit(); }
     public void visit(AbstractMethodDeclListNode AbstractMethodDeclListNode) { visit(); }
-    public void visit(AbstractClassMethodDeclSingle AbstractClassMethodDeclSingle) { visit(); }
+    public void visit(NoAbstractClassMethodSingle NoAbstractClassMethodSingle) { visit(); }
+    public void visit(AbstractClassMethodDeclSingleNode AbstractClassMethodDeclSingleNode) { visit(); }
     public void visit(AbstractClassDecl AbstractClassDecl) { visit(); }
     public void visit(NoMethodDeclList NoMethodDeclList) { visit(); }
     public void visit(MethodDeclListNode MethodDeclListNode) { visit(); }
-    public void visit(ClassMethodDeclSingle ClassMethodDeclSingle) { visit(); }
+    public void visit(NoClassMethodDeclSingle NoClassMethodDeclSingle) { visit(); }
+    public void visit(ClassMethodDeclSingleNode ClassMethodDeclSingleNode) { visit(); }
     public void visit(ClassDecl ClassDecl) { visit(); }
     public void visit(ErrorIdentSingle ErrorIdentSingle) { visit(); }
     public void visit(IdentSingleNode IdentSingleNode) { visit(); }

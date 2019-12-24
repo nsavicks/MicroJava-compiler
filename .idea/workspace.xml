@@ -6,25 +6,13 @@
       <change beforePath="$PROJECT_DIR$/bin/program.mj" beforeDir="false" afterPath="$PROJECT_DIR$/bin/program.mj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/CUP$MJParser$actions.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/CUP$MJParser$actions.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/MJParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/MJParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/AbstractClassDecl.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/AbstractClassDecl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/AbstractMethodDecl.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/AbstractMethodDecl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/ClassDecl.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/ClassDecl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/DesignatorItemAssign.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/DesignatorStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/DesignatorStatement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/FormPars.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/FormPars.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/IdentListItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/IdentListItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/IdentListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/IdentListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/NoIdentList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/NoTypeIdentList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/StatementFor.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/StatementFor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/TypeIdentItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/TypeIdentListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/TypeIdentListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/VarDecl.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/VarDecl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/AbstractClassMethodDeclSingle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/AbstractClassMethodDeclSingle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/ClassMethodDeclSingle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/ClassMethodDeclSingle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/DesignatorAssignStatementNode.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/Visitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/Visitor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/VisitorAdaptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rs/ac/bg/etf/pp1/ast/VisitorAdaptor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/spec/mjparser.cup" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spec/mjparser.cup" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/spec/mjparser_astbuild.cup" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spec/mjparser_astbuild.cup" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/mj.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/mj.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/MJParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/MJParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/Yylex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/Yylex.java" afterDir="false" />
@@ -36,6 +24,7 @@
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/AbstractMethodDeclItemNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/AbstractMethodDeclItemNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/AbstractMethodDeclList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/AbstractMethodDeclList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/AbstractMethodDeclListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/AbstractMethodDeclListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/AbstractMethodDeclNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/AbstractMethodDeclNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ActPars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ActPars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ActParsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ActParsList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ActParsListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ActParsListNode.java" afterDir="false" />
@@ -44,6 +33,8 @@
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Addop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Addop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Assignop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Assignop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ClassDecl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ClassDecl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ClassDeclIdent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ClassDeclIdent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ClassDeclIdentNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ClassDeclIdentNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ClassDeclaration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ClassDeclaration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ClassMethodDeclSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ClassMethodDeclSingle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/CommaNumConstSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/CommaNumConstSingle.java" afterDir="false" />
@@ -74,22 +65,33 @@
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DeclarationListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DeclarationListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Designator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Designator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorArrayItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorArrayItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorAssignItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorAssignItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorAssignItemNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorAssignItemNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorAssignStatementNode.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorDotItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorDotItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorItemActPars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorItemActPars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorItemAssign.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorItemDec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorItemDec.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorItemInc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorItemInc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatementItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatementItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatementNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatementNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatementSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatementSingle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatementSingleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorStatementSingleNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Divop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Divop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ElseStatementSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ElseStatementSingle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ElseStatementSingleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ElseStatementSingleNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Equalop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Equalop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ErrorAbstractMethodDecl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ErrorAbstractMethodDecl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ErrorClassDeclIdent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ErrorClassDeclIdent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ErrorDesignatorAssignItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ErrorDesignatorAssignItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ErrorExtendsSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ErrorExtendsSingle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ErrorForConditionSingleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ErrorForConditionSingleNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ErrorIdentSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ErrorIdentSingle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ErrorTypeIdentSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ErrorTypeIdentSingle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ErrorVarDecl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ErrorVarDecl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Expr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ExprItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ExprItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ExprList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ExprList.java" afterDir="false" />
@@ -107,6 +109,8 @@
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorExprSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorExprSingle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorExprSingleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorExprSingleNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForConditionSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForConditionSingle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForConditionSingleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ForConditionSingleNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormPars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormPars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormParsSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormParsSingle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormParsSingleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FormParsSingleNode.java" afterDir="false" />
@@ -115,6 +119,9 @@
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IdentList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IdentList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IdentListItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IdentListItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IdentListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IdentListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IdentListSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IdentListSingle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IdentSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IdentSingle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IdentSingleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/IdentSingleNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LesserEqualop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/LesserEqualop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Lesserop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Lesserop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MethodDecl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MethodDecl.java" afterDir="false" />
@@ -141,13 +148,11 @@
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoFactorActParsSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoFactorActParsSingle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoFactorExprSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoFactorExprSingle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoFormParsSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoFormParsSingle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoIdentList.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoMethodDeclList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoMethodDeclList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoSquareSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoSquareSingle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoStatementList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoStatementList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoSubSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoSubSingle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoTermList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoTermList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoTypeIdentList.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoVarDeclList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoVarDeclList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NotEqualop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NotEqualop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Program.java" afterDir="false" />
@@ -155,6 +160,7 @@
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RetType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RetType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RetTypeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RetTypeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RetTypeVoid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/RetTypeVoid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SingleTypeIdentList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SingleTypeIdentList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SquareSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SquareSingle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SquareSingleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/SquareSingleNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Statement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Statement.java" afterDir="false" />
@@ -179,12 +185,15 @@
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TermListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeIdentItem.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeIdentList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeIdentList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeIdentListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeIdentListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeIdentSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeIdentSingle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeIdentSingleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/TypeIdentSingleNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDecl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDecl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclPartial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclPartial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclaration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclaration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Visitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VisitorAdaptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VisitorAdaptor.java" afterDir="false" />
@@ -217,19 +226,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/spec/mjparser.cup">
+        <entry file="file://$PROJECT_DIR$/test/program.mj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="423">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.xml">
+        <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/SemanticPass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="29" selection-start-column="29" selection-end-column="29" />
+            <state relative-caret-position="153">
+              <caret line="77" column="24" lean-forward="true" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spec/mjparser.cup">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="130" column="42" lean-forward="true" selection-start-line="130" selection-start-column="42" selection-end-line="130" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -266,7 +284,6 @@
       <find>Type</find>
       <find>Assignop</find>
       <find>IdentSingle</find>
-      <find>DesignatorStatement</find>
       <find>DesignatorStatementItem</find>
       <find>IdentList</find>
       <find>TypeIdentList</find>
@@ -275,6 +292,7 @@
       <find>CHAR</find>
       <find>ConstLiteral</find>
       <find>error</find>
+      <find>DesignatorStatement</find>
     </findStrings>
     <replaceStrings>
       <replace>Single</replace>
@@ -306,16 +324,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -369,21 +388,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576954460613" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577147378355" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../microjava-master/src/MJCompiler/lib/cup_v10k.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -485,11 +503,15 @@
       <workItem from="1576928709706" duration="2656000" />
       <workItem from="1576931469111" duration="6073000" />
       <workItem from="1576954570123" duration="1119000" />
+      <workItem from="1577038698952" duration="58000" />
+      <workItem from="1577038861533" duration="1604000" />
+      <workItem from="1577127016731" duration="6753000" />
+      <workItem from="1577136855071" duration="5507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61956000" />
+    <option name="totallyTimeSpent" value="75878000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -501,10 +523,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17181209" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -513,7 +535,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6463087" weight="0.34844193" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64072496" visible="true" weight="0.40411702" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -522,10 +544,10 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.35369128" side_tool="true" visible="true" weight="0.34844193" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49127516" weight="0.5226629" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.35927504" side_tool="true" visible="true" weight="0.40411702" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.27771854" weight="0.37594798" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.14966443" />
+      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.14925373" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
@@ -598,21 +620,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoCondTermList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/MethodDecl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoIdentList.java" />
     <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/Statement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -730,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/SemanticPass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="184" column="5" lean-forward="true" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorCharConst.java" />
     <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/FactorBoolConst.java" />
     <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ConstLiteral.java">
@@ -773,13 +773,6 @@
         <state relative-caret-position="-408" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/rs/ac/bg/etf/pp1/MJTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/cup_v10k.jar!/java_cup/astext/AstClassGenerator.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
@@ -794,13 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/rs/ac/bg/etf/pp1/MJParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ConstLiteralChar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -810,59 +796,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/VarDeclDerived1.java" />
     <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ErrorVarDecl.java" />
-    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/Compiler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorAssignStatementNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="85" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/MJParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="1151" column="70" selection-start-line="1151" selection-start-column="70" selection-end-line="1151" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorAssignStatementNode.java" />
     <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/DesignatorExprNode.java" />
     <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/ActParsSingleNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/symboltable.jar!/rs/etf/pp1/symboltable/concepts/Obj.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/symboltable.jar!/rs/etf/pp1/symboltable/concepts/Obj.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/CounterVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -888,24 +827,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/program.mj">
+    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/CounterVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="204">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/rs/ac/bg/etf/pp1/MJTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/symboltable.jar!/rs/etf/pp1/symboltable/concepts/Obj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-247">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/symboltable.jar!/rs/etf/pp1/symboltable/concepts/Obj.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1053">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/symboltable.jar!/rs/etf/pp1/symboltable/Tab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="127" column="20" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/rs/ac/bg/etf/pp1/MJParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        <state relative-caret-position="408">
+          <caret line="24" column="13" selection-end-line="29" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/Compiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/ast/NoAbstractClassMethodSingle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/MJParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="1207" column="70" selection-start-line="1207" selection-start-column="70" selection-end-line="1207" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/symboltable.jar!/rs/etf/pp1/symboltable/Tab.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rs/ac/bg/etf/pp1/SemanticPass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="77" column="24" lean-forward="true" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/spec/mjparser.cup">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="382">
+          <caret line="130" column="42" lean-forward="true" selection-start-line="130" selection-start-column="42" selection-end-line="130" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/program.mj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
         </state>
       </provider>
     </entry>

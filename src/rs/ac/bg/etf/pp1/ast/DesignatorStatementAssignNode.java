@@ -1,15 +1,15 @@
 // generated with ast extension for cup
 // version 0.8
-// 21/11/2019 18:17:12
+// 23/11/2019 23:31:0
 
 
 package rs.ac.bg.etf.pp1.ast;
 
-public class DesignatorAssignStatementNode extends DesignatorStatement {
+public class DesignatorStatementAssignNode extends DesignatorStatement {
 
     private DesignatorAssignItem DesignatorAssignItem;
 
-    public DesignatorAssignStatementNode (DesignatorAssignItem DesignatorAssignItem) {
+    public DesignatorStatementAssignNode (DesignatorAssignItem DesignatorAssignItem) {
         this.DesignatorAssignItem=DesignatorAssignItem;
         if(DesignatorAssignItem!=null) DesignatorAssignItem.setParent(this);
     }
@@ -43,7 +43,7 @@ public class DesignatorAssignStatementNode extends DesignatorStatement {
     public String toString(String tab) {
         StringBuffer buffer=new StringBuffer();
         buffer.append(tab);
-        buffer.append("DesignatorAssignStatementNode(\n");
+        buffer.append("DesignatorStatementAssignNode(\n");
 
         if(DesignatorAssignItem!=null)
             buffer.append(DesignatorAssignItem.toString("  "+tab));
@@ -52,7 +52,7 @@ public class DesignatorAssignStatementNode extends DesignatorStatement {
         buffer.append("\n");
 
         buffer.append(tab);
-        buffer.append(") [DesignatorAssignStatementNode]");
+        buffer.append(") [DesignatorStatementAssignNode]");
         return buffer.toString();
     }
 }
