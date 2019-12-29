@@ -82,7 +82,9 @@ nonterminal rs.etf.pp1.symboltable.concepts.Struct Term;
 nonterminal SubSingle;
 nonterminal rs.etf.pp1.symboltable.concepts.Struct Expr;
 
-nonterminal CondFact, CondTermItem, CondTermList, CondTerm, ConditionList, ConditionSingle, ForConditionSingle, Condition;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct CondFact;
+
+nonterminal CondTermItem, CondTermList, CondTerm, ConditionList, ConditionSingle, ForConditionSingle, Condition;
 
 nonterminal ActParsList, ActPars;
 
@@ -91,9 +93,13 @@ nonterminal DesignatorAssignItem, DesignatorStatement, DesignatorStatementSingle
 nonterminal ElseStatementSingle, ExprSingle, CommaNumConstSingle, StatementList, Statement;
 
 nonterminal SquareSingle, TypeIdentSingle, TypeIdentList, FormPars;
-nonterminal RetType, FormParsSingle, AbstractMethodDecl, VarDeclList, MethodDecl, ExtendsSingle, AbstractMethodDeclItem, AbstractMethodDeclList, AbstractClassMethodDeclSingle, AbstractClassDecl, MethodDeclList;
-nonterminal VarType, VarIdentList, VarIdentSingle, VarDecl, ConstDeclListItem, ConstDeclList, ConstType, ConstDecl, Declaration, DeclarationList;
 
+nonterminal RetType, FormParsSingle, AbstractMethodDecl, VarDeclList, ExtendsSingle, AbstractMethodDeclItem, AbstractMethodDeclList, AbstractClassMethodDeclSingle, AbstractClassDecl, MethodDeclList;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj MethodDeclPrototype;
+nonterminal MethodDecl;
+
+nonterminal VarType, VarIdentList, VarIdentSingle, VarDecl, ConstDeclListItem, ConstDeclList, ConstType, ConstDecl, Declaration, DeclarationList;
 
 nonterminal rs.etf.pp1.symboltable.concepts.Obj Program, ProgName;
 
@@ -196,7 +202,9 @@ ExtendsSingle ::= (ExtendsSingleNode) EXT Type
                     (ErrorExtendsSingle) EXT error:l
                     {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :};
 
-MethodDecl ::= (MethodDecl) RetType IDENT LPAREN FormParsSingle RPAREN VarDeclList LBRACE StatementList RBRACE;
+MethodDecl ::= (MethodDeclNode) MethodDeclPrototype VarDeclList LBRACE StatementList RBRACE;
+
+MethodDeclPrototype ::= (MethodDeclPrototype) RetType IDENT:methName LPAREN FormParsSingle RPAREN;
 
 VarDeclList ::= (VarDeclListNode) VarDeclList VarDecl
                 |

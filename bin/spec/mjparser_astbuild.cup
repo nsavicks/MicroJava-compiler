@@ -85,7 +85,8 @@ nonterminal rs.etf.pp1.symboltable.concepts.Struct Term;
 nonterminal SubSingle SubSingle;
 nonterminal rs.etf.pp1.symboltable.concepts.Struct Expr;
 
-nonterminal CondFact CondFact;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct CondFact;
+
 nonterminal CondTermItem CondTermItem;
 nonterminal CondTermList CondTermList;
 nonterminal CondTerm CondTerm;
@@ -111,17 +112,21 @@ nonterminal SquareSingle SquareSingle;
 nonterminal TypeIdentSingle TypeIdentSingle;
 nonterminal TypeIdentList TypeIdentList;
 nonterminal FormPars FormPars;
+
 nonterminal RetType RetType;
 nonterminal FormParsSingle FormParsSingle;
 nonterminal AbstractMethodDecl AbstractMethodDecl;
 nonterminal VarDeclList VarDeclList;
-nonterminal MethodDecl MethodDecl;
 nonterminal ExtendsSingle ExtendsSingle;
 nonterminal AbstractMethodDeclItem AbstractMethodDeclItem;
 nonterminal AbstractMethodDeclList AbstractMethodDeclList;
 nonterminal AbstractClassMethodDeclSingle AbstractClassMethodDeclSingle;
 nonterminal AbstractClassDecl AbstractClassDecl;
 nonterminal MethodDeclList MethodDeclList;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj MethodDeclPrototype;
+nonterminal MethodDecl MethodDecl;
+
 nonterminal VarType VarType;
 nonterminal VarIdentList VarIdentList;
 nonterminal VarIdentSingle VarIdentSingle;
@@ -132,7 +137,6 @@ nonterminal ConstType ConstType;
 nonterminal ConstDecl ConstDecl;
 nonterminal Declaration Declaration;
 nonterminal DeclarationList DeclarationList;
-
 
 nonterminal rs.etf.pp1.symboltable.concepts.Obj Program, ProgName;
 
@@ -237,7 +241,9 @@ ExtendsSingle ::= (ExtendsSingleNode) EXT Type:T1 {: RESULT=new ExtendsSingleNod
                     (ErrorExtendsSingle) EXT error:l
                     {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :} {: RESULT=new ErrorExtendsSingle(); :};
 
-MethodDecl ::= (MethodDecl) RetType:R1 IDENT:I2 LPAREN FormParsSingle:F3 RPAREN VarDeclList:V4 LBRACE StatementList:S5 RBRACE {: RESULT=new MethodDecl(R1, I2, F3, V4, S5); RESULT.setLine(R1left); :};
+MethodDecl ::= (MethodDeclNode) MethodDeclPrototype:M1 VarDeclList:V2 LBRACE StatementList:S3 RBRACE {: RESULT=new MethodDeclNode(M1, V2, S3); RESULT.setLine(M1left); :};
+
+MethodDeclPrototype ::= (MethodDeclPrototype) RetType:R1 IDENT:methName LPAREN FormParsSingle:F2 RPAREN {: RESULT=new MethodDeclPrototype(R1, methName, F2); RESULT.setLine(R1left); :};
 
 VarDeclList ::= (VarDeclListNode) VarDeclList:V1 VarDecl:V2 {: RESULT=new VarDeclListNode(V1, V2); RESULT.setLine(V1left); :}
                 |

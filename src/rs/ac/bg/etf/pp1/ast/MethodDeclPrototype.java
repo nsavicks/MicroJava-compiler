@@ -5,16 +5,20 @@
 
 package rs.ac.bg.etf.pp1.ast;
 
-public class AbstractMethodDeclNode extends AbstractMethodDecl {
+public class MethodDeclPrototype implements SyntaxNode {
+
+    private SyntaxNode parent;
+    private int line;
+    public rs.etf.pp1.symboltable.concepts.Obj obj = null;
 
     private RetType RetType;
-    private String I2;
+    private String methName;
     private FormParsSingle FormParsSingle;
 
-    public AbstractMethodDeclNode (RetType RetType, String I2, FormParsSingle FormParsSingle) {
+    public MethodDeclPrototype (RetType RetType, String methName, FormParsSingle FormParsSingle) {
         this.RetType=RetType;
         if(RetType!=null) RetType.setParent(this);
-        this.I2=I2;
+        this.methName=methName;
         this.FormParsSingle=FormParsSingle;
         if(FormParsSingle!=null) FormParsSingle.setParent(this);
     }
@@ -27,12 +31,12 @@ public class AbstractMethodDeclNode extends AbstractMethodDecl {
         this.RetType=RetType;
     }
 
-    public String getI2() {
-        return I2;
+    public String getMethName() {
+        return methName;
     }
 
-    public void setI2(String I2) {
-        this.I2=I2;
+    public void setMethName(String methName) {
+        this.methName=methName;
     }
 
     public FormParsSingle getFormParsSingle() {
@@ -41,6 +45,22 @@ public class AbstractMethodDeclNode extends AbstractMethodDecl {
 
     public void setFormParsSingle(FormParsSingle FormParsSingle) {
         this.FormParsSingle=FormParsSingle;
+    }
+
+    public SyntaxNode getParent() {
+        return parent;
+    }
+
+    public void setParent(SyntaxNode parent) {
+        this.parent=parent;
+    }
+
+    public int getLine() {
+        return line;
+    }
+
+    public void setLine(int line) {
+        this.line=line;
     }
 
     public void accept(Visitor visitor) {
@@ -67,7 +87,7 @@ public class AbstractMethodDeclNode extends AbstractMethodDecl {
     public String toString(String tab) {
         StringBuffer buffer=new StringBuffer();
         buffer.append(tab);
-        buffer.append("AbstractMethodDeclNode(\n");
+        buffer.append("MethodDeclPrototype(\n");
 
         if(RetType!=null)
             buffer.append(RetType.toString("  "+tab));
@@ -75,7 +95,7 @@ public class AbstractMethodDeclNode extends AbstractMethodDecl {
             buffer.append(tab+"  null");
         buffer.append("\n");
 
-        buffer.append(" "+tab+I2);
+        buffer.append(" "+tab+methName);
         buffer.append("\n");
 
         if(FormParsSingle!=null)
@@ -85,7 +105,7 @@ public class AbstractMethodDeclNode extends AbstractMethodDecl {
         buffer.append("\n");
 
         buffer.append(tab);
-        buffer.append(") [AbstractMethodDeclNode]");
+        buffer.append(") [MethodDeclPrototype]");
         return buffer.toString();
     }
 }

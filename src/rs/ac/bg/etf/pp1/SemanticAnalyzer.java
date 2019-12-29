@@ -14,6 +14,12 @@ public class SemanticAnalyzer extends VisitorAdaptor {
     Type currentType = null;
     Obj curretClass = null;
 
+    // Methods
+    boolean isVoid = false;
+    boolean foundReturn = false;
+    Obj currentMethod = null;
+    Struct methRetType = null;
+
 
     Logger log = Logger.getLogger(getClass());
 
@@ -340,7 +346,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 
                 // Provera kompatibilnosti
 
-                if (!TableExtensions.CheckTypeCompatibility(designator.obj.getType(), expr.struct)){
+                if (!expr.struct.assignableTo(designator.obj.getType())){
                     report_error("Error on line " + DesignatorStatementAssignNode.getLine() + ": Types are not compatible.", null);
                 }
 
@@ -390,6 +396,113 @@ public class SemanticAnalyzer extends VisitorAdaptor {
                 report_error("Error on line " + DesignatorStatementInc.getLine() + ": Operator ++ must be used on int type designator.", null);
             }
 
+        }
+
+    }
+
+    @Override
+    public void visit(CondFactRelop CondFactRelop) {
+
+        Expr leftExpr = CondFactRelop.getExpr();
+        Expr rightExpr = CondFactRelop.getExpr1();
+        Relop relop = CondFactRelop.getRelop();
+
+        if (!leftExpr.struct.compatibleWith(rightExpr.struct)){
+            report_error("Error on line " + CondFactRelop.getLine() + ": Expression types are not compatible.", null);
+        }
+        else{
+
+            if (
+                (leftExpr.struct.isRefType() || rightExpr.struct.isRefType())
+                && (!(relop instanceof Equalop) && !(relop instanceof NotEqualop))
+            )
+            {
+                report_error("Error on line " + CondFactRelop.getLine() + ": Only == and != operators are allowed on reference types.", null);
+            }
+
+        }
+
+        CondFactRelop.struct = TableExtensions.boolType;
+
+    }
+
+    @Override
+    public void visit(CondFactExpr CondFactExpr) {
+
+        if (CondFactExpr.getExpr().struct != TableExtensions.boolType){
+            report_error("Error on line " + CondFactExpr.getLine() + ": Expression must be bool type.", null);
+        }
+
+        CondFactExpr.struct = CondFactExpr.getExpr().struct;
+    }
+
+    @Override
+    public void visit(MethodDeclPrototype MethodDeclPrototype) {
+
+        foundReturn = false;
+        RetType retType = MethodDeclPrototype.getRetType();
+
+
+        if (retType instanceof RetTypeNode){
+            isVoid = false;
+            methRetType = ((RetTypeNode) retType).getType().struct;
+        }
+        else{
+            isVoid = true;
+            methRetType = Tab.noType;
+        }
+
+        currentMethod = Tab.insert(Obj.Meth, MethodDeclPrototype.getMethName(), methRetType);
+        MethodDeclPrototype.obj = currentMethod;
+        Tab.openScope();
+    }
+
+    @Override
+    public void visit(MethodDeclNode MethodDeclNode) {
+
+        if (!foundReturn && !isVoid){
+            report_error("Error on line " + MethodDeclNode.getLine() + ": Missing return statement.", null);
+        }
+
+        Tab.chainLocalSymbols(currentMethod);
+        currentMethod = null;
+        methRetType = null;
+        Tab.closeScope();
+
+    }
+
+    @Override
+    public void visit(StatementReturn StatementReturn) {
+
+        if (currentMethod != null){
+
+            foundReturn = true;
+
+            if (isVoid){
+
+                if (StatementReturn.getExprSingle() instanceof ExprSingleNode){
+                    report_error("Error on line " + StatementReturn.getLine() + ": Return expression is not allowed on void function.", null);
+                }
+
+            }
+            else{
+
+                if (StatementReturn.getExprSingle() instanceof NoExprSingle){
+                    report_error("Error on line " + StatementReturn.getLine() + ": Return on non void function must have expression.", null);
+                }
+                else{
+
+                    Expr expr = ((ExprSingleNode) StatementReturn.getExprSingle()).getExpr();
+
+                    if (!expr.struct.assignableTo(methRetType)){
+                        report_error("Error on line " + StatementReturn.getLine() + ": Return type not compatible with function return type.", null);
+                    }
+                }
+
+            }
+        }
+        else{
+            report_error("Error on line " + StatementReturn.getLine() + ": Return statement is only allowed inside functions and methods.", null);
         }
 
     }

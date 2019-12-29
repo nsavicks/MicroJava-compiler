@@ -3,15 +3,25 @@ program a
 int x[];
 int x1[];
 char x2[];
+bool x3[];
 int y;
 int z;
 char k;
 bool b;
 
 {
-    void main(){
 
-        x2[b]++;
+    void p(){
+
+
+    }
+
+    int q(){
+
+        return 10;
+    }
+
+    void main(){
 
     }
 }
