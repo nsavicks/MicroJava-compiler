@@ -1,36 +1,36 @@
 // generated with ast extension for cup
 // version 0.8
-// 23/11/2019 23:30:59
+// 29/11/2019 17:20:37
 
 
 package rs.ac.bg.etf.pp1.ast;
 
 public class VarDeclNode extends VarDecl {
 
-    private Type Type;
-    private IdentList IdentList;
+    private VarType VarType;
+    private VarIdentList VarIdentList;
 
-    public VarDeclNode (Type Type, IdentList IdentList) {
-        this.Type=Type;
-        if(Type!=null) Type.setParent(this);
-        this.IdentList=IdentList;
-        if(IdentList!=null) IdentList.setParent(this);
+    public VarDeclNode (VarType VarType, VarIdentList VarIdentList) {
+        this.VarType=VarType;
+        if(VarType!=null) VarType.setParent(this);
+        this.VarIdentList=VarIdentList;
+        if(VarIdentList!=null) VarIdentList.setParent(this);
     }
 
-    public Type getType() {
-        return Type;
+    public VarType getVarType() {
+        return VarType;
     }
 
-    public void setType(Type Type) {
-        this.Type=Type;
+    public void setVarType(VarType VarType) {
+        this.VarType=VarType;
     }
 
-    public IdentList getIdentList() {
-        return IdentList;
+    public VarIdentList getVarIdentList() {
+        return VarIdentList;
     }
 
-    public void setIdentList(IdentList IdentList) {
-        this.IdentList=IdentList;
+    public void setVarIdentList(VarIdentList VarIdentList) {
+        this.VarIdentList=VarIdentList;
     }
 
     public void accept(Visitor visitor) {
@@ -38,19 +38,19 @@ public class VarDeclNode extends VarDecl {
     }
 
     public void childrenAccept(Visitor visitor) {
-        if(Type!=null) Type.accept(visitor);
-        if(IdentList!=null) IdentList.accept(visitor);
+        if(VarType!=null) VarType.accept(visitor);
+        if(VarIdentList!=null) VarIdentList.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
-        if(Type!=null) Type.traverseTopDown(visitor);
-        if(IdentList!=null) IdentList.traverseTopDown(visitor);
+        if(VarType!=null) VarType.traverseTopDown(visitor);
+        if(VarIdentList!=null) VarIdentList.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
-        if(Type!=null) Type.traverseBottomUp(visitor);
-        if(IdentList!=null) IdentList.traverseBottomUp(visitor);
+        if(VarType!=null) VarType.traverseBottomUp(visitor);
+        if(VarIdentList!=null) VarIdentList.traverseBottomUp(visitor);
         accept(visitor);
     }
 
@@ -59,14 +59,14 @@ public class VarDeclNode extends VarDecl {
         buffer.append(tab);
         buffer.append("VarDeclNode(\n");
 
-        if(Type!=null)
-            buffer.append(Type.toString("  "+tab));
+        if(VarType!=null)
+            buffer.append(VarType.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");
 
-        if(IdentList!=null)
-            buffer.append(IdentList.toString("  "+tab));
+        if(VarIdentList!=null)
+            buffer.append(VarIdentList.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");

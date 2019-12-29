@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 23/11/2019 23:31:1
+// 29/11/2019 17:20:38
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -11,38 +11,31 @@ public interface Visitor {
     public void visit(ClassDeclIdent ClassDeclIdent);
     public void visit(FormParsSingle FormParsSingle);
     public void visit(Relop Relop);
-    public void visit(TermList TermList);
     public void visit(ConditionList ConditionList);
     public void visit(CondTermList CondTermList);
-    public void visit(VarDeclPartial VarDeclPartial);
     public void visit(TypeIdentSingle TypeIdentSingle);
-    public void visit(FactorActParsSingle FactorActParsSingle);
     public void visit(DesignatorStatementSingle DesignatorStatementSingle);
-    public void visit(FactorExprSingle FactorExprSingle);
     public void visit(StatementList StatementList);
-    public void visit(TermItem TermItem);
     public void visit(ForConditionSingle ForConditionSingle);
     public void visit(Factor Factor);
-    public void visit(CommaNumConstSingle CommaNumConstSingle);
     public void visit(ElseStatementSingle ElseStatementSingle);
+    public void visit(CommaNumConstSingle CommaNumConstSingle);
     public void visit(AbstractMethodDecl AbstractMethodDecl);
+    public void visit(Designator Designator);
     public void visit(AbstractClassMethodDeclSingle AbstractClassMethodDeclSingle);
+    public void visit(Term Term);
     public void visit(TypeIdentList TypeIdentList);
     public void visit(RetType RetType);
-    public void visit(IdentList IdentList);
     public void visit(ConstDeclList ConstDeclList);
     public void visit(ExprSingle ExprSingle);
     public void visit(ActParsList ActParsList);
     public void visit(ConditionSingle ConditionSingle);
     public void visit(ConstLiteral ConstLiteral);
-    public void visit(IdentSingle IdentSingle);
-    public void visit(ExprList ExprList);
     public void visit(ExtendsSingle ExtendsSingle);
-    public void visit(IdentListItem IdentListItem);
     public void visit(VarDeclList VarDeclList);
-    public void visit(DesignatorStatementItem DesignatorStatementItem);
+    public void visit(Expr Expr);
     public void visit(AbstractMethodDeclList AbstractMethodDeclList);
-    public void visit(DesignatorList DesignatorList);
+    public void visit(VarIdentSingle VarIdentSingle);
     public void visit(ActParsSingle ActParsSingle);
     public void visit(DesignatorStatement DesignatorStatement);
     public void visit(SubSingle SubSingle);
@@ -50,7 +43,7 @@ public interface Visitor {
     public void visit(Statement Statement);
     public void visit(VarDecl VarDecl);
     public void visit(AbstractMethodDeclItem AbstractMethodDeclItem);
-    public void visit(DesignatorItem DesignatorItem);
+    public void visit(VarIdentList VarIdentList);
     public void visit(SquareSingle SquareSingle);
     public void visit(CondFact CondFact);
     public void visit(Declaration Declaration);
@@ -68,31 +61,23 @@ public interface Visitor {
     public void visit(NotEqualop NotEqualop);
     public void visit(Equalop Equalop);
     public void visit(Assignop Assignop);
-    public void visit(DesignatorArrayItem DesignatorArrayItem);
-    public void visit(DesignatorDotItem DesignatorDotItem);
-    public void visit(NoDesignatorList NoDesignatorList);
-    public void visit(DesignatorListNode DesignatorListNode);
-    public void visit(Designator Designator);
+    public void visit(DesignatorArray DesignatorArray);
+    public void visit(DesignatorDot DesignatorDot);
+    public void visit(DesignatorIdent DesignatorIdent);
     public void visit(NoActParsSingle NoActParsSingle);
     public void visit(ActParsSingleNode ActParsSingleNode);
-    public void visit(NoFactorActParsSingle NoFactorActParsSingle);
-    public void visit(FactorActParsSingleNode FactorActParsSingleNode);
-    public void visit(NoFactorExprSingle NoFactorExprSingle);
-    public void visit(FactorExprSingleNode FactorExprSingleNode);
     public void visit(FactorExpr FactorExpr);
-    public void visit(FactorNew FactorNew);
+    public void visit(FactorNewClass FactorNewClass);
+    public void visit(FactorNewArray FactorNewArray);
     public void visit(FactorConstant FactorConstant);
-    public void visit(FactorDesignator FactorDesignator);
-    public void visit(TermItemDerived1 TermItemDerived1);
-    public void visit(NoTermList NoTermList);
-    public void visit(TermListNode TermListNode);
-    public void visit(Term Term);
-    public void visit(ExprItem ExprItem);
-    public void visit(NoExprList NoExprList);
-    public void visit(ExprListNode ExprListNode);
+    public void visit(FactorFuncCall FactorFuncCall);
+    public void visit(FactorVariable FactorVariable);
+    public void visit(TermMul TermMul);
+    public void visit(TermFactor TermFactor);
     public void visit(NoSubSingle NoSubSingle);
     public void visit(SubSingleNode SubSingleNode);
-    public void visit(Expr Expr);
+    public void visit(ExprAdd ExprAdd);
+    public void visit(ExprTerm ExprTerm);
     public void visit(CondFactRelop CondFactRelop);
     public void visit(CondFactExpr CondFactExpr);
     public void visit(CondTermItem CondTermItem);
@@ -107,11 +92,10 @@ public interface Visitor {
     public void visit(ActPars ActPars);
     public void visit(ErrorDesignatorAssignItem ErrorDesignatorAssignItem);
     public void visit(DesignatorAssignItemNode DesignatorAssignItemNode);
-    public void visit(DesignatorItemDec DesignatorItemDec);
-    public void visit(DesignatorItemInc DesignatorItemInc);
-    public void visit(DesignatorItemActPars DesignatorItemActPars);
     public void visit(DesignatorStatementAssignNode DesignatorStatementAssignNode);
-    public void visit(DesignatorStatementNode DesignatorStatementNode);
+    public void visit(DesignatorStatementDec DesignatorStatementDec);
+    public void visit(DesignatorStatementInc DesignatorStatementInc);
+    public void visit(DesignatorStatementFunc DesignatorStatementFunc);
     public void visit(NoDesignatorStatementSingle NoDesignatorStatementSingle);
     public void visit(DesignatorStatementSingleNode DesignatorStatementSingleNode);
     public void visit(NoElseStatementSingle NoElseStatementSingle);
@@ -168,19 +152,22 @@ public interface Visitor {
     public void visit(MethodDeclListNode MethodDeclListNode);
     public void visit(NoClassMethodDeclSingle NoClassMethodDeclSingle);
     public void visit(ClassMethodDeclSingleNode ClassMethodDeclSingleNode);
+    public void visit(ClassDeclSignature ClassDeclSignature);
     public void visit(ClassDecl ClassDecl);
-    public void visit(ErrorIdentSingle ErrorIdentSingle);
-    public void visit(IdentSingleNode IdentSingleNode);
-    public void visit(IdentListSingle IdentListSingle);
-    public void visit(IdentListNode IdentListNode);
+    public void visit(ErrorVarIdentSingle ErrorVarIdentSingle);
+    public void visit(VarIdentSingleNode VarIdentSingleNode);
+    public void visit(VarIdentListSingle VarIdentListSingle);
+    public void visit(VarIdentListNode VarIdentListNode);
+    public void visit(VarType VarType);
     public void visit(ErrorVarDecl ErrorVarDecl);
     public void visit(VarDeclNode VarDeclNode);
     public void visit(ConstLiteralBool ConstLiteralBool);
     public void visit(ConstLiteralChar ConstLiteralChar);
     public void visit(ConstLiteralNum ConstLiteralNum);
     public void visit(ConstDeclListItem ConstDeclListItem);
-    public void visit(NoConstDeclList NoConstDeclList);
+    public void visit(ConstDeclListSingle ConstDeclListSingle);
     public void visit(ConstDeclListNode ConstDeclListNode);
+    public void visit(ConstType ConstType);
     public void visit(ConstDecl ConstDecl);
     public void visit(ClassDeclaration ClassDeclaration);
     public void visit(AbstractClassDeclaration AbstractClassDeclaration);
@@ -188,6 +175,7 @@ public interface Visitor {
     public void visit(ConstDeclaration ConstDeclaration);
     public void visit(NoDeclarationList NoDeclarationList);
     public void visit(DeclarationListNode DeclarationListNode);
+    public void visit(ProgName ProgName);
     public void visit(Program Program);
 
 }

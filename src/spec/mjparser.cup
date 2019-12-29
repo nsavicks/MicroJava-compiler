@@ -71,24 +71,47 @@ terminal Character CHAR;
 
 
 nonterminal Mulop, Addop, Relop, Assignop;
-nonterminal DesignatorItem, DesignatorList, Designator;
-nonterminal ActParsSingle, FactorActParsSingle, FactorExprSingle, Factor;
-nonterminal TermItem, TermList, Term;
-nonterminal ExprItem, ExprList, SubSingle, Expr;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Designator;
+
+nonterminal ActParsSingle;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Factor;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Term;
+
+nonterminal SubSingle;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Expr;
+
 nonterminal CondFact, CondTermItem, CondTermList, CondTerm, ConditionList, ConditionSingle, ForConditionSingle, Condition;
+
 nonterminal ActParsList, ActPars;
-nonterminal DesignatorStatementItem, DesignatorAssignItem, DesignatorStatement, DesignatorStatementSingle, ElseStatementSingle, ExprSingle, CommaNumConstSingle, StatementList, Statement;
-nonterminal Type;
+
+nonterminal DesignatorAssignItem, DesignatorStatement, DesignatorStatementSingle;
+
+nonterminal ElseStatementSingle, ExprSingle, CommaNumConstSingle, StatementList, Statement;
+
 nonterminal SquareSingle, TypeIdentSingle, TypeIdentList, FormPars;
-nonterminal RetType, FormParsSingle, AbstractMethodDecl, VarDeclList, MethodDecl, ExtendsSingle, AbstractMethodDeclItem, AbstractMethodDeclList, AbstractClassMethodDeclSingle, AbstractClassDecl, MethodDeclList, ClassMethodDeclSingle, ClassDeclIdent, ClassDecl;
-nonterminal IdentListItem, IdentList, IdentSingle, VarDecl, VarDeclPartial, ConstLiteral, ConstDeclListItem, ConstDeclList, ConstDecl, Declaration, DeclarationList;
-nonterminal Program;
+nonterminal RetType, FormParsSingle, AbstractMethodDecl, VarDeclList, MethodDecl, ExtendsSingle, AbstractMethodDeclItem, AbstractMethodDeclList, AbstractClassMethodDeclSingle, AbstractClassDecl, MethodDeclList;
+nonterminal VarType, VarIdentList, VarIdentSingle, VarDecl, ConstDeclListItem, ConstDeclList, ConstType, ConstDecl, Declaration, DeclarationList;
+
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Program, ProgName;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Struct ConstLiteral;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ClassDeclSignature;
+
+nonterminal ClassMethodDeclSingle, ClassDeclIdent, ClassDecl;
 
 precedence left ELSE;
 
 // Smene
 
-Program ::= (Program) PROGRAM IDENT DeclarationList LBRACE MethodDeclList RBRACE;
+Program ::= (Program) ProgName DeclarationList LBRACE MethodDeclList RBRACE;
+
+ProgName ::= (ProgName) PROGRAM IDENT:progName;
 
 DeclarationList ::= (DeclarationListNode) DeclarationList Declaration
                     |
@@ -102,13 +125,15 @@ Declaration ::= (ConstDeclaration) ConstDecl
                 |
                 (ClassDeclaration) ClassDecl;
 
-ConstDecl ::= (ConstDecl) CONST Type IDENT ASSIGN ConstLiteral ConstDeclList SEMI;
+ConstDecl ::= (ConstDecl) ConstType ConstDeclList SEMI;
 
-ConstDeclList ::= (ConstDeclListNode) ConstDeclList ConstDeclListItem
+ConstType ::= (ConstType) CONST Type;
+
+ConstDeclList ::= (ConstDeclListNode) ConstDeclList COMMA ConstDeclListItem
                     |
-                    (NoConstDeclList) /* epsilon */;
+                    (ConstDeclListSingle) ConstDeclListItem;
 
-ConstDeclListItem ::= (ConstDeclListItem) COMMA IDENT ASSIGN ConstLiteral;
+ConstDeclListItem ::= (ConstDeclListItem) IDENT:constName ASSIGN ConstLiteral;
 
 ConstLiteral ::= (ConstLiteralNum) NUMBER:value
                 |
@@ -117,21 +142,25 @@ ConstLiteral ::= (ConstLiteralNum) NUMBER:value
                 (ConstLiteralBool) BOOL:value
                 ;
 
-VarDecl ::= (VarDeclNode) Type IdentList SEMI
+VarDecl ::= (VarDeclNode) VarType VarIdentList SEMI
             |
             (ErrorVarDecl) error SEMI:l
             {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :};
 
-IdentList ::= (IdentListNode) IdentList COMMA IdentSingle
-            |
-            (IdentListSingle) IdentSingle;
+VarType ::= (VarType) Type;
 
-IdentSingle ::= (IdentSingleNode) IDENT SquareSingle
+VarIdentList ::= (VarIdentListNode) VarIdentList COMMA VarIdentSingle
+            |
+            (VarIdentListSingle) VarIdentSingle;
+
+VarIdentSingle ::= (VarIdentSingleNode) IDENT:varName SquareSingle
                 |
-                (ErrorIdentSingle) error:l
+                (ErrorVarIdentSingle) error:l
                 {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :};
 
-ClassDecl ::= (ClassDecl) ClassDeclIdent ExtendsSingle LBRACE VarDeclList ClassMethodDeclSingle RBRACE;
+ClassDecl ::= (ClassDecl) ClassDeclSignature LBRACE VarDeclList ClassMethodDeclSingle RBRACE;
+
+ClassDeclSignature ::= (ClassDeclSignature) ClassDeclIdent ExtendsSingle;
 
 ClassMethodDeclSingle ::= (ClassMethodDeclSingleNode) LBRACE MethodDeclList RBRACE
                             |
@@ -155,7 +184,7 @@ AbstractMethodDeclItem ::= (MethodDeclItemNode) MethodDecl
                             |
                             (AbstractMethodDeclItemNode) AbstractMethodDecl;
 
-ClassDeclIdent ::= (ClassDeclIdentNode) CLASS IDENT
+ClassDeclIdent ::= (ClassDeclIdentNode) CLASS IDENT:className
                     |
                     (ErrorClassDeclIdent) error:l
                     {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :};
@@ -201,7 +230,7 @@ SquareSingle ::= (SquareSingleNode) LSQUARE RSQUARE
                 |
                 (NoSquareSingle) /* epsilon */;
 
-Type ::= (Type) IDENT;
+Type ::= (Type) IDENT:typeName;
 
 Statement ::= (StatementDesignator) DesignatorStatement SEMI
             |
@@ -250,15 +279,13 @@ DesignatorStatementSingle ::= (DesignatorStatementSingleNode) DesignatorStatemen
                             |
                             (NoDesignatorStatementSingle) /* epsilon */;
 
-DesignatorStatement ::= (DesignatorStatementNode) Designator DesignatorStatementItem
+DesignatorStatement ::= (DesignatorStatementFunc) Designator LPAREN ActParsSingle RPAREN
+                        |
+                        (DesignatorStatementInc) Designator INC
+                        |
+                        (DesignatorStatementDec) Designator DEC
                         |
                         (DesignatorStatementAssignNode) DesignatorAssignItem;
-
-DesignatorStatementItem ::= (DesignatorItemActPars) LPAREN  ActParsSingle RPAREN
-                    |
-                    (DesignatorItemInc) INC
-                    |
-                    (DesignatorItemDec) DEC;
 
 DesignatorAssignItem ::= (DesignatorAssignItemNode) Designator Assignop Expr
                         |
@@ -289,55 +316,40 @@ CondFact ::= (CondFactExpr) Expr
             |
             (CondFactRelop) Expr Relop Expr;
 
-Expr ::= (Expr) SubSingle Term ExprList;
+Expr ::= (ExprTerm) SubSingle Term
+        |
+        (ExprAdd) Expr Addop Term;
 
 SubSingle ::= (SubSingleNode) SUB
             |
             (NoSubSingle) /* epsilon */;
 
-ExprList ::= (ExprListNode) ExprList ExprItem
+Term ::= (TermFactor) Factor
+        |
+        (TermMul) Term Mulop Factor;
+
+Factor ::= (FactorVariable) Designator
             |
-            (NoExprList) /* epsilon */;
-
-ExprItem ::= (ExprItem) Addop Term;
-
-Term ::= (Term) Factor TermList;
-
-TermList ::= (TermListNode) TermList TermItem
-            |
-            (NoTermList) /* epsilon */;
-
-TermItem ::= Mulop Factor;
-
-Factor ::= (FactorDesignator) Designator FactorActParsSingle
+            (FactorFuncCall) Designator LPAREN ActParsSingle RPAREN
             |
             (FactorConstant) ConstLiteral
             |
-            (FactorNew) NEW Type FactorExprSingle
+            (FactorNewArray) NEW Type LSQUARE Expr RSQUARE
+            |
+            (FactorNewClass) NEW Type
             |
             (FactorExpr) LPAREN Expr RPAREN;
-
-FactorExprSingle ::= (FactorExprSingleNode) LSQUARE Expr RSQUARE
-                |
-                (NoFactorExprSingle) /* epsilon */;
-
-FactorActParsSingle ::= (FactorActParsSingleNode) LPAREN ActParsSingle RPAREN
-                |
-                (NoFactorActParsSingle) /* epsilon */;
 
 ActParsSingle ::= (ActParsSingleNode) ActPars
             |
             (NoActParsSingle) /* epsilon */;
 
-Designator ::= (Designator) IDENT DesignatorList;
+Designator ::= (DesignatorIdent) IDENT:name
+                |
+                (DesignatorDot) Designator DOT IDENT:classMember
+                |
+                (DesignatorArray) Designator LSQUARE Expr RSQUARE;
 
-DesignatorList ::= (DesignatorListNode) DesignatorList DesignatorItem
-                    |
-                    (NoDesignatorList) /* epsilon */;
-
-DesignatorItem ::= (DesignatorDotItem) DOT IDENT
-                    |
-                    (DesignatorArrayItem) LSQUARE Expr RSQUARE;
 
 Assignop ::= (Assignop) ASSIGN;
 

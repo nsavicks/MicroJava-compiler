@@ -1,24 +1,24 @@
 // generated with ast extension for cup
 // version 0.8
-// 23/11/2019 23:31:0
+// 29/11/2019 17:20:37
 
 
 package rs.ac.bg.etf.pp1.ast;
 
 public class ClassDeclIdentNode extends ClassDeclIdent {
 
-    private String I1;
+    private String className;
 
-    public ClassDeclIdentNode (String I1) {
-        this.I1=I1;
+    public ClassDeclIdentNode (String className) {
+        this.className=className;
     }
 
-    public String getI1() {
-        return I1;
+    public String getClassName() {
+        return className;
     }
 
-    public void setI1(String I1) {
-        this.I1=I1;
+    public void setClassName(String className) {
+        this.className=className;
     }
 
     public void accept(Visitor visitor) {
@@ -41,7 +41,7 @@ public class ClassDeclIdentNode extends ClassDeclIdent {
         buffer.append(tab);
         buffer.append("ClassDeclIdentNode(\n");
 
-        buffer.append(" "+tab+I1);
+        buffer.append(" "+tab+className);
         buffer.append("\n");
 
         buffer.append(tab);

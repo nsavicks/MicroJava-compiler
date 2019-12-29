@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 23/11/2019 23:31:0
+// 29/11/2019 17:20:37
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -9,36 +9,25 @@ public class ClassDecl implements SyntaxNode {
 
     private SyntaxNode parent;
     private int line;
-    private ClassDeclIdent ClassDeclIdent;
-    private ExtendsSingle ExtendsSingle;
+    private ClassDeclSignature ClassDeclSignature;
     private VarDeclList VarDeclList;
     private ClassMethodDeclSingle ClassMethodDeclSingle;
 
-    public ClassDecl (ClassDeclIdent ClassDeclIdent, ExtendsSingle ExtendsSingle, VarDeclList VarDeclList, ClassMethodDeclSingle ClassMethodDeclSingle) {
-        this.ClassDeclIdent=ClassDeclIdent;
-        if(ClassDeclIdent!=null) ClassDeclIdent.setParent(this);
-        this.ExtendsSingle=ExtendsSingle;
-        if(ExtendsSingle!=null) ExtendsSingle.setParent(this);
+    public ClassDecl (ClassDeclSignature ClassDeclSignature, VarDeclList VarDeclList, ClassMethodDeclSingle ClassMethodDeclSingle) {
+        this.ClassDeclSignature=ClassDeclSignature;
+        if(ClassDeclSignature!=null) ClassDeclSignature.setParent(this);
         this.VarDeclList=VarDeclList;
         if(VarDeclList!=null) VarDeclList.setParent(this);
         this.ClassMethodDeclSingle=ClassMethodDeclSingle;
         if(ClassMethodDeclSingle!=null) ClassMethodDeclSingle.setParent(this);
     }
 
-    public ClassDeclIdent getClassDeclIdent() {
-        return ClassDeclIdent;
+    public ClassDeclSignature getClassDeclSignature() {
+        return ClassDeclSignature;
     }
 
-    public void setClassDeclIdent(ClassDeclIdent ClassDeclIdent) {
-        this.ClassDeclIdent=ClassDeclIdent;
-    }
-
-    public ExtendsSingle getExtendsSingle() {
-        return ExtendsSingle;
-    }
-
-    public void setExtendsSingle(ExtendsSingle ExtendsSingle) {
-        this.ExtendsSingle=ExtendsSingle;
+    public void setClassDeclSignature(ClassDeclSignature ClassDeclSignature) {
+        this.ClassDeclSignature=ClassDeclSignature;
     }
 
     public VarDeclList getVarDeclList() {
@@ -78,23 +67,20 @@ public class ClassDecl implements SyntaxNode {
     }
 
     public void childrenAccept(Visitor visitor) {
-        if(ClassDeclIdent!=null) ClassDeclIdent.accept(visitor);
-        if(ExtendsSingle!=null) ExtendsSingle.accept(visitor);
+        if(ClassDeclSignature!=null) ClassDeclSignature.accept(visitor);
         if(VarDeclList!=null) VarDeclList.accept(visitor);
         if(ClassMethodDeclSingle!=null) ClassMethodDeclSingle.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
-        if(ClassDeclIdent!=null) ClassDeclIdent.traverseTopDown(visitor);
-        if(ExtendsSingle!=null) ExtendsSingle.traverseTopDown(visitor);
+        if(ClassDeclSignature!=null) ClassDeclSignature.traverseTopDown(visitor);
         if(VarDeclList!=null) VarDeclList.traverseTopDown(visitor);
         if(ClassMethodDeclSingle!=null) ClassMethodDeclSingle.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
-        if(ClassDeclIdent!=null) ClassDeclIdent.traverseBottomUp(visitor);
-        if(ExtendsSingle!=null) ExtendsSingle.traverseBottomUp(visitor);
+        if(ClassDeclSignature!=null) ClassDeclSignature.traverseBottomUp(visitor);
         if(VarDeclList!=null) VarDeclList.traverseBottomUp(visitor);
         if(ClassMethodDeclSingle!=null) ClassMethodDeclSingle.traverseBottomUp(visitor);
         accept(visitor);
@@ -105,14 +91,8 @@ public class ClassDecl implements SyntaxNode {
         buffer.append(tab);
         buffer.append("ClassDecl(\n");
 
-        if(ClassDeclIdent!=null)
-            buffer.append(ClassDeclIdent.toString("  "+tab));
-        else
-            buffer.append(tab+"  null");
-        buffer.append("\n");
-
-        if(ExtendsSingle!=null)
-            buffer.append(ExtendsSingle.toString("  "+tab));
+        if(ClassDeclSignature!=null)
+            buffer.append(ClassDeclSignature.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");

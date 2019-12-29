@@ -1,0 +1,3402 @@
+INFO  21:20:23,795 - #2 program
+INFO  21:20:23,799 - #44 test
+INFO  21:20:23,799 - #44 int
+INFO  21:20:23,810 - #43 3
+ERROR 21:20:23,811 - 
+Sintaksna greska na liniji 3
+INFO  21:20:23,811 - #34 ,
+INFO  21:20:23,812 - #44 x
+INFO  21:20:23,812 - #33 ;
+INFO  21:20:23,812 - #41 }
+ERROR 21:20:23,812 - 
+Sintaksna greska na liniji 5
+INFO  21:20:23,812 - #40 {
+ERROR 21:20:23,812 - Izvrsen oporavak u liniji 8
+ERROR 21:20:23,832 - 
+Sintaksna greska na liniji 7
+ERROR 21:20:23,832 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7
+INFO  21:20:43,738 - #2 program
+INFO  21:20:43,738 - #44 test
+INFO  21:20:43,738 - #44 int
+INFO  21:20:43,739 - #43 3
+ERROR 21:20:43,740 - 
+Sintaksna greska na liniji 3
+INFO  21:20:43,740 - #34 ,
+INFO  21:20:43,748 - #44 x
+INFO  21:20:43,748 - #33 ;
+INFO  21:20:43,748 - #40 {
+ERROR 21:20:43,749 - Izvrsen oporavak u liniji 3
+INFO  21:20:43,757 - #41 }
+INFO  21:23:27,293 - #2 program
+INFO  21:23:27,294 - #44 test
+INFO  21:23:27,294 - #44 int
+INFO  21:23:27,294 - #43 3
+ERROR 21:23:27,294 - 
+Sintaksna greska na liniji 3
+INFO  21:23:27,295 - #34 ,
+INFO  21:23:27,301 - #44 x
+INFO  21:23:27,301 - #33 ;
+INFO  21:23:27,302 - #40 {
+INFO  21:31:41,807 - #2 program
+INFO  21:31:41,807 - #44 test
+INFO  21:31:41,807 - #44 int
+INFO  21:31:41,808 - #43 3
+ERROR 21:31:41,808 - 
+Sintaksna greska na liniji 3
+INFO  21:31:41,809 - #33 ;
+INFO  21:31:41,809 - #44 int
+ERROR 21:31:41,810 - Izvrsen oporavak u liniji 3
+INFO  21:31:41,810 - #43 3
+ERROR 21:31:41,810 - 
+Sintaksna greska na liniji 4
+INFO  21:31:41,810 - #34 ,
+INFO  21:31:41,810 - #44 x
+INFO  21:31:41,810 - #34 ,
+INFO  21:31:41,810 - #44 a
+INFO  21:31:41,810 - #38 [
+INFO  21:31:41,810 - #33 ;
+INFO  21:31:41,810 - #4 class
+ERROR 21:31:41,810 - Izvrsen oporavak u liniji 4
+INFO  21:31:41,810 - #44 a
+INFO  21:31:41,810 - #33 ;
+ERROR 21:31:41,811 - 
+Sintaksna greska na liniji 5
+INFO  21:31:41,811 - #40 {
+ERROR 21:31:41,811 - Izvrsen oporavak u liniji 5
+INFO  21:31:41,811 - #41 }
+INFO  21:32:56,666 - #2 program
+INFO  21:32:56,666 - #44 test
+INFO  21:32:56,666 - #43 3
+ERROR 21:32:56,667 - 
+Sintaksna greska na liniji 3
+ERROR 21:32:56,667 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3
+INFO  21:33:14,651 - #2 program
+INFO  21:33:14,652 - #44 test
+INFO  21:33:14,652 - #43 3
+ERROR 21:33:14,652 - 
+Sintaksna greska na liniji 3
+ERROR 21:33:14,652 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3
+INFO  21:34:39,540 - #2 program
+INFO  21:34:39,540 - #44 test
+INFO  21:34:39,540 - #4 class
+INFO  21:34:39,541 - #43 33
+ERROR 21:34:39,541 - 
+Sintaksna greska na liniji 3
+INFO  21:34:39,541 - #40 {
+INFO  21:34:39,548 - #41 }
+ERROR 21:34:39,548 - Izvrsen oporavak u liniji 8
+ERROR 21:34:39,549 - 
+Sintaksna greska na liniji 5
+INFO  21:34:39,549 - #40 {
+INFO  21:34:39,549 - #41 }
+ERROR 21:34:39,549 - Izvrsen oporavak u liniji 8
+ERROR 21:34:39,550 - 
+Sintaksna greska na liniji 11
+ERROR 21:34:39,550 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 12
+INFO  21:35:26,532 - #2 program
+INFO  21:35:26,532 - #44 test
+INFO  21:35:26,532 - #4 class
+INFO  21:35:26,533 - #43 33
+ERROR 21:35:26,533 - 
+Sintaksna greska na liniji 3
+INFO  21:35:26,533 - #40 {
+INFO  21:35:26,540 - #41 }
+ERROR 21:35:26,540 - Izvrsen oporavak u liniji 8
+ERROR 21:35:26,542 - 
+Sintaksna greska na liniji 5
+INFO  21:35:26,543 - #4 class
+INFO  21:35:26,543 - #44 a
+INFO  21:35:26,543 - #15 extends
+INFO  21:35:26,543 - #44 b
+ERROR 21:35:26,543 - Izvrsen oporavak u liniji 8
+INFO  21:35:26,543 - #40 {
+INFO  21:35:26,544 - #41 }
+ERROR 21:35:26,544 - 
+Sintaksna greska na liniji 9
+INFO  21:35:26,544 - #40 {
+INFO  21:35:26,544 - #41 }
+ERROR 21:35:26,544 - Izvrsen oporavak u liniji 8
+ERROR 21:35:26,545 - 
+Sintaksna greska na liniji 15
+ERROR 21:35:26,545 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 16
+INFO  21:36:08,116 - #2 program
+INFO  21:36:08,117 - #44 test
+INFO  21:36:08,117 - #4 class
+INFO  21:36:08,117 - #44 a
+INFO  21:36:08,118 - #15 extends
+INFO  21:36:08,118 - #44 b
+INFO  21:36:08,118 - #40 {
+INFO  21:36:08,119 - #41 }
+ERROR 21:36:08,119 - 
+Sintaksna greska na liniji 6
+INFO  21:36:08,119 - #40 {
+INFO  21:36:08,126 - #41 }
+ERROR 21:36:08,126 - Izvrsen oporavak u liniji 8
+ERROR 21:36:08,127 - 
+Sintaksna greska na liniji 12
+ERROR 21:36:08,128 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 13
+INFO  21:37:54,747 - #2 program
+INFO  21:37:54,747 - #44 test
+INFO  21:37:54,748 - #4 class
+INFO  21:37:54,748 - #44 a
+INFO  21:37:54,749 - #15 extends
+INFO  21:37:54,749 - #44 b
+INFO  21:37:54,749 - #40 {
+INFO  21:37:54,750 - #40 {
+INFO  21:37:54,750 - #41 }
+INFO  21:37:54,751 - #41 }
+INFO  21:37:54,752 - #40 {
+INFO  21:37:54,753 - #41 }
+INFO  21:41:41,786 - #2 program
+INFO  21:41:41,786 - #44 test
+INFO  21:41:41,786 - #4 class
+INFO  21:41:41,787 - #44 a
+INFO  21:41:41,787 - #15 extends
+INFO  21:41:41,787 - #44 b
+INFO  21:41:41,787 - #40 {
+INFO  21:41:41,788 - #41 }
+INFO  21:41:41,789 - #40 {
+INFO  21:41:41,790 - #41 }
+INFO  21:42:06,896 - #2 program
+INFO  21:42:06,897 - #44 test
+INFO  21:42:06,897 - #4 class
+INFO  21:42:06,898 - #43 33
+ERROR 21:42:06,898 - 
+Sintaksna greska na liniji 3
+INFO  21:42:06,898 - #40 {
+INFO  21:42:06,904 - #41 }
+ERROR 21:42:06,904 - Izvrsen oporavak u liniji 8
+INFO  21:42:06,907 - #4 class
+INFO  21:42:06,908 - #44 a
+INFO  21:42:06,909 - #15 extends
+INFO  21:42:06,909 - #44 b
+INFO  21:42:06,909 - #40 {
+INFO  21:42:06,910 - #41 }
+INFO  21:42:06,910 - #40 {
+INFO  21:42:06,910 - #41 }
+INFO  21:42:18,927 - #2 program
+INFO  21:42:18,928 - #44 test
+INFO  21:42:18,928 - #4 class
+INFO  21:42:18,929 - #43 33
+ERROR 21:42:18,929 - 
+Sintaksna greska na liniji 3
+INFO  21:42:18,930 - #40 {
+INFO  21:42:18,937 - #41 }
+ERROR 21:42:18,937 - Izvrsen oporavak u liniji 8
+INFO  21:42:18,939 - #40 {
+INFO  21:42:18,941 - #41 }
+INFO  21:44:22,224 - #2 program
+INFO  21:44:22,225 - #44 test
+INFO  21:44:22,225 - #40 {
+INFO  21:44:22,226 - #13 void
+INFO  21:44:22,228 - #44 main
+INFO  21:44:22,229 - #36 (
+INFO  21:44:22,229 - #37 )
+INFO  21:44:22,230 - #40 {
+INFO  21:44:22,231 - #43 3
+ERROR 21:44:22,231 - 
+Sintaksna greska na liniji 7
+INFO  21:44:22,231 - #30 =
+INFO  21:44:22,237 - #44 x
+INFO  21:44:22,237 - #33 ;
+INFO  21:44:22,237 - #41 }
+ERROR 21:44:22,237 - Izvrsen oporavak u liniji 5
+ERROR 21:44:22,238 - 
+Sintaksna greska na liniji 8
+INFO  21:44:22,238 - #41 }
+ERROR 21:44:22,238 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10
+INFO  21:44:41,906 - #2 program
+INFO  21:44:41,907 - #44 test
+INFO  21:44:41,907 - #40 {
+INFO  21:44:41,907 - #13 void
+INFO  21:44:41,908 - #44 main
+INFO  21:44:41,909 - #36 (
+INFO  21:44:41,909 - #37 )
+INFO  21:44:41,909 - #40 {
+INFO  21:44:41,910 - #44 x
+INFO  21:44:41,910 - #35 .
+INFO  21:44:41,911 - #30 =
+ERROR 21:44:41,911 - 
+Sintaksna greska na liniji 7
+INFO  21:44:41,911 - #44 x
+INFO  21:44:41,918 - #33 ;
+INFO  21:44:41,918 - #41 }
+ERROR 21:44:41,918 - Izvrsen oporavak u liniji 15
+INFO  21:44:41,919 - #41 }
+INFO  21:47:58,071 - #2 program
+INFO  21:47:58,072 - #44 test
+INFO  21:47:58,072 - #40 {
+INFO  21:47:58,073 - #13 void
+INFO  21:47:58,074 - #44 main
+INFO  21:47:58,075 - #36 (
+INFO  21:47:58,075 - #37 )
+INFO  21:47:58,076 - #40 {
+INFO  21:47:58,078 - #43 3
+ERROR 21:47:58,078 - 
+Sintaksna greska na liniji 7
+INFO  21:47:58,078 - #30 =
+INFO  21:47:58,084 - #44 x
+INFO  21:47:58,085 - #33 ;
+INFO  21:47:58,085 - #41 }
+ERROR 21:47:58,085 - Izvrsen oporavak u liniji 5
+ERROR 21:47:58,085 - 
+Sintaksna greska na liniji 8
+INFO  21:47:58,085 - #41 }
+ERROR 21:47:58,086 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10
+INFO  21:49:03,585 - #2 program
+INFO  21:49:03,585 - #44 test
+INFO  21:49:03,585 - #40 {
+INFO  21:49:03,586 - #13 void
+INFO  21:49:03,587 - #44 main
+INFO  21:49:03,587 - #36 (
+INFO  21:49:03,587 - #37 )
+INFO  21:49:03,588 - #40 {
+INFO  21:49:03,588 - #43 3
+ERROR 21:49:03,588 - 
+Sintaksna greska na liniji 7
+INFO  21:49:03,588 - #30 =
+INFO  21:49:03,595 - #44 x
+INFO  21:49:03,595 - #33 ;
+INFO  21:49:03,596 - #41 }
+ERROR 21:49:03,596 - Izvrsen oporavak u liniji 5
+ERROR 21:49:03,596 - 
+Sintaksna greska na liniji 8
+INFO  21:49:03,596 - #41 }
+ERROR 21:49:03,597 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10
+INFO  21:49:15,065 - #2 program
+INFO  21:49:15,066 - #44 test
+INFO  21:49:15,066 - #40 {
+INFO  21:49:15,066 - #13 void
+INFO  21:49:15,067 - #44 main
+INFO  21:49:15,068 - #36 (
+INFO  21:49:15,068 - #37 )
+INFO  21:49:15,069 - #40 {
+INFO  21:49:15,070 - #44 x
+INFO  21:49:15,071 - #30 =
+INFO  21:49:15,072 - #43 3
+INFO  21:49:15,074 - #33 ;
+INFO  21:49:15,077 - #41 }
+INFO  21:49:15,078 - #41 }
+INFO  21:49:24,078 - #2 program
+INFO  21:49:24,078 - #44 test
+INFO  21:49:24,078 - #40 {
+INFO  21:49:24,079 - #13 void
+INFO  21:49:24,080 - #44 main
+INFO  21:49:24,080 - #36 (
+INFO  21:49:24,080 - #37 )
+INFO  21:49:24,081 - #40 {
+INFO  21:49:24,081 - #44 x
+INFO  21:49:24,082 - #30 =
+INFO  21:49:24,083 - #35 .
+ERROR 21:49:24,084 - 
+Sintaksna greska na liniji 7
+INFO  21:49:24,084 - #33 ;
+INFO  21:49:24,091 - #41 }
+ERROR 21:49:24,091 - Izvrsen oporavak u liniji 15
+INFO  21:49:24,092 - #41 }
+INFO  21:49:36,520 - #2 program
+INFO  21:49:36,521 - #44 test
+INFO  21:49:36,521 - #40 {
+INFO  21:49:36,522 - #13 void
+INFO  21:49:36,523 - #44 main
+INFO  21:49:36,524 - #36 (
+INFO  21:49:36,524 - #37 )
+INFO  21:49:36,525 - #40 {
+INFO  21:49:36,525 - #43 3
+ERROR 21:49:36,525 - 
+Sintaksna greska na liniji 7
+INFO  21:49:36,526 - #30 =
+INFO  21:49:36,532 - #44 x
+INFO  21:49:36,532 - #33 ;
+INFO  21:49:36,532 - #41 }
+ERROR 21:49:36,532 - Izvrsen oporavak u liniji 5
+ERROR 21:49:36,533 - 
+Sintaksna greska na liniji 8
+INFO  21:49:36,533 - #41 }
+ERROR 21:49:36,534 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10
+INFO  21:50:09,608 - #2 program
+INFO  21:50:09,608 - #44 test
+INFO  21:50:09,608 - #40 {
+INFO  21:50:09,609 - #13 void
+INFO  21:50:09,610 - #44 main
+INFO  21:50:09,610 - #36 (
+INFO  21:50:09,611 - #37 )
+INFO  21:50:09,611 - #40 {
+INFO  21:50:09,612 - #44 x
+INFO  21:50:09,612 - #30 =
+INFO  21:50:09,613 - #36 (
+INFO  21:50:09,614 - #33 ;
+ERROR 21:50:09,614 - 
+Sintaksna greska na liniji 7
+INFO  21:50:09,614 - #41 }
+ERROR 21:50:09,620 - Izvrsen oporavak u liniji 15
+INFO  21:50:09,621 - #41 }
+INFO  21:50:18,361 - #2 program
+INFO  21:50:18,361 - #44 test
+INFO  21:50:18,361 - #40 {
+INFO  21:50:18,361 - #13 void
+INFO  21:50:18,363 - #44 main
+INFO  21:50:18,363 - #36 (
+INFO  21:50:18,363 - #37 )
+INFO  21:50:18,364 - #40 {
+INFO  21:50:18,364 - #44 x
+INFO  21:50:18,364 - #30 =
+INFO  21:50:18,366 - #37 )
+ERROR 21:50:18,366 - 
+Sintaksna greska na liniji 7
+INFO  21:50:18,366 - #33 ;
+INFO  21:50:18,373 - #41 }
+ERROR 21:50:18,373 - Izvrsen oporavak u liniji 15
+INFO  21:50:18,374 - #41 }
+INFO  21:52:32,825 - #2 program
+INFO  21:52:32,826 - #44 test
+INFO  21:52:32,826 - #40 {
+INFO  21:52:32,827 - #13 void
+INFO  21:52:32,827 - #44 main
+INFO  21:52:32,828 - #36 (
+INFO  21:52:32,828 - #37 )
+INFO  21:52:32,829 - #40 {
+INFO  21:52:32,829 - #43 3
+ERROR 21:52:32,829 - 
+Sintaksna greska na liniji 7
+INFO  21:52:32,829 - #30 =
+INFO  21:52:32,837 - #44 x
+INFO  21:52:32,837 - #33 ;
+INFO  21:52:32,837 - #41 }
+ERROR 21:52:32,837 - Izvrsen oporavak u liniji 5
+ERROR 21:52:32,838 - 
+Sintaksna greska na liniji 8
+INFO  21:52:32,838 - #41 }
+ERROR 21:52:32,838 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10
+INFO  21:55:25,357 - #2 program
+INFO  21:55:25,357 - #44 test
+INFO  21:55:25,358 - #40 {
+INFO  21:55:25,358 - #13 void
+INFO  21:55:25,359 - #44 main
+INFO  21:55:25,359 - #36 (
+INFO  21:55:25,360 - #37 )
+INFO  21:55:25,360 - #40 {
+INFO  21:55:25,360 - #43 3
+ERROR 21:55:25,361 - 
+Sintaksna greska na liniji 7
+INFO  21:55:25,361 - #30 =
+INFO  21:55:25,367 - #44 x
+INFO  21:55:25,367 - #33 ;
+INFO  21:55:25,367 - #44 a
+ERROR 21:55:25,367 - Izvrsen oporavak u liniji 5
+INFO  21:55:25,368 - #30 =
+ERROR 21:55:25,368 - 
+Sintaksna greska na liniji 8
+INFO  21:55:25,368 - #44 b
+INFO  21:55:25,368 - #33 ;
+INFO  21:55:25,368 - #41 }
+ERROR 21:55:25,368 - Izvrsen oporavak u liniji 8
+ERROR 21:55:25,369 - 
+Sintaksna greska na liniji 9
+INFO  21:55:25,369 - #41 }
+ERROR 21:55:25,369 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 11
+INFO  21:55:34,074 - #2 program
+INFO  21:55:34,075 - #44 test
+INFO  21:55:34,076 - #40 {
+INFO  21:55:34,077 - #13 void
+INFO  21:55:34,077 - #44 main
+INFO  21:55:34,078 - #36 (
+INFO  21:55:34,078 - #37 )
+INFO  21:55:34,079 - #40 {
+INFO  21:55:34,080 - #44 a
+INFO  21:55:34,080 - #30 =
+INFO  21:55:34,082 - #44 b
+INFO  21:55:34,084 - #33 ;
+INFO  21:55:34,088 - #41 }
+INFO  21:55:34,089 - #41 }
+INFO  21:56:41,379 - #2 program
+INFO  21:56:41,380 - #44 test
+INFO  21:56:41,380 - #40 {
+INFO  21:56:41,381 - #13 void
+INFO  21:56:41,381 - #44 main
+INFO  21:56:41,382 - #36 (
+INFO  21:56:41,382 - #37 )
+INFO  21:56:41,383 - #40 {
+INFO  21:56:41,383 - #43 3
+ERROR 21:56:41,383 - 
+Sintaksna greska na liniji 7
+INFO  21:56:41,383 - #30 =
+INFO  21:56:41,390 - #44 x
+INFO  21:56:41,390 - #33 ;
+INFO  21:56:41,390 - #41 }
+ERROR 21:56:41,390 - Izvrsen oporavak u liniji 5
+ERROR 21:56:41,391 - 
+Sintaksna greska na liniji 8
+INFO  21:56:41,391 - #41 }
+ERROR 21:56:41,391 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10
+INFO  21:57:18,483 - #2 program
+INFO  21:57:18,483 - #44 test
+INFO  21:57:18,484 - #40 {
+INFO  21:57:18,484 - #13 void
+INFO  21:57:18,485 - #44 main
+INFO  21:57:18,486 - #36 (
+INFO  21:57:18,486 - #37 )
+INFO  21:57:18,487 - #40 {
+INFO  21:57:18,487 - #43 3
+ERROR 21:57:18,487 - 
+Sintaksna greska na liniji 7
+INFO  21:57:18,488 - #30 =
+INFO  21:57:18,494 - #44 x
+INFO  21:57:18,494 - #33 ;
+INFO  21:57:18,494 - #33 ;
+ERROR 21:57:18,494 - 
+Sintaksna greska na liniji 7
+INFO  21:57:18,494 - #33 ;
+ERROR 21:57:18,494 - 
+Sintaksna greska na liniji 7
+INFO  21:57:18,494 - #33 ;
+ERROR 21:57:18,495 - 
+Sintaksna greska na liniji 7
+INFO  21:57:18,495 - #41 }
+ERROR 21:57:18,495 - Izvrsen oporavak u liniji 5
+ERROR 21:57:18,496 - 
+Sintaksna greska na liniji 8
+INFO  21:57:18,496 - #41 }
+ERROR 21:57:18,496 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10
+INFO  21:57:24,381 - #2 program
+INFO  21:57:24,381 - #44 test
+INFO  21:57:24,381 - #40 {
+INFO  21:57:24,382 - #13 void
+INFO  21:57:24,382 - #44 main
+INFO  21:57:24,383 - #36 (
+INFO  21:57:24,383 - #37 )
+INFO  21:57:24,383 - #40 {
+INFO  21:57:24,384 - #43 3
+ERROR 21:57:24,384 - 
+Sintaksna greska na liniji 7
+INFO  21:57:24,384 - #30 =
+INFO  21:57:24,391 - #44 x
+INFO  21:57:24,391 - #33 ;
+INFO  21:57:24,391 - #33 ;
+ERROR 21:57:24,391 - 
+Sintaksna greska na liniji 7
+INFO  21:57:24,391 - #41 }
+ERROR 21:57:24,391 - Izvrsen oporavak u liniji 5
+ERROR 21:57:24,392 - 
+Sintaksna greska na liniji 8
+INFO  21:57:24,392 - #41 }
+ERROR 21:57:24,392 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10
+INFO  21:57:33,042 - #2 program
+INFO  21:57:33,043 - #44 test
+INFO  21:57:33,043 - #40 {
+INFO  21:57:33,044 - #13 void
+INFO  21:57:33,044 - #44 main
+INFO  21:57:33,045 - #36 (
+INFO  21:57:33,045 - #37 )
+INFO  21:57:33,046 - #40 {
+INFO  21:57:33,047 - #44 a
+INFO  21:57:33,047 - #30 =
+INFO  21:57:33,049 - #44 b
+INFO  21:57:33,050 - #33 ;
+INFO  21:57:33,053 - #41 }
+INFO  21:57:33,053 - #41 }
+INFO  21:57:46,737 - #2 program
+INFO  21:57:46,737 - #44 test
+INFO  21:57:46,737 - #40 {
+INFO  21:57:46,738 - #13 void
+INFO  21:57:46,738 - #44 main
+INFO  21:57:46,739 - #36 (
+INFO  21:57:46,739 - #37 )
+INFO  21:57:46,739 - #40 {
+INFO  21:57:46,740 - #44 a
+INFO  21:57:46,740 - #30 =
+INFO  21:57:46,741 - #43 3
+INFO  21:57:46,742 - #17 +
+INFO  21:57:46,744 - #33 ;
+ERROR 21:57:46,744 - 
+Sintaksna greska na liniji 7
+INFO  21:57:46,744 - #41 }
+ERROR 21:57:46,750 - Izvrsen oporavak u liniji 15
+INFO  21:57:46,752 - #41 }
+INFO  21:58:02,417 - #2 program
+INFO  21:58:02,418 - #44 test
+INFO  21:58:02,418 - #40 {
+INFO  21:58:02,418 - #13 void
+INFO  21:58:02,419 - #44 main
+INFO  21:58:02,420 - #36 (
+INFO  21:58:02,420 - #37 )
+INFO  21:58:02,420 - #40 {
+INFO  21:58:02,421 - #43 3
+ERROR 21:58:02,421 - 
+Sintaksna greska na liniji 7
+INFO  21:58:02,421 - #30 =
+INFO  21:58:02,427 - #44 a
+INFO  21:58:02,427 - #33 ;
+INFO  21:58:02,427 - #41 }
+ERROR 21:58:02,427 - Izvrsen oporavak u liniji 5
+ERROR 21:58:02,428 - 
+Sintaksna greska na liniji 8
+INFO  21:58:02,428 - #41 }
+ERROR 21:58:02,428 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10
+INFO  21:58:37,837 - #2 program
+INFO  21:58:37,838 - #44 test
+INFO  21:58:37,838 - #40 {
+INFO  21:58:37,839 - #13 void
+INFO  21:58:37,840 - #44 main
+INFO  21:58:37,841 - #36 (
+INFO  21:58:37,841 - #37 )
+INFO  21:58:37,841 - #40 {
+INFO  21:58:37,842 - #44 a
+INFO  21:58:37,843 - #30 =
+INFO  21:58:37,844 - #33 ;
+ERROR 21:58:37,844 - 
+Sintaksna greska na liniji 7
+INFO  21:58:37,845 - #41 }
+ERROR 21:58:37,852 - Izvrsen oporavak u liniji 15
+INFO  21:58:37,853 - #41 }
+INFO  21:59:08,471 - #2 program
+INFO  21:59:08,472 - #44 test
+INFO  21:59:08,472 - #40 {
+INFO  21:59:08,473 - #13 void
+INFO  21:59:08,473 - #44 main
+INFO  21:59:08,474 - #36 (
+INFO  21:59:08,474 - #37 )
+INFO  21:59:08,475 - #40 {
+INFO  21:59:08,476 - #43 3
+ERROR 21:59:08,476 - 
+Sintaksna greska na liniji 7
+INFO  21:59:08,476 - #30 =
+INFO  21:59:08,484 - #33 ;
+INFO  21:59:08,484 - #41 }
+ERROR 21:59:08,484 - Izvrsen oporavak u liniji 5
+ERROR 21:59:08,485 - 
+Sintaksna greska na liniji 8
+INFO  21:59:08,485 - #41 }
+ERROR 21:59:08,486 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10
+INFO  21:59:48,560 - #2 program
+INFO  21:59:48,561 - #44 test
+INFO  21:59:48,561 - #40 {
+INFO  21:59:48,562 - #13 void
+INFO  21:59:48,563 - #44 main
+INFO  21:59:48,565 - #36 (
+INFO  21:59:48,565 - #37 )
+INFO  21:59:48,568 - #40 {
+INFO  21:59:48,569 - #42 true
+ERROR 21:59:48,569 - 
+Sintaksna greska na liniji 7
+INFO  21:59:48,570 - #30 =
+INFO  21:59:48,577 - #44 x
+INFO  21:59:48,577 - #33 ;
+INFO  21:59:48,577 - #41 }
+ERROR 21:59:48,578 - Izvrsen oporavak u liniji 5
+ERROR 21:59:48,578 - 
+Sintaksna greska na liniji 9
+INFO  21:59:48,578 - #41 }
+ERROR 21:59:48,579 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 11
+INFO  22:00:22,086 - #2 program
+INFO  22:00:22,087 - #44 test
+INFO  22:00:22,087 - #40 {
+INFO  22:00:22,088 - #13 void
+INFO  22:00:22,089 - #44 main
+INFO  22:00:22,090 - #36 (
+INFO  22:00:22,090 - #37 )
+INFO  22:00:22,091 - #40 {
+INFO  22:00:22,092 - #43 3
+ERROR 22:00:22,092 - 
+Sintaksna greska na liniji 7
+INFO  22:00:22,092 - #30 =
+INFO  22:00:22,099 - #44 x
+INFO  22:00:22,099 - #33 ;
+INFO  22:00:22,099 - #41 }
+ERROR 22:00:22,099 - Izvrsen oporavak u liniji 5
+ERROR 22:00:22,100 - 
+Sintaksna greska na liniji 9
+INFO  22:00:22,100 - #41 }
+ERROR 22:00:22,100 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10
+INFO  22:00:38,369 - #2 program
+INFO  22:00:38,370 - #44 test
+INFO  22:00:38,370 - #40 {
+INFO  22:00:38,370 - #13 void
+INFO  22:00:38,371 - #44 main
+INFO  22:00:38,372 - #36 (
+INFO  22:00:38,372 - #37 )
+INFO  22:00:38,373 - #40 {
+INFO  22:00:38,374 - #44 x
+INFO  22:00:38,374 - #30 =
+INFO  22:00:38,376 - #33 ;
+ERROR 22:00:38,376 - 
+Sintaksna greska na liniji 7
+INFO  22:00:38,376 - #41 }
+ERROR 22:00:38,382 - Izvrsen oporavak u liniji 15
+INFO  22:00:38,383 - #41 }
+INFO  22:01:18,432 - #2 program
+INFO  22:01:18,432 - #44 test
+INFO  22:01:18,432 - #44 int
+INFO  22:01:18,433 - #33 ;
+ERROR 22:01:18,434 - 
+Sintaksna greska na liniji 3
+INFO  22:01:18,434 - #40 {
+ERROR 22:01:18,442 - Izvrsen oporavak u liniji 3
+INFO  22:01:18,443 - #13 void
+INFO  22:01:18,444 - #44 main
+INFO  22:01:18,445 - #36 (
+INFO  22:01:18,445 - #37 )
+INFO  22:01:18,446 - #40 {
+INFO  22:01:18,447 - #44 x
+INFO  22:01:18,447 - #30 =
+INFO  22:01:18,448 - #33 ;
+ERROR 22:01:18,448 - 
+Sintaksna greska na liniji 8
+INFO  22:01:18,448 - #41 }
+ERROR 22:01:18,448 - Izvrsen oporavak u liniji 15
+INFO  22:01:18,449 - #41 }
+INFO  22:01:51,664 - #2 program
+INFO  22:01:51,664 - #44 test
+INFO  22:01:51,665 - #44 int
+INFO  22:01:51,665 - #33 ;
+ERROR 22:01:51,666 - 
+Sintaksna greska na liniji 3
+INFO  22:01:51,666 - #44 int
+ERROR 22:01:51,672 - Izvrsen oporavak u liniji 3
+INFO  22:01:51,674 - #44 z
+INFO  22:01:51,674 - #34 ,
+INFO  22:01:51,676 - #33 ;
+ERROR 22:01:51,676 - 
+Sintaksna greska na liniji 4
+INFO  22:01:51,676 - #40 {
+ERROR 22:01:51,676 - Izvrsen oporavak u liniji 4
+INFO  22:01:51,677 - #13 void
+INFO  22:01:51,677 - #44 main
+INFO  22:01:51,678 - #36 (
+INFO  22:01:51,678 - #37 )
+INFO  22:01:51,679 - #40 {
+INFO  22:01:51,679 - #44 x
+INFO  22:01:51,680 - #30 =
+INFO  22:01:51,681 - #33 ;
+ERROR 22:01:51,682 - 
+Sintaksna greska na liniji 9
+INFO  22:01:51,682 - #41 }
+ERROR 22:01:51,682 - Izvrsen oporavak u liniji 15
+INFO  22:01:51,683 - #41 }
+INFO  22:02:42,315 - #2 program
+INFO  22:02:42,315 - #44 test
+INFO  22:02:42,315 - #44 int
+INFO  22:02:42,316 - #33 ;
+ERROR 22:02:42,316 - 
+Sintaksna greska na liniji 3
+INFO  22:02:42,317 - #44 int
+ERROR 22:02:42,323 - Izvrsen oporavak u liniji 3
+INFO  22:02:42,325 - #44 z
+INFO  22:02:42,325 - #34 ,
+INFO  22:02:42,326 - #33 ;
+ERROR 22:02:42,326 - 
+Sintaksna greska na liniji 4
+INFO  22:02:42,327 - #5 abstract
+ERROR 22:02:42,327 - Izvrsen oporavak u liniji 4
+INFO  22:02:42,327 - #4 class
+INFO  22:02:42,327 - #44 a
+INFO  22:02:42,327 - #40 {
+INFO  22:02:42,328 - #5 abstract
+ERROR 22:02:42,328 - 
+Sintaksna greska na liniji 7
+INFO  22:02:42,328 - #13 void
+INFO  22:02:42,328 - #44 f
+INFO  22:02:42,328 - #36 (
+INFO  22:02:42,328 - #44 int
+INFO  22:02:42,328 - #44 x
+INFO  22:02:42,328 - #34 ,
+INFO  22:02:42,328 - #44 int
+INFO  22:02:42,328 - #44 y
+INFO  22:02:42,328 - #33 ;
+INFO  22:02:42,328 - #41 }
+INFO  22:02:42,328 - #40 {
+INFO  22:02:42,329 - #13 void
+ERROR 22:02:42,329 - Izvrsen oporavak u liniji 6
+ERROR 22:02:42,329 - 
+Sintaksna greska na liniji 11
+INFO  22:02:42,330 - #44 main
+INFO  22:02:42,330 - #36 (
+INFO  22:02:42,330 - #37 )
+INFO  22:02:42,330 - #40 {
+INFO  22:02:42,330 - #44 x
+ERROR 22:02:42,330 - Izvrsen oporavak u liniji 6
+INFO  22:02:42,331 - #30 =
+ERROR 22:02:42,331 - 
+Sintaksna greska na liniji 13
+INFO  22:02:42,331 - #33 ;
+INFO  22:02:42,331 - #41 }
+ERROR 22:02:42,331 - Izvrsen oporavak u liniji 13
+INFO  22:02:42,332 - #41 }
+ERROR 22:02:42,333 - 
+Sintaksna greska na liniji 16
+ERROR 22:02:42,333 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 16
+INFO  22:03:03,718 - #2 program
+INFO  22:03:03,718 - #44 test
+INFO  22:03:03,718 - #44 int
+INFO  22:03:03,719 - #33 ;
+ERROR 22:03:03,720 - 
+Sintaksna greska na liniji 3
+INFO  22:03:03,720 - #44 int
+ERROR 22:03:03,727 - Izvrsen oporavak u liniji 3
+INFO  22:03:03,728 - #44 z
+INFO  22:03:03,728 - #34 ,
+INFO  22:03:03,729 - #33 ;
+ERROR 22:03:03,729 - 
+Sintaksna greska na liniji 4
+INFO  22:03:03,729 - #5 abstract
+ERROR 22:03:03,729 - Izvrsen oporavak u liniji 4
+INFO  22:03:03,729 - #4 class
+INFO  22:03:03,730 - #44 a
+INFO  22:03:03,730 - #40 {
+INFO  22:03:03,731 - #40 {
+INFO  22:03:03,732 - #5 abstract
+INFO  22:03:03,732 - #13 void
+INFO  22:03:03,732 - #44 f
+INFO  22:03:03,733 - #36 (
+INFO  22:03:03,733 - #44 int
+INFO  22:03:03,733 - #44 x
+INFO  22:03:03,733 - #34 ,
+INFO  22:03:03,734 - #44 int
+INFO  22:03:03,734 - #44 y
+INFO  22:03:03,734 - #33 ;
+ERROR 22:03:03,734 - 
+Sintaksna greska na liniji 9
+INFO  22:03:03,734 - #41 }
+INFO  22:03:03,734 - #41 }
+INFO  22:03:03,734 - #40 {
+INFO  22:03:03,734 - #13 void
+INFO  22:03:03,735 - #44 main
+INFO  22:03:03,735 - #36 (
+INFO  22:03:03,735 - #37 )
+INFO  22:03:03,735 - #40 {
+ERROR 22:03:03,735 - Izvrsen oporavak u liniji 9
+ERROR 22:03:03,737 - 
+Sintaksna greska na liniji 14
+INFO  22:03:03,737 - #44 x
+INFO  22:03:03,737 - #30 =
+INFO  22:03:03,737 - #33 ;
+INFO  22:03:03,737 - #41 }
+INFO  22:03:03,737 - #41 }
+ERROR 22:03:03,737 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 19
+INFO  22:03:46,464 - #2 program
+INFO  22:03:46,465 - #44 test
+INFO  22:03:46,465 - #44 int
+INFO  22:03:46,465 - #33 ;
+ERROR 22:03:46,466 - 
+Sintaksna greska na liniji 3
+INFO  22:03:46,466 - #44 int
+ERROR 22:03:46,473 - Izvrsen oporavak u liniji 3
+INFO  22:03:46,474 - #44 z
+INFO  22:03:46,474 - #34 ,
+INFO  22:03:46,475 - #33 ;
+ERROR 22:03:46,476 - 
+Sintaksna greska na liniji 4
+INFO  22:03:46,476 - #5 abstract
+ERROR 22:03:46,476 - Izvrsen oporavak u liniji 4
+INFO  22:03:46,476 - #4 class
+INFO  22:03:46,476 - #44 a
+INFO  22:03:46,476 - #40 {
+INFO  22:03:46,477 - #40 {
+INFO  22:03:46,477 - #5 abstract
+INFO  22:03:46,478 - #13 void
+INFO  22:03:46,478 - #44 f
+INFO  22:03:46,479 - #36 (
+INFO  22:03:46,479 - #44 int
+INFO  22:03:46,479 - #44 x
+INFO  22:03:46,479 - #34 ,
+INFO  22:03:46,479 - #44 int
+INFO  22:03:46,480 - #44 y
+INFO  22:03:46,480 - #37 )
+INFO  22:03:46,481 - #33 ;
+INFO  22:03:46,481 - #41 }
+INFO  22:03:46,481 - #41 }
+INFO  22:03:46,481 - #40 {
+INFO  22:03:46,482 - #13 void
+INFO  22:03:46,483 - #44 main
+INFO  22:03:46,483 - #36 (
+INFO  22:03:46,483 - #37 )
+INFO  22:03:46,484 - #40 {
+INFO  22:03:46,484 - #44 x
+INFO  22:03:46,484 - #30 =
+INFO  22:03:46,485 - #33 ;
+ERROR 22:03:46,485 - 
+Sintaksna greska na liniji 16
+INFO  22:03:46,486 - #41 }
+ERROR 22:03:46,486 - Izvrsen oporavak u liniji 15
+INFO  22:03:46,487 - #41 }
+INFO  22:04:19,048 - #2 program
+INFO  22:04:19,049 - #44 test
+INFO  22:04:19,049 - #44 int
+INFO  22:04:19,050 - #33 ;
+ERROR 22:04:19,050 - 
+Sintaksna greska na liniji 3
+INFO  22:04:19,051 - #44 int
+ERROR 22:04:19,057 - Izvrsen oporavak u liniji 3
+INFO  22:04:19,058 - #44 z
+INFO  22:04:19,059 - #34 ,
+INFO  22:04:19,060 - #33 ;
+ERROR 22:04:19,060 - 
+Sintaksna greska na liniji 4
+INFO  22:04:19,060 - #5 abstract
+ERROR 22:04:19,060 - Izvrsen oporavak u liniji 4
+INFO  22:04:19,060 - #4 class
+INFO  22:04:19,060 - #44 a
+INFO  22:04:19,061 - #40 {
+INFO  22:04:19,061 - #40 {
+INFO  22:04:19,062 - #5 abstract
+INFO  22:04:19,062 - #13 void
+INFO  22:04:19,062 - #44 f
+INFO  22:04:19,063 - #36 (
+INFO  22:04:19,063 - #44 int
+INFO  22:04:19,063 - #44 x
+INFO  22:04:19,063 - #34 ,
+INFO  22:04:19,064 - #44 int
+INFO  22:04:19,064 - #44 y
+INFO  22:04:19,064 - #33 ;
+ERROR 22:04:19,064 - 
+Sintaksna greska na liniji 9
+INFO  22:04:19,064 - #5 abstract
+INFO  22:04:19,064 - #13 void
+INFO  22:04:19,064 - #44 f1
+INFO  22:04:19,064 - #36 (
+INFO  22:04:19,064 - #37 )
+INFO  22:04:19,064 - #33 ;
+ERROR 22:04:19,064 - Izvrsen oporavak u liniji 9
+INFO  22:04:19,066 - #41 }
+INFO  22:04:19,066 - #41 }
+INFO  22:04:19,066 - #40 {
+INFO  22:04:19,067 - #13 void
+INFO  22:04:19,068 - #44 main
+INFO  22:04:19,068 - #36 (
+INFO  22:04:19,068 - #37 )
+INFO  22:04:19,068 - #40 {
+INFO  22:04:19,069 - #44 x
+INFO  22:04:19,069 - #30 =
+INFO  22:04:19,070 - #33 ;
+ERROR 22:04:19,070 - 
+Sintaksna greska na liniji 17
+INFO  22:04:19,071 - #41 }
+ERROR 22:04:19,071 - Izvrsen oporavak u liniji 15
+INFO  22:04:19,071 - #41 }
+INFO  22:04:41,613 - #2 program
+INFO  22:04:41,613 - #44 test
+INFO  22:04:41,614 - #44 int
+INFO  22:04:41,614 - #33 ;
+ERROR 22:04:41,615 - 
+Sintaksna greska na liniji 3
+INFO  22:04:41,615 - #44 int
+ERROR 22:04:41,621 - Izvrsen oporavak u liniji 3
+INFO  22:04:41,622 - #44 z
+INFO  22:04:41,622 - #34 ,
+INFO  22:04:41,623 - #33 ;
+ERROR 22:04:41,623 - 
+Sintaksna greska na liniji 4
+INFO  22:04:41,623 - #5 abstract
+ERROR 22:04:41,623 - Izvrsen oporavak u liniji 4
+INFO  22:04:41,623 - #4 class
+INFO  22:04:41,623 - #44 a
+INFO  22:04:41,623 - #40 {
+INFO  22:04:41,624 - #40 {
+INFO  22:04:41,625 - #5 abstract
+INFO  22:04:41,625 - #13 void
+INFO  22:04:41,625 - #44 f
+INFO  22:04:41,626 - #36 (
+INFO  22:04:41,626 - #44 int
+INFO  22:04:41,626 - #44 x
+INFO  22:04:41,626 - #34 ,
+INFO  22:04:41,627 - #44 int
+INFO  22:04:41,627 - #37 )
+ERROR 22:04:41,627 - 
+Sintaksna greska na liniji 9
+INFO  22:04:41,627 - #33 ;
+ERROR 22:04:41,627 - Izvrsen oporavak u liniji 9
+INFO  22:04:41,629 - #41 }
+INFO  22:04:41,629 - #41 }
+INFO  22:04:41,629 - #40 {
+INFO  22:04:41,630 - #13 void
+INFO  22:04:41,631 - #44 main
+INFO  22:04:41,631 - #36 (
+INFO  22:04:41,631 - #37 )
+INFO  22:04:41,632 - #40 {
+INFO  22:04:41,632 - #44 x
+INFO  22:04:41,633 - #30 =
+INFO  22:04:41,634 - #33 ;
+ERROR 22:04:41,634 - 
+Sintaksna greska na liniji 16
+INFO  22:04:41,634 - #41 }
+ERROR 22:04:41,634 - Izvrsen oporavak u liniji 15
+INFO  22:04:41,635 - #41 }
+INFO  22:06:01,587 - #2 program
+INFO  22:06:01,588 - #44 test
+INFO  22:06:01,588 - #44 int
+INFO  22:06:01,589 - #33 ;
+ERROR 22:06:01,590 - 
+Sintaksna greska na liniji 3
+INFO  22:06:01,590 - #44 int
+ERROR 22:06:01,597 - Izvrsen oporavak u liniji 3
+INFO  22:06:01,598 - #44 x
+INFO  22:06:01,598 - #34 ,
+INFO  22:06:01,600 - #44 y
+INFO  22:06:01,600 - #33 ;
+INFO  22:06:01,600 - #44 int
+INFO  22:06:01,600 - #44 x
+INFO  22:06:01,600 - #34 ,
+INFO  22:06:01,600 - #33 ;
+ERROR 22:06:01,600 - 
+Sintaksna greska na liniji 5
+INFO  22:06:01,600 - #44 int
+ERROR 22:06:01,601 - Izvrsen oporavak u liniji 5
+INFO  22:06:01,601 - #43 3
+ERROR 22:06:01,601 - 
+Sintaksna greska na liniji 6
+INFO  22:06:01,601 - #33 ;
+INFO  22:06:01,601 - #44 int
+ERROR 22:06:01,601 - Izvrsen oporavak u liniji 6
+INFO  22:06:01,602 - #43 3
+ERROR 22:06:01,602 - 
+Sintaksna greska na liniji 7
+INFO  22:06:01,602 - #34 ,
+INFO  22:06:01,602 - #44 x
+INFO  22:06:01,602 - #33 ;
+INFO  22:06:01,602 - #44 int
+ERROR 22:06:01,602 - Izvrsen oporavak u liniji 7
+INFO  22:06:01,602 - #44 x
+INFO  22:06:01,602 - #34 ,
+INFO  22:06:01,602 - #43 3
+ERROR 22:06:01,603 - 
+Sintaksna greska na liniji 8
+INFO  22:06:01,603 - #33 ;
+INFO  22:06:01,603 - #40 {
+ERROR 22:06:01,603 - Izvrsen oporavak u liniji 8
+INFO  22:06:01,603 - #13 void
+INFO  22:06:01,604 - #44 main
+INFO  22:06:01,604 - #36 (
+INFO  22:06:01,604 - #37 )
+INFO  22:06:01,605 - #40 {
+INFO  22:06:01,606 - #41 }
+INFO  22:06:01,607 - #41 }
+INFO  22:11:04,192 - #2 program
+INFO  22:11:04,193 - #44 test
+INFO  22:11:04,193 - #44 int
+INFO  22:11:04,194 - #33 ;
+ERROR 22:11:04,195 - 
+Sintaksna greska na liniji 3
+INFO  22:11:04,195 - #44 int
+ERROR 22:11:04,204 - Izvrsen oporavak u liniji 3
+INFO  22:11:04,205 - #44 x
+INFO  22:11:04,205 - #34 ,
+INFO  22:11:04,207 - #44 y
+INFO  22:11:04,207 - #33 ;
+INFO  22:11:04,207 - #44 int
+INFO  22:11:04,207 - #44 x
+INFO  22:11:04,207 - #34 ,
+INFO  22:11:04,207 - #33 ;
+ERROR 22:11:04,207 - 
+Sintaksna greska na liniji 5
+INFO  22:11:04,207 - #44 int
+ERROR 22:11:04,208 - Izvrsen oporavak u liniji 5
+INFO  22:11:04,208 - #43 3
+ERROR 22:11:04,208 - 
+Sintaksna greska na liniji 6
+INFO  22:11:04,208 - #33 ;
+INFO  22:11:04,208 - #44 int
+ERROR 22:11:04,208 - Izvrsen oporavak u liniji 6
+INFO  22:11:04,209 - #43 3
+ERROR 22:11:04,209 - 
+Sintaksna greska na liniji 7
+INFO  22:11:04,209 - #34 ,
+INFO  22:11:04,209 - #44 x
+INFO  22:11:04,209 - #33 ;
+INFO  22:11:04,209 - #44 int
+ERROR 22:11:04,209 - Izvrsen oporavak u liniji 7
+INFO  22:11:04,210 - #44 x
+INFO  22:11:04,210 - #34 ,
+INFO  22:11:04,210 - #43 3
+ERROR 22:11:04,210 - 
+Sintaksna greska na liniji 8
+INFO  22:11:04,210 - #33 ;
+INFO  22:11:04,210 - #40 {
+ERROR 22:11:04,210 - Izvrsen oporavak u liniji 8
+INFO  22:11:04,210 - #13 void
+INFO  22:11:04,211 - #44 main
+INFO  22:11:04,212 - #36 (
+INFO  22:11:04,212 - #37 )
+INFO  22:11:04,213 - #40 {
+INFO  22:11:04,213 - #44 x
+INFO  22:11:04,214 - #30 =
+INFO  22:11:04,215 - #33 ;
+ERROR 22:11:04,215 - 
+Sintaksna greska na liniji 13
+INFO  22:11:04,215 - #43 3
+ERROR 22:11:04,215 - Izvrsen oporavak u liniji 15
+ERROR 22:11:04,216 - 
+Sintaksna greska na liniji 14
+INFO  22:11:04,216 - #30 =
+INFO  22:11:04,216 - #33 ;
+ERROR 22:11:04,216 - Izvrsen oporavak u liniji 13
+ERROR 22:11:04,216 - 
+Sintaksna greska na liniji 14
+INFO  22:11:04,216 - #41 }
+ERROR 22:11:04,216 - Izvrsen oporavak u liniji 15
+INFO  22:11:04,216 - #41 }
+INFO  22:11:41,262 - #2 program
+INFO  22:11:41,263 - #44 test
+INFO  22:11:41,263 - #44 int
+INFO  22:11:41,264 - #33 ;
+ERROR 22:11:41,265 - 
+Sintaksna greska na liniji 3
+INFO  22:11:41,265 - #44 int
+ERROR 22:11:41,272 - Izvrsen oporavak u liniji 3
+INFO  22:11:41,273 - #44 x
+INFO  22:11:41,273 - #34 ,
+INFO  22:11:41,274 - #44 y
+INFO  22:11:41,274 - #33 ;
+INFO  22:11:41,275 - #44 int
+INFO  22:11:41,275 - #44 x
+INFO  22:11:41,275 - #34 ,
+INFO  22:11:41,275 - #33 ;
+ERROR 22:11:41,275 - 
+Sintaksna greska na liniji 5
+INFO  22:11:41,275 - #44 int
+ERROR 22:11:41,275 - Izvrsen oporavak u liniji 5
+INFO  22:11:41,275 - #43 3
+ERROR 22:11:41,275 - 
+Sintaksna greska na liniji 6
+INFO  22:11:41,276 - #33 ;
+INFO  22:11:41,276 - #44 int
+ERROR 22:11:41,276 - Izvrsen oporavak u liniji 6
+INFO  22:11:41,276 - #43 3
+ERROR 22:11:41,277 - 
+Sintaksna greska na liniji 7
+INFO  22:11:41,277 - #34 ,
+INFO  22:11:41,277 - #44 x
+INFO  22:11:41,277 - #33 ;
+INFO  22:11:41,277 - #44 int
+ERROR 22:11:41,277 - Izvrsen oporavak u liniji 7
+INFO  22:11:41,277 - #44 x
+INFO  22:11:41,277 - #34 ,
+INFO  22:11:41,277 - #43 3
+ERROR 22:11:41,277 - 
+Sintaksna greska na liniji 8
+INFO  22:11:41,277 - #33 ;
+INFO  22:11:41,277 - #40 {
+ERROR 22:11:41,278 - Izvrsen oporavak u liniji 8
+INFO  22:11:41,278 - #13 void
+INFO  22:11:41,278 - #44 main
+INFO  22:11:41,279 - #36 (
+INFO  22:11:41,280 - #37 )
+INFO  22:11:41,281 - #40 {
+INFO  22:11:41,281 - #44 x
+INFO  22:11:41,282 - #30 =
+INFO  22:11:41,284 - #33 ;
+ERROR 22:11:41,284 - 
+Sintaksna greska na liniji 13
+INFO  22:11:41,284 - #43 3
+ERROR 22:11:41,284 - Izvrsen oporavak u liniji 15
+ERROR 22:11:41,285 - 
+Sintaksna greska na liniji 14
+INFO  22:11:41,285 - #30 =
+INFO  22:11:41,285 - #44 x
+ERROR 22:11:41,285 - Izvrsen oporavak u liniji 13
+INFO  22:11:41,287 - #33 ;
+INFO  22:11:41,290 - #41 }
+INFO  22:11:41,291 - #41 }
+INFO  22:14:43,402 - #2 program
+INFO  22:14:43,402 - #44 test
+INFO  22:14:43,403 - #44 int
+INFO  22:14:43,403 - #33 ;
+ERROR 22:14:43,404 - 
+Sintaksna greska na liniji 3
+INFO  22:14:43,404 - #44 int
+ERROR 22:14:43,410 - Izvrsen oporavak u liniji 3
+INFO  22:14:43,412 - #44 x
+INFO  22:14:43,412 - #34 ,
+INFO  22:14:43,414 - #44 y
+INFO  22:14:43,415 - #33 ;
+INFO  22:14:43,415 - #44 int
+INFO  22:14:43,415 - #44 x
+INFO  22:14:43,416 - #34 ,
+INFO  22:14:43,416 - #33 ;
+ERROR 22:14:43,416 - 
+Sintaksna greska na liniji 5
+INFO  22:14:43,416 - #44 int
+ERROR 22:14:43,416 - Izvrsen oporavak u liniji 5
+INFO  22:14:43,416 - #43 3
+ERROR 22:14:43,416 - 
+Sintaksna greska na liniji 6
+INFO  22:14:43,416 - #33 ;
+INFO  22:14:43,416 - #44 int
+ERROR 22:14:43,416 - Izvrsen oporavak u liniji 6
+INFO  22:14:43,417 - #43 3
+ERROR 22:14:43,417 - 
+Sintaksna greska na liniji 7
+INFO  22:14:43,417 - #34 ,
+INFO  22:14:43,418 - #44 x
+INFO  22:14:43,418 - #33 ;
+INFO  22:14:43,418 - #44 int
+ERROR 22:14:43,418 - Izvrsen oporavak u liniji 7
+INFO  22:14:43,418 - #44 x
+INFO  22:14:43,418 - #34 ,
+INFO  22:14:43,418 - #43 3
+ERROR 22:14:43,418 - 
+Sintaksna greska na liniji 8
+INFO  22:14:43,418 - #33 ;
+INFO  22:14:43,418 - #40 {
+ERROR 22:14:43,418 - Izvrsen oporavak u liniji 8
+INFO  22:14:43,418 - #13 void
+INFO  22:14:43,419 - #44 main
+INFO  22:14:43,420 - #36 (
+INFO  22:14:43,420 - #37 )
+INFO  22:14:43,421 - #40 {
+INFO  22:14:43,422 - #44 x
+INFO  22:14:43,423 - #30 =
+INFO  22:14:43,424 - #33 ;
+ERROR 22:14:43,424 - 
+Sintaksna greska na liniji 13
+INFO  22:14:43,424 - #43 3
+INFO  22:14:43,424 - #30 =
+INFO  22:14:43,424 - #44 x
+ERROR 22:14:43,424 - Izvrsen oporavak u liniji 13
+INFO  22:14:43,426 - #33 ;
+INFO  22:14:43,430 - #41 }
+INFO  22:14:43,431 - #41 }
+INFO  22:16:20,591 - #2 program
+INFO  22:16:20,592 - #44 test
+INFO  22:16:20,592 - #44 int
+INFO  22:16:20,593 - #33 ;
+ERROR 22:16:20,593 - 
+Sintaksna greska na liniji 3
+INFO  22:16:20,593 - #44 int
+ERROR 22:16:20,600 - Izvrsen oporavak u liniji 3
+INFO  22:16:20,601 - #44 x
+INFO  22:16:20,601 - #34 ,
+INFO  22:16:20,602 - #44 y
+INFO  22:16:20,603 - #33 ;
+INFO  22:16:20,603 - #44 int
+INFO  22:16:20,603 - #44 x
+INFO  22:16:20,603 - #34 ,
+INFO  22:16:20,603 - #33 ;
+ERROR 22:16:20,603 - 
+Sintaksna greska na liniji 5
+INFO  22:16:20,603 - #44 int
+ERROR 22:16:20,603 - Izvrsen oporavak u liniji 5
+INFO  22:16:20,603 - #43 3
+ERROR 22:16:20,603 - 
+Sintaksna greska na liniji 6
+INFO  22:16:20,604 - #33 ;
+INFO  22:16:20,604 - #44 int
+ERROR 22:16:20,604 - Izvrsen oporavak u liniji 6
+INFO  22:16:20,604 - #43 3
+ERROR 22:16:20,604 - 
+Sintaksna greska na liniji 7
+INFO  22:16:20,605 - #34 ,
+INFO  22:16:20,605 - #44 x
+INFO  22:16:20,605 - #33 ;
+INFO  22:16:20,605 - #44 int
+ERROR 22:16:20,605 - Izvrsen oporavak u liniji 7
+INFO  22:16:20,605 - #44 x
+INFO  22:16:20,605 - #34 ,
+INFO  22:16:20,605 - #43 3
+ERROR 22:16:20,605 - 
+Sintaksna greska na liniji 8
+INFO  22:16:20,605 - #33 ;
+INFO  22:16:20,605 - #40 {
+ERROR 22:16:20,606 - Izvrsen oporavak u liniji 8
+INFO  22:16:20,606 - #13 void
+INFO  22:16:20,606 - #44 main
+INFO  22:16:20,607 - #36 (
+INFO  22:16:20,607 - #37 )
+INFO  22:16:20,608 - #40 {
+INFO  22:16:20,609 - #44 x
+INFO  22:16:20,610 - #30 =
+INFO  22:16:20,612 - #33 ;
+ERROR 22:16:20,612 - 
+Sintaksna greska na liniji 13
+INFO  22:16:20,612 - #43 3
+INFO  22:16:20,612 - #30 =
+INFO  22:16:20,612 - #44 x
+ERROR 22:16:20,612 - Izvrsen oporavak u liniji 13
+INFO  22:16:20,613 - #33 ;
+INFO  22:16:20,616 - #41 }
+INFO  22:16:20,616 - #41 }
+INFO  22:16:58,718 - #2 program
+INFO  22:16:58,719 - #44 test
+INFO  22:16:58,719 - #40 {
+INFO  22:16:58,719 - #13 void
+INFO  22:16:58,720 - #44 main
+INFO  22:16:58,720 - #36 (
+INFO  22:16:58,720 - #37 )
+INFO  22:16:58,721 - #40 {
+INFO  22:16:58,721 - #44 x
+INFO  22:16:58,722 - #30 =
+INFO  22:16:58,723 - #33 ;
+ERROR 22:16:58,723 - 
+Sintaksna greska na liniji 6
+INFO  22:16:58,723 - #43 3
+ERROR 22:16:58,730 - Izvrsen oporavak u liniji 15
+ERROR 22:16:58,731 - 
+Sintaksna greska na liniji 7
+INFO  22:16:58,731 - #30 =
+INFO  22:16:58,731 - #44 x
+ERROR 22:16:58,731 - Izvrsen oporavak u liniji 6
+INFO  22:16:58,733 - #33 ;
+INFO  22:16:58,736 - #41 }
+INFO  22:16:58,736 - #41 }
+INFO  22:17:39,454 - #2 program
+INFO  22:17:39,455 - #44 test
+INFO  22:17:39,455 - #40 {
+INFO  22:17:39,455 - #13 void
+INFO  22:17:39,456 - #44 main
+INFO  22:17:39,457 - #36 (
+INFO  22:17:39,457 - #37 )
+INFO  22:17:39,457 - #40 {
+INFO  22:17:39,458 - #44 x
+INFO  22:17:39,458 - #30 =
+INFO  22:17:39,459 - #33 ;
+ERROR 22:17:39,460 - 
+Sintaksna greska na liniji 6
+INFO  22:17:39,460 - #44 x
+ERROR 22:17:39,466 - Izvrsen oporavak u liniji 15
+INFO  22:17:39,467 - #30 =
+INFO  22:17:39,467 - #33 ;
+ERROR 22:17:39,467 - 
+Sintaksna greska na liniji 7
+INFO  22:17:39,467 - #41 }
+ERROR 22:17:39,467 - Izvrsen oporavak u liniji 15
+INFO  22:17:39,467 - #41 }
+INFO  22:18:38,126 - #2 program
+INFO  22:18:38,127 - #44 test
+INFO  22:18:38,128 - #40 {
+INFO  22:18:38,129 - #13 void
+INFO  22:18:38,129 - #44 main
+INFO  22:18:38,130 - #36 (
+INFO  22:18:38,130 - #37 )
+INFO  22:18:38,132 - #40 {
+INFO  22:18:38,133 - #44 x
+INFO  22:18:38,135 - #30 =
+INFO  22:18:38,137 - #33 ;
+ERROR 22:18:38,137 - 
+Sintaksna greska na liniji 6
+INFO  22:18:38,137 - #43 3
+ERROR 22:18:38,147 - Izvrsen oporavak u liniji 15
+ERROR 22:18:38,149 - 
+Sintaksna greska na liniji 7
+INFO  22:18:38,149 - #30 =
+INFO  22:18:38,150 - #44 x
+ERROR 22:18:38,150 - Izvrsen oporavak u liniji 6
+INFO  22:18:38,154 - #33 ;
+INFO  22:18:38,160 - #41 }
+INFO  22:18:38,160 - #41 }
+INFO  22:19:39,331 - #2 program
+INFO  22:19:39,332 - #44 test
+INFO  22:19:39,332 - #40 {
+INFO  22:19:39,333 - #13 void
+INFO  22:19:39,333 - #44 main
+INFO  22:19:39,334 - #36 (
+INFO  22:19:39,334 - #37 )
+INFO  22:19:39,335 - #40 {
+INFO  22:19:39,335 - #44 x
+INFO  22:19:39,336 - #30 =
+INFO  22:19:39,337 - #33 ;
+ERROR 22:19:39,337 - 
+Sintaksna greska na liniji 6
+INFO  22:19:39,337 - #41 }
+ERROR 22:19:39,345 - Izvrsen oporavak u liniji 15
+INFO  22:19:39,346 - #41 }
+INFO  22:20:02,967 - #2 program
+INFO  22:20:02,968 - #44 test
+INFO  22:20:02,968 - #44 int
+INFO  22:20:02,969 - #44 x
+INFO  22:20:02,970 - #34 ,
+INFO  22:20:02,971 - #43 3
+ERROR 22:20:02,971 - 
+Sintaksna greska na liniji 3
+INFO  22:20:02,971 - #33 ;
+INFO  22:20:02,977 - #40 {
+ERROR 22:20:02,978 - Izvrsen oporavak u liniji 3
+INFO  22:20:02,979 - #13 void
+INFO  22:20:02,980 - #44 main
+INFO  22:20:02,981 - #36 (
+INFO  22:20:02,981 - #37 )
+INFO  22:20:02,982 - #40 {
+INFO  22:20:02,983 - #44 x
+INFO  22:20:02,983 - #30 =
+INFO  22:20:02,985 - #33 ;
+ERROR 22:20:02,985 - 
+Sintaksna greska na liniji 7
+INFO  22:20:02,985 - #41 }
+ERROR 22:20:02,985 - Izvrsen oporavak u liniji 15
+INFO  22:20:02,986 - #41 }
+INFO  22:22:41,410 - #2 program
+INFO  22:22:41,410 - #44 test
+INFO  22:22:41,411 - #44 int
+INFO  22:22:41,411 - #44 x
+INFO  22:22:41,412 - #34 ,
+INFO  22:22:41,414 - #43 3
+ERROR 22:22:41,414 - 
+Sintaksna greska na liniji 3
+INFO  22:22:41,414 - #33 ;
+INFO  22:22:41,422 - #40 {
+ERROR 22:22:41,422 - Izvrsen oporavak u liniji 3
+INFO  22:22:41,423 - #13 void
+INFO  22:22:41,424 - #44 main
+INFO  22:22:41,425 - #36 (
+INFO  22:22:41,425 - #37 )
+INFO  22:22:41,425 - #40 {
+INFO  22:22:41,426 - #43 3
+ERROR 22:22:41,426 - 
+Sintaksna greska na liniji 7
+INFO  22:22:41,426 - #30 =
+INFO  22:22:41,426 - #44 x
+INFO  22:22:41,426 - #33 ;
+INFO  22:22:41,426 - #41 }
+ERROR 22:22:41,426 - Izvrsen oporavak u liniji 5
+ERROR 22:22:41,427 - 
+Sintaksna greska na liniji 9
+INFO  22:22:41,427 - #41 }
+ERROR 22:22:41,428 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10
+INFO  22:22:50,131 - #2 program
+INFO  22:22:50,132 - #44 test
+INFO  22:22:50,132 - #40 {
+INFO  22:22:50,133 - #13 void
+INFO  22:22:50,134 - #44 main
+INFO  22:22:50,135 - #36 (
+INFO  22:22:50,135 - #37 )
+INFO  22:22:50,136 - #40 {
+INFO  22:22:50,136 - #43 3
+ERROR 22:22:50,136 - 
+Sintaksna greska na liniji 6
+INFO  22:22:50,137 - #30 =
+INFO  22:22:50,143 - #44 x
+INFO  22:22:50,143 - #33 ;
+INFO  22:22:50,143 - #41 }
+ERROR 22:22:50,143 - Izvrsen oporavak u liniji 4
+ERROR 22:22:50,144 - 
+Sintaksna greska na liniji 8
+INFO  22:22:50,144 - #41 }
+ERROR 22:22:50,145 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 9
+INFO  22:23:09,299 - #2 program
+INFO  22:23:09,300 - #44 test
+INFO  22:23:09,300 - #40 {
+INFO  22:23:09,301 - #13 void
+INFO  22:23:09,301 - #44 main
+INFO  22:23:09,302 - #36 (
+INFO  22:23:09,302 - #37 )
+INFO  22:23:09,303 - #40 {
+INFO  22:23:09,303 - #44 x
+INFO  22:23:09,304 - #30 =
+INFO  22:23:09,305 - #33 ;
+ERROR 22:23:09,306 - 
+Sintaksna greska na liniji 6
+INFO  22:23:09,306 - #41 }
+ERROR 22:23:09,314 - Izvrsen oporavak u liniji 15
+INFO  22:23:09,315 - #41 }
+INFO  22:23:21,478 - #2 program
+INFO  22:23:21,478 - #44 test
+INFO  22:23:21,478 - #40 {
+INFO  22:23:21,479 - #13 void
+INFO  22:23:21,479 - #44 main
+INFO  22:23:21,480 - #36 (
+INFO  22:23:21,480 - #37 )
+INFO  22:23:21,481 - #40 {
+INFO  22:23:21,481 - #43 3
+ERROR 22:23:21,481 - 
+Sintaksna greska na liniji 6
+INFO  22:23:21,481 - #30 =
+INFO  22:23:21,488 - #33 ;
+INFO  22:23:21,488 - #41 }
+ERROR 22:23:21,488 - Izvrsen oporavak u liniji 4
+ERROR 22:23:21,489 - 
+Sintaksna greska na liniji 8
+INFO  22:23:21,489 - #41 }
+ERROR 22:23:21,489 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 9
+INFO  22:23:30,867 - #2 program
+INFO  22:23:30,867 - #44 test
+INFO  22:23:30,867 - #40 {
+INFO  22:23:30,868 - #13 void
+INFO  22:23:30,868 - #44 main
+INFO  22:23:30,869 - #36 (
+INFO  22:23:30,869 - #37 )
+INFO  22:23:30,869 - #40 {
+INFO  22:23:30,870 - #44 x
+INFO  22:23:30,870 - #30 =
+INFO  22:23:30,871 - #33 ;
+ERROR 22:23:30,871 - 
+Sintaksna greska na liniji 6
+INFO  22:23:30,872 - #43 3
+ERROR 22:23:30,878 - Izvrsen oporavak u liniji 15
+ERROR 22:23:30,878 - 
+Sintaksna greska na liniji 7
+INFO  22:23:30,879 - #30 =
+INFO  22:23:30,879 - #33 ;
+ERROR 22:23:30,879 - Izvrsen oporavak u liniji 6
+ERROR 22:23:30,879 - 
+Sintaksna greska na liniji 7
+INFO  22:23:30,879 - #41 }
+ERROR 22:23:30,879 - Izvrsen oporavak u liniji 15
+INFO  22:23:30,879 - #41 }
+INFO  22:23:48,030 - #2 program
+INFO  22:23:48,031 - #44 test
+INFO  22:23:48,031 - #40 {
+INFO  22:23:48,032 - #13 void
+INFO  22:23:48,032 - #44 main
+INFO  22:23:48,033 - #36 (
+INFO  22:23:48,033 - #37 )
+INFO  22:23:48,034 - #40 {
+INFO  22:23:48,035 - #44 x
+INFO  22:23:48,036 - #30 =
+INFO  22:23:48,040 - #44 a
+INFO  22:23:48,043 - #31 ++
+ERROR 22:23:48,043 - 
+Sintaksna greska na liniji 6
+INFO  22:23:48,043 - #17 +
+INFO  22:23:48,052 - #33 ;
+INFO  22:23:48,052 - #41 }
+ERROR 22:23:48,052 - Izvrsen oporavak u liniji 15
+INFO  22:23:48,053 - #41 }
+INFO  22:25:47,435 - #2 program
+INFO  22:25:47,435 - #44 test
+INFO  22:25:47,436 - #40 {
+INFO  22:25:47,436 - #13 void
+INFO  22:25:47,437 - #44 main
+INFO  22:25:47,438 - #36 (
+INFO  22:25:47,438 - #37 )
+INFO  22:25:47,439 - #40 {
+INFO  22:25:47,440 - #44 a
+INFO  22:25:47,441 - #31 ++
+INFO  22:25:47,443 - #17 +
+ERROR 22:25:47,443 - 
+Sintaksna greska na liniji 6
+INFO  22:25:47,443 - #33 ;
+INFO  22:25:47,451 - #41 }
+INFO  22:25:47,451 - #41 }
+ERROR 22:25:47,451 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 9
+INFO  22:26:33,641 - #2 program
+INFO  22:26:33,642 - #44 test
+INFO  22:26:33,642 - #40 {
+INFO  22:26:33,642 - #13 void
+INFO  22:26:33,643 - #44 main
+INFO  22:26:33,644 - #36 (
+INFO  22:26:33,644 - #37 )
+INFO  22:26:33,645 - #40 {
+INFO  22:26:33,645 - #44 x
+INFO  22:26:33,646 - #30 =
+INFO  22:26:33,647 - #33 ;
+ERROR 22:26:33,647 - 
+Sintaksna greska na liniji 6
+INFO  22:26:33,647 - #41 }
+INFO  22:26:33,654 - #41 }
+ERROR 22:26:33,654 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 9
+INFO  22:26:47,509 - #2 program
+INFO  22:26:47,510 - #44 test
+INFO  22:26:47,510 - #40 {
+INFO  22:26:47,510 - #13 void
+INFO  22:26:47,511 - #44 main
+INFO  22:26:47,511 - #36 (
+INFO  22:26:47,511 - #37 )
+INFO  22:26:47,512 - #40 {
+INFO  22:26:47,512 - #44 x
+INFO  22:26:47,513 - #30 =
+INFO  22:26:47,514 - #33 ;
+ERROR 22:26:47,514 - 
+Sintaksna greska na liniji 6
+INFO  22:26:47,514 - #41 }
+INFO  22:26:47,521 - #41 }
+ERROR 22:26:47,521 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 9
+INFO  22:26:54,958 - #2 program
+INFO  22:26:54,958 - #44 test
+INFO  22:26:54,959 - #40 {
+INFO  22:26:54,959 - #13 void
+INFO  22:26:54,960 - #44 main
+INFO  22:26:54,961 - #36 (
+INFO  22:26:54,961 - #37 )
+INFO  22:26:54,967 - #40 {
+INFO  22:26:54,968 - #43 3
+ERROR 22:26:54,968 - 
+Sintaksna greska na liniji 6
+INFO  22:26:54,969 - #30 =
+INFO  22:26:54,975 - #44 x
+INFO  22:26:54,975 - #33 ;
+INFO  22:26:54,975 - #41 }
+ERROR 22:26:54,975 - Izvrsen oporavak u liniji 4
+ERROR 22:26:54,976 - 
+Sintaksna greska na liniji 8
+INFO  22:26:54,976 - #41 }
+ERROR 22:26:54,976 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 9
+INFO  22:27:37,413 - #2 program
+INFO  22:27:37,414 - #44 test
+INFO  22:27:37,414 - #40 {
+INFO  22:27:37,415 - #13 void
+INFO  22:27:37,415 - #44 main
+INFO  22:27:37,416 - #36 (
+INFO  22:27:37,416 - #37 )
+INFO  22:27:37,416 - #40 {
+INFO  22:27:37,417 - #44 x
+INFO  22:27:37,417 - #30 =
+INFO  22:27:37,419 - #43 3
+INFO  22:27:37,421 - #33 ;
+INFO  22:27:37,425 - #41 }
+INFO  22:27:37,425 - #41 }
+INFO  22:27:46,432 - #2 program
+INFO  22:27:46,432 - #44 test
+INFO  22:27:46,433 - #40 {
+INFO  22:27:46,433 - #13 void
+INFO  22:27:46,434 - #44 main
+INFO  22:27:46,435 - #36 (
+INFO  22:27:46,435 - #37 )
+INFO  22:27:46,435 - #40 {
+INFO  22:27:46,436 - #44 x
+INFO  22:27:46,436 - #30 =
+INFO  22:27:46,438 - #33 ;
+ERROR 22:27:46,439 - 
+Sintaksna greska na liniji 6
+INFO  22:27:46,439 - #41 }
+ERROR 22:27:46,448 - Izvrsen oporavak u liniji 15
+INFO  22:27:46,449 - #41 }
+INFO  22:27:57,022 - #2 program
+INFO  22:27:57,023 - #44 test
+INFO  22:27:57,023 - #40 {
+INFO  22:27:57,023 - #13 void
+INFO  22:27:57,024 - #44 main
+INFO  22:27:57,024 - #36 (
+INFO  22:27:57,024 - #37 )
+INFO  22:27:57,025 - #40 {
+INFO  22:27:57,025 - #43 3
+ERROR 22:27:57,025 - 
+Sintaksna greska na liniji 6
+INFO  22:27:57,026 - #30 =
+INFO  22:27:57,033 - #44 x
+INFO  22:27:57,033 - #33 ;
+INFO  22:27:57,033 - #41 }
+ERROR 22:27:57,033 - Izvrsen oporavak u liniji 4
+ERROR 22:27:57,034 - 
+Sintaksna greska na liniji 8
+INFO  22:27:57,034 - #41 }
+ERROR 22:27:57,035 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 9
+INFO  22:28:03,208 - #2 program
+INFO  22:28:03,209 - #44 test
+INFO  22:28:03,209 - #40 {
+INFO  22:28:03,210 - #13 void
+INFO  22:28:03,211 - #44 main
+INFO  22:28:03,212 - #36 (
+INFO  22:28:03,212 - #37 )
+INFO  22:28:03,213 - #40 {
+INFO  22:28:03,214 - #43 3
+ERROR 22:28:03,214 - 
+Sintaksna greska na liniji 6
+INFO  22:28:03,214 - #30 =
+INFO  22:28:03,223 - #35 .
+INFO  22:28:03,223 - #33 ;
+INFO  22:28:03,223 - #41 }
+ERROR 22:28:03,223 - Izvrsen oporavak u liniji 4
+ERROR 22:28:03,224 - 
+Sintaksna greska na liniji 8
+INFO  22:28:03,224 - #41 }
+ERROR 22:28:03,225 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 9
+INFO  22:28:15,855 - #2 program
+INFO  22:28:15,855 - #44 test
+INFO  22:28:15,855 - #40 {
+INFO  22:28:15,856 - #13 void
+INFO  22:28:15,858 - #44 main
+INFO  22:28:15,859 - #36 (
+INFO  22:28:15,859 - #37 )
+INFO  22:28:15,860 - #40 {
+INFO  22:28:15,861 - #44 x
+INFO  22:28:15,862 - #30 =
+INFO  22:28:15,864 - #43 3
+INFO  22:28:15,866 - #33 ;
+INFO  22:28:15,869 - #43 3
+ERROR 22:28:15,869 - 
+Sintaksna greska na liniji 7
+INFO  22:28:15,869 - #30 =
+INFO  22:28:15,877 - #44 x
+INFO  22:28:15,877 - #33 ;
+INFO  22:28:15,877 - #41 }
+ERROR 22:28:15,877 - Izvrsen oporavak u liniji 15
+INFO  22:28:15,878 - #41 }
+INFO  22:34:41,085 - #2 program
+INFO  22:34:41,085 - #44 test
+INFO  22:34:41,086 - #44 int
+INFO  22:34:41,086 - #33 ;
+ERROR 22:34:41,087 - 
+Sintaksna greska na liniji 3
+INFO  22:34:41,087 - #44 int
+ERROR 22:34:41,094 - Izvrsen oporavak u liniji 3
+INFO  22:34:41,095 - #43 3
+ERROR 22:34:41,095 - 
+Sintaksna greska na liniji 4
+INFO  22:34:41,095 - #33 ;
+INFO  22:34:41,095 - #44 int
+ERROR 22:34:41,095 - Izvrsen oporavak u liniji 4
+INFO  22:34:41,096 - #43 3
+ERROR 22:34:41,096 - 
+Sintaksna greska na liniji 5
+INFO  22:34:41,096 - #34 ,
+INFO  22:34:41,096 - #44 x
+INFO  22:34:41,096 - #33 ;
+INFO  22:34:41,096 - #44 int
+ERROR 22:34:41,096 - Izvrsen oporavak u liniji 5
+INFO  22:34:41,096 - #44 x
+INFO  22:34:41,097 - #34 ,
+INFO  22:34:41,098 - #43 3
+ERROR 22:34:41,098 - 
+Sintaksna greska na liniji 6
+INFO  22:34:41,098 - #33 ;
+INFO  22:34:41,098 - #44 int
+ERROR 22:34:41,098 - Izvrsen oporavak u liniji 6
+INFO  22:34:41,098 - #44 x
+INFO  22:34:41,099 - #34 ,
+INFO  22:34:41,099 - #34 ,
+ERROR 22:34:41,099 - 
+Sintaksna greska na liniji 7
+INFO  22:34:41,099 - #44 y
+ERROR 22:34:41,099 - Izvrsen oporavak u liniji 7
+INFO  22:34:41,099 - #33 ;
+INFO  22:34:41,099 - #40 {
+INFO  22:34:41,099 - #13 void
+INFO  22:34:41,100 - #44 main
+INFO  22:34:41,101 - #36 (
+INFO  22:34:41,101 - #37 )
+INFO  22:34:41,101 - #40 {
+INFO  22:34:41,102 - #41 }
+INFO  22:34:41,102 - #41 }
+INFO  22:35:03,995 - #2 program
+INFO  22:35:03,996 - #44 test
+INFO  22:35:03,996 - #44 int
+INFO  22:35:03,997 - #33 ;
+ERROR 22:35:03,997 - 
+Sintaksna greska na liniji 3
+INFO  22:35:03,997 - #44 int
+ERROR 22:35:04,004 - Izvrsen oporavak u liniji 3
+INFO  22:35:04,005 - #43 3
+ERROR 22:35:04,005 - 
+Sintaksna greska na liniji 4
+INFO  22:35:04,005 - #33 ;
+INFO  22:35:04,005 - #44 int
+ERROR 22:35:04,005 - Izvrsen oporavak u liniji 4
+INFO  22:35:04,006 - #43 3
+ERROR 22:35:04,006 - 
+Sintaksna greska na liniji 5
+INFO  22:35:04,006 - #34 ,
+INFO  22:35:04,006 - #44 x
+INFO  22:35:04,006 - #33 ;
+INFO  22:35:04,006 - #44 int
+ERROR 22:35:04,006 - Izvrsen oporavak u liniji 5
+INFO  22:35:04,006 - #44 x
+INFO  22:35:04,006 - #34 ,
+INFO  22:35:04,007 - #43 3
+ERROR 22:35:04,007 - 
+Sintaksna greska na liniji 6
+INFO  22:35:04,007 - #33 ;
+INFO  22:35:04,007 - #44 int
+ERROR 22:35:04,008 - Izvrsen oporavak u liniji 6
+INFO  22:35:04,008 - #44 x
+INFO  22:35:04,008 - #34 ,
+INFO  22:35:04,008 - #34 ,
+ERROR 22:35:04,008 - 
+Sintaksna greska na liniji 7
+INFO  22:35:04,008 - #44 y
+ERROR 22:35:04,008 - Izvrsen oporavak u liniji 7
+INFO  22:35:04,008 - #33 ;
+INFO  22:35:04,008 - #44 int
+INFO  22:35:04,008 - #44 x
+INFO  22:35:04,009 - #33 ;
+INFO  22:35:04,009 - #43 3
+ERROR 22:35:04,009 - 
+Sintaksna greska na liniji 9
+INFO  22:35:04,009 - #33 ;
+INFO  22:35:04,009 - #40 {
+ERROR 22:35:04,009 - Izvrsen oporavak u liniji 8
+INFO  22:35:04,009 - #13 void
+INFO  22:35:04,010 - #44 main
+INFO  22:35:04,010 - #36 (
+INFO  22:35:04,011 - #37 )
+INFO  22:35:04,011 - #40 {
+INFO  22:35:04,011 - #41 }
+INFO  22:35:04,012 - #41 }
+INFO  22:37:07,611 - #2 program
+INFO  22:37:07,612 - #44 test
+INFO  22:37:07,612 - #44 int
+INFO  22:37:07,613 - #33 ;
+ERROR 22:37:07,613 - 
+Sintaksna greska na liniji 3
+INFO  22:37:07,614 - #44 int
+ERROR 22:37:07,620 - Izvrsen oporavak u liniji 3
+INFO  22:37:07,622 - #43 3
+ERROR 22:37:07,622 - 
+Sintaksna greska na liniji 4
+INFO  22:37:07,622 - #33 ;
+INFO  22:37:07,622 - #44 int
+ERROR 22:37:07,622 - Izvrsen oporavak u liniji 4
+INFO  22:37:07,623 - #43 3
+ERROR 22:37:07,623 - 
+Sintaksna greska na liniji 5
+INFO  22:37:07,623 - #34 ,
+INFO  22:37:07,623 - #44 x
+INFO  22:37:07,623 - #33 ;
+INFO  22:37:07,624 - #44 int
+ERROR 22:37:07,624 - Izvrsen oporavak u liniji 5
+INFO  22:37:07,624 - #44 x
+INFO  22:37:07,624 - #34 ,
+INFO  22:37:07,625 - #43 3
+ERROR 22:37:07,625 - 
+Sintaksna greska na liniji 6
+INFO  22:37:07,625 - #33 ;
+INFO  22:37:07,625 - #44 int
+ERROR 22:37:07,625 - Izvrsen oporavak u liniji 6
+INFO  22:37:07,626 - #44 x
+INFO  22:37:07,626 - #34 ,
+INFO  22:37:07,626 - #34 ,
+ERROR 22:37:07,626 - 
+Sintaksna greska na liniji 7
+INFO  22:37:07,626 - #44 y
+ERROR 22:37:07,626 - Izvrsen oporavak u liniji 7
+INFO  22:37:07,626 - #33 ;
+INFO  22:37:07,626 - #44 int
+INFO  22:37:07,626 - #44 x
+INFO  22:37:07,626 - #33 ;
+INFO  22:37:07,627 - #40 {
+INFO  22:37:07,627 - #13 void
+INFO  22:37:07,627 - #44 main
+INFO  22:37:07,628 - #36 (
+INFO  22:37:07,629 - #37 )
+INFO  22:37:07,629 - #40 {
+INFO  22:37:07,629 - #41 }
+INFO  22:37:07,630 - #41 }
+INFO  22:38:44,555 - #2 program
+INFO  22:38:44,555 - #44 test
+INFO  22:38:44,555 - #44 int
+INFO  22:38:44,556 - #33 ;
+ERROR 22:38:44,557 - 
+Sintaksna greska na liniji 3
+INFO  22:38:44,557 - #44 int
+ERROR 22:38:44,564 - Izvrsen oporavak u liniji 3
+INFO  22:38:44,566 - #43 3
+ERROR 22:38:44,566 - 
+Sintaksna greska na liniji 4
+INFO  22:38:44,566 - #33 ;
+INFO  22:38:44,566 - #44 int
+ERROR 22:38:44,566 - Izvrsen oporavak u liniji 4
+INFO  22:38:44,566 - #43 3
+ERROR 22:38:44,567 - 
+Sintaksna greska na liniji 5
+INFO  22:38:44,567 - #34 ,
+INFO  22:38:44,567 - #44 x
+INFO  22:38:44,567 - #33 ;
+INFO  22:38:44,567 - #44 int
+ERROR 22:38:44,567 - Izvrsen oporavak u liniji 5
+INFO  22:38:44,567 - #44 x
+INFO  22:38:44,567 - #34 ,
+INFO  22:38:44,568 - #43 3
+ERROR 22:38:44,569 - 
+Sintaksna greska na liniji 6
+INFO  22:38:44,569 - #34 ,
+INFO  22:38:44,569 - #44 y
+ERROR 22:38:44,569 - Izvrsen oporavak u liniji 6
+INFO  22:38:44,569 - #33 ;
+INFO  22:38:44,569 - #44 int
+INFO  22:38:44,569 - #44 x
+INFO  22:38:44,569 - #34 ,
+INFO  22:38:44,569 - #34 ,
+ERROR 22:38:44,570 - 
+Sintaksna greska na liniji 7
+INFO  22:38:44,570 - #44 y
+ERROR 22:38:44,570 - Izvrsen oporavak u liniji 7
+INFO  22:38:44,570 - #33 ;
+INFO  22:38:44,570 - #44 int
+INFO  22:38:44,570 - #44 x
+INFO  22:38:44,570 - #33 ;
+INFO  22:38:44,570 - #40 {
+INFO  22:38:44,570 - #13 void
+INFO  22:38:44,571 - #44 main
+INFO  22:38:44,572 - #36 (
+INFO  22:38:44,572 - #37 )
+INFO  22:38:44,573 - #40 {
+INFO  22:38:44,573 - #41 }
+INFO  22:38:44,574 - #41 }
+INFO  22:48:22,672 - #2 program
+INFO  22:48:22,673 - #44 test
+INFO  22:48:22,673 - #44 int
+INFO  22:48:22,674 - #33 ;
+ERROR 22:48:22,675 - 
+Sintaksna greska na liniji 3
+INFO  22:48:22,675 - #44 int
+ERROR 22:48:22,685 - Izvrsen oporavak u liniji 3
+INFO  22:48:22,686 - #43 3
+ERROR 22:48:22,687 - 
+Sintaksna greska na liniji 4
+INFO  22:48:22,687 - #33 ;
+INFO  22:48:22,687 - #44 int
+ERROR 22:48:22,687 - Izvrsen oporavak u liniji 4
+INFO  22:48:22,688 - #43 3
+ERROR 22:48:22,688 - 
+Sintaksna greska na liniji 5
+INFO  22:48:22,688 - #34 ,
+INFO  22:48:22,688 - #44 x
+INFO  22:48:22,688 - #33 ;
+INFO  22:48:22,689 - #44 int
+ERROR 22:48:22,689 - Izvrsen oporavak u liniji 5
+INFO  22:48:22,689 - #44 x
+INFO  22:48:22,689 - #34 ,
+INFO  22:48:22,690 - #43 3
+ERROR 22:48:22,691 - 
+Sintaksna greska na liniji 6
+INFO  22:48:22,691 - #34 ,
+INFO  22:48:22,691 - #44 y
+ERROR 22:48:22,691 - Izvrsen oporavak u liniji 6
+INFO  22:48:22,691 - #33 ;
+INFO  22:48:22,691 - #44 int
+INFO  22:48:22,692 - #44 x
+INFO  22:48:22,692 - #34 ,
+INFO  22:48:22,692 - #35 .
+ERROR 22:48:22,692 - 
+Sintaksna greska na liniji 7
+INFO  22:48:22,692 - #34 ,
+INFO  22:48:22,692 - #44 y
+ERROR 22:48:22,692 - Izvrsen oporavak u liniji 7
+INFO  22:48:22,692 - #33 ;
+INFO  22:48:22,693 - #44 int
+INFO  22:48:22,693 - #44 x
+INFO  22:48:22,693 - #33 ;
+INFO  22:48:22,693 - #40 {
+INFO  22:48:22,693 - #13 void
+INFO  22:48:22,694 - #44 main
+INFO  22:48:22,696 - #36 (
+INFO  22:48:22,696 - #37 )
+INFO  22:48:22,697 - #40 {
+INFO  22:48:22,698 - #41 }
+INFO  22:48:22,699 - #41 }
+INFO  22:53:23,410 - #2 program
+INFO  22:53:23,410 - #44 test
+INFO  22:53:23,411 - #44 int
+INFO  22:53:23,411 - #33 ;
+ERROR 22:53:23,412 - 
+Sintaksna greska na liniji 3
+INFO  22:53:23,413 - #44 int
+ERROR 22:53:23,420 - Izvrsen oporavak u liniji 3
+INFO  22:53:23,421 - #43 3
+ERROR 22:53:23,421 - 
+Sintaksna greska na liniji 4
+INFO  22:53:23,421 - #33 ;
+INFO  22:53:23,421 - #44 int
+ERROR 22:53:23,421 - Izvrsen oporavak u liniji 4
+INFO  22:53:23,422 - #43 3
+ERROR 22:53:23,422 - 
+Sintaksna greska na liniji 5
+INFO  22:53:23,422 - #34 ,
+INFO  22:53:23,422 - #44 x
+INFO  22:53:23,422 - #33 ;
+INFO  22:53:23,422 - #44 int
+ERROR 22:53:23,422 - Izvrsen oporavak u liniji 5
+INFO  22:53:23,422 - #44 x
+INFO  22:53:23,422 - #34 ,
+INFO  22:53:23,423 - #43 3
+ERROR 22:53:23,423 - 
+Sintaksna greska na liniji 6
+INFO  22:53:23,423 - #34 ,
+INFO  22:53:23,424 - #44 y
+ERROR 22:53:23,424 - Izvrsen oporavak u liniji 6
+INFO  22:53:23,424 - #33 ;
+INFO  22:53:23,424 - #44 int
+INFO  22:53:23,424 - #44 x
+INFO  22:53:23,424 - #34 ,
+INFO  22:53:23,424 - #35 .
+ERROR 22:53:23,424 - 
+Sintaksna greska na liniji 7
+INFO  22:53:23,424 - #34 ,
+INFO  22:53:23,424 - #44 y
+ERROR 22:53:23,424 - Izvrsen oporavak u liniji 7
+INFO  22:53:23,425 - #33 ;
+INFO  22:53:23,425 - #44 int
+INFO  22:53:23,425 - #44 x
+INFO  22:53:23,425 - #33 ;
+INFO  22:53:23,425 - #43 3
+ERROR 22:53:23,425 - 
+Sintaksna greska na liniji 10
+INFO  22:53:23,425 - #35 .
+INFO  22:53:23,425 - #33 ;
+INFO  22:53:23,425 - #40 {
+ERROR 22:53:23,425 - Izvrsen oporavak u liniji 8
+INFO  22:53:23,426 - #13 void
+INFO  22:53:23,426 - #44 main
+INFO  22:53:23,427 - #36 (
+INFO  22:53:23,427 - #37 )
+INFO  22:53:23,427 - #40 {
+INFO  22:53:23,428 - #41 }
+INFO  22:53:23,429 - #41 }
+INFO  22:57:02,107 - #2 program
+INFO  22:57:02,108 - #44 test
+INFO  22:57:02,108 - #40 {
+INFO  22:57:02,109 - #13 void
+INFO  22:57:02,109 - #44 main
+INFO  22:57:02,110 - #36 (
+INFO  22:57:02,110 - #37 )
+INFO  22:57:02,111 - #40 {
+INFO  22:57:02,112 - #44 a
+INFO  22:57:02,112 - #35 .
+INFO  22:57:02,113 - #30 =
+ERROR 22:57:02,113 - 
+Sintaksna greska na liniji 6
+INFO  22:57:02,113 - #44 a
+INFO  22:57:02,122 - #33 ;
+INFO  22:57:02,122 - #44 a
+ERROR 22:57:02,122 - Izvrsen oporavak u liniji 15
+INFO  22:57:02,123 - #30 =
+INFO  22:57:02,124 - #44 a
+INFO  22:57:02,126 - #38 [
+INFO  22:57:02,126 - #33 ;
+ERROR 22:57:02,126 - 
+Sintaksna greska na liniji 7
+INFO  22:57:02,126 - #44 a
+ERROR 22:57:02,126 - Izvrsen oporavak u liniji 15
+INFO  22:57:02,126 - #30 =
+INFO  22:57:02,127 - #44 b
+INFO  22:57:02,127 - #33 ;
+INFO  22:57:02,130 - #44 b
+INFO  22:57:02,130 - #30 =
+INFO  22:57:02,130 - #43 3
+INFO  22:57:02,130 - #33 ;
+INFO  22:57:02,130 - #44 a
+INFO  22:57:02,130 - #30 =
+INFO  22:57:02,130 - #37 )
+ERROR 22:57:02,131 - 
+Sintaksna greska na liniji 11
+INFO  22:57:02,131 - #33 ;
+INFO  22:57:02,131 - #44 a
+ERROR 22:57:02,131 - Izvrsen oporavak u liniji 15
+INFO  22:57:02,131 - #30 =
+INFO  22:57:02,131 - #36 (
+INFO  22:57:02,132 - #33 ;
+ERROR 22:57:02,132 - 
+Sintaksna greska na liniji 12
+INFO  22:57:02,132 - #43 3
+ERROR 22:57:02,132 - Izvrsen oporavak u liniji 15
+ERROR 22:57:02,132 - 
+Sintaksna greska na liniji 13
+INFO  22:57:02,132 - #30 =
+INFO  22:57:02,132 - #44 a
+INFO  22:57:02,132 - #33 ;
+INFO  22:57:02,132 - #44 x
+ERROR 22:57:02,132 - Izvrsen oporavak u liniji 15
+INFO  22:57:02,132 - #30 =
+INFO  22:57:02,133 - #33 ;
+ERROR 22:57:02,133 - 
+Sintaksna greska na liniji 14
+INFO  22:57:02,133 - #41 }
+ERROR 22:57:02,133 - Izvrsen oporavak u liniji 15
+INFO  22:57:02,133 - #41 }
+INFO  22:59:22,367 - #2 program
+INFO  22:59:22,368 - #44 test
+INFO  22:59:22,368 - #40 {
+INFO  22:59:22,369 - #13 void
+INFO  22:59:22,370 - #44 main
+INFO  22:59:22,370 - #36 (
+INFO  22:59:22,371 - #37 )
+INFO  22:59:22,372 - #40 {
+INFO  22:59:22,374 - #44 a
+INFO  22:59:22,374 - #35 .
+INFO  22:59:22,375 - #30 =
+ERROR 22:59:22,375 - 
+Sintaksna greska na liniji 6
+INFO  22:59:22,375 - #44 a
+INFO  22:59:22,382 - #33 ;
+INFO  22:59:22,382 - #44 a
+ERROR 22:59:22,382 - Izvrsen oporavak u liniji 15
+INFO  22:59:22,383 - #30 =
+INFO  22:59:22,384 - #44 a
+INFO  22:59:22,386 - #38 [
+INFO  22:59:22,387 - #33 ;
+ERROR 22:59:22,387 - 
+Sintaksna greska na liniji 7
+INFO  22:59:22,387 - #44 a
+ERROR 22:59:22,387 - Izvrsen oporavak u liniji 15
+INFO  22:59:22,387 - #30 =
+INFO  22:59:22,387 - #44 b
+INFO  22:59:22,387 - #33 ;
+INFO  22:59:22,393 - #44 b
+INFO  22:59:22,393 - #30 =
+INFO  22:59:22,394 - #43 3
+INFO  22:59:22,394 - #33 ;
+INFO  22:59:22,394 - #44 a
+INFO  22:59:22,394 - #30 =
+INFO  22:59:22,394 - #37 )
+ERROR 22:59:22,394 - 
+Sintaksna greska na liniji 11
+INFO  22:59:22,394 - #33 ;
+INFO  22:59:22,394 - #44 a
+ERROR 22:59:22,394 - Izvrsen oporavak u liniji 15
+INFO  22:59:22,394 - #30 =
+INFO  22:59:22,394 - #36 (
+INFO  22:59:22,394 - #33 ;
+ERROR 22:59:22,394 - 
+Sintaksna greska na liniji 12
+INFO  22:59:22,395 - #43 3
+ERROR 22:59:22,395 - Izvrsen oporavak u liniji 15
+ERROR 22:59:22,395 - 
+Sintaksna greska na liniji 13
+INFO  22:59:22,395 - #30 =
+INFO  22:59:22,395 - #44 a
+INFO  22:59:22,395 - #33 ;
+INFO  22:59:22,395 - #41 }
+ERROR 22:59:22,395 - Izvrsen oporavak u liniji 15
+INFO  22:59:22,395 - #41 }
+INFO  22:59:47,514 - #2 program
+INFO  22:59:47,514 - #44 test
+INFO  22:59:47,515 - #40 {
+INFO  22:59:47,516 - #13 void
+INFO  22:59:47,516 - #44 main
+INFO  22:59:47,517 - #36 (
+INFO  22:59:47,517 - #37 )
+INFO  22:59:47,517 - #40 {
+INFO  22:59:47,518 - #43 3
+ERROR 22:59:47,518 - 
+Sintaksna greska na liniji 7
+INFO  22:59:47,518 - #30 =
+INFO  22:59:47,524 - #44 a
+INFO  22:59:47,524 - #33 ;
+INFO  22:59:47,524 - #41 }
+ERROR 22:59:47,524 - Izvrsen oporavak u liniji 4
+ERROR 22:59:47,525 - 
+Sintaksna greska na liniji 10
+INFO  22:59:47,525 - #41 }
+ERROR 22:59:47,525 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 11
+INFO  23:00:07,385 - #2 program
+INFO  23:00:07,386 - #44 test
+INFO  23:00:07,386 - #40 {
+INFO  23:00:07,387 - #13 void
+INFO  23:00:07,387 - #44 main
+INFO  23:00:07,388 - #36 (
+INFO  23:00:07,388 - #37 )
+INFO  23:00:07,388 - #40 {
+INFO  23:00:07,389 - #41 }
+INFO  23:00:07,389 - #41 }
+INFO  23:00:33,806 - #2 program
+INFO  23:00:33,806 - #44 test
+INFO  23:00:33,806 - #40 {
+INFO  23:00:33,807 - #13 void
+INFO  23:00:33,807 - #44 main
+INFO  23:00:33,808 - #36 (
+INFO  23:00:33,808 - #37 )
+INFO  23:00:33,808 - #40 {
+INFO  23:00:33,809 - #44 x
+INFO  23:00:33,810 - #30 =
+INFO  23:00:33,812 - #33 ;
+ERROR 23:00:33,812 - 
+Sintaksna greska na liniji 9
+INFO  23:00:33,812 - #41 }
+ERROR 23:00:33,820 - Izvrsen oporavak u liniji 15
+INFO  23:00:33,822 - #41 }
+INFO  23:00:59,628 - #2 program
+INFO  23:00:59,629 - #44 test
+INFO  23:00:59,629 - #40 {
+INFO  23:00:59,630 - #13 void
+INFO  23:00:59,630 - #44 main
+INFO  23:00:59,631 - #36 (
+INFO  23:00:59,631 - #37 )
+INFO  23:00:59,631 - #40 {
+INFO  23:00:59,632 - #44 a
+INFO  23:00:59,633 - #30 =
+INFO  23:00:59,636 - #37 )
+ERROR 23:00:59,636 - 
+Sintaksna greska na liniji 9
+INFO  23:00:59,636 - #33 ;
+INFO  23:00:59,642 - #41 }
+ERROR 23:00:59,642 - Izvrsen oporavak u liniji 15
+INFO  23:00:59,643 - #41 }
+INFO  23:03:09,703 - #2 program
+INFO  23:03:09,704 - #44 test
+INFO  23:03:09,704 - #40 {
+INFO  23:03:09,705 - #13 void
+INFO  23:03:09,706 - #44 main
+INFO  23:03:09,706 - #36 (
+INFO  23:03:09,706 - #37 )
+INFO  23:03:09,707 - #40 {
+INFO  23:03:09,707 - #43 3
+ERROR 23:03:09,707 - 
+Sintaksna greska na liniji 7
+INFO  23:03:09,707 - #30 =
+INFO  23:03:09,715 - #44 a
+INFO  23:03:09,715 - #33 ;
+INFO  23:03:09,715 - #41 }
+ERROR 23:03:09,716 - Izvrsen oporavak u liniji 4
+ERROR 23:03:09,717 - 
+Sintaksna greska na liniji 10
+INFO  23:03:09,717 - #41 }
+ERROR 23:03:09,717 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 11
+INFO  23:06:27,971 - #2 program
+INFO  23:06:27,971 - #44 test
+INFO  23:06:27,971 - #4 class
+INFO  23:06:27,972 - #43 33
+ERROR 23:06:27,973 - 
+Sintaksna greska na liniji 3
+INFO  23:06:27,973 - #40 {
+INFO  23:06:27,989 - #41 }
+ERROR 23:06:27,989 - Izvrsen oporavak u liniji 8
+INFO  23:06:27,992 - #40 {
+INFO  23:06:27,994 - #13 void
+INFO  23:06:27,996 - #44 main
+INFO  23:06:28,002 - #36 (
+INFO  23:06:28,002 - #37 )
+INFO  23:06:28,003 - #40 {
+INFO  23:06:28,003 - #43 3
+ERROR 23:06:28,003 - 
+Sintaksna greska na liniji 10
+INFO  23:06:28,003 - #30 =
+INFO  23:06:28,003 - #44 a
+INFO  23:06:28,003 - #33 ;
+INFO  23:06:28,004 - #41 }
+ERROR 23:06:28,004 - Izvrsen oporavak u liniji 7
+ERROR 23:06:28,007 - 
+Sintaksna greska na liniji 13
+INFO  23:06:28,008 - #41 }
+ERROR 23:06:28,008 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 14
+INFO  23:06:36,782 - #2 program
+INFO  23:06:36,783 - #44 test
+INFO  23:06:36,783 - #4 class
+INFO  23:06:36,784 - #43 33
+ERROR 23:06:36,785 - 
+Sintaksna greska na liniji 3
+INFO  23:06:36,785 - #40 {
+INFO  23:06:36,795 - #41 }
+ERROR 23:06:36,795 - Izvrsen oporavak u liniji 8
+INFO  23:06:36,797 - #40 {
+INFO  23:06:36,798 - #13 void
+INFO  23:06:36,799 - #44 main
+INFO  23:06:36,800 - #36 (
+INFO  23:06:36,800 - #37 )
+INFO  23:06:36,800 - #40 {
+INFO  23:06:36,800 - #41 }
+INFO  23:06:36,801 - #41 }
+INFO  23:08:47,092 - #2 program
+INFO  23:08:47,093 - #44 test
+INFO  23:08:47,093 - #40 {
+INFO  23:08:47,093 - #13 void
+INFO  23:08:47,094 - #44 f
+INFO  23:08:47,094 - #36 (
+INFO  23:08:47,095 - #44 int
+INFO  23:08:47,095 - #44 x
+INFO  23:08:47,095 - #34 ,
+INFO  23:08:47,096 - #44 y
+INFO  23:08:47,096 - #34 ,
+ERROR 23:08:47,096 - 
+Sintaksna greska na liniji 4
+INFO  23:08:47,097 - #44 int
+ERROR 23:08:47,106 - Izvrsen oporavak u liniji 4
+INFO  23:08:47,106 - #44 a
+INFO  23:08:47,106 - #37 )
+INFO  23:08:47,108 - #40 {
+INFO  23:08:47,108 - #41 }
+INFO  23:08:47,109 - #41 }
+INFO  23:09:27,153 - #2 program
+INFO  23:09:27,154 - #44 test
+INFO  23:09:27,154 - #40 {
+INFO  23:09:27,155 - #13 void
+INFO  23:09:27,155 - #44 f
+INFO  23:09:27,156 - #36 (
+INFO  23:09:27,156 - #44 int
+INFO  23:09:27,156 - #44 x
+INFO  23:09:27,157 - #34 ,
+INFO  23:09:27,160 - #44 y
+INFO  23:09:27,160 - #34 ,
+ERROR 23:09:27,160 - 
+Sintaksna greska na liniji 4
+INFO  23:09:27,160 - #44 int
+ERROR 23:09:27,169 - Izvrsen oporavak u liniji 4
+INFO  23:09:27,170 - #44 a
+INFO  23:09:27,170 - #34 ,
+INFO  23:09:27,170 - #44 int
+INFO  23:09:27,170 - #44 b
+INFO  23:09:27,170 - #30 =
+ERROR 23:09:27,170 - 
+Sintaksna greska na liniji 6
+INFO  23:09:27,170 - #34 ,
+INFO  23:09:27,170 - #44 int
+ERROR 23:09:27,171 - Izvrsen oporavak u liniji 5
+INFO  23:09:27,171 - #44 b
+INFO  23:09:27,171 - #30 =
+ERROR 23:09:27,171 - 
+Sintaksna greska na liniji 7
+INFO  23:09:27,171 - #44 c
+INFO  23:09:27,171 - #34 ,
+INFO  23:09:27,171 - #7 const
+ERROR 23:09:27,171 - Izvrsen oporavak u liniji 6
+ERROR 23:09:27,171 - 
+Sintaksna greska na liniji 8
+INFO  23:09:27,171 - #44 int
+INFO  23:09:27,172 - #44 a
+INFO  23:09:27,172 - #34 ,
+INFO  23:09:27,172 - #7 const
+ERROR 23:09:27,172 - Izvrsen oporavak u liniji 7
+ERROR 23:09:27,172 - 
+Sintaksna greska na liniji 9
+INFO  23:09:27,172 - #44 int
+INFO  23:09:27,172 - #44 a
+INFO  23:09:27,172 - #30 =
+INFO  23:09:27,172 - #43 4
+INFO  23:09:27,173 - #34 ,
+INFO  23:09:27,173 - #43 46
+ERROR 23:09:27,173 - Izvrsen oporavak u liniji 8
+ERROR 23:09:27,173 - 
+Sintaksna greska na liniji 10
+INFO  23:09:27,173 - #37 )
+INFO  23:09:27,173 - #40 {
+ERROR 23:09:27,173 - Izvrsen oporavak u liniji 9
+INFO  23:09:27,176 - #41 }
+INFO  23:09:27,177 - #41 }
+INFO  23:16:14,795 - #2 program
+INFO  23:16:14,795 - #44 test
+INFO  23:16:14,795 - #40 {
+INFO  23:16:14,796 - #13 void
+INFO  23:16:14,796 - #44 main
+INFO  23:16:14,797 - #36 (
+INFO  23:16:14,797 - #37 )
+INFO  23:16:14,797 - #40 {
+INFO  23:16:14,799 - #14 for
+INFO  23:16:14,802 - #36 (
+INFO  23:16:14,802 - #33 ;
+INFO  23:16:14,803 - #44 a
+INFO  23:16:14,804 - #26 <
+INFO  23:16:14,809 - #44 b
+INFO  23:16:14,811 - #33 ;
+INFO  23:16:14,814 - #37 )
+INFO  23:16:14,814 - #40 {
+INFO  23:16:14,814 - #41 }
+INFO  23:16:14,814 - #14 for
+INFO  23:16:14,814 - #36 (
+INFO  23:16:14,814 - #33 ;
+INFO  23:16:14,814 - #44 a
+INFO  23:16:14,815 - #30 =
+ERROR 23:16:14,815 - 
+Sintaksna greska na liniji 8
+INFO  23:16:14,819 - #33 ;
+INFO  23:16:14,826 - #37 )
+ERROR 23:16:14,826 - Izvrsen oporavak u liniji 13
+INFO  23:16:14,827 - #40 {
+INFO  23:16:14,827 - #41 }
+INFO  23:16:14,827 - #14 for
+INFO  23:16:14,827 - #36 (
+INFO  23:16:14,827 - #33 ;
+INFO  23:16:14,827 - #44 a
+INFO  23:16:14,827 - #24 >
+INFO  23:16:14,827 - #33 ;
+ERROR 23:16:14,828 - 
+Sintaksna greska na liniji 10
+INFO  23:16:14,828 - #37 )
+ERROR 23:16:14,828 - Izvrsen oporavak u liniji 13
+INFO  23:16:14,828 - #40 {
+INFO  23:16:14,828 - #41 }
+INFO  23:16:14,828 - #14 for
+INFO  23:16:14,828 - #36 (
+INFO  23:16:14,828 - #33 ;
+INFO  23:16:14,828 - #44 a
+INFO  23:16:14,828 - #23 !=
+INFO  23:16:14,828 - #44 b
+INFO  23:16:14,829 - #33 ;
+INFO  23:16:14,829 - #37 )
+INFO  23:16:14,829 - #40 {
+INFO  23:16:14,829 - #41 }
+INFO  23:16:14,829 - #14 for
+INFO  23:16:14,829 - #36 (
+INFO  23:16:14,829 - #33 ;
+INFO  23:16:14,829 - #43 4
+INFO  23:16:14,830 - #33 ;
+INFO  23:16:14,830 - #37 )
+INFO  23:16:14,830 - #40 {
+INFO  23:16:14,830 - #41 }
+INFO  23:16:14,830 - #14 for
+INFO  23:16:14,830 - #36 (
+INFO  23:16:14,830 - #33 ;
+INFO  23:16:14,831 - #44 a
+INFO  23:16:14,831 - #33 ;
+INFO  23:16:14,831 - #37 )
+INFO  23:16:14,831 - #40 {
+INFO  23:16:14,834 - #41 }
+INFO  23:16:14,840 - #41 }
+INFO  23:16:14,840 - #41 }
+INFO  23:17:02,227 - #2 program
+INFO  23:17:02,233 - #44 test
+INFO  23:17:02,233 - #40 {
+INFO  23:17:02,235 - #13 void
+INFO  23:17:02,236 - #44 main
+INFO  23:17:02,237 - #36 (
+INFO  23:17:02,237 - #37 )
+INFO  23:17:02,238 - #40 {
+INFO  23:17:02,239 - #14 for
+INFO  23:17:02,239 - #36 (
+INFO  23:17:02,239 - #33 ;
+INFO  23:17:02,240 - #44 a
+INFO  23:17:02,241 - #30 =
+ERROR 23:17:02,243 - 
+Sintaksna greska na liniji 6
+INFO  23:17:02,243 - #44 b
+INFO  23:17:02,254 - #33 ;
+INFO  23:17:02,254 - #37 )
+ERROR 23:17:02,254 - Izvrsen oporavak u liniji 13
+INFO  23:17:02,255 - #40 {
+INFO  23:17:02,255 - #41 }
+INFO  23:17:02,255 - #14 for
+INFO  23:17:02,256 - #36 (
+INFO  23:17:02,256 - #33 ;
+INFO  23:17:02,256 - #44 a
+INFO  23:17:02,256 - #30 =
+ERROR 23:17:02,256 - 
+Sintaksna greska na liniji 8
+INFO  23:17:02,256 - #33 ;
+INFO  23:17:02,256 - #37 )
+ERROR 23:17:02,257 - Izvrsen oporavak u liniji 13
+INFO  23:17:02,257 - #40 {
+INFO  23:17:02,257 - #41 }
+INFO  23:17:02,257 - #14 for
+INFO  23:17:02,257 - #36 (
+INFO  23:17:02,257 - #33 ;
+INFO  23:17:02,257 - #44 a
+INFO  23:17:02,257 - #24 >
+INFO  23:17:02,265 - #33 ;
+ERROR 23:17:02,265 - 
+Sintaksna greska na liniji 10
+INFO  23:17:02,266 - #37 )
+ERROR 23:17:02,266 - Izvrsen oporavak u liniji 13
+INFO  23:17:02,266 - #40 {
+INFO  23:17:02,266 - #41 }
+INFO  23:17:02,266 - #14 for
+INFO  23:17:02,267 - #36 (
+INFO  23:17:02,267 - #33 ;
+INFO  23:17:02,267 - #44 a
+INFO  23:17:02,269 - #23 !=
+INFO  23:17:02,269 - #44 b
+INFO  23:17:02,271 - #33 ;
+INFO  23:17:02,277 - #37 )
+INFO  23:17:02,277 - #40 {
+INFO  23:17:02,277 - #41 }
+INFO  23:17:02,277 - #14 for
+INFO  23:17:02,277 - #36 (
+INFO  23:17:02,278 - #33 ;
+INFO  23:17:02,278 - #43 4
+INFO  23:17:02,278 - #33 ;
+INFO  23:17:02,279 - #37 )
+INFO  23:17:02,283 - #40 {
+INFO  23:17:02,284 - #41 }
+INFO  23:17:02,285 - #14 for
+INFO  23:17:02,285 - #36 (
+INFO  23:17:02,286 - #33 ;
+INFO  23:17:02,286 - #44 a
+INFO  23:17:02,286 - #33 ;
+INFO  23:17:02,286 - #37 )
+INFO  23:17:02,286 - #40 {
+INFO  23:17:02,286 - #41 }
+INFO  23:17:02,286 - #41 }
+INFO  23:17:02,287 - #41 }
+INFO  23:20:42,978 - #2 program
+INFO  23:20:42,978 - #44 test
+INFO  23:20:42,978 - #5 abstract
+INFO  23:20:42,979 - #4 class
+INFO  23:20:42,979 - #44 a
+INFO  23:20:42,979 - #40 {
+INFO  23:20:42,980 - #40 {
+INFO  23:20:42,980 - #5 abstract
+INFO  23:20:42,981 - #44 f
+INFO  23:20:42,981 - #36 (
+ERROR 23:20:42,981 - 
+Sintaksna greska na liniji 6
+INFO  23:20:42,981 - #33 ;
+INFO  23:20:42,990 - #5 abstract
+ERROR 23:20:42,991 - Izvrsen oporavak u liniji 0
+INFO  23:20:42,991 - #44 f
+INFO  23:20:42,991 - #36 (
+ERROR 23:20:42,991 - 
+Sintaksna greska na liniji 7
+INFO  23:20:42,992 - #44 int
+INFO  23:20:42,992 - #44 x
+INFO  23:20:42,992 - #37 )
+INFO  23:20:42,992 - #33 ;
+INFO  23:20:42,992 - #5 abstract
+ERROR 23:20:42,992 - Izvrsen oporavak u liniji 0
+INFO  23:20:42,992 - #36 (
+ERROR 23:20:42,992 - 
+Sintaksna greska na liniji 8
+INFO  23:20:42,992 - #37 )
+INFO  23:20:42,992 - #33 ;
+INFO  23:20:42,993 - #44 int
+ERROR 23:20:42,993 - Izvrsen oporavak u liniji 0
+INFO  23:20:42,993 - #44 f
+INFO  23:20:42,994 - #36 (
+INFO  23:20:42,994 - #37 )
+INFO  23:20:42,995 - #33 ;
+ERROR 23:20:42,995 - 
+Sintaksna greska na liniji 9
+INFO  23:20:42,995 - #41 }
+INFO  23:20:42,995 - #41 }
+INFO  23:20:42,995 - #40 {
+INFO  23:20:42,995 - #13 void
+INFO  23:20:42,995 - #44 main
+INFO  23:20:42,996 - #36 (
+INFO  23:20:42,996 - #37 )
+INFO  23:20:42,996 - #40 {
+ERROR 23:20:42,996 - Izvrsen oporavak u liniji 9
+INFO  23:20:42,997 - #41 }
+INFO  23:20:42,998 - #41 }
+ERROR 23:20:42,999 - 
+Sintaksna greska na liniji 17
+ERROR 23:20:43,001 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 17
+INFO  23:21:13,725 - #2 program
+INFO  23:21:13,725 - #44 test
+INFO  23:21:13,725 - #5 abstract
+INFO  23:21:13,726 - #4 class
+INFO  23:21:13,726 - #44 a
+INFO  23:21:13,726 - #40 {
+INFO  23:21:13,727 - #40 {
+INFO  23:21:13,727 - #5 abstract
+INFO  23:21:13,728 - #44 f
+INFO  23:21:13,728 - #36 (
+ERROR 23:21:13,728 - 
+Sintaksna greska na liniji 6
+INFO  23:21:13,728 - #33 ;
+INFO  23:21:13,736 - #5 abstract
+ERROR 23:21:13,736 - Izvrsen oporavak u liniji 0
+INFO  23:21:13,737 - #44 f
+INFO  23:21:13,737 - #36 (
+ERROR 23:21:13,737 - 
+Sintaksna greska na liniji 7
+INFO  23:21:13,737 - #44 int
+INFO  23:21:13,737 - #44 x
+INFO  23:21:13,737 - #37 )
+INFO  23:21:13,737 - #33 ;
+INFO  23:21:13,738 - #5 abstract
+ERROR 23:21:13,738 - Izvrsen oporavak u liniji 0
+INFO  23:21:13,738 - #36 (
+ERROR 23:21:13,738 - 
+Sintaksna greska na liniji 8
+INFO  23:21:13,738 - #37 )
+INFO  23:21:13,738 - #33 ;
+INFO  23:21:13,738 - #41 }
+ERROR 23:21:13,738 - Izvrsen oporavak u liniji 0
+INFO  23:21:13,738 - #41 }
+INFO  23:21:13,738 - #40 {
+INFO  23:21:13,740 - #13 void
+INFO  23:21:13,740 - #44 main
+INFO  23:21:13,741 - #36 (
+INFO  23:21:13,741 - #37 )
+INFO  23:21:13,741 - #40 {
+INFO  23:21:13,741 - #41 }
+INFO  23:21:13,742 - #41 }
+INFO  23:23:55,890 - #2 program
+INFO  23:23:55,890 - #44 test
+INFO  23:23:55,890 - #5 abstract
+INFO  23:23:55,891 - #4 class
+INFO  23:23:55,891 - #44 a
+INFO  23:23:55,891 - #40 {
+INFO  23:23:55,892 - #40 {
+INFO  23:23:55,895 - #44 abs
+INFO  23:23:55,897 - #44 int
+INFO  23:23:55,898 - #44 f
+ERROR 23:23:55,898 - 
+Sintaksna greska na liniji 6
+INFO  23:23:55,898 - #36 (
+INFO  23:23:55,906 - #37 )
+INFO  23:23:55,906 - #33 ;
+INFO  23:23:55,906 - #5 abstract
+ERROR 23:23:55,906 - Izvrsen oporavak u liniji 0
+INFO  23:23:55,907 - #44 f
+INFO  23:23:55,907 - #36 (
+ERROR 23:23:55,908 - 
+Sintaksna greska na liniji 7
+INFO  23:23:55,908 - #33 ;
+INFO  23:23:55,908 - #5 abstract
+ERROR 23:23:55,908 - Izvrsen oporavak u liniji 0
+INFO  23:23:55,908 - #44 f
+INFO  23:23:55,908 - #36 (
+ERROR 23:23:55,908 - 
+Sintaksna greska na liniji 8
+INFO  23:23:55,908 - #44 int
+INFO  23:23:55,908 - #44 x
+INFO  23:23:55,908 - #37 )
+INFO  23:23:55,908 - #33 ;
+INFO  23:23:55,909 - #5 abstract
+ERROR 23:23:55,909 - Izvrsen oporavak u liniji 0
+INFO  23:23:55,911 - #36 (
+ERROR 23:23:55,911 - 
+Sintaksna greska na liniji 9
+INFO  23:23:55,911 - #37 )
+INFO  23:23:55,912 - #33 ;
+INFO  23:23:55,914 - #41 }
+ERROR 23:23:55,914 - Izvrsen oporavak u liniji 0
+INFO  23:23:55,915 - #41 }
+INFO  23:23:55,915 - #40 {
+INFO  23:23:55,917 - #13 void
+INFO  23:23:55,917 - #44 main
+INFO  23:23:55,918 - #36 (
+INFO  23:23:55,918 - #37 )
+INFO  23:23:55,918 - #40 {
+INFO  23:23:55,919 - #41 }
+INFO  23:23:55,919 - #41 }
+INFO  23:25:11,364 - #2 program
+INFO  23:25:11,364 - #44 test
+INFO  23:25:11,364 - #5 abstract
+INFO  23:25:11,365 - #4 class
+INFO  23:25:11,365 - #44 a
+INFO  23:25:11,365 - #40 {
+INFO  23:25:11,366 - #40 {
+INFO  23:25:11,366 - #44 abs
+INFO  23:25:11,367 - #44 int
+INFO  23:25:11,370 - #44 f
+ERROR 23:25:11,370 - 
+Sintaksna greska na liniji 6
+INFO  23:25:11,371 - #36 (
+INFO  23:25:11,379 - #37 )
+INFO  23:25:11,379 - #33 ;
+INFO  23:25:11,379 - #5 abstract
+ERROR 23:25:11,379 - Izvrsen oporavak u liniji 5
+ERROR 23:25:11,379 - 
+Sintaksna greska na liniji 7
+INFO  23:25:11,380 - #44 f
+INFO  23:25:11,380 - #36 (
+INFO  23:25:11,380 - #33 ;
+INFO  23:25:11,380 - #5 abstract
+ERROR 23:25:11,380 - Izvrsen oporavak u liniji 5
+ERROR 23:25:11,380 - 
+Sintaksna greska na liniji 8
+INFO  23:25:11,380 - #44 f
+INFO  23:25:11,380 - #36 (
+INFO  23:25:11,380 - #44 int
+INFO  23:25:11,380 - #44 x
+INFO  23:25:11,380 - #37 )
+INFO  23:25:11,380 - #33 ;
+INFO  23:25:11,380 - #5 abstract
+ERROR 23:25:11,380 - Izvrsen oporavak u liniji 5
+ERROR 23:25:11,381 - 
+Sintaksna greska na liniji 9
+INFO  23:25:11,381 - #36 (
+INFO  23:25:11,381 - #37 )
+INFO  23:25:11,381 - #33 ;
+INFO  23:25:11,381 - #41 }
+ERROR 23:25:11,381 - Izvrsen oporavak u liniji 5
+INFO  23:25:11,382 - #41 }
+ERROR 23:25:11,382 - 
+Sintaksna greska na liniji 12
+INFO  23:25:11,382 - #40 {
+INFO  23:25:11,382 - #13 void
+INFO  23:25:11,382 - #44 main
+INFO  23:25:11,382 - #36 (
+INFO  23:25:11,383 - #37 )
+INFO  23:25:11,383 - #40 {
+INFO  23:25:11,383 - #41 }
+INFO  23:25:11,383 - #41 }
+ERROR 23:25:11,383 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 18
+INFO  23:31:37,360 - #2 program
+INFO  23:31:37,361 - #44 test
+INFO  23:31:37,361 - #5 abstract
+INFO  23:31:37,362 - #4 class
+INFO  23:31:37,362 - #44 a
+INFO  23:31:37,362 - #40 {
+INFO  23:31:37,363 - #40 {
+INFO  23:31:37,363 - #44 abs
+INFO  23:31:37,364 - #44 int
+INFO  23:31:37,365 - #44 f
+ERROR 23:31:37,365 - 
+Sintaksna greska na liniji 6
+INFO  23:31:37,365 - #36 (
+INFO  23:31:37,373 - #37 )
+INFO  23:31:37,374 - #33 ;
+INFO  23:31:37,374 - #5 abstract
+ERROR 23:31:37,374 - Izvrsen oporavak u liniji 0
+INFO  23:31:37,375 - #44 f
+INFO  23:31:37,375 - #36 (
+ERROR 23:31:37,375 - 
+Sintaksna greska na liniji 7
+INFO  23:31:37,375 - #33 ;
+INFO  23:31:37,375 - #5 abstract
+ERROR 23:31:37,375 - Izvrsen oporavak u liniji 0
+INFO  23:31:37,375 - #44 f
+INFO  23:31:37,375 - #36 (
+ERROR 23:31:37,375 - 
+Sintaksna greska na liniji 8
+INFO  23:31:37,375 - #44 int
+INFO  23:31:37,375 - #44 x
+INFO  23:31:37,376 - #37 )
+INFO  23:31:37,376 - #33 ;
+INFO  23:31:37,376 - #5 abstract
+ERROR 23:31:37,376 - Izvrsen oporavak u liniji 0
+INFO  23:31:37,376 - #36 (
+ERROR 23:31:37,376 - 
+Sintaksna greska na liniji 9
+INFO  23:31:37,376 - #37 )
+INFO  23:31:37,376 - #33 ;
+INFO  23:31:37,376 - #41 }
+ERROR 23:31:37,376 - Izvrsen oporavak u liniji 0
+INFO  23:31:37,376 - #41 }
+INFO  23:31:37,377 - #40 {
+INFO  23:31:37,378 - #13 void
+INFO  23:31:37,379 - #44 main
+INFO  23:31:37,379 - #36 (
+INFO  23:31:37,380 - #37 )
+INFO  23:31:37,380 - #40 {
+INFO  23:31:37,380 - #41 }
+INFO  23:31:37,381 - #41 }
+INFO  23:32:23,507 - #2 program
+INFO  23:32:23,508 - #44 test
+INFO  23:32:23,508 - #5 abstract
+INFO  23:32:23,509 - #4 class
+INFO  23:32:23,509 - #44 a
+INFO  23:32:23,509 - #40 {
+INFO  23:32:23,510 - #40 {
+INFO  23:32:23,511 - #44 abs
+INFO  23:32:23,511 - #44 f
+INFO  23:32:23,512 - #36 (
+INFO  23:32:23,512 - #37 )
+INFO  23:32:23,513 - #43 3
+ERROR 23:32:23,513 - 
+Sintaksna greska na liniji 7
+INFO  23:32:23,513 - #40 {
+INFO  23:32:23,520 - #41 }
+INFO  23:32:23,520 - #41 }
+INFO  23:32:23,520 - #41 }
+INFO  23:32:23,520 - #40 {
+INFO  23:32:23,520 - #13 void
+INFO  23:32:23,520 - #44 main
+INFO  23:32:23,520 - #36 (
+INFO  23:32:23,520 - #37 )
+INFO  23:32:23,520 - #40 {
+ERROR 23:32:23,520 - Izvrsen oporavak u liniji 7
+INFO  23:32:23,522 - #41 }
+INFO  23:32:23,522 - #41 }
+ERROR 23:32:23,523 - 
+Sintaksna greska na liniji 15
+ERROR 23:32:23,523 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 15
+INFO  23:32:43,896 - #2 program
+INFO  23:32:43,897 - #44 test
+INFO  23:32:43,897 - #5 abstract
+INFO  23:32:43,897 - #4 class
+INFO  23:32:43,897 - #44 a
+INFO  23:32:43,897 - #40 {
+INFO  23:32:43,898 - #40 {
+INFO  23:32:43,899 - #41 }
+INFO  23:32:43,900 - #41 }
+INFO  23:32:43,900 - #40 {
+INFO  23:32:43,901 - #44 abs
+INFO  23:32:43,902 - #44 f
+INFO  23:32:43,903 - #36 (
+INFO  23:32:43,903 - #37 )
+INFO  23:32:43,904 - #43 3
+ERROR 23:32:43,904 - 
+Sintaksna greska na liniji 13
+INFO  23:32:43,904 - #40 {
+INFO  23:32:43,911 - #41 }
+INFO  23:32:43,911 - #13 void
+INFO  23:32:43,911 - #44 main
+INFO  23:32:43,911 - #36 (
+INFO  23:32:43,911 - #37 )
+INFO  23:32:43,911 - #40 {
+ERROR 23:32:43,911 - Izvrsen oporavak u liniji 13
+INFO  23:32:43,912 - #41 }
+INFO  23:32:43,913 - #41 }
+INFO  23:33:38,086 - #2 program
+INFO  23:33:38,087 - #44 test
+INFO  23:33:38,087 - #5 abstract
+INFO  23:33:38,088 - #4 class
+INFO  23:33:38,088 - #44 a
+INFO  23:33:38,088 - #40 {
+INFO  23:33:38,088 - #40 {
+INFO  23:33:38,089 - #41 }
+INFO  23:33:38,089 - #41 }
+INFO  23:33:38,090 - #40 {
+INFO  23:33:38,091 - #44 abs
+INFO  23:33:38,092 - #44 f
+INFO  23:33:38,093 - #36 (
+INFO  23:33:38,093 - #37 )
+INFO  23:33:38,093 - #43 3
+ERROR 23:33:38,093 - 
+Sintaksna greska na liniji 13
+INFO  23:33:38,094 - #40 {
+INFO  23:33:38,100 - #41 }
+INFO  23:33:38,100 - #44 abs
+INFO  23:33:38,100 - #44 f
+INFO  23:33:38,100 - #36 (
+INFO  23:33:38,100 - #35 .
+INFO  23:33:38,100 - #43 3
+INFO  23:33:38,100 - #40 {
+INFO  23:33:38,100 - #41 }
+INFO  23:33:38,100 - #13 void
+INFO  23:33:38,100 - #44 main
+INFO  23:33:38,100 - #36 (
+INFO  23:33:38,101 - #37 )
+INFO  23:33:38,101 - #40 {
+ERROR 23:33:38,101 - Izvrsen oporavak u liniji 13
+INFO  23:33:38,102 - #41 }
+INFO  23:33:38,102 - #41 }
+INFO  23:34:16,904 - #2 program
+INFO  23:34:16,904 - #44 test
+INFO  23:34:16,904 - #5 abstract
+INFO  23:34:16,905 - #4 class
+INFO  23:34:16,905 - #44 a
+INFO  23:34:16,905 - #40 {
+INFO  23:34:16,906 - #40 {
+INFO  23:34:16,907 - #41 }
+INFO  23:34:16,907 - #41 }
+INFO  23:34:16,908 - #40 {
+INFO  23:34:16,909 - #44 abs
+INFO  23:34:16,910 - #44 f
+INFO  23:34:16,911 - #36 (
+INFO  23:34:16,911 - #37 )
+INFO  23:34:16,912 - #43 3
+ERROR 23:34:16,912 - 
+Sintaksna greska na liniji 13
+INFO  23:34:16,912 - #40 {
+INFO  23:34:16,920 - #41 }
+INFO  23:34:16,920 - #44 abs
+INFO  23:34:16,920 - #44 f
+INFO  23:34:16,920 - #36 (
+INFO  23:34:16,920 - #35 .
+INFO  23:34:16,920 - #43 3
+INFO  23:34:16,920 - #40 {
+INFO  23:34:16,920 - #41 }
+INFO  23:34:16,921 - #41 }
+ERROR 23:34:16,921 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 17
+INFO  23:34:32,573 - #2 program
+INFO  23:34:32,574 - #44 test
+INFO  23:34:32,574 - #5 abstract
+INFO  23:34:32,575 - #4 class
+INFO  23:34:32,575 - #44 a
+INFO  23:34:32,575 - #40 {
+INFO  23:34:32,576 - #40 {
+INFO  23:34:32,577 - #41 }
+INFO  23:34:32,578 - #41 }
+INFO  23:34:32,578 - #40 {
+INFO  23:34:32,580 - #44 abs
+INFO  23:34:32,581 - #44 f
+INFO  23:34:32,582 - #36 (
+INFO  23:34:32,582 - #37 )
+INFO  23:34:32,583 - #43 3
+ERROR 23:34:32,583 - 
+Sintaksna greska na liniji 13
+INFO  23:34:32,583 - #40 {
+INFO  23:34:32,590 - #41 }
+INFO  23:34:32,590 - #41 }
+ERROR 23:34:32,591 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 16
+INFO  23:35:23,139 - #2 program
+INFO  23:35:23,140 - #44 test
+INFO  23:35:23,140 - #5 abstract
+INFO  23:35:23,140 - #4 class
+INFO  23:35:23,141 - #44 a
+INFO  23:35:23,141 - #40 {
+INFO  23:35:23,141 - #40 {
+INFO  23:35:23,142 - #44 abs
+INFO  23:35:23,142 - #44 f
+INFO  23:35:23,143 - #36 (
+INFO  23:35:23,143 - #37 )
+INFO  23:35:23,144 - #43 3
+ERROR 23:35:23,144 - 
+Sintaksna greska na liniji 7
+INFO  23:35:23,144 - #40 {
+INFO  23:35:23,153 - #44 a
+INFO  23:35:23,153 - #30 =
+INFO  23:35:23,153 - #43 1
+INFO  23:35:23,153 - #33 ;
+INFO  23:35:23,153 - #41 }
+INFO  23:35:23,153 - #41 }
+INFO  23:35:23,153 - #40 {
+INFO  23:35:23,153 - #41 }
+ERROR 23:35:23,154 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 15
+INFO  23:36:01,581 - #2 program
+INFO  23:36:01,582 - #44 test
+INFO  23:36:01,582 - #5 abstract
+INFO  23:36:01,583 - #4 class
+INFO  23:36:01,583 - #44 a
+INFO  23:36:01,583 - #40 {
+INFO  23:36:01,584 - #40 {
+INFO  23:36:01,585 - #44 abs
+INFO  23:36:01,586 - #44 f
+INFO  23:36:01,587 - #36 (
+INFO  23:36:01,587 - #37 )
+INFO  23:36:01,587 - #40 {
+INFO  23:36:01,588 - #44 a
+INFO  23:36:01,588 - #30 =
+INFO  23:36:01,590 - #43 1
+INFO  23:36:01,591 - #33 ;
+INFO  23:36:01,593 - #41 }
+INFO  23:36:01,594 - #41 }
+INFO  23:36:01,595 - #40 {
+ERROR 23:36:01,595 - 
+Sintaksna greska na liniji 11
+INFO  23:36:01,595 - #41 }
+ERROR 23:36:01,602 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 15
+INFO  23:37:51,375 - #2 program
+INFO  23:37:51,375 - #44 test
+INFO  23:37:51,375 - #5 abstract
+INFO  23:37:51,376 - #4 class
+INFO  23:37:51,376 - #44 a
+INFO  23:37:51,376 - #40 {
+INFO  23:37:51,377 - #40 {
+INFO  23:37:51,377 - #44 abs
+INFO  23:37:51,378 - #44 f
+INFO  23:37:51,379 - #40 {
+ERROR 23:37:51,379 - 
+Sintaksna greska na liniji 7
+INFO  23:37:51,379 - #44 a
+INFO  23:37:51,386 - #30 =
+INFO  23:37:51,386 - #43 1
+INFO  23:37:51,386 - #33 ;
+INFO  23:37:51,386 - #41 }
+ERROR 23:37:51,387 - Izvrsen oporavak u liniji 0
+INFO  23:37:51,388 - #41 }
+INFO  23:37:51,388 - #41 }
+ERROR 23:37:51,388 - 
+Sintaksna greska na liniji 9
+INFO  23:37:51,389 - #40 {
+INFO  23:37:51,389 - #41 }
+ERROR 23:37:51,389 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 15
+INFO  23:38:39,648 - #2 program
+INFO  23:38:39,649 - #44 test
+INFO  23:38:39,649 - #5 abstract
+INFO  23:38:39,650 - #4 class
+INFO  23:38:39,650 - #44 a
+INFO  23:38:39,650 - #40 {
+INFO  23:38:39,651 - #40 {
+INFO  23:38:39,651 - #44 abs
+INFO  23:38:39,652 - #44 f
+INFO  23:38:39,653 - #40 {
+ERROR 23:38:39,653 - 
+Sintaksna greska na liniji 7
+INFO  23:38:39,653 - #44 a
+INFO  23:38:39,661 - #30 =
+INFO  23:38:39,661 - #43 1
+INFO  23:38:39,661 - #33 ;
+INFO  23:38:39,661 - #41 }
+ERROR 23:38:39,661 - Izvrsen oporavak u liniji 0
+INFO  23:38:39,662 - #41 }
+INFO  23:38:39,662 - #40 {
+INFO  23:38:39,664 - #41 }
+INFO  23:41:37,167 - #2 program
+INFO  23:41:37,168 - #44 test
+INFO  23:41:37,168 - #5 abstract
+INFO  23:41:37,170 - #4 class
+INFO  23:41:37,170 - #44 a
+INFO  23:41:37,170 - #40 {
+INFO  23:41:37,171 - #40 {
+INFO  23:41:37,171 - #44 abs
+INFO  23:41:37,172 - #44 int
+INFO  23:41:37,173 - #44 f
+ERROR 23:41:37,173 - 
+Sintaksna greska na liniji 7
+INFO  23:41:37,173 - #36 (
+INFO  23:41:37,180 - #37 )
+INFO  23:41:37,180 - #33 ;
+INFO  23:41:37,180 - #41 }
+ERROR 23:41:37,180 - Izvrsen oporavak u liniji 0
+INFO  23:41:37,181 - #41 }
+INFO  23:41:37,182 - #40 {
+INFO  23:41:37,183 - #41 }
+INFO  23:42:36,968 - #2 program
+INFO  23:42:36,968 - #44 test
+INFO  23:42:36,969 - #4 class
+INFO  23:42:36,969 - #44 a
+INFO  23:42:36,969 - #15 extends
+INFO  23:42:36,970 - #44 b
+INFO  23:42:36,970 - #40 {
+INFO  23:42:36,970 - #41 }
+INFO  23:42:36,972 - #4 class
+INFO  23:42:36,973 - #15 extends
+ERROR 23:42:36,973 - 
+Sintaksna greska na liniji 7
+INFO  23:42:36,973 - #44 b
+ERROR 23:42:36,980 - Izvrsen oporavak u liniji 8
+INFO  23:42:36,980 - #40 {
+INFO  23:42:36,980 - #41 }
+INFO  23:42:36,980 - #44 a
+INFO  23:42:36,981 - #15 extends
+ERROR 23:42:36,981 - 
+Sintaksna greska na liniji 8
+INFO  23:42:36,981 - #44 b
+ERROR 23:42:36,981 - Izvrsen oporavak u liniji 8
+INFO  23:42:36,981 - #40 {
+INFO  23:42:36,981 - #41 }
+INFO  23:42:36,981 - #4 class
+INFO  23:42:36,981 - #44 a
+INFO  23:42:36,981 - #15 extends
+INFO  23:42:36,981 - #40 {
+ERROR 23:42:36,981 - 
+Sintaksna greska na liniji 9
+INFO  23:42:36,981 - #41 }
+ERROR 23:42:36,981 - Izvrsen oporavak u liniji 9
+INFO  23:42:36,982 - #4 class
+INFO  23:42:36,982 - #44 a
+INFO  23:42:36,982 - #15 extends
+INFO  23:42:36,982 - #4 class
+ERROR 23:42:36,982 - 
+Sintaksna greska na liniji 10
+INFO  23:42:36,982 - #44 b
+INFO  23:42:36,982 - #40 {
+INFO  23:42:36,982 - #41 }
+ERROR 23:42:36,982 - Izvrsen oporavak u liniji 10
+INFO  23:42:36,983 - #4 class
+INFO  23:42:36,983 - #44 a
+INFO  23:42:36,983 - #15 extends
+INFO  23:42:36,983 - #35 .
+ERROR 23:42:36,983 - 
+Sintaksna greska na liniji 11
+INFO  23:42:36,983 - #40 {
+INFO  23:42:36,983 - #41 }
+ERROR 23:42:36,983 - Izvrsen oporavak u liniji 11
+INFO  23:42:36,983 - #41 }
+ERROR 23:42:36,983 - 
+Sintaksna greska na liniji 13
+INFO  23:42:36,983 - #40 {
+INFO  23:42:36,984 - #41 }
+ERROR 23:42:36,984 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 19
+INFO  23:42:55,594 - #2 program
+INFO  23:42:55,594 - #44 test
+INFO  23:42:55,594 - #4 class
+INFO  23:42:55,595 - #44 a
+INFO  23:42:55,595 - #15 extends
+INFO  23:42:55,595 - #44 b
+INFO  23:42:55,595 - #40 {
+INFO  23:42:55,596 - #41 }
+INFO  23:42:55,598 - #4 class
+INFO  23:42:55,599 - #15 extends
+ERROR 23:42:55,599 - 
+Sintaksna greska na liniji 7
+INFO  23:42:55,599 - #44 b
+ERROR 23:42:55,606 - Izvrsen oporavak u liniji 8
+INFO  23:42:55,607 - #40 {
+INFO  23:42:55,607 - #41 }
+INFO  23:42:55,607 - #44 a
+INFO  23:42:55,607 - #15 extends
+ERROR 23:42:55,607 - 
+Sintaksna greska na liniji 8
+INFO  23:42:55,608 - #44 b
+ERROR 23:42:55,608 - Izvrsen oporavak u liniji 8
+INFO  23:42:55,608 - #40 {
+INFO  23:42:55,608 - #41 }
+INFO  23:42:55,608 - #4 class
+INFO  23:42:55,608 - #44 a
+INFO  23:42:55,608 - #15 extends
+INFO  23:42:55,608 - #40 {
+ERROR 23:42:55,608 - 
+Sintaksna greska na liniji 9
+INFO  23:42:55,608 - #41 }
+ERROR 23:42:55,608 - Izvrsen oporavak u liniji 9
+INFO  23:42:55,609 - #44 a
+INFO  23:42:55,609 - #15 extends
+ERROR 23:42:55,609 - 
+Sintaksna greska na liniji 10
+INFO  23:42:55,609 - #4 class
+ERROR 23:42:55,609 - Izvrsen oporavak u liniji 8
+ERROR 23:42:55,609 - 
+Sintaksna greska na liniji 10
+INFO  23:42:55,609 - #44 b
+INFO  23:42:55,609 - #40 {
+INFO  23:42:55,610 - #41 }
+ERROR 23:42:55,610 - Izvrsen oporavak u liniji 10
+INFO  23:42:55,610 - #4 class
+INFO  23:42:55,610 - #44 a
+INFO  23:42:55,610 - #15 extends
+INFO  23:42:55,610 - #4 class
+ERROR 23:42:55,610 - 
+Sintaksna greska na liniji 11
+INFO  23:42:55,610 - #44 b
+INFO  23:42:55,610 - #40 {
+INFO  23:42:55,610 - #41 }
+ERROR 23:42:55,610 - Izvrsen oporavak u liniji 11
+INFO  23:42:55,610 - #4 class
+INFO  23:42:55,610 - #44 a
+INFO  23:42:55,610 - #15 extends
+INFO  23:42:55,611 - #35 .
+ERROR 23:42:55,611 - 
+Sintaksna greska na liniji 12
+INFO  23:42:55,611 - #40 {
+INFO  23:42:55,611 - #41 }
+ERROR 23:42:55,611 - Izvrsen oporavak u liniji 12
+INFO  23:42:55,611 - #41 }
+ERROR 23:42:55,611 - 
+Sintaksna greska na liniji 14
+INFO  23:42:55,611 - #40 {
+INFO  23:42:55,611 - #41 }
+ERROR 23:42:55,611 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 20
+INFO  23:44:23,208 - #2 program
+INFO  23:44:23,208 - #44 test
+INFO  23:44:23,208 - #4 class
+INFO  23:44:23,209 - #44 a
+INFO  23:44:23,209 - #15 extends
+INFO  23:44:23,209 - #44 b
+INFO  23:44:23,209 - #40 {
+INFO  23:44:23,210 - #41 }
+INFO  23:44:23,211 - #4 class
+INFO  23:44:23,211 - #15 extends
+ERROR 23:44:23,212 - 
+Sintaksna greska na liniji 7
+INFO  23:44:23,212 - #44 b
+ERROR 23:44:23,220 - Izvrsen oporavak u liniji 8
+INFO  23:44:23,221 - #40 {
+INFO  23:44:23,221 - #41 }
+INFO  23:44:23,221 - #44 a
+INFO  23:44:23,221 - #15 extends
+ERROR 23:44:23,221 - 
+Sintaksna greska na liniji 8
+INFO  23:44:23,221 - #44 b
+ERROR 23:44:23,221 - Izvrsen oporavak u liniji 8
+INFO  23:44:23,221 - #40 {
+INFO  23:44:23,221 - #41 }
+INFO  23:44:23,221 - #4 class
+INFO  23:44:23,222 - #44 a
+INFO  23:44:23,222 - #15 extends
+INFO  23:44:23,222 - #40 {
+ERROR 23:44:23,222 - 
+Sintaksna greska na liniji 9
+INFO  23:44:23,222 - #41 }
+ERROR 23:44:23,222 - Izvrsen oporavak u liniji 9
+INFO  23:44:23,223 - #44 a
+INFO  23:44:23,223 - #15 extends
+ERROR 23:44:23,223 - 
+Sintaksna greska na liniji 10
+INFO  23:44:23,223 - #4 class
+ERROR 23:44:23,223 - Izvrsen oporavak u liniji 8
+ERROR 23:44:23,223 - 
+Sintaksna greska na liniji 10
+INFO  23:44:23,223 - #44 b
+INFO  23:44:23,223 - #40 {
+INFO  23:44:23,223 - #41 }
+ERROR 23:44:23,223 - Izvrsen oporavak u liniji 10
+INFO  23:44:23,224 - #4 class
+INFO  23:44:23,224 - #44 a
+INFO  23:44:23,224 - #15 extends
+INFO  23:44:23,224 - #4 class
+ERROR 23:44:23,225 - 
+Sintaksna greska na liniji 11
+INFO  23:44:23,225 - #44 b
+INFO  23:44:23,225 - #40 {
+INFO  23:44:23,225 - #41 }
+ERROR 23:44:23,225 - Izvrsen oporavak u liniji 11
+INFO  23:44:23,225 - #41 }
+ERROR 23:44:23,225 - 
+Sintaksna greska na liniji 14
+INFO  23:44:23,225 - #40 {
+INFO  23:44:23,226 - #41 }
+ERROR 23:44:23,226 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 20
+INFO  23:44:38,997 - #2 program
+INFO  23:44:38,998 - #44 test
+INFO  23:44:38,998 - #4 class
+INFO  23:44:38,999 - #44 a
+INFO  23:44:38,999 - #15 extends
+INFO  23:44:38,999 - #44 b
+INFO  23:44:38,999 - #40 {
+INFO  23:44:38,999 - #41 }
+INFO  23:44:39,000 - #4 class
+INFO  23:44:39,001 - #15 extends
+ERROR 23:44:39,001 - 
+Sintaksna greska na liniji 7
+INFO  23:44:39,002 - #44 b
+ERROR 23:44:39,008 - Izvrsen oporavak u liniji 8
+INFO  23:44:39,009 - #40 {
+INFO  23:44:39,009 - #41 }
+INFO  23:44:39,010 - #44 a
+INFO  23:44:39,010 - #15 extends
+ERROR 23:44:39,010 - 
+Sintaksna greska na liniji 8
+INFO  23:44:39,010 - #44 b
+ERROR 23:44:39,010 - Izvrsen oporavak u liniji 8
+INFO  23:44:39,010 - #40 {
+INFO  23:44:39,010 - #41 }
+INFO  23:44:39,010 - #4 class
+INFO  23:44:39,010 - #44 a
+INFO  23:44:39,010 - #15 extends
+INFO  23:44:39,010 - #40 {
+ERROR 23:44:39,011 - 
+Sintaksna greska na liniji 9
+INFO  23:44:39,011 - #41 }
+ERROR 23:44:39,011 - Izvrsen oporavak u liniji 9
+INFO  23:44:39,011 - #44 a
+INFO  23:44:39,011 - #15 extends
+ERROR 23:44:39,011 - 
+Sintaksna greska na liniji 10
+INFO  23:44:39,012 - #4 class
+ERROR 23:44:39,012 - Izvrsen oporavak u liniji 8
+ERROR 23:44:39,012 - 
+Sintaksna greska na liniji 10
+INFO  23:44:39,012 - #44 b
+INFO  23:44:39,012 - #40 {
+INFO  23:44:39,012 - #41 }
+ERROR 23:44:39,012 - Izvrsen oporavak u liniji 10
+INFO  23:44:39,012 - #4 class
+INFO  23:44:39,013 - #44 a
+INFO  23:44:39,013 - #15 extends
+INFO  23:44:39,013 - #4 class
+ERROR 23:44:39,013 - 
+Sintaksna greska na liniji 11
+INFO  23:44:39,013 - #44 b
+INFO  23:44:39,013 - #40 {
+INFO  23:44:39,013 - #41 }
+ERROR 23:44:39,013 - Izvrsen oporavak u liniji 11
+INFO  23:44:39,013 - #4 class
+INFO  23:44:39,013 - #44 a
+INFO  23:44:39,014 - #15 extends
+INFO  23:44:39,014 - #35 .
+ERROR 23:44:39,014 - 
+Sintaksna greska na liniji 12
+INFO  23:44:39,014 - #40 {
+INFO  23:44:39,014 - #41 }
+ERROR 23:44:39,014 - Izvrsen oporavak u liniji 12
+INFO  23:44:39,014 - #40 {
+INFO  23:44:39,014 - #41 }
+INFO  23:48:32,842 - #2 program
+INFO  23:48:32,844 - #44 test
+INFO  23:48:32,844 - #44 a
+INFO  23:48:32,845 - #15 extends
+ERROR 23:48:32,845 - 
+Sintaksna greska na liniji 4
+INFO  23:48:32,845 - #35 .
+ERROR 23:48:32,853 - Izvrsen oporavak u liniji 8
+ERROR 23:48:32,854 - 
+Sintaksna greska na liniji 4
+INFO  23:48:32,854 - #40 {
+INFO  23:48:32,854 - #41 }
+ERROR 23:48:32,854 - Izvrsen oporavak u liniji 4
+INFO  23:48:32,856 - #40 {
+INFO  23:48:32,857 - #41 }
+INFO  23:49:11,389 - #2 program
+INFO  23:49:11,390 - #44 test
+INFO  23:49:11,390 - #4 class
+INFO  23:49:11,391 - #35 .
+ERROR 23:49:11,391 - 
+Sintaksna greska na liniji 4
+INFO  23:49:11,391 - #40 {
+INFO  23:49:11,397 - #41 }
+ERROR 23:49:11,397 - Izvrsen oporavak u liniji 8
+INFO  23:49:11,399 - #40 {
+INFO  23:49:11,400 - #41 }
+INFO  23:50:20,209 - #2 program
+INFO  23:50:20,210 - #44 Program
+INFO  23:50:20,210 - #5 abstract
+INFO  23:50:20,210 - #4 class
+INFO  23:50:20,211 - #44 A
+INFO  23:50:20,211 - #40 {
+INFO  23:50:20,211 - #44 int
+INFO  23:50:20,212 - #44 x
+INFO  23:50:20,213 - #38 [
+INFO  23:50:20,213 - #39 ]
+INFO  23:50:20,213 - #34 ,
+INFO  23:50:20,215 - #44 y
+INFO  23:50:20,215 - #38 [
+INFO  23:50:20,215 - #39 ]
+INFO  23:50:20,215 - #33 ;
+INFO  23:50:20,215 - #5 abstract
+ERROR 23:50:20,216 - 
+Sintaksna greska na liniji 4
+INFO  23:50:20,217 - #44 int
+INFO  23:50:20,224 - #44 getValue
+INFO  23:50:20,224 - #36 (
+INFO  23:50:20,224 - #44 int
+INFO  23:50:20,224 - #44 a
+INFO  23:50:20,224 - #37 )
+INFO  23:50:20,224 - #33 ;
+INFO  23:50:20,225 - #41 }
+ERROR 23:50:20,225 - Izvrsen oporavak u liniji 3
+INFO  23:50:20,226 - #7 const
+INFO  23:50:20,228 - #44 int
+INFO  23:50:20,228 - #44 pi
+INFO  23:50:20,228 - #30 =
+INFO  23:50:20,228 - #43 3
+INFO  23:50:20,228 - #34 ,
+INFO  23:50:20,230 - #44 e
+INFO  23:50:20,230 - #30 =
+INFO  23:50:20,230 - #43 2
+INFO  23:50:20,231 - #33 ;
+INFO  23:50:20,232 - #4 class
+INFO  23:50:20,233 - #44 B
+INFO  23:50:20,234 - #15 extends
+INFO  23:50:20,234 - #44 A
+INFO  23:50:20,234 - #40 {
+INFO  23:50:20,234 - #44 int
+INFO  23:50:20,234 - #44 i
+INFO  23:50:20,234 - #33 ;
+INFO  23:50:20,235 - #40 {
+INFO  23:50:20,235 - #44 int
+INFO  23:50:20,235 - #44 getValue
+INFO  23:50:20,235 - #36 (
+INFO  23:50:20,236 - #44 int
+INFO  23:50:20,236 - #44 a
+INFO  23:50:20,236 - #37 )
+INFO  23:50:20,237 - #44 int
+INFO  23:50:20,237 - #44 b
+INFO  23:50:20,237 - #33 ;
+INFO  23:50:20,237 - #44 bool
+INFO  23:50:20,237 - #44 c
+INFO  23:50:20,237 - #33 ;
+INFO  23:50:20,237 - #40 {
+INFO  23:50:20,237 - #12 return
+INFO  23:50:20,238 - #44 this
+INFO  23:50:20,240 - #35 .
+INFO  23:50:20,240 - #44 i
+INFO  23:50:20,240 - #17 +
+INFO  23:50:20,244 - #44 this
+INFO  23:50:20,245 - #35 .
+INFO  23:50:20,245 - #44 x
+INFO  23:50:20,253 - #38 [
+INFO  23:50:20,253 - #43 0
+INFO  23:50:20,253 - #39 ]
+INFO  23:50:20,254 - #17 +
+INFO  23:50:20,254 - #44 a
+INFO  23:50:20,254 - #33 ;
+INFO  23:50:20,255 - #41 }
+INFO  23:50:20,255 - #13 void
+INFO  23:50:20,256 - #44 m
+INFO  23:50:20,256 - #36 (
+INFO  23:50:20,257 - #37 )
+INFO  23:50:20,257 - #40 {
+INFO  23:50:20,257 - #41 }
+INFO  23:50:20,257 - #41 }
+INFO  23:50:20,258 - #41 }
+INFO  23:50:20,258 - #4 class
+INFO  23:50:20,259 - #44 C
+INFO  23:50:20,259 - #15 extends
+INFO  23:50:20,259 - #44 B
+INFO  23:50:20,259 - #40 {
+INFO  23:50:20,259 - #44 B
+INFO  23:50:20,259 - #44 theA
+INFO  23:50:20,259 - #33 ;
+INFO  23:50:20,260 - #44 int
+INFO  23:50:20,260 - #44 a
+INFO  23:50:20,260 - #33 ;
+INFO  23:50:20,260 - #41 }
+INFO  23:50:20,260 - #40 {
+INFO  23:50:20,260 - #13 void
+INFO  23:50:20,260 - #44 main
+INFO  23:50:20,261 - #36 (
+INFO  23:50:20,261 - #37 )
+INFO  23:50:20,261 - #44 B
+INFO  23:50:20,261 - #44 b
+INFO  23:50:20,261 - #33 ;
+INFO  23:50:20,261 - #44 C
+INFO  23:50:20,261 - #44 c
+INFO  23:50:20,261 - #33 ;
+INFO  23:50:20,261 - #44 int
+INFO  23:50:20,261 - #44 i
+INFO  23:50:20,261 - #33 ;
+INFO  23:50:20,261 - #44 int
+INFO  23:50:20,261 - #44 x
+INFO  23:50:20,261 - #38 [
+INFO  23:50:20,261 - #39 ]
+INFO  23:50:20,261 - #33 ;
+INFO  23:50:20,261 - #40 {
+INFO  23:50:20,261 - #44 b
+INFO  23:50:20,261 - #30 =
+INFO  23:50:20,261 - #9 new
+INFO  23:50:20,262 - #44 B
+INFO  23:50:20,262 - #33 ;
+INFO  23:50:20,263 - #44 b
+INFO  23:50:20,263 - #35 .
+INFO  23:50:20,264 - #44 x
+INFO  23:50:20,264 - #30 =
+INFO  23:50:20,264 - #9 new
+INFO  23:50:20,264 - #44 int
+INFO  23:50:20,264 - #38 [
+INFO  23:50:20,264 - #43 5
+INFO  23:50:20,264 - #39 ]
+INFO  23:50:20,264 - #33 ;
+INFO  23:50:20,264 - #44 b
+INFO  23:50:20,264 - #35 .
+INFO  23:50:20,264 - #44 y
+INFO  23:50:20,265 - #30 =
+INFO  23:50:20,265 - #9 new
+INFO  23:50:20,265 - #44 int
+INFO  23:50:20,265 - #38 [
+INFO  23:50:20,265 - #43 5
+INFO  23:50:20,265 - #39 ]
+INFO  23:50:20,265 - #33 ;
+INFO  23:50:20,265 - #44 c
+INFO  23:50:20,265 - #30 =
+INFO  23:50:20,265 - #9 new
+INFO  23:50:20,265 - #44 C
+INFO  23:50:20,265 - #33 ;
+INFO  23:50:20,265 - #43 9
+ERROR 23:50:20,265 - 
+Sintaksna greska na liniji 21
+INFO  23:50:20,266 - #20 /
+INFO  23:50:20,266 - #43 12
+INFO  23:50:20,266 - #44 c
+INFO  23:50:20,266 - #35 .
+INFO  23:50:20,266 - #44 theA
+INFO  23:50:20,266 - #30 =
+INFO  23:50:20,266 - #44 b
+INFO  23:50:20,266 - #33 ;
+INFO  23:50:20,266 - #44 c
+ERROR 23:50:20,266 - Izvrsen oporavak u liniji 37
+INFO  23:50:20,267 - #35 .
+INFO  23:50:20,267 - #44 x
+INFO  23:50:20,267 - #30 =
+INFO  23:50:20,267 - #9 new
+INFO  23:50:20,267 - #44 int
+INFO  23:50:20,267 - #38 [
+INFO  23:50:20,267 - #43 5
+INFO  23:50:20,267 - #39 ]
+INFO  23:50:20,267 - #33 ;
+INFO  23:50:20,267 - #44 x
+INFO  23:50:20,267 - #30 =
+INFO  23:50:20,268 - #9 new
+INFO  23:50:20,268 - #44 int
+INFO  23:50:20,268 - #38 [
+INFO  23:50:20,268 - #43 3
+INFO  23:50:20,268 - #39 ]
+INFO  23:50:20,268 - #33 ;
+INFO  23:50:20,268 - #11 read
+INFO  23:50:20,268 - #36 (
+INFO  23:50:20,268 - #44 c
+INFO  23:50:20,268 - #35 .
+INFO  23:50:20,268 - #44 i
+INFO  23:50:20,268 - #37 )
+INFO  23:50:20,268 - #33 ;
+INFO  23:50:20,268 - #14 for
+INFO  23:50:20,269 - #36 (
+INFO  23:50:20,269 - #44 i
+INFO  23:50:20,269 - #30 =
+INFO  23:50:20,269 - #43 0
+INFO  23:50:20,269 - #33 ;
+INFO  23:50:20,269 - #44 i
+INFO  23:50:20,269 - #26 <
+INFO  23:50:20,269 - #43 5
+INFO  23:50:20,270 - #33 ;
+INFO  23:50:20,272 - #44 i
+INFO  23:50:20,272 - #31 ++
+INFO  23:50:20,272 - #37 )
+INFO  23:50:20,273 - #40 {
+INFO  23:50:20,273 - #11 read
+INFO  23:50:20,273 - #36 (
+INFO  23:50:20,273 - #44 c
+INFO  23:50:20,273 - #35 .
+INFO  23:50:20,273 - #44 x
+INFO  23:50:20,273 - #38 [
+INFO  23:50:20,273 - #44 i
+INFO  23:50:20,273 - #39 ]
+INFO  23:50:20,273 - #37 )
+INFO  23:50:20,273 - #33 ;
+INFO  23:50:20,273 - #11 read
+INFO  23:50:20,273 - #36 (
+INFO  23:50:20,273 - #44 c
+INFO  23:50:20,273 - #35 .
+INFO  23:50:20,273 - #44 theA
+INFO  23:50:20,273 - #35 .
+INFO  23:50:20,273 - #44 x
+INFO  23:50:20,273 - #38 [
+INFO  23:50:20,273 - #44 i
+INFO  23:50:20,273 - #39 ]
+INFO  23:50:20,273 - #37 )
+INFO  23:50:20,273 - #33 ;
+INFO  23:50:20,273 - #41 }
+INFO  23:50:20,274 - #10 print
+INFO  23:50:20,274 - #36 (
+INFO  23:50:20,274 - #44 c
+INFO  23:50:20,274 - #35 .
+INFO  23:50:20,274 - #44 getValue
+INFO  23:50:20,274 - #36 (
+INFO  23:50:20,274 - #44 c
+INFO  23:50:20,274 - #35 .
+INFO  23:50:20,274 - #44 theA
+INFO  23:50:20,274 - #35 .
+INFO  23:50:20,275 - #44 x
+INFO  23:50:20,275 - #38 [
+INFO  23:50:20,275 - #43 0
+INFO  23:50:20,275 - #39 ]
+INFO  23:50:20,275 - #37 )
+INFO  23:50:20,276 - #37 )
+INFO  23:50:20,277 - #33 ;
+INFO  23:50:20,277 - #44 c
+INFO  23:50:20,277 - #35 .
+INFO  23:50:20,277 - #44 m
+INFO  23:50:20,277 - #36 (
+INFO  23:50:20,277 - #37 )
+INFO  23:50:20,277 - #33 ;
+INFO  23:50:20,278 - #41 }
+INFO  23:50:20,278 - #41 }
