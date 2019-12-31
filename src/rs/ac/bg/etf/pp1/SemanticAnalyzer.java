@@ -6,7 +6,7 @@ import rs.etf.pp1.symboltable.Tab;
 import rs.etf.pp1.symboltable.concepts.Obj;
 import rs.etf.pp1.symboltable.concepts.Struct;
 
-import javax.lang.model.element.VariableElement;
+import java.util.Iterator;
 
 public class SemanticAnalyzer extends VisitorAdaptor {
 
@@ -14,14 +14,23 @@ public class SemanticAnalyzer extends VisitorAdaptor {
     Type currentType = null;
     Obj curretClass = null;
 
-    // Methods
+    // Functions
     boolean isVoid = false;
     boolean foundReturn = false;
-    Obj currentMethod = null;
-    Struct methRetType = null;
+    Obj currentFunction = null;
+    Struct funcRetType = null;
+    boolean mainFound = false;
+    int cntFormPars = 0;
+    
+    // Calling functions
+    int currentActPar = 0;
+    Obj calledFunction = null;
 
+    // For loop
+    int cntInFor = 0;
 
     Logger log = Logger.getLogger(getClass());
+
 
     public void report_error(String message, SyntaxNode info) {
         errorDetected = true;
@@ -161,6 +170,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
     public void visit(DesignatorArray DesignatorArray) {
 
         Designator leftSide = DesignatorArray.getDesignator();
+        DesignatorArray.obj = Tab.noObj;
 
         if (leftSide.obj.getType().getKind() == Struct.Array){
 
@@ -188,6 +198,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
     public void visit(DesignatorIdent DesignatorIdent) {
 
         Obj obj = Tab.find(DesignatorIdent.getName());
+        DesignatorIdent.obj = Tab.noObj;
 
         if (obj != Tab.noObj && obj != null){
 
@@ -202,7 +213,13 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 
     @Override
     public void visit(FactorVariable FactorVariable) {
-        FactorVariable.struct = FactorVariable.getDesignator().obj.getType();
+
+        if (FactorVariable.getDesignator().obj.getKind() == Obj.Meth){
+            report_error("Error on line " + FactorVariable.getLine() + ": Cannot use function names as variables.", null );
+            FactorVariable.struct = Tab.noType;
+        }
+        else
+            FactorVariable.struct = FactorVariable.getDesignator().obj.getType();
     }
 
     @Override
@@ -223,20 +240,20 @@ public class SemanticAnalyzer extends VisitorAdaptor {
     @Override
     public void visit(FactorNewClass FactorNewClass) {
 
-        if (FactorNewClass.getType().struct.getKind() == Struct.Class){
-            FactorNewClass.struct = FactorNewClass.getType().struct;
-        }
-        else{
+        FactorNewClass.struct = FactorNewClass.getType().struct;
+
+        if (FactorNewClass.getType().struct.getKind() != Struct.Class){
             report_error("Error on line " + FactorNewClass.getLine() + ": Type " + FactorNewClass.getType().getTypeName() + " is not a class.", null);
         }
+
     }
 
     @Override
     public void visit(FactorNewArray FactorNewArray) {
-        if (FactorNewArray.getExpr().struct == Tab.intType){
-            FactorNewArray.struct = new Struct(Struct.Array, FactorNewArray.getType().struct);
-        }
-        else{
+
+        FactorNewArray.struct = new Struct(Struct.Array, FactorNewArray.getType().struct);
+
+        if (FactorNewArray.getExpr().struct != Tab.intType){
             report_error("Error on line " + FactorNewArray.getLine() + ": Expression between [] must be of type int.", null);
         }
     }
@@ -254,9 +271,10 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 
         if (leftSide.struct != Tab.intType || rightSide.struct != Tab.intType){
             report_error("Error on line " + TermMul.getLine() + ": Both operands of * must be int type.", null);
+            TermMul.struct = Tab.noType;
         }
-
-        TermMul.struct = Tab.intType;
+        else
+            TermMul.struct = Tab.intType;
     }
 
     @Override
@@ -271,10 +289,11 @@ public class SemanticAnalyzer extends VisitorAdaptor {
         Term rightSide = ExprAdd.getTerm();
 
         if (leftSide.struct != Tab.intType || rightSide.struct != Tab.intType){
-            report_error("Error on line " + ExprAdd.getLine() + ": When using + operands must be int type.", null);
+            report_error("Error on line " + ExprAdd.getAddop().getLine() + ": When using + operands must be int type.", null);
+            ExprAdd.struct = Tab.noType;
         }
-
-        ExprAdd.struct = Tab.intType;
+        else
+            ExprAdd.struct = Tab.intType;
     }
 
     @Override
@@ -437,24 +456,56 @@ public class SemanticAnalyzer extends VisitorAdaptor {
     }
 
     @Override
-    public void visit(MethodDeclPrototype MethodDeclPrototype) {
+    public void visit(MethoDeclTypeIdentNode MethoDeclTypeIdentNode) {
 
         foundReturn = false;
-        RetType retType = MethodDeclPrototype.getRetType();
+        cntFormPars = 0;
 
+        RetType retType = MethoDeclTypeIdentNode.getRetType();
 
         if (retType instanceof RetTypeNode){
             isVoid = false;
-            methRetType = ((RetTypeNode) retType).getType().struct;
+            funcRetType = ((RetTypeNode) retType).getType().struct;
         }
         else{
             isVoid = true;
-            methRetType = Tab.noType;
+            funcRetType = Tab.noType;
         }
 
-        currentMethod = Tab.insert(Obj.Meth, MethodDeclPrototype.getMethName(), methRetType);
-        MethodDeclPrototype.obj = currentMethod;
-        Tab.openScope();
+        Obj obj = Tab.currentScope.findSymbol(MethoDeclTypeIdentNode.getMethName());
+
+        if (obj == null || obj == Tab.noObj){
+
+            if (MethoDeclTypeIdentNode.getMethName().equals("main")){
+
+                if (isVoid){
+                    mainFound = true;
+                }
+                else{
+                    report_error("Error on line " + MethoDeclTypeIdentNode.getLine() + ": Main method cannot have return type.", null);
+                }
+
+            }
+
+            currentFunction = Tab.insert(Obj.Meth, MethoDeclTypeIdentNode.getMethName(), funcRetType);
+            MethoDeclTypeIdentNode.obj = currentFunction;
+            Tab.openScope();
+
+        }
+        else{
+            MethoDeclTypeIdentNode.obj = Tab.noObj;
+            currentFunction = Tab.noObj;
+            report_error("Error on line " + MethoDeclTypeIdentNode.getLine() + ": Name " + MethoDeclTypeIdentNode.getMethName() + " has already been declared.", null);
+        }
+
+    }
+
+    @Override
+    public void visit(MethodDeclPrototype MethodDeclPrototype) {
+
+        MethodDeclPrototype.obj = MethodDeclPrototype.getMethodDeclTypeIdent().obj;
+        currentFunction.setLevel(cntFormPars);
+
     }
 
     @Override
@@ -464,17 +515,46 @@ public class SemanticAnalyzer extends VisitorAdaptor {
             report_error("Error on line " + MethodDeclNode.getLine() + ": Missing return statement.", null);
         }
 
-        Tab.chainLocalSymbols(currentMethod);
-        currentMethod = null;
-        methRetType = null;
+        MethodDeclNode.obj = MethodDeclNode.getMethodDeclPrototype().obj;
+        Tab.chainLocalSymbols(currentFunction);
+        currentFunction = null;
+        funcRetType = null;
         Tab.closeScope();
+
+    }
+
+    @Override
+    public void visit(TypeIdentSingleNode TypeIdentSingleNode) {
+
+        Obj obj = Tab.currentScope().findSymbol(TypeIdentSingleNode.getParamName());
+
+        if (obj == null || obj == Tab.noObj){
+
+            if (TypeIdentSingleNode.getSquareSingle() instanceof SquareSingleNode){
+                obj = Tab.insert(Obj.Var, TypeIdentSingleNode.getParamName(), new Struct(Struct.Array, TypeIdentSingleNode.getType().struct));
+            }
+            else{
+                obj = Tab.insert(Obj.Var, TypeIdentSingleNode.getParamName(), TypeIdentSingleNode.getType().struct);
+            }
+
+            obj.setFpPos(cntFormPars++);
+
+            if (currentFunction.getName().equals("main")){
+                report_error("Error on line " + TypeIdentSingleNode.getLine() + ": Main method cannot have parameters.", null);
+            }
+
+        }
+        else{
+            TypeIdentSingleNode.obj = Tab.noObj;
+            report_error("Error on line " + TypeIdentSingleNode.getLine() + ": Name " + TypeIdentSingleNode.getParamName() +" has already been declared.", null);
+        }
 
     }
 
     @Override
     public void visit(StatementReturn StatementReturn) {
 
-        if (currentMethod != null){
+        if (currentFunction != null){
 
             foundReturn = true;
 
@@ -494,7 +574,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 
                     Expr expr = ((ExprSingleNode) StatementReturn.getExprSingle()).getExpr();
 
-                    if (!expr.struct.assignableTo(methRetType)){
+                    if (!expr.struct.assignableTo(funcRetType)){
                         report_error("Error on line " + StatementReturn.getLine() + ": Return type not compatible with function return type.", null);
                     }
                 }
@@ -505,5 +585,91 @@ public class SemanticAnalyzer extends VisitorAdaptor {
             report_error("Error on line " + StatementReturn.getLine() + ": Return statement is only allowed inside functions and methods.", null);
         }
 
+    }
+
+
+    @Override
+    public void visit(ForLoopHeaderNode ForLoopHeaderNode) {
+
+        cntInFor++;
+
+    }
+
+    @Override
+    public void visit(StatementFor StatementFor) {
+
+        cntInFor--;
+
+    }
+
+    @Override
+    public void visit(StatementContinue StatementContinue) {
+
+        if (cntInFor <= 0){
+            report_error("Error on line " + StatementContinue.getLine() + ": Continue can only be called inside for loop.", null);
+        }
+
+    }
+
+    @Override
+    public void visit(StatementBreak StatementBreak) {
+
+        if (cntInFor <= 0){
+            report_error("Error on line " + StatementBreak.getLine() + ": Break can only be called inside for loop.", null);
+        }
+
+    }
+
+    @Override
+    public void visit(DesignatorStatementFuncDesignator DesignatorStatementFuncDesignator) {
+
+        currentActPar = 0;
+        calledFunction = DesignatorStatementFuncDesignator.getDesignator().obj;
+
+        if (DesignatorStatementFuncDesignator.getDesignator().obj.getKind() != Obj.Meth){
+            report_error("Error on line " + DesignatorStatementFuncDesignator.getLine() + ": Designator must be function or method type.", null);
+        }
+
+    }
+
+    @Override
+    public void visit(ActParsExprNode ActParsExprNode) {
+
+        Obj formPar = null;
+
+        for (Obj obj : calledFunction.getLocalSymbols()){
+
+            formPar = obj;
+
+            if (obj.getFpPos() == currentActPar) break;
+
+        }
+
+        if (formPar.getFpPos() != currentActPar) formPar = null;
+
+        if (formPar != null){
+
+            if (!ActParsExprNode.getExpr().struct.assignableTo(formPar.getType())){
+                report_error("Error on line " + ActParsExprNode.getLine() + ": Type mismatch in function call for parameter " + formPar.getName() + ".", null);
+            }
+
+        }
+        else{
+            report_error("Error on line " + ActParsExprNode.getLine() + ": More actual parameters than formal parameters.", null);
+        }
+
+        currentActPar++;
+
+    }
+
+    @Override
+    public void visit(DesignatorStatementFunc DesignatorStatementFunc) {
+
+        if (calledFunction.getLevel() > currentActPar){
+            report_error("Error on line " + DesignatorStatementFunc.getLine() + ": Not enough actual parameters.", null);
+        }
+
+        calledFunction = null;
+        currentActPar = 0;
     }
 }

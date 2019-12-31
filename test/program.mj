@@ -1,27 +1,21 @@
-program a
+program prg
 
-int x[];
-int x1[];
-char x2[];
-bool x3[];
-int y;
-int z;
-char k;
-bool b;
-
+bool z;
+bool k;
 {
 
-    void p(){
-
-
-    }
-
-    int q(){
-
-        return 10;
-    }
-
-    void main(){
+    void proba(bool x, int y[], char z){
 
     }
+
+    int x(int z, int p[])
+    int i;
+    bool b;
+    {
+        proba(true, p, 'c');
+
+        return i;
+    }
+
+
 }

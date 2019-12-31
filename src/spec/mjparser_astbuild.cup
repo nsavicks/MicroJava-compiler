@@ -85,22 +85,21 @@ nonterminal rs.etf.pp1.symboltable.concepts.Struct Term;
 nonterminal SubSingle SubSingle;
 nonterminal rs.etf.pp1.symboltable.concepts.Struct Expr;
 
-nonterminal rs.etf.pp1.symboltable.concepts.Struct CondFact;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct CondFact, CondTerm, Condition;
 
-nonterminal CondTermItem CondTermItem;
-nonterminal CondTermList CondTermList;
-nonterminal CondTerm CondTerm;
-nonterminal ConditionList ConditionList;
 nonterminal ConditionSingle ConditionSingle;
 nonterminal ForConditionSingle ForConditionSingle;
-nonterminal Condition Condition;
 
 nonterminal ActParsList ActParsList;
+nonterminal ActParsExpr ActParsExpr;
 nonterminal ActPars ActPars;
 
+nonterminal DesignatorStatementFuncDesignator DesignatorStatementFuncDesignator;
 nonterminal DesignatorAssignItem DesignatorAssignItem;
 nonterminal DesignatorStatement DesignatorStatement;
 nonterminal DesignatorStatementSingle DesignatorStatementSingle;
+
+nonterminal ForLoopHeader ForLoopHeader;
 
 nonterminal ElseStatementSingle ElseStatementSingle;
 nonterminal ExprSingle ExprSingle;
@@ -109,9 +108,9 @@ nonterminal StatementList StatementList;
 nonterminal Statement Statement;
 
 nonterminal SquareSingle SquareSingle;
-nonterminal TypeIdentSingle TypeIdentSingle;
 nonterminal TypeIdentList TypeIdentList;
 nonterminal FormPars FormPars;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj TypeIdentSingle;
 
 nonterminal RetType RetType;
 nonterminal FormParsSingle FormParsSingle;
@@ -124,8 +123,7 @@ nonterminal AbstractClassMethodDeclSingle AbstractClassMethodDeclSingle;
 nonterminal AbstractClassDecl AbstractClassDecl;
 nonterminal MethodDeclList MethodDeclList;
 
-nonterminal rs.etf.pp1.symboltable.concepts.Obj MethodDeclPrototype;
-nonterminal MethodDecl MethodDecl;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj MethodDeclTypeIdent, MethodDeclPrototype, MethodDecl;
 
 nonterminal VarType VarType;
 nonterminal VarIdentList VarIdentList;
@@ -243,7 +241,9 @@ ExtendsSingle ::= (ExtendsSingleNode) EXT Type:T1 {: RESULT=new ExtendsSingleNod
 
 MethodDecl ::= (MethodDeclNode) MethodDeclPrototype:M1 VarDeclList:V2 LBRACE StatementList:S3 RBRACE {: RESULT=new MethodDeclNode(M1, V2, S3); RESULT.setLine(M1left); :};
 
-MethodDeclPrototype ::= (MethodDeclPrototype) RetType:R1 IDENT:methName LPAREN FormParsSingle:F2 RPAREN {: RESULT=new MethodDeclPrototype(R1, methName, F2); RESULT.setLine(R1left); :};
+MethodDeclPrototype ::= (MethodDeclPrototype) MethodDeclTypeIdent:M1 LPAREN FormParsSingle:F2 RPAREN {: RESULT=new MethodDeclPrototype(M1, F2); RESULT.setLine(M1left); :};
+
+MethodDeclTypeIdent ::= (MethoDeclTypeIdentNode) RetType:R1 IDENT:methName {: RESULT=new MethoDeclTypeIdentNode(R1, methName); RESULT.setLine(R1left); :};
 
 VarDeclList ::= (VarDeclListNode) VarDeclList:V1 VarDecl:V2 {: RESULT=new VarDeclListNode(V1, V2); RESULT.setLine(V1left); :}
                 |
@@ -268,7 +268,7 @@ TypeIdentList ::= (TypeIdentListNode) TypeIdentList:T1 COMMA TypeIdentSingle:T2 
                     |
                     (SingleTypeIdentList) TypeIdentSingle:T1 {: RESULT=new SingleTypeIdentList(T1); RESULT.setLine(T1left); :};
 
-TypeIdentSingle ::= (TypeIdentSingleNode) Type:T1 IDENT:I2 SquareSingle:S3 {: RESULT=new TypeIdentSingleNode(T1, I2, S3); RESULT.setLine(T1left); :}
+TypeIdentSingle ::= (TypeIdentSingleNode) Type:T1 IDENT:paramName SquareSingle:S2 {: RESULT=new TypeIdentSingleNode(T1, paramName, S2); RESULT.setLine(T1left); :}
                     |
                     (ErrorTypeIdentSingle) error:l
                     {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :} {: RESULT=new ErrorTypeIdentSingle(); :};
@@ -283,7 +283,7 @@ Statement ::= (StatementDesignator) DesignatorStatement:D1 SEMI {: RESULT=new St
             |
             (StatementIf) IF LPAREN Condition:C1 RPAREN Statement:S2 ElseStatementSingle:E3 {: RESULT=new StatementIf(C1, S2, E3); RESULT.setLine(C1left); :}
             |
-            (StatementFor) FOR LPAREN DesignatorStatementSingle:D1 SEMI ForConditionSingle:F2 DesignatorStatementSingle:D3 RPAREN Statement:S4 {: RESULT=new StatementFor(D1, F2, D3, S4); RESULT.setLine(D1left); :}
+            (StatementFor) ForLoopHeader:F1 Statement:S2 {: RESULT=new StatementFor(F1, S2); RESULT.setLine(F1left); :}
             |
             (StatementBreak) BREAK SEMI {: RESULT=new StatementBreak(); :}
             |
@@ -296,6 +296,8 @@ Statement ::= (StatementDesignator) DesignatorStatement:D1 SEMI {: RESULT=new St
             (StatementPrint) PRINT LPAREN Expr:E1 CommaNumConstSingle:C2 RPAREN SEMI {: RESULT=new StatementPrint(E1, C2); RESULT.setLine(E1left); :}
             |
             (StatementStatementList) LBRACE StatementList:S1 RBRACE {: RESULT=new StatementStatementList(S1); RESULT.setLine(S1left); :};
+
+ForLoopHeader ::= (ForLoopHeaderNode) FOR LPAREN DesignatorStatementSingle:D1 SEMI ForConditionSingle:F2 DesignatorStatementSingle:D3 RPAREN {: RESULT=new ForLoopHeaderNode(D1, F2, D3); RESULT.setLine(D1left); :};
 
 ForConditionSingle ::= (ForConditionSingleNode) ConditionSingle:C1 SEMI {: RESULT=new ForConditionSingleNode(C1); RESULT.setLine(C1left); :}
                         |
@@ -326,7 +328,7 @@ DesignatorStatementSingle ::= (DesignatorStatementSingleNode) DesignatorStatemen
                             |
                             (NoDesignatorStatementSingle) {: RESULT=new NoDesignatorStatementSingle(); :} /* epsilon */;
 
-DesignatorStatement ::= (DesignatorStatementFunc) Designator:D1 LPAREN ActParsSingle:A2 RPAREN {: RESULT=new DesignatorStatementFunc(D1, A2); RESULT.setLine(D1left); :}
+DesignatorStatement ::= (DesignatorStatementFunc) DesignatorStatementFuncDesignator:D1 LPAREN ActParsSingle:A2 RPAREN {: RESULT=new DesignatorStatementFunc(D1, A2); RESULT.setLine(D1left); :}
                         |
                         (DesignatorStatementInc) Designator:D1 INC {: RESULT=new DesignatorStatementInc(D1); RESULT.setLine(D1left); :}
                         |
@@ -334,30 +336,28 @@ DesignatorStatement ::= (DesignatorStatementFunc) Designator:D1 LPAREN ActParsSi
                         |
                         (DesignatorStatementAssignNode) DesignatorAssignItem:D1 {: RESULT=new DesignatorStatementAssignNode(D1); RESULT.setLine(D1left); :};
 
+DesignatorStatementFuncDesignator ::= (DesignatorStatementFuncDesignator) Designator:D1 {: RESULT=new DesignatorStatementFuncDesignator(D1); RESULT.setLine(D1left); :};
+
 DesignatorAssignItem ::= (DesignatorAssignItemNode) Designator:D1 Assignop:A2 Expr:E3 {: RESULT=new DesignatorAssignItemNode(D1, A2, E3); RESULT.setLine(D1left); :}
                         |
                         (ErrorDesignatorAssignItem) error:l
                         {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :} {: RESULT=new ErrorDesignatorAssignItem(); :};
 
-ActPars ::= (ActPars) Expr:E1 ActParsList:A2 {: RESULT=new ActPars(E1, A2); RESULT.setLine(E1left); :};
+ActPars ::= (ActParsNode) ActParsList:A1 {: RESULT=new ActParsNode(A1); RESULT.setLine(A1left); :};
 
-ActParsList ::= (ActParsListNode) ActParsList:A1 COMMA Expr:E2 {: RESULT=new ActParsListNode(A1, E2); RESULT.setLine(A1left); :}
+ActParsList ::= (ActParsListNode) ActParsList:A1 COMMA ActParsExpr:A2 {: RESULT=new ActParsListNode(A1, A2); RESULT.setLine(A1left); :}
                 |
-                (NoActParsList) {: RESULT=new NoActParsList(); :} /* epsilon */;
+                (ActParsListExpr) ActParsExpr:A1 {: RESULT=new ActParsListExpr(A1); RESULT.setLine(A1left); :};
 
-Condition ::= (Condition) CondTerm:C1 ConditionList:C2 {: RESULT=new Condition(C1, C2); RESULT.setLine(C1left); :};
+ActParsExpr ::= (ActParsExprNode) Expr:E1 {: RESULT=new ActParsExprNode(E1); RESULT.setLine(E1left); :};
 
-ConditionList ::= (ConditionListNode) ConditionList:C1 OR CondTerm:C2 {: RESULT=new ConditionListNode(C1, C2); RESULT.setLine(C1left); :}
+Condition ::= (ConditionOr) Condition:C1 OR CondTerm:C2 {: RESULT=new ConditionOr(C1, C2); RESULT.setLine(C1left); :}
                 |
-                (NoConditionList) {: RESULT=new NoConditionList(); :} /* epsilon */;
+                (ConditionTerm) CondTerm:C1 {: RESULT=new ConditionTerm(C1); RESULT.setLine(C1left); :};
 
-CondTerm ::= (CondTerm) CondFact:C1 CondTermList:C2 {: RESULT=new CondTerm(C1, C2); RESULT.setLine(C1left); :};
-
-CondTermList ::= (CondTermListNode) CondTermList:C1 CondTermItem:C2 {: RESULT=new CondTermListNode(C1, C2); RESULT.setLine(C1left); :}
-                |
-                (NoCondTermList) {: RESULT=new NoCondTermList(); :} /* epsilon */;
-
-CondTermItem ::= (CondTermItem) AND CondFact:C1 {: RESULT=new CondTermItem(C1); RESULT.setLine(C1left); :};
+CondTerm ::= (CondTermAnd) CondTerm:C1 AND CondFact:C2 {: RESULT=new CondTermAnd(C1, C2); RESULT.setLine(C1left); :}
+              |
+              (CondTermFact) CondFact:C1 {: RESULT=new CondTermFact(C1); RESULT.setLine(C1left); :};
 
 CondFact ::= (CondFactExpr) Expr:E1 {: RESULT=new CondFactExpr(E1); RESULT.setLine(E1left); :}
             |

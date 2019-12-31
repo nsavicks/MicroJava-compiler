@@ -1,15 +1,17 @@
 // generated with ast extension for cup
 // version 0.8
-// 29/11/2019 21:50:5
+// 31/11/2019 4:46:44
 
 
 package rs.ac.bg.etf.pp1.ast;
 
-public abstract class CondTermList implements SyntaxNode {
+public abstract class MethodDeclTypeIdent implements SyntaxNode {
 
     private SyntaxNode parent;
 
     private int line;
+
+    public rs.etf.pp1.symboltable.concepts.Obj obj = null;
 
     public SyntaxNode getParent() {
         return parent;

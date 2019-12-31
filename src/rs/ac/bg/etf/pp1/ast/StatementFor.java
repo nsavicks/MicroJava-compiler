@@ -1,50 +1,28 @@
 // generated with ast extension for cup
 // version 0.8
-// 29/11/2019 21:50:4
+// 31/11/2019 4:46:43
 
 
 package rs.ac.bg.etf.pp1.ast;
 
 public class StatementFor extends Statement {
 
-    private DesignatorStatementSingle DesignatorStatementSingle;
-    private ForConditionSingle ForConditionSingle;
-    private DesignatorStatementSingle DesignatorStatementSingle1;
+    private ForLoopHeader ForLoopHeader;
     private Statement Statement;
 
-    public StatementFor (DesignatorStatementSingle DesignatorStatementSingle, ForConditionSingle ForConditionSingle, DesignatorStatementSingle DesignatorStatementSingle1, Statement Statement) {
-        this.DesignatorStatementSingle=DesignatorStatementSingle;
-        if(DesignatorStatementSingle!=null) DesignatorStatementSingle.setParent(this);
-        this.ForConditionSingle=ForConditionSingle;
-        if(ForConditionSingle!=null) ForConditionSingle.setParent(this);
-        this.DesignatorStatementSingle1=DesignatorStatementSingle1;
-        if(DesignatorStatementSingle1!=null) DesignatorStatementSingle1.setParent(this);
+    public StatementFor (ForLoopHeader ForLoopHeader, Statement Statement) {
+        this.ForLoopHeader=ForLoopHeader;
+        if(ForLoopHeader!=null) ForLoopHeader.setParent(this);
         this.Statement=Statement;
         if(Statement!=null) Statement.setParent(this);
     }
 
-    public DesignatorStatementSingle getDesignatorStatementSingle() {
-        return DesignatorStatementSingle;
+    public ForLoopHeader getForLoopHeader() {
+        return ForLoopHeader;
     }
 
-    public void setDesignatorStatementSingle(DesignatorStatementSingle DesignatorStatementSingle) {
-        this.DesignatorStatementSingle=DesignatorStatementSingle;
-    }
-
-    public ForConditionSingle getForConditionSingle() {
-        return ForConditionSingle;
-    }
-
-    public void setForConditionSingle(ForConditionSingle ForConditionSingle) {
-        this.ForConditionSingle=ForConditionSingle;
-    }
-
-    public DesignatorStatementSingle getDesignatorStatementSingle1() {
-        return DesignatorStatementSingle1;
-    }
-
-    public void setDesignatorStatementSingle1(DesignatorStatementSingle DesignatorStatementSingle1) {
-        this.DesignatorStatementSingle1=DesignatorStatementSingle1;
+    public void setForLoopHeader(ForLoopHeader ForLoopHeader) {
+        this.ForLoopHeader=ForLoopHeader;
     }
 
     public Statement getStatement() {
@@ -60,24 +38,18 @@ public class StatementFor extends Statement {
     }
 
     public void childrenAccept(Visitor visitor) {
-        if(DesignatorStatementSingle!=null) DesignatorStatementSingle.accept(visitor);
-        if(ForConditionSingle!=null) ForConditionSingle.accept(visitor);
-        if(DesignatorStatementSingle1!=null) DesignatorStatementSingle1.accept(visitor);
+        if(ForLoopHeader!=null) ForLoopHeader.accept(visitor);
         if(Statement!=null) Statement.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
-        if(DesignatorStatementSingle!=null) DesignatorStatementSingle.traverseTopDown(visitor);
-        if(ForConditionSingle!=null) ForConditionSingle.traverseTopDown(visitor);
-        if(DesignatorStatementSingle1!=null) DesignatorStatementSingle1.traverseTopDown(visitor);
+        if(ForLoopHeader!=null) ForLoopHeader.traverseTopDown(visitor);
         if(Statement!=null) Statement.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
-        if(DesignatorStatementSingle!=null) DesignatorStatementSingle.traverseBottomUp(visitor);
-        if(ForConditionSingle!=null) ForConditionSingle.traverseBottomUp(visitor);
-        if(DesignatorStatementSingle1!=null) DesignatorStatementSingle1.traverseBottomUp(visitor);
+        if(ForLoopHeader!=null) ForLoopHeader.traverseBottomUp(visitor);
         if(Statement!=null) Statement.traverseBottomUp(visitor);
         accept(visitor);
     }
@@ -87,20 +59,8 @@ public class StatementFor extends Statement {
         buffer.append(tab);
         buffer.append("StatementFor(\n");
 
-        if(DesignatorStatementSingle!=null)
-            buffer.append(DesignatorStatementSingle.toString("  "+tab));
-        else
-            buffer.append(tab+"  null");
-        buffer.append("\n");
-
-        if(ForConditionSingle!=null)
-            buffer.append(ForConditionSingle.toString("  "+tab));
-        else
-            buffer.append(tab+"  null");
-        buffer.append("\n");
-
-        if(DesignatorStatementSingle1!=null)
-            buffer.append(DesignatorStatementSingle1.toString("  "+tab));
+        if(ForLoopHeader!=null)
+            buffer.append(ForLoopHeader.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");

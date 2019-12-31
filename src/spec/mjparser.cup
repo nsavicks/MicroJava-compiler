@@ -82,22 +82,25 @@ nonterminal rs.etf.pp1.symboltable.concepts.Struct Term;
 nonterminal SubSingle;
 nonterminal rs.etf.pp1.symboltable.concepts.Struct Expr;
 
-nonterminal rs.etf.pp1.symboltable.concepts.Struct CondFact;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct CondFact, CondTerm, Condition;
 
-nonterminal CondTermItem, CondTermList, CondTerm, ConditionList, ConditionSingle, ForConditionSingle, Condition;
+nonterminal ConditionSingle, ForConditionSingle;
 
-nonterminal ActParsList, ActPars;
+nonterminal ActParsList, ActParsExpr, ActPars;
 
+nonterminal DesignatorStatementFuncDesignator;
 nonterminal DesignatorAssignItem, DesignatorStatement, DesignatorStatementSingle;
+
+nonterminal ForLoopHeader;
 
 nonterminal ElseStatementSingle, ExprSingle, CommaNumConstSingle, StatementList, Statement;
 
-nonterminal SquareSingle, TypeIdentSingle, TypeIdentList, FormPars;
+nonterminal SquareSingle, TypeIdentList, FormPars;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj TypeIdentSingle;
 
 nonterminal RetType, FormParsSingle, AbstractMethodDecl, VarDeclList, ExtendsSingle, AbstractMethodDeclItem, AbstractMethodDeclList, AbstractClassMethodDeclSingle, AbstractClassDecl, MethodDeclList;
 
-nonterminal rs.etf.pp1.symboltable.concepts.Obj MethodDeclPrototype;
-nonterminal MethodDecl;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj MethodDeclTypeIdent, MethodDeclPrototype, MethodDecl;
 
 nonterminal VarType, VarIdentList, VarIdentSingle, VarDecl, ConstDeclListItem, ConstDeclList, ConstType, ConstDecl, Declaration, DeclarationList;
 
@@ -204,7 +207,9 @@ ExtendsSingle ::= (ExtendsSingleNode) EXT Type
 
 MethodDecl ::= (MethodDeclNode) MethodDeclPrototype VarDeclList LBRACE StatementList RBRACE;
 
-MethodDeclPrototype ::= (MethodDeclPrototype) RetType IDENT:methName LPAREN FormParsSingle RPAREN;
+MethodDeclPrototype ::= (MethodDeclPrototype) MethodDeclTypeIdent LPAREN FormParsSingle RPAREN;
+
+MethodDeclTypeIdent ::= (MethoDeclTypeIdentNode) RetType IDENT:methName;
 
 VarDeclList ::= (VarDeclListNode) VarDeclList VarDecl
                 |
@@ -229,7 +234,7 @@ TypeIdentList ::= (TypeIdentListNode) TypeIdentList COMMA TypeIdentSingle
                     |
                     (SingleTypeIdentList) TypeIdentSingle;
 
-TypeIdentSingle ::= (TypeIdentSingleNode) Type IDENT SquareSingle
+TypeIdentSingle ::= (TypeIdentSingleNode) Type IDENT:paramName SquareSingle
                     |
                     (ErrorTypeIdentSingle) error:l
                     {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :};
@@ -244,7 +249,7 @@ Statement ::= (StatementDesignator) DesignatorStatement SEMI
             |
             (StatementIf) IF LPAREN Condition RPAREN Statement ElseStatementSingle
             |
-            (StatementFor) FOR LPAREN DesignatorStatementSingle SEMI ForConditionSingle DesignatorStatementSingle RPAREN Statement
+            (StatementFor) ForLoopHeader Statement
             |
             (StatementBreak) BREAK SEMI
             |
@@ -257,6 +262,8 @@ Statement ::= (StatementDesignator) DesignatorStatement SEMI
             (StatementPrint) PRINT LPAREN Expr CommaNumConstSingle RPAREN SEMI
             |
             (StatementStatementList) LBRACE StatementList RBRACE;
+
+ForLoopHeader ::= (ForLoopHeaderNode) FOR LPAREN DesignatorStatementSingle SEMI ForConditionSingle DesignatorStatementSingle RPAREN;
 
 ForConditionSingle ::= (ForConditionSingleNode) ConditionSingle SEMI
                         |
@@ -287,7 +294,7 @@ DesignatorStatementSingle ::= (DesignatorStatementSingleNode) DesignatorStatemen
                             |
                             (NoDesignatorStatementSingle) /* epsilon */;
 
-DesignatorStatement ::= (DesignatorStatementFunc) Designator LPAREN ActParsSingle RPAREN
+DesignatorStatement ::= (DesignatorStatementFunc) DesignatorStatementFuncDesignator LPAREN ActParsSingle RPAREN
                         |
                         (DesignatorStatementInc) Designator INC
                         |
@@ -295,30 +302,28 @@ DesignatorStatement ::= (DesignatorStatementFunc) Designator LPAREN ActParsSingl
                         |
                         (DesignatorStatementAssignNode) DesignatorAssignItem;
 
+DesignatorStatementFuncDesignator ::= (DesignatorStatementFuncDesignator) Designator;
+
 DesignatorAssignItem ::= (DesignatorAssignItemNode) Designator Assignop Expr
                         |
                         (ErrorDesignatorAssignItem) error:l
                         {: parser.report_error("Izvrsen oporavak u liniji "+lleft,null); :};
 
-ActPars ::= (ActPars) Expr ActParsList;
+ActPars ::= (ActParsNode) ActParsList;
 
-ActParsList ::= (ActParsListNode) ActParsList COMMA Expr
+ActParsList ::= (ActParsListNode) ActParsList COMMA ActParsExpr
                 |
-                (NoActParsList) /* epsilon */;
+                (ActParsListExpr) ActParsExpr;
 
-Condition ::= (Condition) CondTerm ConditionList;
+ActParsExpr ::= (ActParsExprNode) Expr;
 
-ConditionList ::= (ConditionListNode) ConditionList OR CondTerm
+Condition ::= (ConditionOr) Condition OR CondTerm
                 |
-                (NoConditionList) /* epsilon */;
+                (ConditionTerm) CondTerm;
 
-CondTerm ::= (CondTerm) CondFact CondTermList;
-
-CondTermList ::= (CondTermListNode) CondTermList CondTermItem
-                |
-                (NoCondTermList) /* epsilon */;
-
-CondTermItem ::= (CondTermItem) AND CondFact;
+CondTerm ::= (CondTermAnd) CondTerm AND CondFact
+              |
+              (CondTermFact) CondFact;
 
 CondFact ::= (CondFactExpr) Expr
             |

@@ -1,17 +1,15 @@
 // generated with ast extension for cup
 // version 0.8
-// 29/11/2019 21:50:5
+// 31/11/2019 4:46:43
 
 
 package rs.ac.bg.etf.pp1.ast;
 
-public class CondTermItem implements SyntaxNode {
+public class CondTermFact extends CondTerm {
 
-    private SyntaxNode parent;
-    private int line;
     private CondFact CondFact;
 
-    public CondTermItem (CondFact CondFact) {
+    public CondTermFact (CondFact CondFact) {
         this.CondFact=CondFact;
         if(CondFact!=null) CondFact.setParent(this);
     }
@@ -22,22 +20,6 @@ public class CondTermItem implements SyntaxNode {
 
     public void setCondFact(CondFact CondFact) {
         this.CondFact=CondFact;
-    }
-
-    public SyntaxNode getParent() {
-        return parent;
-    }
-
-    public void setParent(SyntaxNode parent) {
-        this.parent=parent;
-    }
-
-    public int getLine() {
-        return line;
-    }
-
-    public void setLine(int line) {
-        this.line=line;
     }
 
     public void accept(Visitor visitor) {
@@ -61,7 +43,7 @@ public class CondTermItem implements SyntaxNode {
     public String toString(String tab) {
         StringBuffer buffer=new StringBuffer();
         buffer.append(tab);
-        buffer.append("CondTermItem(\n");
+        buffer.append("CondTermFact(\n");
 
         if(CondFact!=null)
             buffer.append(CondFact.toString("  "+tab));
@@ -70,7 +52,7 @@ public class CondTermItem implements SyntaxNode {
         buffer.append("\n");
 
         buffer.append(tab);
-        buffer.append(") [CondTermItem]");
+        buffer.append(") [CondTermFact]");
         return buffer.toString();
     }
 }

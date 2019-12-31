@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 29/11/2019 21:50:4
+// 31/11/2019 4:46:43
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -8,13 +8,13 @@ package rs.ac.bg.etf.pp1.ast;
 public class TypeIdentSingleNode extends TypeIdentSingle {
 
     private Type Type;
-    private String I2;
+    private String paramName;
     private SquareSingle SquareSingle;
 
-    public TypeIdentSingleNode (Type Type, String I2, SquareSingle SquareSingle) {
+    public TypeIdentSingleNode (Type Type, String paramName, SquareSingle SquareSingle) {
         this.Type=Type;
         if(Type!=null) Type.setParent(this);
-        this.I2=I2;
+        this.paramName=paramName;
         this.SquareSingle=SquareSingle;
         if(SquareSingle!=null) SquareSingle.setParent(this);
     }
@@ -27,12 +27,12 @@ public class TypeIdentSingleNode extends TypeIdentSingle {
         this.Type=Type;
     }
 
-    public String getI2() {
-        return I2;
+    public String getParamName() {
+        return paramName;
     }
 
-    public void setI2(String I2) {
-        this.I2=I2;
+    public void setParamName(String paramName) {
+        this.paramName=paramName;
     }
 
     public SquareSingle getSquareSingle() {
@@ -75,7 +75,7 @@ public class TypeIdentSingleNode extends TypeIdentSingle {
             buffer.append(tab+"  null");
         buffer.append("\n");
 
-        buffer.append(" "+tab+I2);
+        buffer.append(" "+tab+paramName);
         buffer.append("\n");
 
         if(SquareSingle!=null)

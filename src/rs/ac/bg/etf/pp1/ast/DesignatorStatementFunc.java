@@ -1,28 +1,28 @@
 // generated with ast extension for cup
 // version 0.8
-// 29/11/2019 21:50:5
+// 31/11/2019 4:46:43
 
 
 package rs.ac.bg.etf.pp1.ast;
 
 public class DesignatorStatementFunc extends DesignatorStatement {
 
-    private Designator Designator;
+    private DesignatorStatementFuncDesignator DesignatorStatementFuncDesignator;
     private ActParsSingle ActParsSingle;
 
-    public DesignatorStatementFunc (Designator Designator, ActParsSingle ActParsSingle) {
-        this.Designator=Designator;
-        if(Designator!=null) Designator.setParent(this);
+    public DesignatorStatementFunc (DesignatorStatementFuncDesignator DesignatorStatementFuncDesignator, ActParsSingle ActParsSingle) {
+        this.DesignatorStatementFuncDesignator=DesignatorStatementFuncDesignator;
+        if(DesignatorStatementFuncDesignator!=null) DesignatorStatementFuncDesignator.setParent(this);
         this.ActParsSingle=ActParsSingle;
         if(ActParsSingle!=null) ActParsSingle.setParent(this);
     }
 
-    public Designator getDesignator() {
-        return Designator;
+    public DesignatorStatementFuncDesignator getDesignatorStatementFuncDesignator() {
+        return DesignatorStatementFuncDesignator;
     }
 
-    public void setDesignator(Designator Designator) {
-        this.Designator=Designator;
+    public void setDesignatorStatementFuncDesignator(DesignatorStatementFuncDesignator DesignatorStatementFuncDesignator) {
+        this.DesignatorStatementFuncDesignator=DesignatorStatementFuncDesignator;
     }
 
     public ActParsSingle getActParsSingle() {
@@ -38,18 +38,18 @@ public class DesignatorStatementFunc extends DesignatorStatement {
     }
 
     public void childrenAccept(Visitor visitor) {
-        if(Designator!=null) Designator.accept(visitor);
+        if(DesignatorStatementFuncDesignator!=null) DesignatorStatementFuncDesignator.accept(visitor);
         if(ActParsSingle!=null) ActParsSingle.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
-        if(Designator!=null) Designator.traverseTopDown(visitor);
+        if(DesignatorStatementFuncDesignator!=null) DesignatorStatementFuncDesignator.traverseTopDown(visitor);
         if(ActParsSingle!=null) ActParsSingle.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
-        if(Designator!=null) Designator.traverseBottomUp(visitor);
+        if(DesignatorStatementFuncDesignator!=null) DesignatorStatementFuncDesignator.traverseBottomUp(visitor);
         if(ActParsSingle!=null) ActParsSingle.traverseBottomUp(visitor);
         accept(visitor);
     }
@@ -59,8 +59,8 @@ public class DesignatorStatementFunc extends DesignatorStatement {
         buffer.append(tab);
         buffer.append("DesignatorStatementFunc(\n");
 
-        if(Designator!=null)
-            buffer.append(Designator.toString("  "+tab));
+        if(DesignatorStatementFuncDesignator!=null)
+            buffer.append(DesignatorStatementFuncDesignator.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");
