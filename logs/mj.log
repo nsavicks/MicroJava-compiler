@@ -7058,3 +7058,1398 @@ INFO  19:03:14,584 - #33 ;
 INFO  19:03:14,584 - #41 }
 INFO  19:03:14,584 - #41 }
 INFO  19:03:14,622 - Parsiranje uspesno izvrseno.
+INFO  19:05:14,315 - #2 program
+INFO  19:05:14,316 - #44 Program
+INFO  19:05:14,316 - #44 int
+INFO  19:05:14,318 - #44 niz
+INFO  19:05:14,319 - #38 [
+INFO  19:05:14,320 - #39 ]
+INFO  19:05:14,320 - #33 ;
+INFO  19:05:14,321 - #40 {
+INFO  19:05:14,321 - #13 void
+INFO  19:05:14,322 - #44 main
+INFO  19:05:14,323 - #36 (
+INFO  19:05:14,323 - #37 )
+INFO  19:05:14,323 - #44 int
+INFO  19:05:14,325 - #44 i
+INFO  19:05:14,325 - #33 ;
+INFO  19:05:14,325 - #40 {
+INFO  19:05:14,325 - #10 print
+INFO  19:05:14,326 - #36 (
+INFO  19:05:14,326 - #43 10
+INFO  19:05:14,327 - #37 )
+INFO  19:05:14,328 - #33 ;
+INFO  19:05:14,328 - #41 }
+INFO  19:05:14,329 - #41 }
+INFO  19:05:14,364 - Parsiranje uspesno izvrseno.
+INFO  19:08:46,275 - #2 program
+INFO  19:08:46,275 - #44 Program
+INFO  19:08:46,275 - #44 int
+INFO  19:08:46,277 - #44 niz
+INFO  19:08:46,278 - #38 [
+INFO  19:08:46,278 - #39 ]
+INFO  19:08:46,278 - #33 ;
+INFO  19:08:46,280 - #40 {
+INFO  19:08:46,280 - #13 void
+INFO  19:08:46,281 - #44 main
+INFO  19:08:46,282 - #36 (
+INFO  19:08:46,282 - #37 )
+INFO  19:08:46,283 - #44 int
+INFO  19:08:46,284 - #44 i
+INFO  19:08:46,284 - #33 ;
+INFO  19:08:46,284 - #40 {
+INFO  19:08:46,284 - #10 print
+INFO  19:08:46,285 - #36 (
+INFO  19:08:46,285 - #43 10
+INFO  19:08:46,286 - #37 )
+INFO  19:08:46,287 - #33 ;
+INFO  19:08:46,287 - #41 }
+INFO  19:08:46,288 - #41 }
+INFO  19:08:46,326 - Parsiranje uspesno izvrseno.
+INFO  19:11:17,928 - #2 program
+INFO  19:11:17,929 - #44 Program
+INFO  19:11:17,929 - #44 int
+INFO  19:11:17,931 - #44 niz
+INFO  19:11:17,932 - #38 [
+INFO  19:11:17,932 - #39 ]
+INFO  19:11:17,932 - #33 ;
+INFO  19:11:17,933 - #40 {
+INFO  19:11:17,934 - #13 void
+INFO  19:11:17,934 - #44 main
+INFO  19:11:17,935 - #36 (
+INFO  19:11:17,935 - #37 )
+INFO  19:11:17,936 - #44 int
+INFO  19:11:17,937 - #44 i
+INFO  19:11:17,937 - #33 ;
+INFO  19:11:17,938 - #40 {
+INFO  19:11:17,938 - #10 print
+INFO  19:11:17,939 - #36 (
+INFO  19:11:17,939 - #43 10
+INFO  19:11:17,940 - #37 )
+INFO  19:11:17,941 - #33 ;
+INFO  19:11:17,941 - #41 }
+INFO  19:11:17,942 - #41 }
+INFO  19:11:17,975 - Parsiranje uspesno izvrseno.
+INFO  19:25:04,547 - #2 program
+INFO  19:25:04,548 - #44 Program
+INFO  19:25:04,548 - #7 const
+INFO  19:25:04,550 - #44 int
+INFO  19:25:04,550 - #44 k
+INFO  19:25:04,551 - #30 =
+INFO  19:25:04,551 - #43 48
+INFO  19:25:04,551 - #33 ;
+INFO  19:25:04,552 - #44 int
+INFO  19:25:04,553 - #44 y
+INFO  19:25:04,554 - #33 ;
+INFO  19:25:04,555 - #44 int
+INFO  19:25:04,555 - #44 x
+INFO  19:25:04,555 - #33 ;
+INFO  19:25:04,555 - #40 {
+INFO  19:25:04,555 - #13 void
+INFO  19:25:04,556 - #44 main
+INFO  19:25:04,556 - #36 (
+INFO  19:25:04,557 - #37 )
+INFO  19:25:04,557 - #44 int
+INFO  19:25:04,558 - #44 i
+INFO  19:25:04,558 - #33 ;
+INFO  19:25:04,558 - #44 int
+INFO  19:25:04,558 - #44 j
+INFO  19:25:04,558 - #33 ;
+INFO  19:25:04,558 - #40 {
+INFO  19:25:04,558 - #11 read
+INFO  19:25:04,559 - #36 (
+INFO  19:25:04,559 - #44 y
+INFO  19:25:04,559 - #37 )
+INFO  19:25:04,559 - #33 ;
+INFO  19:25:04,559 - #44 x
+INFO  19:25:04,559 - #30 =
+INFO  19:25:04,559 - #44 y
+INFO  19:25:04,561 - #17 +
+INFO  19:25:04,562 - #43 1
+INFO  19:25:04,563 - #33 ;
+INFO  19:25:04,563 - #10 print
+INFO  19:25:04,564 - #36 (
+INFO  19:25:04,564 - #44 x
+INFO  19:25:04,564 - #37 )
+INFO  19:25:04,564 - #33 ;
+INFO  19:25:04,565 - #10 print
+INFO  19:25:04,565 - #36 (
+INFO  19:25:04,565 - #45  
+INFO  19:25:04,565 - #37 )
+INFO  19:25:04,565 - #33 ;
+INFO  19:25:04,565 - #10 print
+INFO  19:25:04,565 - #36 (
+INFO  19:25:04,565 - #44 k
+INFO  19:25:04,566 - #37 )
+INFO  19:25:04,566 - #33 ;
+INFO  19:25:04,566 - #41 }
+INFO  19:25:04,566 - #41 }
+INFO  19:25:04,591 - Info on line: 10: Detected usage of global variable y.
+INFO  19:25:04,591 - Info on line: 11: Detected usage of global variable x.
+INFO  19:25:04,591 - Info on line: 11: Detected usage of global variable y.
+INFO  19:25:04,591 - Info on line: 12: Detected usage of global variable x.
+INFO  19:25:04,591 - Info on line: 14: Detected usage of symbolic constant k.
+INFO  19:25:04,600 - Parsiranje uspesno izvrseno.
+INFO  19:26:37,413 - #2 program
+INFO  19:26:37,413 - #44 Program
+INFO  19:26:37,414 - #44 int
+INFO  19:26:37,415 - #44 x
+INFO  19:26:37,416 - #38 [
+INFO  19:26:37,418 - #39 ]
+INFO  19:26:37,418 - #33 ;
+INFO  19:26:37,419 - #44 int
+INFO  19:26:37,420 - #44 y
+INFO  19:26:37,420 - #33 ;
+INFO  19:26:37,422 - #44 int
+INFO  19:26:37,422 - #44 z
+INFO  19:26:37,422 - #33 ;
+INFO  19:26:37,422 - #44 int
+INFO  19:26:37,422 - #44 t
+INFO  19:26:37,423 - #33 ;
+INFO  19:26:37,423 - #40 {
+INFO  19:26:37,423 - #44 int
+INFO  19:26:37,424 - #44 test
+INFO  19:26:37,424 - #36 (
+INFO  19:26:37,424 - #37 )
+INFO  19:26:37,425 - #44 int
+INFO  19:26:37,426 - #44 a
+INFO  19:26:37,426 - #33 ;
+INFO  19:26:37,427 - #40 {
+INFO  19:26:37,427 - #44 a
+INFO  19:26:37,428 - #30 =
+INFO  19:26:37,428 - #43 1
+INFO  19:26:37,429 - #33 ;
+INFO  19:26:37,430 - #12 return
+INFO  19:26:37,431 - #44 a
+INFO  19:26:37,431 - #33 ;
+INFO  19:26:37,431 - #41 }
+INFO  19:26:37,431 - #13 void
+INFO  19:26:37,432 - #44 main
+INFO  19:26:37,432 - #36 (
+INFO  19:26:37,433 - #37 )
+INFO  19:26:37,433 - #40 {
+INFO  19:26:37,433 - #44 x
+INFO  19:26:37,433 - #30 =
+INFO  19:26:37,433 - #9 new
+INFO  19:26:37,433 - #44 int
+INFO  19:26:37,433 - #38 [
+INFO  19:26:37,433 - #43 2
+INFO  19:26:37,433 - #39 ]
+INFO  19:26:37,434 - #33 ;
+INFO  19:26:37,434 - #11 read
+INFO  19:26:37,434 - #36 (
+INFO  19:26:37,434 - #44 x
+INFO  19:26:37,434 - #38 [
+INFO  19:26:37,434 - #43 0
+INFO  19:26:37,434 - #39 ]
+INFO  19:26:37,434 - #37 )
+INFO  19:26:37,435 - #33 ;
+INFO  19:26:37,435 - #11 read
+INFO  19:26:37,435 - #36 (
+INFO  19:26:37,435 - #44 x
+INFO  19:26:37,435 - #38 [
+INFO  19:26:37,435 - #43 1
+INFO  19:26:37,435 - #39 ]
+INFO  19:26:37,435 - #37 )
+INFO  19:26:37,436 - #33 ;
+INFO  19:26:37,436 - #44 y
+INFO  19:26:37,436 - #30 =
+INFO  19:26:37,436 - #44 x
+INFO  19:26:37,436 - #38 [
+INFO  19:26:37,436 - #43 0
+INFO  19:26:37,436 - #39 ]
+INFO  19:26:37,436 - #17 +
+INFO  19:26:37,436 - #44 x
+INFO  19:26:37,438 - #38 [
+INFO  19:26:37,438 - #43 1
+INFO  19:26:37,438 - #39 ]
+INFO  19:26:37,438 - #33 ;
+INFO  19:26:37,438 - #44 z
+INFO  19:26:37,439 - #30 =
+INFO  19:26:37,439 - #44 x
+INFO  19:26:37,439 - #38 [
+INFO  19:26:37,439 - #43 0
+INFO  19:26:37,439 - #39 ]
+INFO  19:26:37,439 - #19 *
+INFO  19:26:37,439 - #44 x
+INFO  19:26:37,440 - #38 [
+INFO  19:26:37,440 - #43 1
+INFO  19:26:37,440 - #39 ]
+INFO  19:26:37,441 - #33 ;
+INFO  19:26:37,442 - #44 t
+INFO  19:26:37,442 - #30 =
+INFO  19:26:37,442 - #44 test
+INFO  19:26:37,442 - #36 (
+INFO  19:26:37,442 - #37 )
+INFO  19:26:37,443 - #33 ;
+INFO  19:26:37,443 - #10 print
+INFO  19:26:37,443 - #36 (
+INFO  19:26:37,443 - #44 y
+INFO  19:26:37,444 - #37 )
+INFO  19:26:37,444 - #33 ;
+INFO  19:26:37,444 - #10 print
+INFO  19:26:37,445 - #36 (
+INFO  19:26:37,445 - #45  
+INFO  19:26:37,445 - #37 )
+INFO  19:26:37,445 - #33 ;
+INFO  19:26:37,445 - #10 print
+INFO  19:26:37,445 - #36 (
+INFO  19:26:37,445 - #44 z
+INFO  19:26:37,445 - #37 )
+INFO  19:26:37,446 - #33 ;
+INFO  19:26:37,446 - #10 print
+INFO  19:26:37,446 - #36 (
+INFO  19:26:37,446 - #45  
+INFO  19:26:37,446 - #37 )
+INFO  19:26:37,446 - #33 ;
+INFO  19:26:37,446 - #10 print
+INFO  19:26:37,446 - #36 (
+INFO  19:26:37,446 - #44 t
+INFO  19:26:37,446 - #37 )
+INFO  19:26:37,446 - #33 ;
+INFO  19:26:37,447 - #10 print
+INFO  19:26:37,447 - #36 (
+INFO  19:26:37,447 - #45  
+INFO  19:26:37,447 - #37 )
+INFO  19:26:37,447 - #33 ;
+INFO  19:26:37,447 - #10 print
+INFO  19:26:37,447 - #36 (
+INFO  19:26:37,447 - #44 y
+INFO  19:26:37,447 - #37 )
+INFO  19:26:37,447 - #33 ;
+INFO  19:26:37,447 - #10 print
+INFO  19:26:37,448 - #36 (
+INFO  19:26:37,448 - #45  
+INFO  19:26:37,448 - #37 )
+INFO  19:26:37,448 - #33 ;
+INFO  19:26:37,448 - #44 t
+INFO  19:26:37,448 - #30 =
+INFO  19:26:37,448 - #44 test
+INFO  19:26:37,449 - #36 (
+INFO  19:26:37,449 - #37 )
+INFO  19:26:37,449 - #33 ;
+INFO  19:26:37,449 - #10 print
+INFO  19:26:37,449 - #36 (
+INFO  19:26:37,449 - #44 test
+INFO  19:26:37,449 - #36 (
+INFO  19:26:37,449 - #37 )
+INFO  19:26:37,449 - #37 )
+INFO  19:26:37,449 - #33 ;
+INFO  19:26:37,449 - #10 print
+INFO  19:26:37,449 - #36 (
+INFO  19:26:37,449 - #45  
+INFO  19:26:37,449 - #37 )
+INFO  19:26:37,449 - #33 ;
+INFO  19:26:37,449 - #10 print
+INFO  19:26:37,449 - #36 (
+INFO  19:26:37,449 - #44 t
+INFO  19:26:37,450 - #37 )
+INFO  19:26:37,450 - #33 ;
+INFO  19:26:37,450 - #41 }
+INFO  19:26:37,450 - #41 }
+INFO  19:26:37,485 - Info on line: 17: Detected usage of global variable x.
+INFO  19:26:37,485 - Info on line: 18: Detected usage of global variable x.
+INFO  19:26:37,485 - Info on line 18: Detected usage of array element.
+INFO  19:26:37,485 - Info on line: 19: Detected usage of global variable x.
+INFO  19:26:37,485 - Info on line 19: Detected usage of array element.
+INFO  19:26:37,485 - Info on line: 21: Detected usage of global variable y.
+INFO  19:26:37,485 - Info on line: 21: Detected usage of global variable x.
+INFO  19:26:37,485 - Info on line 21: Detected usage of array element.
+INFO  19:26:37,485 - Info on line: 21: Detected usage of global variable x.
+INFO  19:26:37,485 - Info on line 21: Detected usage of array element.
+INFO  19:26:37,485 - Info on line: 22: Detected usage of global variable z.
+INFO  19:26:37,485 - Info on line: 22: Detected usage of global variable x.
+INFO  19:26:37,485 - Info on line 22: Detected usage of array element.
+INFO  19:26:37,486 - Info on line: 22: Detected usage of global variable x.
+INFO  19:26:37,486 - Info on line 22: Detected usage of array element.
+INFO  19:26:37,486 - Info on line: 23: Detected usage of global variable t.
+INFO  19:26:37,486 - Info on line 23: Detected function call for function test.
+INFO  19:26:37,486 - Info on line: 25: Detected usage of global variable y.
+INFO  19:26:37,486 - Info on line: 27: Detected usage of global variable z.
+INFO  19:26:37,486 - Info on line: 29: Detected usage of global variable t.
+INFO  19:26:37,486 - Info on line: 31: Detected usage of global variable y.
+INFO  19:26:37,486 - Info on line: 33: Detected usage of global variable t.
+INFO  19:26:37,486 - Info on line 33: Detected function call for function test.
+INFO  19:26:37,486 - Info on line 34: Detected function call for function test.
+INFO  19:26:37,486 - Info on line: 36: Detected usage of global variable t.
+INFO  19:26:37,499 - Parsiranje uspesno izvrseno.
+INFO  19:27:53,426 - #2 program
+INFO  19:27:53,426 - #44 Program
+INFO  19:27:53,427 - #44 int
+INFO  19:27:53,428 - #44 t
+INFO  19:27:53,429 - #33 ;
+INFO  19:27:53,430 - #44 int
+INFO  19:27:53,430 - #44 x
+INFO  19:27:53,430 - #33 ;
+INFO  19:27:53,430 - #40 {
+INFO  19:27:53,430 - #13 void
+INFO  19:27:53,431 - #44 main
+INFO  19:27:53,432 - #36 (
+INFO  19:27:53,432 - #37 )
+INFO  19:27:53,433 - #40 {
+INFO  19:27:53,434 - #44 x
+INFO  19:27:53,435 - #30 =
+INFO  19:27:53,435 - #43 1
+INFO  19:27:53,436 - #33 ;
+INFO  19:27:53,437 - #44 t
+INFO  19:27:53,438 - #30 =
+INFO  19:27:53,438 - #43 2
+INFO  19:27:53,438 - #33 ;
+INFO  19:27:53,438 - #8 if
+INFO  19:27:53,438 - #36 (
+INFO  19:27:53,438 - #44 x
+INFO  19:27:53,438 - #22 ==
+INFO  19:27:53,439 - #43 2
+INFO  19:27:53,440 - #28 &&
+INFO  19:27:53,441 - #44 t
+INFO  19:27:53,441 - #22 ==
+INFO  19:27:53,441 - #43 1
+INFO  19:27:53,441 - #29 ||
+INFO  19:27:53,441 - #44 t
+INFO  19:27:53,441 - #22 ==
+INFO  19:27:53,441 - #43 2
+INFO  19:27:53,441 - #37 )
+INFO  19:27:53,441 - #40 {
+INFO  19:27:53,442 - #44 x
+INFO  19:27:53,442 - #30 =
+INFO  19:27:53,442 - #43 47
+INFO  19:27:53,442 - #33 ;
+INFO  19:27:53,442 - #41 }
+INFO  19:27:53,442 - #10 print
+INFO  19:27:53,443 - #36 (
+INFO  19:27:53,443 - #44 x
+INFO  19:27:53,443 - #37 )
+INFO  19:27:53,444 - #33 ;
+INFO  19:27:53,444 - #41 }
+INFO  19:27:53,444 - #41 }
+INFO  19:27:53,478 - Info on line: 8: Detected usage of global variable x.
+INFO  19:27:53,480 - Info on line: 9: Detected usage of global variable t.
+INFO  19:27:53,481 - Info on line: 11: Detected usage of global variable x.
+INFO  19:27:53,481 - Info on line: 11: Detected usage of global variable t.
+INFO  19:27:53,481 - Info on line: 11: Detected usage of global variable t.
+INFO  19:27:53,481 - Info on line: 13: Detected usage of global variable x.
+INFO  19:27:53,481 - Info on line: 16: Detected usage of global variable x.
+INFO  19:27:53,500 - Parsiranje uspesno izvrseno.
+INFO  19:29:19,416 - #2 program
+INFO  19:29:19,416 - #44 Program
+INFO  19:29:19,417 - #44 int
+INFO  19:29:19,418 - #44 t
+INFO  19:29:19,419 - #33 ;
+INFO  19:29:19,421 - #44 int
+INFO  19:29:19,421 - #44 x
+INFO  19:29:19,421 - #33 ;
+INFO  19:29:19,422 - #40 {
+INFO  19:29:19,422 - #13 void
+INFO  19:29:19,423 - #44 main
+INFO  19:29:19,423 - #36 (
+INFO  19:29:19,424 - #37 )
+INFO  19:29:19,424 - #40 {
+INFO  19:29:19,426 - #44 x
+INFO  19:29:19,426 - #30 =
+INFO  19:29:19,426 - #43 1
+INFO  19:29:19,428 - #33 ;
+INFO  19:29:19,429 - #44 t
+INFO  19:29:19,429 - #30 =
+INFO  19:29:19,430 - #43 2
+INFO  19:29:19,430 - #33 ;
+INFO  19:29:19,430 - #8 if
+INFO  19:29:19,430 - #36 (
+INFO  19:29:19,430 - #44 x
+INFO  19:29:19,430 - #22 ==
+INFO  19:29:19,430 - #43 2
+INFO  19:29:19,431 - #28 &&
+INFO  19:29:19,432 - #44 t
+INFO  19:29:19,432 - #22 ==
+INFO  19:29:19,432 - #43 2
+INFO  19:29:19,432 - #29 ||
+INFO  19:29:19,432 - #44 t
+INFO  19:29:19,432 - #22 ==
+INFO  19:29:19,432 - #43 1
+INFO  19:29:19,433 - #37 )
+INFO  19:29:19,433 - #40 {
+INFO  19:29:19,433 - #44 x
+INFO  19:29:19,433 - #30 =
+INFO  19:29:19,433 - #43 47
+INFO  19:29:19,433 - #33 ;
+INFO  19:29:19,433 - #41 }
+INFO  19:29:19,433 - #10 print
+INFO  19:29:19,434 - #36 (
+INFO  19:29:19,434 - #44 x
+INFO  19:29:19,434 - #37 )
+INFO  19:29:19,435 - #33 ;
+INFO  19:29:19,435 - #41 }
+INFO  19:29:19,435 - #41 }
+INFO  19:29:19,461 - Info on line: 8: Detected usage of global variable x.
+INFO  19:29:19,462 - Info on line: 9: Detected usage of global variable t.
+INFO  19:29:19,462 - Info on line: 11: Detected usage of global variable x.
+INFO  19:29:19,462 - Info on line: 11: Detected usage of global variable t.
+INFO  19:29:19,462 - Info on line: 11: Detected usage of global variable t.
+INFO  19:29:19,463 - Info on line: 13: Detected usage of global variable x.
+INFO  19:29:19,463 - Info on line: 16: Detected usage of global variable x.
+INFO  19:29:19,475 - Parsiranje uspesno izvrseno.
+INFO  19:29:31,928 - #2 program
+INFO  19:29:31,928 - #44 Program
+INFO  19:29:31,928 - #44 int
+INFO  19:29:31,930 - #44 t
+INFO  19:29:31,931 - #33 ;
+INFO  19:29:31,932 - #44 int
+INFO  19:29:31,932 - #44 x
+INFO  19:29:31,932 - #33 ;
+INFO  19:29:31,932 - #40 {
+INFO  19:29:31,932 - #13 void
+INFO  19:29:31,933 - #44 main
+INFO  19:29:31,933 - #36 (
+INFO  19:29:31,934 - #37 )
+INFO  19:29:31,934 - #40 {
+INFO  19:29:31,935 - #44 x
+INFO  19:29:31,935 - #30 =
+INFO  19:29:31,936 - #43 1
+INFO  19:29:31,937 - #33 ;
+INFO  19:29:31,938 - #44 t
+INFO  19:29:31,938 - #30 =
+INFO  19:29:31,938 - #43 2
+INFO  19:29:31,938 - #33 ;
+INFO  19:29:31,938 - #8 if
+INFO  19:29:31,938 - #36 (
+INFO  19:29:31,938 - #44 x
+INFO  19:29:31,938 - #22 ==
+INFO  19:29:31,939 - #43 1
+INFO  19:29:31,939 - #28 &&
+INFO  19:29:31,940 - #44 t
+INFO  19:29:31,940 - #22 ==
+INFO  19:29:31,940 - #43 2
+INFO  19:29:31,940 - #29 ||
+INFO  19:29:31,940 - #44 t
+INFO  19:29:31,940 - #22 ==
+INFO  19:29:31,940 - #43 1
+INFO  19:29:31,940 - #37 )
+INFO  19:29:31,941 - #40 {
+INFO  19:29:31,941 - #44 x
+INFO  19:29:31,941 - #30 =
+INFO  19:29:31,941 - #43 47
+INFO  19:29:31,941 - #33 ;
+INFO  19:29:31,941 - #41 }
+INFO  19:29:31,941 - #10 print
+INFO  19:29:31,942 - #36 (
+INFO  19:29:31,942 - #44 x
+INFO  19:29:31,942 - #37 )
+INFO  19:29:31,942 - #33 ;
+INFO  19:29:31,942 - #41 }
+INFO  19:29:31,943 - #41 }
+INFO  19:29:31,966 - Info on line: 8: Detected usage of global variable x.
+INFO  19:29:31,967 - Info on line: 9: Detected usage of global variable t.
+INFO  19:29:31,967 - Info on line: 11: Detected usage of global variable x.
+INFO  19:29:31,968 - Info on line: 11: Detected usage of global variable t.
+INFO  19:29:31,968 - Info on line: 11: Detected usage of global variable t.
+INFO  19:29:31,968 - Info on line: 13: Detected usage of global variable x.
+INFO  19:29:31,968 - Info on line: 16: Detected usage of global variable x.
+INFO  19:29:31,982 - Parsiranje uspesno izvrseno.
+INFO  19:29:58,024 - #2 program
+INFO  19:29:58,025 - #44 Program
+INFO  19:29:58,025 - #44 int
+INFO  19:29:58,026 - #44 t
+INFO  19:29:58,027 - #33 ;
+INFO  19:29:58,028 - #40 {
+INFO  19:29:58,029 - #44 int
+INFO  19:29:58,030 - #44 test
+INFO  19:29:58,030 - #36 (
+INFO  19:29:58,030 - #44 int
+INFO  19:29:58,030 - #44 a
+INFO  19:29:58,030 - #34 ,
+INFO  19:29:58,031 - #44 int
+INFO  19:29:58,031 - #44 b
+INFO  19:29:58,031 - #34 ,
+INFO  19:29:58,031 - #44 int
+INFO  19:29:58,031 - #44 c
+INFO  19:29:58,031 - #37 )
+INFO  19:29:58,032 - #40 {
+INFO  19:29:58,033 - #12 return
+INFO  19:29:58,034 - #44 a
+INFO  19:29:58,035 - #17 +
+INFO  19:29:58,036 - #44 b
+INFO  19:29:58,037 - #17 +
+INFO  19:29:58,037 - #44 c
+INFO  19:29:58,037 - #33 ;
+INFO  19:29:58,037 - #41 }
+INFO  19:29:58,038 - #13 void
+INFO  19:29:58,038 - #44 p
+INFO  19:29:58,039 - #36 (
+INFO  19:29:58,039 - #44 int
+INFO  19:29:58,039 - #44 a
+INFO  19:29:58,039 - #34 ,
+INFO  19:29:58,039 - #44 int
+INFO  19:29:58,039 - #44 b
+INFO  19:29:58,039 - #34 ,
+INFO  19:29:58,039 - #44 int
+INFO  19:29:58,039 - #44 c
+INFO  19:29:58,039 - #37 )
+INFO  19:29:58,040 - #40 {
+INFO  19:29:58,040 - #10 print
+INFO  19:29:58,040 - #36 (
+INFO  19:29:58,040 - #43 6
+INFO  19:29:58,040 - #37 )
+INFO  19:29:58,040 - #33 ;
+INFO  19:29:58,041 - #41 }
+INFO  19:29:58,041 - #13 void
+INFO  19:29:58,041 - #44 main
+INFO  19:29:58,041 - #36 (
+INFO  19:29:58,041 - #37 )
+INFO  19:29:58,042 - #40 {
+INFO  19:29:58,042 - #44 t
+INFO  19:29:58,042 - #30 =
+INFO  19:29:58,042 - #44 test
+INFO  19:29:58,043 - #36 (
+INFO  19:29:58,043 - #43 1
+INFO  19:29:58,043 - #34 ,
+INFO  19:29:58,044 - #43 2
+INFO  19:29:58,044 - #34 ,
+INFO  19:29:58,044 - #43 3
+INFO  19:29:58,044 - #37 )
+INFO  19:29:58,045 - #33 ;
+INFO  19:29:58,045 - #10 print
+INFO  19:29:58,046 - #36 (
+INFO  19:29:58,046 - #45  
+INFO  19:29:58,046 - #37 )
+INFO  19:29:58,046 - #33 ;
+INFO  19:29:58,046 - #10 print
+INFO  19:29:58,046 - #36 (
+INFO  19:29:58,046 - #43 1
+INFO  19:29:58,047 - #17 +
+INFO  19:29:58,047 - #44 test
+INFO  19:29:58,047 - #36 (
+INFO  19:29:58,047 - #43 1
+INFO  19:29:58,047 - #34 ,
+INFO  19:29:58,047 - #43 2
+INFO  19:29:58,047 - #34 ,
+INFO  19:29:58,047 - #43 3
+INFO  19:29:58,047 - #37 )
+INFO  19:29:58,047 - #37 )
+INFO  19:29:58,047 - #33 ;
+INFO  19:29:58,048 - #41 }
+INFO  19:29:58,048 - #41 }
+INFO  19:29:58,071 - Info on line: 7: Detected usage of function formal parameter a.
+INFO  19:29:58,072 - Info on line: 7: Detected usage of function formal parameter b.
+INFO  19:29:58,072 - Info on line: 7: Detected usage of function formal parameter c.
+INFO  19:29:58,072 - Info on line: 17: Detected usage of global variable t.
+INFO  19:29:58,073 - Info on line 17: Detected function call for function test.
+INFO  19:29:58,073 - Info on line 20: Detected function call for function test.
+INFO  19:29:58,083 - Parsiranje uspesno izvrseno.
+INFO  19:30:04,517 - #2 program
+INFO  19:30:04,518 - #44 Program
+INFO  19:30:04,518 - #44 int
+INFO  19:30:04,519 - #44 t
+INFO  19:30:04,520 - #33 ;
+INFO  19:30:04,521 - #40 {
+INFO  19:30:04,522 - #44 int
+INFO  19:30:04,522 - #44 test
+INFO  19:30:04,523 - #36 (
+INFO  19:30:04,523 - #44 int
+INFO  19:30:04,523 - #44 a
+INFO  19:30:04,523 - #34 ,
+INFO  19:30:04,523 - #44 int
+INFO  19:30:04,523 - #44 b
+INFO  19:30:04,523 - #34 ,
+INFO  19:30:04,524 - #44 int
+INFO  19:30:04,524 - #44 c
+INFO  19:30:04,524 - #37 )
+INFO  19:30:04,525 - #40 {
+INFO  19:30:04,526 - #12 return
+INFO  19:30:04,527 - #44 a
+INFO  19:30:04,528 - #17 +
+INFO  19:30:04,528 - #44 b
+INFO  19:30:04,530 - #17 +
+INFO  19:30:04,530 - #44 c
+INFO  19:30:04,530 - #33 ;
+INFO  19:30:04,530 - #41 }
+INFO  19:30:04,531 - #13 void
+INFO  19:30:04,531 - #44 p
+INFO  19:30:04,532 - #36 (
+INFO  19:30:04,532 - #44 int
+INFO  19:30:04,532 - #44 a
+INFO  19:30:04,532 - #34 ,
+INFO  19:30:04,532 - #44 int
+INFO  19:30:04,532 - #44 b
+INFO  19:30:04,532 - #34 ,
+INFO  19:30:04,532 - #44 int
+INFO  19:30:04,532 - #44 c
+INFO  19:30:04,532 - #37 )
+INFO  19:30:04,532 - #40 {
+INFO  19:30:04,533 - #10 print
+INFO  19:30:04,533 - #36 (
+INFO  19:30:04,533 - #43 6
+INFO  19:30:04,533 - #37 )
+INFO  19:30:04,534 - #33 ;
+INFO  19:30:04,534 - #41 }
+INFO  19:30:04,534 - #13 void
+INFO  19:30:04,534 - #44 main
+INFO  19:30:04,534 - #36 (
+INFO  19:30:04,534 - #37 )
+INFO  19:30:04,535 - #40 {
+INFO  19:30:04,535 - #44 t
+INFO  19:30:04,535 - #30 =
+INFO  19:30:04,535 - #44 test
+INFO  19:30:04,536 - #36 (
+INFO  19:30:04,537 - #43 1
+INFO  19:30:04,537 - #34 ,
+INFO  19:30:04,537 - #43 2
+INFO  19:30:04,537 - #34 ,
+INFO  19:30:04,537 - #43 3
+INFO  19:30:04,537 - #37 )
+INFO  19:30:04,538 - #33 ;
+INFO  19:30:04,538 - #10 print
+INFO  19:30:04,538 - #36 (
+INFO  19:30:04,539 - #45  
+INFO  19:30:04,539 - #37 )
+INFO  19:30:04,545 - #33 ;
+INFO  19:30:04,545 - #10 print
+INFO  19:30:04,545 - #36 (
+INFO  19:30:04,545 - #43 1
+INFO  19:30:04,545 - #17 +
+INFO  19:30:04,545 - #44 test
+INFO  19:30:04,545 - #36 (
+INFO  19:30:04,545 - #43 1
+INFO  19:30:04,545 - #34 ,
+INFO  19:30:04,546 - #43 2
+INFO  19:30:04,546 - #34 ,
+INFO  19:30:04,546 - #43 3
+INFO  19:30:04,546 - #37 )
+INFO  19:30:04,546 - #37 )
+INFO  19:30:04,546 - #33 ;
+INFO  19:30:04,546 - #41 }
+INFO  19:30:04,546 - #41 }
+INFO  19:30:04,572 - Info on line: 7: Detected usage of function formal parameter a.
+INFO  19:30:04,573 - Info on line: 7: Detected usage of function formal parameter b.
+INFO  19:30:04,573 - Info on line: 7: Detected usage of function formal parameter c.
+INFO  19:30:04,574 - Info on line: 17: Detected usage of global variable t.
+INFO  19:30:04,574 - Info on line 17: Detected function call for function test.
+INFO  19:30:04,574 - Info on line 20: Detected function call for function test.
+INFO  19:30:04,582 - Parsiranje uspesno izvrseno.
+INFO  19:30:21,352 - #2 program
+INFO  19:30:21,352 - #44 Program
+INFO  19:30:21,352 - #44 int
+INFO  19:30:21,354 - #44 t
+INFO  19:30:21,355 - #33 ;
+INFO  19:30:21,356 - #40 {
+INFO  19:30:21,357 - #44 int
+INFO  19:30:21,358 - #44 test
+INFO  19:30:21,358 - #36 (
+INFO  19:30:21,358 - #44 int
+INFO  19:30:21,358 - #44 a
+INFO  19:30:21,358 - #34 ,
+INFO  19:30:21,359 - #44 int
+INFO  19:30:21,359 - #44 b
+INFO  19:30:21,359 - #34 ,
+INFO  19:30:21,359 - #44 int
+INFO  19:30:21,359 - #44 c
+INFO  19:30:21,359 - #37 )
+INFO  19:30:21,360 - #40 {
+INFO  19:30:21,361 - #12 return
+INFO  19:30:21,362 - #44 a
+INFO  19:30:21,362 - #17 +
+INFO  19:30:21,363 - #44 b
+INFO  19:30:21,364 - #17 +
+INFO  19:30:21,364 - #44 c
+INFO  19:30:21,364 - #33 ;
+INFO  19:30:21,364 - #41 }
+INFO  19:30:21,365 - #13 void
+INFO  19:30:21,365 - #44 p
+INFO  19:30:21,365 - #36 (
+INFO  19:30:21,365 - #44 int
+INFO  19:30:21,366 - #44 a
+INFO  19:30:21,366 - #34 ,
+INFO  19:30:21,366 - #44 int
+INFO  19:30:21,366 - #44 b
+INFO  19:30:21,366 - #34 ,
+INFO  19:30:21,366 - #44 int
+INFO  19:30:21,366 - #44 c
+INFO  19:30:21,366 - #37 )
+INFO  19:30:21,366 - #40 {
+INFO  19:30:21,366 - #10 print
+INFO  19:30:21,366 - #36 (
+INFO  19:30:21,367 - #43 6
+INFO  19:30:21,367 - #37 )
+INFO  19:30:21,368 - #33 ;
+INFO  19:30:21,368 - #41 }
+INFO  19:30:21,368 - #13 void
+INFO  19:30:21,368 - #44 main
+INFO  19:30:21,368 - #36 (
+INFO  19:30:21,368 - #37 )
+INFO  19:30:21,369 - #40 {
+INFO  19:30:21,369 - #44 t
+INFO  19:30:21,369 - #30 =
+INFO  19:30:21,369 - #44 test
+INFO  19:30:21,370 - #36 (
+INFO  19:30:21,371 - #43 1
+INFO  19:30:21,371 - #34 ,
+INFO  19:30:21,371 - #43 2
+INFO  19:30:21,371 - #34 ,
+INFO  19:30:21,372 - #43 3
+INFO  19:30:21,372 - #37 )
+INFO  19:30:21,372 - #33 ;
+INFO  19:30:21,373 - #44 p
+INFO  19:30:21,373 - #36 (
+INFO  19:30:21,374 - #43 1
+INFO  19:30:21,374 - #34 ,
+INFO  19:30:21,380 - #43 2
+INFO  19:30:21,380 - #34 ,
+INFO  19:30:21,380 - #43 3
+INFO  19:30:21,380 - #37 )
+INFO  19:30:21,380 - #33 ;
+INFO  19:30:21,380 - #10 print
+INFO  19:30:21,381 - #36 (
+INFO  19:30:21,381 - #45  
+INFO  19:30:21,381 - #37 )
+INFO  19:30:21,381 - #33 ;
+INFO  19:30:21,381 - #10 print
+INFO  19:30:21,381 - #36 (
+INFO  19:30:21,381 - #43 1
+INFO  19:30:21,381 - #17 +
+INFO  19:30:21,381 - #44 test
+INFO  19:30:21,381 - #36 (
+INFO  19:30:21,381 - #43 1
+INFO  19:30:21,381 - #34 ,
+INFO  19:30:21,381 - #43 2
+INFO  19:30:21,381 - #34 ,
+INFO  19:30:21,382 - #43 3
+INFO  19:30:21,382 - #37 )
+INFO  19:30:21,382 - #37 )
+INFO  19:30:21,382 - #33 ;
+INFO  19:30:21,382 - #41 }
+INFO  19:30:21,382 - #41 }
+INFO  19:30:21,407 - Info on line: 7: Detected usage of function formal parameter a.
+INFO  19:30:21,408 - Info on line: 7: Detected usage of function formal parameter b.
+INFO  19:30:21,408 - Info on line: 7: Detected usage of function formal parameter c.
+INFO  19:30:21,408 - Info on line: 17: Detected usage of global variable t.
+INFO  19:30:21,409 - Info on line 17: Detected function call for function test.
+INFO  19:30:21,409 - Info on line 18: Detected function call for function p.
+INFO  19:30:21,409 - Info on line 20: Detected function call for function test.
+INFO  19:30:21,419 - Parsiranje uspesno izvrseno.
+INFO  19:31:06,221 - #2 program
+INFO  19:31:06,221 - #44 Program
+INFO  19:31:06,222 - #44 int
+INFO  19:31:06,223 - #44 i
+INFO  19:31:06,225 - #33 ;
+INFO  19:31:06,227 - #44 int
+INFO  19:31:06,227 - #44 j
+INFO  19:31:06,227 - #33 ;
+INFO  19:31:06,228 - #40 {
+INFO  19:31:06,229 - #13 void
+INFO  19:31:06,230 - #44 main
+INFO  19:31:06,230 - #36 (
+INFO  19:31:06,231 - #37 )
+INFO  19:31:06,231 - #40 {
+INFO  19:31:06,232 - #14 for
+INFO  19:31:06,233 - #36 (
+INFO  19:31:06,233 - #44 i
+INFO  19:31:06,233 - #30 =
+INFO  19:31:06,234 - #43 0
+INFO  19:31:06,235 - #33 ;
+INFO  19:31:06,236 - #44 i
+INFO  19:31:06,236 - #26 <
+INFO  19:31:06,237 - #43 10
+INFO  19:31:06,238 - #33 ;
+INFO  19:31:06,238 - #44 i
+INFO  19:31:06,239 - #31 ++
+INFO  19:31:06,239 - #37 )
+INFO  19:31:06,239 - #40 {
+INFO  19:31:06,239 - #8 if
+INFO  19:31:06,239 - #36 (
+INFO  19:31:06,239 - #44 i
+INFO  19:31:06,239 - #22 ==
+INFO  19:31:06,240 - #43 1
+INFO  19:31:06,240 - #37 )
+INFO  19:31:06,240 - #16 continue
+INFO  19:31:06,240 - #33 ;
+INFO  19:31:06,240 - #14 for
+INFO  19:31:06,242 - #36 (
+INFO  19:31:06,242 - #44 j
+INFO  19:31:06,242 - #30 =
+INFO  19:31:06,242 - #43 0
+INFO  19:31:06,242 - #33 ;
+INFO  19:31:06,242 - #44 j
+INFO  19:31:06,242 - #26 <
+INFO  19:31:06,242 - #43 10
+INFO  19:31:06,242 - #33 ;
+INFO  19:31:06,243 - #44 j
+INFO  19:31:06,243 - #31 ++
+INFO  19:31:06,243 - #37 )
+INFO  19:31:06,243 - #40 {
+INFO  19:31:06,243 - #10 print
+INFO  19:31:06,243 - #36 (
+INFO  19:31:06,243 - #44 i
+INFO  19:31:06,243 - #37 )
+INFO  19:31:06,244 - #33 ;
+INFO  19:31:06,244 - #10 print
+INFO  19:31:06,244 - #36 (
+INFO  19:31:06,244 - #44 j
+INFO  19:31:06,244 - #37 )
+INFO  19:31:06,244 - #33 ;
+INFO  19:31:06,245 - #10 print
+INFO  19:31:06,245 - #36 (
+INFO  19:31:06,245 - #45  
+INFO  19:31:06,245 - #37 )
+INFO  19:31:06,245 - #33 ;
+INFO  19:31:06,246 - #41 }
+INFO  19:31:06,246 - #41 }
+INFO  19:31:06,246 - #41 }
+INFO  19:31:06,246 - #41 }
+INFO  19:31:06,271 - Info on line: 8: Detected usage of global variable i.
+INFO  19:31:06,272 - Info on line: 8: Detected usage of global variable i.
+INFO  19:31:06,272 - Info on line: 8: Detected usage of global variable i.
+INFO  19:31:06,272 - Info on line 8: Detected for loop.
+INFO  19:31:06,272 - Info on line: 10: Detected usage of global variable i.
+INFO  19:31:06,272 - Info on line: 13: Detected usage of global variable j.
+INFO  19:31:06,272 - Info on line: 13: Detected usage of global variable j.
+INFO  19:31:06,272 - Info on line: 13: Detected usage of global variable j.
+INFO  19:31:06,272 - Info on line 13: Detected for loop.
+INFO  19:31:06,273 - Info on line: 15: Detected usage of global variable i.
+INFO  19:31:06,273 - Info on line: 16: Detected usage of global variable j.
+INFO  19:31:06,285 - Parsiranje uspesno izvrseno.
+INFO  19:31:30,834 - #2 program
+INFO  19:31:30,834 - #44 Program
+INFO  19:31:30,834 - #44 int
+INFO  19:31:30,836 - #44 i
+INFO  19:31:30,837 - #33 ;
+INFO  19:31:30,839 - #44 int
+INFO  19:31:30,839 - #44 j
+INFO  19:31:30,839 - #33 ;
+INFO  19:31:30,840 - #40 {
+INFO  19:31:30,840 - #13 void
+INFO  19:31:30,840 - #44 main
+INFO  19:31:30,841 - #36 (
+INFO  19:31:30,841 - #37 )
+INFO  19:31:30,842 - #40 {
+INFO  19:31:30,843 - #14 for
+INFO  19:31:30,844 - #36 (
+INFO  19:31:30,844 - #44 i
+INFO  19:31:30,844 - #30 =
+INFO  19:31:30,844 - #43 0
+INFO  19:31:30,846 - #33 ;
+INFO  19:31:30,847 - #44 i
+INFO  19:31:30,847 - #26 <
+INFO  19:31:30,847 - #43 10
+INFO  19:31:30,848 - #33 ;
+INFO  19:31:30,849 - #44 i
+INFO  19:31:30,849 - #31 ++
+INFO  19:31:30,849 - #37 )
+INFO  19:31:30,849 - #40 {
+INFO  19:31:30,849 - #8 if
+INFO  19:31:30,849 - #36 (
+INFO  19:31:30,849 - #44 i
+INFO  19:31:30,849 - #22 ==
+INFO  19:31:30,849 - #43 1
+INFO  19:31:30,850 - #37 )
+INFO  19:31:30,850 - #16 continue
+INFO  19:31:30,850 - #33 ;
+INFO  19:31:30,850 - #8 if
+INFO  19:31:30,851 - #36 (
+INFO  19:31:30,851 - #44 i
+INFO  19:31:30,851 - #22 ==
+INFO  19:31:30,851 - #43 3
+INFO  19:31:30,851 - #37 )
+INFO  19:31:30,851 - #3 break
+INFO  19:31:30,851 - #33 ;
+INFO  19:31:30,852 - #14 for
+INFO  19:31:30,852 - #36 (
+INFO  19:31:30,852 - #44 j
+INFO  19:31:30,852 - #30 =
+INFO  19:31:30,852 - #43 0
+INFO  19:31:30,852 - #33 ;
+INFO  19:31:30,852 - #44 j
+INFO  19:31:30,852 - #26 <
+INFO  19:31:30,852 - #43 10
+INFO  19:31:30,852 - #33 ;
+INFO  19:31:30,853 - #44 j
+INFO  19:31:30,853 - #31 ++
+INFO  19:31:30,853 - #37 )
+INFO  19:31:30,853 - #40 {
+INFO  19:31:30,853 - #10 print
+INFO  19:31:30,853 - #36 (
+INFO  19:31:30,853 - #44 i
+INFO  19:31:30,853 - #37 )
+INFO  19:31:30,854 - #33 ;
+INFO  19:31:30,854 - #10 print
+INFO  19:31:30,854 - #36 (
+INFO  19:31:30,854 - #44 j
+INFO  19:31:30,854 - #37 )
+INFO  19:31:30,854 - #33 ;
+INFO  19:31:30,854 - #10 print
+INFO  19:31:30,854 - #36 (
+INFO  19:31:30,854 - #45  
+INFO  19:31:30,854 - #37 )
+INFO  19:31:30,854 - #33 ;
+INFO  19:31:30,854 - #41 }
+INFO  19:31:30,854 - #41 }
+INFO  19:31:30,855 - #41 }
+INFO  19:31:30,855 - #41 }
+INFO  19:31:30,881 - Info on line: 8: Detected usage of global variable i.
+INFO  19:31:30,882 - Info on line: 8: Detected usage of global variable i.
+INFO  19:31:30,882 - Info on line: 8: Detected usage of global variable i.
+INFO  19:31:30,882 - Info on line 8: Detected for loop.
+INFO  19:31:30,882 - Info on line: 10: Detected usage of global variable i.
+INFO  19:31:30,882 - Info on line: 13: Detected usage of global variable i.
+INFO  19:31:30,882 - Info on line: 15: Detected usage of global variable j.
+INFO  19:31:30,882 - Info on line: 15: Detected usage of global variable j.
+INFO  19:31:30,882 - Info on line: 15: Detected usage of global variable j.
+INFO  19:31:30,882 - Info on line 15: Detected for loop.
+INFO  19:31:30,882 - Info on line: 17: Detected usage of global variable i.
+INFO  19:31:30,882 - Info on line: 18: Detected usage of global variable j.
+INFO  19:31:30,893 - Parsiranje uspesno izvrseno.
+INFO  19:32:05,568 - #2 program
+INFO  19:32:05,569 - #44 Program
+INFO  19:32:05,569 - #44 int
+INFO  19:32:05,570 - #44 t
+INFO  19:32:05,571 - #33 ;
+INFO  19:32:05,573 - #44 int
+INFO  19:32:05,573 - #44 x
+INFO  19:32:05,573 - #33 ;
+INFO  19:32:05,573 - #40 {
+INFO  19:32:05,574 - #13 void
+INFO  19:32:05,574 - #44 main
+INFO  19:32:05,575 - #36 (
+INFO  19:32:05,575 - #37 )
+INFO  19:32:05,576 - #40 {
+INFO  19:32:05,577 - #44 t
+INFO  19:32:05,577 - #30 =
+INFO  19:32:05,577 - #43 1
+INFO  19:32:05,578 - #33 ;
+INFO  19:32:05,579 - #8 if
+INFO  19:32:05,579 - #36 (
+INFO  19:32:05,579 - #44 x
+INFO  19:32:05,579 - #22 ==
+INFO  19:32:05,579 - #43 0
+INFO  19:32:05,580 - #28 &&
+INFO  19:32:05,580 - #44 t
+INFO  19:32:05,581 - #22 ==
+INFO  19:32:05,581 - #43 1
+INFO  19:32:05,581 - #37 )
+INFO  19:32:05,581 - #40 {
+INFO  19:32:05,581 - #44 t
+INFO  19:32:05,581 - #30 =
+INFO  19:32:05,581 - #43 1
+INFO  19:32:05,581 - #33 ;
+INFO  19:32:05,581 - #8 if
+INFO  19:32:05,581 - #36 (
+INFO  19:32:05,581 - #44 t
+INFO  19:32:05,582 - #22 ==
+INFO  19:32:05,582 - #43 1
+INFO  19:32:05,582 - #37 )
+INFO  19:32:05,582 - #40 {
+INFO  19:32:05,582 - #44 x
+INFO  19:32:05,582 - #30 =
+INFO  19:32:05,582 - #43 2
+INFO  19:32:05,582 - #33 ;
+INFO  19:32:05,582 - #41 }
+INFO  19:32:05,582 - #6 else
+INFO  19:32:05,582 - #40 {
+INFO  19:32:05,583 - #44 x
+INFO  19:32:05,583 - #30 =
+INFO  19:32:05,583 - #43 2
+INFO  19:32:05,583 - #33 ;
+INFO  19:32:05,583 - #41 }
+INFO  19:32:05,583 - #44 t
+INFO  19:32:05,584 - #30 =
+INFO  19:32:05,584 - #43 3
+INFO  19:32:05,584 - #33 ;
+INFO  19:32:05,584 - #41 }
+INFO  19:32:05,584 - #6 else
+INFO  19:32:05,584 - #40 {
+INFO  19:32:05,584 - #44 t
+INFO  19:32:05,584 - #30 =
+INFO  19:32:05,584 - #43 47
+INFO  19:32:05,585 - #33 ;
+INFO  19:32:05,585 - #41 }
+INFO  19:32:05,585 - #10 print
+INFO  19:32:05,585 - #36 (
+INFO  19:32:05,585 - #44 x
+INFO  19:32:05,585 - #37 )
+INFO  19:32:05,585 - #33 ;
+INFO  19:32:05,585 - #41 }
+INFO  19:32:05,586 - #41 }
+INFO  19:32:05,613 - Info on line: 8: Detected usage of global variable t.
+INFO  19:32:05,614 - Info on line: 10: Detected usage of global variable x.
+INFO  19:32:05,614 - Info on line: 10: Detected usage of global variable t.
+INFO  19:32:05,614 - Info on line: 12: Detected usage of global variable t.
+INFO  19:32:05,614 - Info on line: 14: Detected usage of global variable t.
+INFO  19:32:05,614 - Info on line: 16: Detected usage of global variable x.
+INFO  19:32:05,614 - Info on line: 20: Detected usage of global variable x.
+INFO  19:32:05,614 - Info on line: 23: Detected usage of global variable t.
+INFO  19:32:05,614 - Info on line: 27: Detected usage of global variable t.
+INFO  19:32:05,614 - Info on line: 30: Detected usage of global variable x.
+INFO  19:32:05,626 - Parsiranje uspesno izvrseno.
+INFO  19:32:38,865 - #2 program
+INFO  19:32:38,866 - #44 Program
+INFO  19:32:38,866 - #44 int
+INFO  19:32:38,867 - #44 t
+INFO  19:32:38,868 - #33 ;
+INFO  19:32:38,869 - #44 int
+INFO  19:32:38,870 - #44 x
+INFO  19:32:38,870 - #33 ;
+INFO  19:32:38,870 - #40 {
+INFO  19:32:38,870 - #13 void
+INFO  19:32:38,871 - #44 main
+INFO  19:32:38,872 - #36 (
+INFO  19:32:38,872 - #37 )
+INFO  19:32:38,873 - #40 {
+INFO  19:32:38,874 - #44 t
+INFO  19:32:38,875 - #30 =
+INFO  19:32:38,875 - #43 1
+INFO  19:32:38,877 - #33 ;
+INFO  19:32:38,877 - #8 if
+INFO  19:32:38,878 - #36 (
+INFO  19:32:38,878 - #44 x
+INFO  19:32:38,878 - #22 ==
+INFO  19:32:38,878 - #43 0
+INFO  19:32:38,879 - #28 &&
+INFO  19:32:38,880 - #44 t
+INFO  19:32:38,880 - #22 ==
+INFO  19:32:38,880 - #43 1
+INFO  19:32:38,880 - #37 )
+INFO  19:32:38,880 - #40 {
+INFO  19:32:38,881 - #44 t
+INFO  19:32:38,881 - #30 =
+INFO  19:32:38,881 - #43 1
+INFO  19:32:38,881 - #33 ;
+INFO  19:32:38,881 - #8 if
+INFO  19:32:38,881 - #36 (
+INFO  19:32:38,881 - #44 t
+INFO  19:32:38,881 - #22 ==
+INFO  19:32:38,881 - #43 1
+INFO  19:32:38,882 - #37 )
+INFO  19:32:38,882 - #40 {
+INFO  19:32:38,882 - #44 x
+INFO  19:32:38,882 - #30 =
+INFO  19:32:38,882 - #43 2
+INFO  19:32:38,882 - #33 ;
+INFO  19:32:38,882 - #41 }
+INFO  19:32:38,882 - #6 else
+INFO  19:32:38,882 - #40 {
+INFO  19:32:38,883 - #44 x
+INFO  19:32:38,884 - #30 =
+INFO  19:32:38,884 - #43 2
+INFO  19:32:38,884 - #33 ;
+INFO  19:32:38,884 - #41 }
+INFO  19:32:38,884 - #44 t
+INFO  19:32:38,885 - #30 =
+INFO  19:32:38,885 - #43 3
+INFO  19:32:38,885 - #33 ;
+INFO  19:32:38,885 - #41 }
+INFO  19:32:38,885 - #6 else
+INFO  19:32:38,885 - #40 {
+INFO  19:32:38,885 - #44 t
+INFO  19:32:38,885 - #30 =
+INFO  19:32:38,885 - #43 47
+INFO  19:32:38,885 - #33 ;
+INFO  19:32:38,885 - #41 }
+INFO  19:32:38,886 - #10 print
+INFO  19:32:38,886 - #36 (
+INFO  19:32:38,886 - #44 x
+INFO  19:32:38,886 - #37 )
+INFO  19:32:38,887 - #33 ;
+INFO  19:32:38,887 - #10 print
+INFO  19:32:38,887 - #36 (
+INFO  19:32:38,887 - #44 eol
+INFO  19:32:38,887 - #37 )
+INFO  19:32:38,888 - #33 ;
+INFO  19:32:38,888 - #10 print
+INFO  19:32:38,888 - #36 (
+INFO  19:32:38,888 - #44 t
+INFO  19:32:38,888 - #37 )
+INFO  19:32:38,888 - #33 ;
+INFO  19:32:38,888 - #41 }
+INFO  19:32:38,888 - #41 }
+INFO  19:32:38,922 - Info on line: 8: Detected usage of global variable t.
+INFO  19:32:38,923 - Info on line: 10: Detected usage of global variable x.
+INFO  19:32:38,923 - Info on line: 10: Detected usage of global variable t.
+INFO  19:32:38,923 - Info on line: 12: Detected usage of global variable t.
+INFO  19:32:38,923 - Info on line: 14: Detected usage of global variable t.
+INFO  19:32:38,923 - Info on line: 16: Detected usage of global variable x.
+INFO  19:32:38,923 - Info on line: 20: Detected usage of global variable x.
+INFO  19:32:38,923 - Info on line: 23: Detected usage of global variable t.
+INFO  19:32:38,923 - Info on line: 27: Detected usage of global variable t.
+INFO  19:32:38,923 - Info on line: 30: Detected usage of global variable x.
+INFO  19:32:38,923 - Info on line: 31: Detected usage of symbolic constant eol.
+INFO  19:32:38,923 - Info on line: 32: Detected usage of global variable t.
+INFO  19:32:38,938 - Parsiranje uspesno izvrseno.
+INFO  19:32:51,801 - #2 program
+INFO  19:32:51,802 - #44 Program
+INFO  19:32:51,802 - #44 int
+INFO  19:32:51,804 - #44 t
+INFO  19:32:51,805 - #33 ;
+INFO  19:32:51,807 - #44 int
+INFO  19:32:51,807 - #44 x
+INFO  19:32:51,807 - #33 ;
+INFO  19:32:51,807 - #40 {
+INFO  19:32:51,808 - #13 void
+INFO  19:32:51,808 - #44 main
+INFO  19:32:51,809 - #36 (
+INFO  19:32:51,809 - #37 )
+INFO  19:32:51,810 - #40 {
+INFO  19:32:51,811 - #44 t
+INFO  19:32:51,812 - #30 =
+INFO  19:32:51,812 - #43 2
+INFO  19:32:51,814 - #33 ;
+INFO  19:32:51,814 - #8 if
+INFO  19:32:51,815 - #36 (
+INFO  19:32:51,815 - #44 x
+INFO  19:32:51,815 - #22 ==
+INFO  19:32:51,815 - #43 0
+INFO  19:32:51,816 - #28 &&
+INFO  19:32:51,817 - #44 t
+INFO  19:32:51,817 - #22 ==
+INFO  19:32:51,817 - #43 1
+INFO  19:32:51,817 - #37 )
+INFO  19:32:51,817 - #40 {
+INFO  19:32:51,818 - #44 t
+INFO  19:32:51,818 - #30 =
+INFO  19:32:51,818 - #43 1
+INFO  19:32:51,818 - #33 ;
+INFO  19:32:51,818 - #8 if
+INFO  19:32:51,818 - #36 (
+INFO  19:32:51,818 - #44 t
+INFO  19:32:51,818 - #22 ==
+INFO  19:32:51,818 - #43 1
+INFO  19:32:51,818 - #37 )
+INFO  19:32:51,819 - #40 {
+INFO  19:32:51,819 - #44 x
+INFO  19:32:51,819 - #30 =
+INFO  19:32:51,819 - #43 2
+INFO  19:32:51,819 - #33 ;
+INFO  19:32:51,819 - #41 }
+INFO  19:32:51,819 - #6 else
+INFO  19:32:51,819 - #40 {
+INFO  19:32:51,820 - #44 x
+INFO  19:32:51,821 - #30 =
+INFO  19:32:51,821 - #43 2
+INFO  19:32:51,821 - #33 ;
+INFO  19:32:51,821 - #41 }
+INFO  19:32:51,821 - #44 t
+INFO  19:32:51,821 - #30 =
+INFO  19:32:51,821 - #43 3
+INFO  19:32:51,822 - #33 ;
+INFO  19:32:51,822 - #41 }
+INFO  19:32:51,822 - #6 else
+INFO  19:32:51,822 - #40 {
+INFO  19:32:51,822 - #44 t
+INFO  19:32:51,822 - #30 =
+INFO  19:32:51,822 - #43 47
+INFO  19:32:51,822 - #33 ;
+INFO  19:32:51,822 - #41 }
+INFO  19:32:51,822 - #10 print
+INFO  19:32:51,823 - #36 (
+INFO  19:32:51,823 - #44 x
+INFO  19:32:51,823 - #37 )
+INFO  19:32:51,823 - #33 ;
+INFO  19:32:51,823 - #10 print
+INFO  19:32:51,824 - #36 (
+INFO  19:32:51,824 - #44 eol
+INFO  19:32:51,824 - #37 )
+INFO  19:32:51,824 - #33 ;
+INFO  19:32:51,824 - #10 print
+INFO  19:32:51,824 - #36 (
+INFO  19:32:51,824 - #44 t
+INFO  19:32:51,824 - #37 )
+INFO  19:32:51,824 - #33 ;
+INFO  19:32:51,824 - #41 }
+INFO  19:32:51,824 - #41 }
+INFO  19:32:51,851 - Info on line: 8: Detected usage of global variable t.
+INFO  19:32:51,852 - Info on line: 10: Detected usage of global variable x.
+INFO  19:32:51,852 - Info on line: 10: Detected usage of global variable t.
+INFO  19:32:51,852 - Info on line: 12: Detected usage of global variable t.
+INFO  19:32:51,852 - Info on line: 14: Detected usage of global variable t.
+INFO  19:32:51,852 - Info on line: 16: Detected usage of global variable x.
+INFO  19:32:51,852 - Info on line: 20: Detected usage of global variable x.
+INFO  19:32:51,852 - Info on line: 23: Detected usage of global variable t.
+INFO  19:32:51,852 - Info on line: 27: Detected usage of global variable t.
+INFO  19:32:51,852 - Info on line: 30: Detected usage of global variable x.
+INFO  19:32:51,852 - Info on line: 31: Detected usage of symbolic constant eol.
+INFO  19:32:51,852 - Info on line: 32: Detected usage of global variable t.
+INFO  19:32:51,864 - Parsiranje uspesno izvrseno.
+INFO  19:34:28,482 - #2 program
+INFO  19:34:28,483 - #44 Program
+INFO  19:34:28,483 - #44 int
+INFO  19:34:28,484 - #44 t
+INFO  19:34:28,485 - #33 ;
+INFO  19:34:28,486 - #44 int
+INFO  19:34:28,486 - #44 x
+INFO  19:34:28,486 - #33 ;
+INFO  19:34:28,486 - #40 {
+INFO  19:34:28,486 - #13 void
+INFO  19:34:28,487 - #44 main
+INFO  19:34:28,488 - #36 (
+INFO  19:34:28,488 - #37 )
+INFO  19:34:28,488 - #40 {
+INFO  19:34:28,489 - #44 t
+INFO  19:34:28,490 - #30 =
+INFO  19:34:28,490 - #43 2
+INFO  19:34:28,491 - #33 ;
+INFO  19:34:28,492 - #8 if
+INFO  19:34:28,492 - #36 (
+INFO  19:34:28,492 - #44 x
+INFO  19:34:28,492 - #22 ==
+INFO  19:34:28,492 - #43 0
+INFO  19:34:28,493 - #28 &&
+INFO  19:34:28,493 - #44 t
+INFO  19:34:28,493 - #22 ==
+INFO  19:34:28,493 - #43 1
+INFO  19:34:28,493 - #37 )
+INFO  19:34:28,494 - #40 {
+INFO  19:34:28,494 - #44 t
+INFO  19:34:28,494 - #30 =
+INFO  19:34:28,494 - #43 1
+INFO  19:34:28,494 - #33 ;
+INFO  19:34:28,494 - #8 if
+INFO  19:34:28,494 - #36 (
+INFO  19:34:28,494 - #44 t
+INFO  19:34:28,494 - #22 ==
+INFO  19:34:28,494 - #43 1
+INFO  19:34:28,494 - #37 )
+INFO  19:34:28,494 - #40 {
+INFO  19:34:28,494 - #44 x
+INFO  19:34:28,494 - #30 =
+INFO  19:34:28,494 - #43 2
+INFO  19:34:28,494 - #33 ;
+INFO  19:34:28,495 - #41 }
+INFO  19:34:28,495 - #6 else
+INFO  19:34:28,495 - #40 {
+INFO  19:34:28,496 - #44 x
+INFO  19:34:28,496 - #30 =
+INFO  19:34:28,496 - #43 2
+INFO  19:34:28,496 - #33 ;
+INFO  19:34:28,496 - #41 }
+INFO  19:34:28,496 - #44 t
+INFO  19:34:28,496 - #30 =
+INFO  19:34:28,497 - #43 3
+INFO  19:34:28,497 - #33 ;
+INFO  19:34:28,497 - #41 }
+INFO  19:34:28,497 - #6 else
+INFO  19:34:28,497 - #40 {
+INFO  19:34:28,497 - #44 t
+INFO  19:34:28,497 - #30 =
+INFO  19:34:28,497 - #43 47
+INFO  19:34:28,497 - #33 ;
+INFO  19:34:28,497 - #41 }
+INFO  19:34:28,498 - #10 print
+INFO  19:34:28,498 - #36 (
+INFO  19:34:28,498 - #44 x
+INFO  19:34:28,498 - #37 )
+INFO  19:34:28,499 - #33 ;
+INFO  19:34:28,499 - #10 print
+INFO  19:34:28,499 - #36 (
+INFO  19:34:28,499 - #44 eol
+INFO  19:34:28,499 - #37 )
+INFO  19:34:28,499 - #33 ;
+INFO  19:34:28,499 - #10 print
+INFO  19:34:28,499 - #36 (
+INFO  19:34:28,499 - #44 t
+INFO  19:34:28,500 - #37 )
+INFO  19:34:28,500 - #33 ;
+INFO  19:34:28,500 - #41 }
+INFO  19:34:28,500 - #41 }
+INFO  19:34:28,528 - Info on line: 8: Detected usage of global variable t.
+INFO  19:34:28,529 - Info on line: 10: Detected usage of global variable x.
+INFO  19:34:28,529 - Info on line: 10: Detected usage of global variable t.
+INFO  19:34:28,529 - Info on line: 12: Detected usage of global variable t.
+INFO  19:34:28,529 - Info on line: 14: Detected usage of global variable t.
+INFO  19:34:28,529 - Info on line: 16: Detected usage of global variable x.
+INFO  19:34:28,530 - Info on line: 20: Detected usage of global variable x.
+INFO  19:34:28,530 - Info on line: 23: Detected usage of global variable t.
+INFO  19:34:28,530 - Info on line: 27: Detected usage of global variable t.
+INFO  19:34:28,530 - Info on line: 30: Detected usage of global variable x.
+INFO  19:34:28,530 - Info on line: 31: Detected usage of symbolic constant eol.
+INFO  19:34:28,530 - Info on line: 32: Detected usage of global variable t.
+INFO  19:34:28,541 - Parsiranje uspesno izvrseno.
+INFO  19:34:35,958 - #2 program
+INFO  19:34:35,959 - #44 Program
+INFO  19:34:35,959 - #44 int
+INFO  19:34:35,960 - #44 t
+INFO  19:34:35,962 - #33 ;
+INFO  19:34:35,963 - #44 int
+INFO  19:34:35,963 - #44 x
+INFO  19:34:35,963 - #33 ;
+INFO  19:34:35,964 - #40 {
+INFO  19:34:35,964 - #13 void
+INFO  19:34:35,964 - #44 main
+INFO  19:34:35,965 - #36 (
+INFO  19:34:35,965 - #37 )
+INFO  19:34:35,967 - #40 {
+INFO  19:34:35,969 - #44 t
+INFO  19:34:35,970 - #30 =
+INFO  19:34:35,970 - #43 2
+INFO  19:34:35,972 - #33 ;
+INFO  19:34:35,973 - #8 if
+INFO  19:34:35,973 - #36 (
+INFO  19:34:35,973 - #44 x
+INFO  19:34:35,973 - #22 ==
+INFO  19:34:35,974 - #43 0
+INFO  19:34:35,975 - #28 &&
+INFO  19:34:35,975 - #44 t
+INFO  19:34:35,975 - #22 ==
+INFO  19:34:35,975 - #43 1
+INFO  19:34:35,975 - #37 )
+INFO  19:34:35,976 - #40 {
+INFO  19:34:35,976 - #44 t
+INFO  19:34:35,976 - #30 =
+INFO  19:34:35,976 - #43 1
+INFO  19:34:35,976 - #33 ;
+INFO  19:34:35,976 - #8 if
+INFO  19:34:35,976 - #36 (
+INFO  19:34:35,976 - #44 t
+INFO  19:34:35,976 - #22 ==
+INFO  19:34:35,977 - #43 1
+INFO  19:34:35,977 - #37 )
+INFO  19:34:35,977 - #40 {
+INFO  19:34:35,977 - #44 x
+INFO  19:34:35,977 - #30 =
+INFO  19:34:35,977 - #43 2
+INFO  19:34:35,977 - #33 ;
+INFO  19:34:35,977 - #41 }
+INFO  19:34:35,977 - #6 else
+INFO  19:34:35,977 - #40 {
+INFO  19:34:35,978 - #44 x
+INFO  19:34:35,978 - #30 =
+INFO  19:34:35,978 - #43 2
+INFO  19:34:35,978 - #33 ;
+INFO  19:34:35,978 - #41 }
+INFO  19:34:35,979 - #44 t
+INFO  19:34:35,979 - #30 =
+INFO  19:34:35,979 - #43 3
+INFO  19:34:35,979 - #33 ;
+INFO  19:34:35,979 - #41 }
+INFO  19:34:35,979 - #6 else
+INFO  19:34:35,980 - #40 {
+INFO  19:34:35,980 - #44 t
+INFO  19:34:35,980 - #30 =
+INFO  19:34:35,980 - #43 47
+INFO  19:34:35,980 - #33 ;
+INFO  19:34:35,980 - #41 }
+INFO  19:34:35,980 - #10 print
+INFO  19:34:35,980 - #36 (
+INFO  19:34:35,980 - #44 x
+INFO  19:34:35,980 - #37 )
+INFO  19:34:35,981 - #33 ;
+INFO  19:34:35,981 - #10 print
+INFO  19:34:35,982 - #36 (
+INFO  19:34:35,982 - #44 eol
+INFO  19:34:35,982 - #37 )
+INFO  19:34:35,982 - #33 ;
+INFO  19:34:35,982 - #10 print
+INFO  19:34:35,982 - #36 (
+INFO  19:34:35,982 - #44 t
+INFO  19:34:35,982 - #37 )
+INFO  19:34:35,982 - #33 ;
+INFO  19:34:35,982 - #41 }
+INFO  19:34:35,982 - #41 }
+INFO  19:34:36,016 - Info on line: 8: Detected usage of global variable t.
+INFO  19:34:36,017 - Info on line: 10: Detected usage of global variable x.
+INFO  19:34:36,017 - Info on line: 10: Detected usage of global variable t.
+INFO  19:34:36,017 - Info on line: 12: Detected usage of global variable t.
+INFO  19:34:36,017 - Info on line: 14: Detected usage of global variable t.
+INFO  19:34:36,017 - Info on line: 16: Detected usage of global variable x.
+INFO  19:34:36,017 - Info on line: 20: Detected usage of global variable x.
+INFO  19:34:36,017 - Info on line: 23: Detected usage of global variable t.
+INFO  19:34:36,017 - Info on line: 27: Detected usage of global variable t.
+INFO  19:34:36,018 - Info on line: 30: Detected usage of global variable x.
+INFO  19:34:36,018 - Info on line: 31: Detected usage of symbolic constant eol.
+INFO  19:34:36,018 - Info on line: 32: Detected usage of global variable t.
+INFO  19:34:36,027 - Parsiranje uspesno izvrseno.
