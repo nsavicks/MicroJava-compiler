@@ -1,14 +1,10 @@
-program P
-
-{
-
-    void main()
+program Program
     int niz[];
-    int i;
     {
-        niz = new int[10];
 
-        niz[0]++;
-
-    }
-}
+	    void main()
+	        int i;
+	    {
+	        print(10);
+        }
+	}

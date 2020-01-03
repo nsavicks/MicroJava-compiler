@@ -68,6 +68,10 @@ public class SemanticAnalyzer extends VisitorAdaptor {
         nVars = Tab.currentScope().getnVars();
         Tab.chainLocalSymbols(Program.getProgName().obj);
 
+        if (!mainFound){
+            report_error("Error: Main function not found!", null);
+        }
+
     }
 
     @Override
@@ -682,7 +686,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 
             }
 
-            if (formPar.getFpPos() != currentActPar) formPar = null;
+            if (formPar != null && formPar.getFpPos() != currentActPar) formPar = null;
 
         }
 
