@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 31/11/2019 4:46:44
+// 3/0/2020 14:11:39
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -8,13 +8,17 @@ package rs.ac.bg.etf.pp1.ast;
 public abstract class VisitorAdaptor implements Visitor { 
 
     public void visit(DeclarationList DeclarationList) { }
+    public void visit(ForInit ForInit) { }
     public void visit(ClassDeclIdent ClassDeclIdent) { }
     public void visit(MethodDecl MethodDecl) { }
+    public void visit(Mulop Mulop) { }
     public void visit(FormParsSingle FormParsSingle) { }
     public void visit(Relop Relop) { }
     public void visit(TypeIdentSingle TypeIdentSingle) { }
     public void visit(DesignatorStatementSingle DesignatorStatementSingle) { }
+    public void visit(Else Else) { }
     public void visit(StatementList StatementList) { }
+    public void visit(Addop Addop) { }
     public void visit(ForLoopHeader ForLoopHeader) { }
     public void visit(ForConditionSingle ForConditionSingle) { }
     public void visit(Factor Factor) { }
@@ -24,14 +28,15 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(AbstractMethodDecl AbstractMethodDecl) { }
     public void visit(Designator Designator) { }
     public void visit(AbstractClassMethodDeclSingle AbstractClassMethodDeclSingle) { }
-    public void visit(Term Term) { }
     public void visit(TypeIdentList TypeIdentList) { }
+    public void visit(Term Term) { }
     public void visit(RetType RetType) { }
     public void visit(Condition Condition) { }
     public void visit(ConstDeclList ConstDeclList) { }
     public void visit(ExprSingle ExprSingle) { }
     public void visit(ActParsList ActParsList) { }
     public void visit(MethodDeclTypeIdent MethodDeclTypeIdent) { }
+    public void visit(IfHeader IfHeader) { }
     public void visit(ConditionSingle ConditionSingle) { }
     public void visit(ConstLiteral ConstLiteral) { }
     public void visit(ExtendsSingle ExtendsSingle) { }
@@ -42,6 +47,7 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(VarIdentSingle VarIdentSingle) { }
     public void visit(ActParsSingle ActParsSingle) { }
     public void visit(DesignatorStatement DesignatorStatement) { }
+    public void visit(ForStep ForStep) { }
     public void visit(SubSingle SubSingle) { }
     public void visit(ClassMethodDeclSingle ClassMethodDeclSingle) { }
     public void visit(Statement Statement) { }
@@ -54,11 +60,11 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(MethodDeclList MethodDeclList) { }
     public void visit(ActParsExpr ActParsExpr) { }
     public void visit(DesignatorAssignItem DesignatorAssignItem) { }
-    public void visit(Modop Modop) { visit(); }
-    public void visit(Divop Divop) { visit(); }
-    public void visit(Mulop Mulop) { visit(); }
-    public void visit(Subop Subop) { visit(); }
-    public void visit(Addop Addop) { visit(); }
+    public void visit(ModopNode ModopNode) { visit(); }
+    public void visit(DivopNode DivopNode) { visit(); }
+    public void visit(MulopNode MulopNode) { visit(); }
+    public void visit(SubopNode SubopNode) { visit(); }
+    public void visit(AddopNode AddopNode) { visit(); }
     public void visit(LesserEqualop LesserEqualop) { visit(); }
     public void visit(Lesserop Lesserop) { visit(); }
     public void visit(GreaterEqualop GreaterEqualop) { visit(); }
@@ -71,6 +77,7 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(DesignatorIdent DesignatorIdent) { visit(); }
     public void visit(NoActParsSingle NoActParsSingle) { visit(); }
     public void visit(ActParsSingleNode ActParsSingleNode) { visit(); }
+    public void visit(FactorFuncCallDesignator FactorFuncCallDesignator) { visit(); }
     public void visit(FactorExpr FactorExpr) { visit(); }
     public void visit(FactorNewClass FactorNewClass) { visit(); }
     public void visit(FactorNewArray FactorNewArray) { visit(); }
@@ -102,6 +109,7 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(DesignatorStatementFunc DesignatorStatementFunc) { visit(); }
     public void visit(NoDesignatorStatementSingle NoDesignatorStatementSingle) { visit(); }
     public void visit(DesignatorStatementSingleNode DesignatorStatementSingleNode) { visit(); }
+    public void visit(ElseNode ElseNode) { visit(); }
     public void visit(NoElseStatementSingle NoElseStatementSingle) { visit(); }
     public void visit(ElseStatementSingleNode ElseStatementSingleNode) { visit(); }
     public void visit(NoExprSingle NoExprSingle) { visit(); }
@@ -114,7 +122,10 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(ConditionSingleNode ConditionSingleNode) { visit(); }
     public void visit(ErrorForConditionSingleNode ErrorForConditionSingleNode) { visit(); }
     public void visit(ForConditionSingleNode ForConditionSingleNode) { visit(); }
+    public void visit(ForStepNode ForStepNode) { visit(); }
+    public void visit(ForInitNode ForInitNode) { visit(); }
     public void visit(ForLoopHeaderNode ForLoopHeaderNode) { visit(); }
+    public void visit(IfHeaderNode IfHeaderNode) { visit(); }
     public void visit(StatementStatementList StatementStatementList) { visit(); }
     public void visit(StatementPrint StatementPrint) { visit(); }
     public void visit(StatementRead StatementRead) { visit(); }
@@ -140,7 +151,7 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(AbstractMethodDeclNode AbstractMethodDeclNode) { visit(); }
     public void visit(NoVarDeclList NoVarDeclList) { visit(); }
     public void visit(VarDeclListNode VarDeclListNode) { visit(); }
-    public void visit(MethoDeclTypeIdentNode MethoDeclTypeIdentNode) { visit(); }
+    public void visit(MethodDeclTypeIdentNode MethodDeclTypeIdentNode) { visit(); }
     public void visit(MethodDeclPrototype MethodDeclPrototype) { visit(); }
     public void visit(MethodDeclNode MethodDeclNode) { visit(); }
     public void visit(ErrorExtendsSingle ErrorExtendsSingle) { visit(); }

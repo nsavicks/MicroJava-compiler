@@ -78,6 +78,7 @@ nonterminal Assignop Assignop;
 nonterminal rs.etf.pp1.symboltable.concepts.Obj Designator;
 
 nonterminal ActParsSingle ActParsSingle;
+nonterminal FactorFuncCallDesignator FactorFuncCallDesignator;
 nonterminal rs.etf.pp1.symboltable.concepts.Struct Factor;
 
 nonterminal rs.etf.pp1.symboltable.concepts.Struct Term;
@@ -90,6 +91,9 @@ nonterminal rs.etf.pp1.symboltable.concepts.Struct CondFact, CondTerm, Condition
 nonterminal ConditionSingle ConditionSingle;
 nonterminal ForConditionSingle ForConditionSingle;
 
+nonterminal IfHeader IfHeader;
+nonterminal Else Else;
+
 nonterminal ActParsList ActParsList;
 nonterminal ActParsExpr ActParsExpr;
 nonterminal ActPars ActPars;
@@ -100,6 +104,8 @@ nonterminal DesignatorStatement DesignatorStatement;
 nonterminal DesignatorStatementSingle DesignatorStatementSingle;
 
 nonterminal ForLoopHeader ForLoopHeader;
+nonterminal ForStep ForStep;
+nonterminal ForInit ForInit;
 
 nonterminal ElseStatementSingle ElseStatementSingle;
 nonterminal ExprSingle ExprSingle;
@@ -243,7 +249,7 @@ MethodDecl ::= (MethodDeclNode) MethodDeclPrototype:M1 VarDeclList:V2 LBRACE Sta
 
 MethodDeclPrototype ::= (MethodDeclPrototype) MethodDeclTypeIdent:M1 LPAREN FormParsSingle:F2 RPAREN {: RESULT=new MethodDeclPrototype(M1, F2); RESULT.setLine(M1left); :};
 
-MethodDeclTypeIdent ::= (MethoDeclTypeIdentNode) RetType:R1 IDENT:methName {: RESULT=new MethoDeclTypeIdentNode(R1, methName); RESULT.setLine(R1left); :};
+MethodDeclTypeIdent ::= (MethodDeclTypeIdentNode) RetType:R1 IDENT:methName {: RESULT=new MethodDeclTypeIdentNode(R1, methName); RESULT.setLine(R1left); :};
 
 VarDeclList ::= (VarDeclListNode) VarDeclList:V1 VarDecl:V2 {: RESULT=new VarDeclListNode(V1, V2); RESULT.setLine(V1left); :}
                 |
@@ -281,7 +287,7 @@ Type ::= (Type) IDENT:typeName {: RESULT=new Type(typeName); RESULT.setLine(type
 
 Statement ::= (StatementDesignator) DesignatorStatement:D1 SEMI {: RESULT=new StatementDesignator(D1); RESULT.setLine(D1left); :}
             |
-            (StatementIf) IF LPAREN Condition:C1 RPAREN Statement:S2 ElseStatementSingle:E3 {: RESULT=new StatementIf(C1, S2, E3); RESULT.setLine(C1left); :}
+            (StatementIf) IfHeader:I1 Statement:S2 ElseStatementSingle:E3 {: RESULT=new StatementIf(I1, S2, E3); RESULT.setLine(I1left); :}
             |
             (StatementFor) ForLoopHeader:F1 Statement:S2 {: RESULT=new StatementFor(F1, S2); RESULT.setLine(F1left); :}
             |
@@ -297,7 +303,13 @@ Statement ::= (StatementDesignator) DesignatorStatement:D1 SEMI {: RESULT=new St
             |
             (StatementStatementList) LBRACE StatementList:S1 RBRACE {: RESULT=new StatementStatementList(S1); RESULT.setLine(S1left); :};
 
-ForLoopHeader ::= (ForLoopHeaderNode) FOR LPAREN DesignatorStatementSingle:D1 SEMI ForConditionSingle:F2 DesignatorStatementSingle:D3 RPAREN {: RESULT=new ForLoopHeaderNode(D1, F2, D3); RESULT.setLine(D1left); :};
+IfHeader ::= (IfHeaderNode) IF LPAREN Condition:C1 RPAREN {: RESULT=new IfHeaderNode(C1); RESULT.setLine(C1left); :};
+
+ForLoopHeader ::= (ForLoopHeaderNode) FOR LPAREN ForInit:F1 SEMI ForConditionSingle:F2 ForStep:F3 RPAREN {: RESULT=new ForLoopHeaderNode(F1, F2, F3); RESULT.setLine(F1left); :};
+
+ForInit ::= (ForInitNode) DesignatorStatementSingle:D1 {: RESULT=new ForInitNode(D1); RESULT.setLine(D1left); :};
+
+ForStep ::= (ForStepNode) DesignatorStatementSingle:D1 {: RESULT=new ForStepNode(D1); RESULT.setLine(D1left); :};
 
 ForConditionSingle ::= (ForConditionSingleNode) ConditionSingle:C1 SEMI {: RESULT=new ForConditionSingleNode(C1); RESULT.setLine(C1left); :}
                         |
@@ -312,7 +324,7 @@ StatementList ::= (StatementListNode) StatementList:S1 Statement:S2 {: RESULT=ne
                     |
                     (NoStatementList) {: RESULT=new NoStatementList(); :} /* epsilon */;
 
-CommaNumConstSingle ::= (CommaNumConstSingleNode) COMMA NUMBER:N1 {: RESULT=new CommaNumConstSingleNode(N1); RESULT.setLine(N1left); :}
+CommaNumConstSingle ::= (CommaNumConstSingleNode) COMMA NUMBER:value {: RESULT=new CommaNumConstSingleNode(value); RESULT.setLine(valueleft); :}
                         |
                         (NoCommaNumConstSingle) {: RESULT=new NoCommaNumConstSingle(); :} /* epsilon */;
 
@@ -320,9 +332,11 @@ ExprSingle ::= (ExprSingleNode) Expr:E1 {: RESULT=new ExprSingleNode(E1); RESULT
                 |
                 (NoExprSingle) {: RESULT=new NoExprSingle(); :} /* epsilon */;
 
-ElseStatementSingle ::= (ElseStatementSingleNode) ELSE Statement:S1 {: RESULT=new ElseStatementSingleNode(S1); RESULT.setLine(S1left); :}
+ElseStatementSingle ::= (ElseStatementSingleNode) Else:E1 Statement:S2 {: RESULT=new ElseStatementSingleNode(E1, S2); RESULT.setLine(E1left); :}
                         |
                         (NoElseStatementSingle) {: RESULT=new NoElseStatementSingle(); :} /* epsilon */;
+
+Else ::= (ElseNode) ELSE {: RESULT=new ElseNode(); :};
 
 DesignatorStatementSingle ::= (DesignatorStatementSingleNode) DesignatorStatement:D1 {: RESULT=new DesignatorStatementSingleNode(D1); RESULT.setLine(D1left); :}
                             |
@@ -377,7 +391,7 @@ Term ::= (TermFactor) Factor:F1 {: RESULT=new TermFactor(F1); RESULT.setLine(F1l
 
 Factor ::= (FactorVariable) Designator:D1 {: RESULT=new FactorVariable(D1); RESULT.setLine(D1left); :}
             |
-            (FactorFuncCall) Designator:D1 LPAREN ActParsSingle:A2 RPAREN {: RESULT=new FactorFuncCall(D1, A2); RESULT.setLine(D1left); :}
+            (FactorFuncCall) FactorFuncCallDesignator:F1 LPAREN ActParsSingle:A2 RPAREN {: RESULT=new FactorFuncCall(F1, A2); RESULT.setLine(F1left); :}
             |
             (FactorConstant) ConstLiteral:C1 {: RESULT=new FactorConstant(C1); RESULT.setLine(C1left); :}
             |
@@ -386,6 +400,8 @@ Factor ::= (FactorVariable) Designator:D1 {: RESULT=new FactorVariable(D1); RESU
             (FactorNewClass) NEW Type:T1 {: RESULT=new FactorNewClass(T1); RESULT.setLine(T1left); :}
             |
             (FactorExpr) LPAREN Expr:E1 RPAREN {: RESULT=new FactorExpr(E1); RESULT.setLine(E1left); :};
+
+FactorFuncCallDesignator ::= (FactorFuncCallDesignator) Designator:D1 {: RESULT=new FactorFuncCallDesignator(D1); RESULT.setLine(D1left); :};
 
 ActParsSingle ::= (ActParsSingleNode) ActPars:A1 {: RESULT=new ActParsSingleNode(A1); RESULT.setLine(A1left); :}
             |
@@ -412,12 +428,12 @@ Relop ::= (Equalop) EQ {: RESULT=new Equalop(); :}
         |
         (LesserEqualop) LEQ {: RESULT=new LesserEqualop(); :};
 
-Addop ::= (Addop) PLUS {: RESULT=new Addop(); :}
+Addop ::= (AddopNode) PLUS {: RESULT=new AddopNode(); :}
         |
-        (Subop) SUB {: RESULT=new Subop(); :};
+        (SubopNode) SUB {: RESULT=new SubopNode(); :};
 
-Mulop ::= (Mulop) MUL {: RESULT=new Mulop(); :}
+Mulop ::= (MulopNode) MUL {: RESULT=new MulopNode(); :}
         |
-        (Divop) DIV {: RESULT=new Divop(); :}
+        (DivopNode) DIV {: RESULT=new DivopNode(); :}
         |
-        (Modop) MOD {: RESULT=new Modop(); :};
+        (ModopNode) MOD {: RESULT=new ModopNode(); :};

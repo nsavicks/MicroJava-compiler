@@ -75,6 +75,7 @@ nonterminal Mulop, Addop, Relop, Assignop;
 nonterminal rs.etf.pp1.symboltable.concepts.Obj Designator;
 
 nonterminal ActParsSingle;
+nonterminal FactorFuncCallDesignator;
 nonterminal rs.etf.pp1.symboltable.concepts.Struct Factor;
 
 nonterminal rs.etf.pp1.symboltable.concepts.Struct Term;
@@ -86,12 +87,14 @@ nonterminal rs.etf.pp1.symboltable.concepts.Struct CondFact, CondTerm, Condition
 
 nonterminal ConditionSingle, ForConditionSingle;
 
+nonterminal IfHeader, Else;
+
 nonterminal ActParsList, ActParsExpr, ActPars;
 
 nonterminal DesignatorStatementFuncDesignator;
 nonterminal DesignatorAssignItem, DesignatorStatement, DesignatorStatementSingle;
 
-nonterminal ForLoopHeader;
+nonterminal ForLoopHeader, ForStep, ForInit;
 
 nonterminal ElseStatementSingle, ExprSingle, CommaNumConstSingle, StatementList, Statement;
 
@@ -209,7 +212,7 @@ MethodDecl ::= (MethodDeclNode) MethodDeclPrototype VarDeclList LBRACE Statement
 
 MethodDeclPrototype ::= (MethodDeclPrototype) MethodDeclTypeIdent LPAREN FormParsSingle RPAREN;
 
-MethodDeclTypeIdent ::= (MethoDeclTypeIdentNode) RetType IDENT:methName;
+MethodDeclTypeIdent ::= (MethodDeclTypeIdentNode) RetType IDENT:methName;
 
 VarDeclList ::= (VarDeclListNode) VarDeclList VarDecl
                 |
@@ -247,7 +250,7 @@ Type ::= (Type) IDENT:typeName;
 
 Statement ::= (StatementDesignator) DesignatorStatement SEMI
             |
-            (StatementIf) IF LPAREN Condition RPAREN Statement ElseStatementSingle
+            (StatementIf) IfHeader Statement ElseStatementSingle
             |
             (StatementFor) ForLoopHeader Statement
             |
@@ -263,7 +266,13 @@ Statement ::= (StatementDesignator) DesignatorStatement SEMI
             |
             (StatementStatementList) LBRACE StatementList RBRACE;
 
-ForLoopHeader ::= (ForLoopHeaderNode) FOR LPAREN DesignatorStatementSingle SEMI ForConditionSingle DesignatorStatementSingle RPAREN;
+IfHeader ::= (IfHeaderNode) IF LPAREN Condition RPAREN;
+
+ForLoopHeader ::= (ForLoopHeaderNode) FOR LPAREN ForInit SEMI ForConditionSingle ForStep RPAREN;
+
+ForInit ::= (ForInitNode) DesignatorStatementSingle;
+
+ForStep ::= (ForStepNode) DesignatorStatementSingle;
 
 ForConditionSingle ::= (ForConditionSingleNode) ConditionSingle SEMI
                         |
@@ -278,7 +287,7 @@ StatementList ::= (StatementListNode) StatementList Statement
                     |
                     (NoStatementList) /* epsilon */;
 
-CommaNumConstSingle ::= (CommaNumConstSingleNode) COMMA NUMBER
+CommaNumConstSingle ::= (CommaNumConstSingleNode) COMMA NUMBER:value
                         |
                         (NoCommaNumConstSingle) /* epsilon */;
 
@@ -286,9 +295,11 @@ ExprSingle ::= (ExprSingleNode) Expr
                 |
                 (NoExprSingle) /* epsilon */;
 
-ElseStatementSingle ::= (ElseStatementSingleNode) ELSE Statement
+ElseStatementSingle ::= (ElseStatementSingleNode) Else Statement
                         |
                         (NoElseStatementSingle) /* epsilon */;
+
+Else ::= (ElseNode) ELSE;
 
 DesignatorStatementSingle ::= (DesignatorStatementSingleNode) DesignatorStatement
                             |
@@ -343,7 +354,7 @@ Term ::= (TermFactor) Factor
 
 Factor ::= (FactorVariable) Designator
             |
-            (FactorFuncCall) Designator LPAREN ActParsSingle RPAREN
+            (FactorFuncCall) FactorFuncCallDesignator LPAREN ActParsSingle RPAREN
             |
             (FactorConstant) ConstLiteral
             |
@@ -352,6 +363,8 @@ Factor ::= (FactorVariable) Designator
             (FactorNewClass) NEW Type
             |
             (FactorExpr) LPAREN Expr RPAREN;
+
+FactorFuncCallDesignator ::= (FactorFuncCallDesignator) Designator;
 
 ActParsSingle ::= (ActParsSingleNode) ActPars
             |
@@ -378,12 +391,12 @@ Relop ::= (Equalop) EQ
         |
         (LesserEqualop) LEQ;
 
-Addop ::= (Addop) PLUS
+Addop ::= (AddopNode) PLUS
         |
-        (Subop) SUB;
+        (SubopNode) SUB;
 
-Mulop ::= (Mulop) MUL
+Mulop ::= (MulopNode) MUL
         |
-        (Divop) DIV
+        (DivopNode) DIV
         |
-        (Modop) MOD;
+        (ModopNode) MOD;

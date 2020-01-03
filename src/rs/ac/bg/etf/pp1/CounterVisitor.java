@@ -1,30 +1,32 @@
 package rs.ac.bg.etf.pp1;
 
-// import rs.ac.bg.etf.pp1.ast.FormalParamDecl;
-import rs.ac.bg.etf.pp1.ast.FormPars;
-import rs.ac.bg.etf.pp1.ast.VarDecl;
+import rs.ac.bg.etf.pp1.ast.FormParsSingle;
+import rs.ac.bg.etf.pp1.ast.TypeIdentSingleNode;
+import rs.ac.bg.etf.pp1.ast.VarIdentSingleNode;
 import rs.ac.bg.etf.pp1.ast.VisitorAdaptor;
 
 public class CounterVisitor extends VisitorAdaptor {
 	
-	protected int count;
+	private int varCnt = 0;
+	private int formParsCnt = 0;
 
-	public int getCount() {
-		return count;
+	public int getVarCnt() {
+		return varCnt;
 	}
 
-	public static class FormParamCounter extends CounterVisitor {
-
-		@Override
-		public void visit(FormPars formParamDecl1) {
-			count++;
-		}
+	public int getFormParsCnt() {
+		return formParsCnt;
 	}
 
-	public static class VarCounter extends CounterVisitor {
-		@Override
-		public void visit(VarDecl VarDecl) {
-			count++;
-		}
+	@Override
+	public void visit(TypeIdentSingleNode TypeIdentSingleNode) {
+		formParsCnt++;
 	}
+
+	@Override
+	public void visit(VarIdentSingleNode VarIdentSingleNode) {
+		varCnt++;
+	}
+
+
 }

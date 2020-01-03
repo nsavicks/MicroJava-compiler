@@ -1,31 +1,31 @@
 // generated with ast extension for cup
 // version 0.8
-// 31/11/2019 4:46:43
+// 3/0/2020 14:11:38
 
 
 package rs.ac.bg.etf.pp1.ast;
 
 public class ForLoopHeaderNode extends ForLoopHeader {
 
-    private DesignatorStatementSingle DesignatorStatementSingle;
+    private ForInit ForInit;
     private ForConditionSingle ForConditionSingle;
-    private DesignatorStatementSingle DesignatorStatementSingle1;
+    private ForStep ForStep;
 
-    public ForLoopHeaderNode (DesignatorStatementSingle DesignatorStatementSingle, ForConditionSingle ForConditionSingle, DesignatorStatementSingle DesignatorStatementSingle1) {
-        this.DesignatorStatementSingle=DesignatorStatementSingle;
-        if(DesignatorStatementSingle!=null) DesignatorStatementSingle.setParent(this);
+    public ForLoopHeaderNode (ForInit ForInit, ForConditionSingle ForConditionSingle, ForStep ForStep) {
+        this.ForInit=ForInit;
+        if(ForInit!=null) ForInit.setParent(this);
         this.ForConditionSingle=ForConditionSingle;
         if(ForConditionSingle!=null) ForConditionSingle.setParent(this);
-        this.DesignatorStatementSingle1=DesignatorStatementSingle1;
-        if(DesignatorStatementSingle1!=null) DesignatorStatementSingle1.setParent(this);
+        this.ForStep=ForStep;
+        if(ForStep!=null) ForStep.setParent(this);
     }
 
-    public DesignatorStatementSingle getDesignatorStatementSingle() {
-        return DesignatorStatementSingle;
+    public ForInit getForInit() {
+        return ForInit;
     }
 
-    public void setDesignatorStatementSingle(DesignatorStatementSingle DesignatorStatementSingle) {
-        this.DesignatorStatementSingle=DesignatorStatementSingle;
+    public void setForInit(ForInit ForInit) {
+        this.ForInit=ForInit;
     }
 
     public ForConditionSingle getForConditionSingle() {
@@ -36,12 +36,12 @@ public class ForLoopHeaderNode extends ForLoopHeader {
         this.ForConditionSingle=ForConditionSingle;
     }
 
-    public DesignatorStatementSingle getDesignatorStatementSingle1() {
-        return DesignatorStatementSingle1;
+    public ForStep getForStep() {
+        return ForStep;
     }
 
-    public void setDesignatorStatementSingle1(DesignatorStatementSingle DesignatorStatementSingle1) {
-        this.DesignatorStatementSingle1=DesignatorStatementSingle1;
+    public void setForStep(ForStep ForStep) {
+        this.ForStep=ForStep;
     }
 
     public void accept(Visitor visitor) {
@@ -49,22 +49,22 @@ public class ForLoopHeaderNode extends ForLoopHeader {
     }
 
     public void childrenAccept(Visitor visitor) {
-        if(DesignatorStatementSingle!=null) DesignatorStatementSingle.accept(visitor);
+        if(ForInit!=null) ForInit.accept(visitor);
         if(ForConditionSingle!=null) ForConditionSingle.accept(visitor);
-        if(DesignatorStatementSingle1!=null) DesignatorStatementSingle1.accept(visitor);
+        if(ForStep!=null) ForStep.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
-        if(DesignatorStatementSingle!=null) DesignatorStatementSingle.traverseTopDown(visitor);
+        if(ForInit!=null) ForInit.traverseTopDown(visitor);
         if(ForConditionSingle!=null) ForConditionSingle.traverseTopDown(visitor);
-        if(DesignatorStatementSingle1!=null) DesignatorStatementSingle1.traverseTopDown(visitor);
+        if(ForStep!=null) ForStep.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
-        if(DesignatorStatementSingle!=null) DesignatorStatementSingle.traverseBottomUp(visitor);
+        if(ForInit!=null) ForInit.traverseBottomUp(visitor);
         if(ForConditionSingle!=null) ForConditionSingle.traverseBottomUp(visitor);
-        if(DesignatorStatementSingle1!=null) DesignatorStatementSingle1.traverseBottomUp(visitor);
+        if(ForStep!=null) ForStep.traverseBottomUp(visitor);
         accept(visitor);
     }
 
@@ -73,8 +73,8 @@ public class ForLoopHeaderNode extends ForLoopHeader {
         buffer.append(tab);
         buffer.append("ForLoopHeaderNode(\n");
 
-        if(DesignatorStatementSingle!=null)
-            buffer.append(DesignatorStatementSingle.toString("  "+tab));
+        if(ForInit!=null)
+            buffer.append(ForInit.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");
@@ -85,8 +85,8 @@ public class ForLoopHeaderNode extends ForLoopHeader {
             buffer.append(tab+"  null");
         buffer.append("\n");
 
-        if(DesignatorStatementSingle1!=null)
-            buffer.append(DesignatorStatementSingle1.toString("  "+tab));
+        if(ForStep!=null)
+            buffer.append(ForStep.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");

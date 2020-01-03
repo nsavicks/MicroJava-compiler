@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 31/11/2019 4:46:44
+// 3/0/2020 14:11:39
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -8,13 +8,17 @@ package rs.ac.bg.etf.pp1.ast;
 public interface Visitor { 
 
     public void visit(DeclarationList DeclarationList);
+    public void visit(ForInit ForInit);
     public void visit(ClassDeclIdent ClassDeclIdent);
     public void visit(MethodDecl MethodDecl);
+    public void visit(Mulop Mulop);
     public void visit(FormParsSingle FormParsSingle);
     public void visit(Relop Relop);
     public void visit(TypeIdentSingle TypeIdentSingle);
     public void visit(DesignatorStatementSingle DesignatorStatementSingle);
+    public void visit(Else Else);
     public void visit(StatementList StatementList);
+    public void visit(Addop Addop);
     public void visit(ForLoopHeader ForLoopHeader);
     public void visit(ForConditionSingle ForConditionSingle);
     public void visit(Factor Factor);
@@ -24,14 +28,15 @@ public interface Visitor {
     public void visit(AbstractMethodDecl AbstractMethodDecl);
     public void visit(Designator Designator);
     public void visit(AbstractClassMethodDeclSingle AbstractClassMethodDeclSingle);
-    public void visit(Term Term);
     public void visit(TypeIdentList TypeIdentList);
+    public void visit(Term Term);
     public void visit(RetType RetType);
     public void visit(Condition Condition);
     public void visit(ConstDeclList ConstDeclList);
     public void visit(ExprSingle ExprSingle);
     public void visit(ActParsList ActParsList);
     public void visit(MethodDeclTypeIdent MethodDeclTypeIdent);
+    public void visit(IfHeader IfHeader);
     public void visit(ConditionSingle ConditionSingle);
     public void visit(ConstLiteral ConstLiteral);
     public void visit(ExtendsSingle ExtendsSingle);
@@ -42,6 +47,7 @@ public interface Visitor {
     public void visit(VarIdentSingle VarIdentSingle);
     public void visit(ActParsSingle ActParsSingle);
     public void visit(DesignatorStatement DesignatorStatement);
+    public void visit(ForStep ForStep);
     public void visit(SubSingle SubSingle);
     public void visit(ClassMethodDeclSingle ClassMethodDeclSingle);
     public void visit(Statement Statement);
@@ -54,11 +60,11 @@ public interface Visitor {
     public void visit(MethodDeclList MethodDeclList);
     public void visit(ActParsExpr ActParsExpr);
     public void visit(DesignatorAssignItem DesignatorAssignItem);
-    public void visit(Modop Modop);
-    public void visit(Divop Divop);
-    public void visit(Mulop Mulop);
-    public void visit(Subop Subop);
-    public void visit(Addop Addop);
+    public void visit(ModopNode ModopNode);
+    public void visit(DivopNode DivopNode);
+    public void visit(MulopNode MulopNode);
+    public void visit(SubopNode SubopNode);
+    public void visit(AddopNode AddopNode);
     public void visit(LesserEqualop LesserEqualop);
     public void visit(Lesserop Lesserop);
     public void visit(GreaterEqualop GreaterEqualop);
@@ -71,6 +77,7 @@ public interface Visitor {
     public void visit(DesignatorIdent DesignatorIdent);
     public void visit(NoActParsSingle NoActParsSingle);
     public void visit(ActParsSingleNode ActParsSingleNode);
+    public void visit(FactorFuncCallDesignator FactorFuncCallDesignator);
     public void visit(FactorExpr FactorExpr);
     public void visit(FactorNewClass FactorNewClass);
     public void visit(FactorNewArray FactorNewArray);
@@ -102,6 +109,7 @@ public interface Visitor {
     public void visit(DesignatorStatementFunc DesignatorStatementFunc);
     public void visit(NoDesignatorStatementSingle NoDesignatorStatementSingle);
     public void visit(DesignatorStatementSingleNode DesignatorStatementSingleNode);
+    public void visit(ElseNode ElseNode);
     public void visit(NoElseStatementSingle NoElseStatementSingle);
     public void visit(ElseStatementSingleNode ElseStatementSingleNode);
     public void visit(NoExprSingle NoExprSingle);
@@ -114,7 +122,10 @@ public interface Visitor {
     public void visit(ConditionSingleNode ConditionSingleNode);
     public void visit(ErrorForConditionSingleNode ErrorForConditionSingleNode);
     public void visit(ForConditionSingleNode ForConditionSingleNode);
+    public void visit(ForStepNode ForStepNode);
+    public void visit(ForInitNode ForInitNode);
     public void visit(ForLoopHeaderNode ForLoopHeaderNode);
+    public void visit(IfHeaderNode IfHeaderNode);
     public void visit(StatementStatementList StatementStatementList);
     public void visit(StatementPrint StatementPrint);
     public void visit(StatementRead StatementRead);
@@ -140,7 +151,7 @@ public interface Visitor {
     public void visit(AbstractMethodDeclNode AbstractMethodDeclNode);
     public void visit(NoVarDeclList NoVarDeclList);
     public void visit(VarDeclListNode VarDeclListNode);
-    public void visit(MethoDeclTypeIdentNode MethoDeclTypeIdentNode);
+    public void visit(MethodDeclTypeIdentNode MethodDeclTypeIdentNode);
     public void visit(MethodDeclPrototype MethodDeclPrototype);
     public void visit(MethodDeclNode MethodDeclNode);
     public void visit(ErrorExtendsSingle ErrorExtendsSingle);

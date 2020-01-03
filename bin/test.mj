@@ -1,0 +1,14 @@
+program P
+
+{
+
+    void main()
+    int niz[];
+    int i;
+    {
+        niz = new int[10];
+
+        niz[0]++;
+
+    }
+}

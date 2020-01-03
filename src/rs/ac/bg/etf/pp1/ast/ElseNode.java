@@ -1,13 +1,13 @@
 // generated with ast extension for cup
 // version 0.8
-// 31/11/2019 4:46:44
+// 3/0/2020 14:11:38
 
 
 package rs.ac.bg.etf.pp1.ast;
 
-public class Subop extends Addop {
+public class ElseNode extends Else {
 
-    public Subop () {
+    public ElseNode () {
     }
 
     public void accept(Visitor visitor) {
@@ -28,10 +28,10 @@ public class Subop extends Addop {
     public String toString(String tab) {
         StringBuffer buffer=new StringBuffer();
         buffer.append(tab);
-        buffer.append("Subop(\n");
+        buffer.append("ElseNode(\n");
 
         buffer.append(tab);
-        buffer.append(") [Subop]");
+        buffer.append(") [ElseNode]");
         return buffer.toString();
     }
 }

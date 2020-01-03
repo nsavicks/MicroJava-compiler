@@ -1,16 +1,16 @@
 // generated with ast extension for cup
 // version 0.8
-// 31/11/2019 4:46:43
+// 3/0/2020 14:11:38
 
 
 package rs.ac.bg.etf.pp1.ast;
 
-public class MethoDeclTypeIdentNode extends MethodDeclTypeIdent {
+public class MethodDeclTypeIdentNode extends MethodDeclTypeIdent {
 
     private RetType RetType;
     private String methName;
 
-    public MethoDeclTypeIdentNode (RetType RetType, String methName) {
+    public MethodDeclTypeIdentNode (RetType RetType, String methName) {
         this.RetType=RetType;
         if(RetType!=null) RetType.setParent(this);
         this.methName=methName;
@@ -53,7 +53,7 @@ public class MethoDeclTypeIdentNode extends MethodDeclTypeIdent {
     public String toString(String tab) {
         StringBuffer buffer=new StringBuffer();
         buffer.append(tab);
-        buffer.append("MethoDeclTypeIdentNode(\n");
+        buffer.append("MethodDeclTypeIdentNode(\n");
 
         if(RetType!=null)
             buffer.append(RetType.toString("  "+tab));
@@ -65,7 +65,7 @@ public class MethoDeclTypeIdentNode extends MethodDeclTypeIdent {
         buffer.append("\n");
 
         buffer.append(tab);
-        buffer.append(") [MethoDeclTypeIdentNode]");
+        buffer.append(") [MethodDeclTypeIdentNode]");
         return buffer.toString();
     }
 }
