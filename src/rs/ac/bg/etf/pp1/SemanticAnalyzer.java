@@ -7,12 +7,12 @@ import rs.etf.pp1.symboltable.concepts.Obj;
 import rs.etf.pp1.symboltable.concepts.Struct;
 
 import java.util.Iterator;
+import java.util.Stack;
 
 public class SemanticAnalyzer extends VisitorAdaptor {
 
     boolean errorDetected = false;
     Type currentType = null;
-    Obj curretClass = null;
 
     // Functions
     boolean isVoid = false;
@@ -23,8 +23,8 @@ public class SemanticAnalyzer extends VisitorAdaptor {
     int cntFormPars = 0;
     
     // Calling functions
-    int currentActPar = 1;
-    Obj calledFunction = null;
+    Stack<Obj> calledFunction = new Stack<>();
+    Stack<Integer> currentActPar = new Stack<>();
 
     // For loop
     int cntInFor = 0;
@@ -250,16 +250,16 @@ public class SemanticAnalyzer extends VisitorAdaptor {
     @Override
     public void visit(FactorFuncCall FactorFuncCall) {
 
-        if (calledFunction.getLevel() >= currentActPar){
+        if (calledFunction.peek().getLevel() >= currentActPar.peek()){
             report_error("Error on line " + FactorFuncCall.getLine() + ": Not enough actual parameters.", null);
         }
 
-        FactorFuncCall.struct = calledFunction.getType();
+        FactorFuncCall.struct = calledFunction.peek().getType();
 
-        report_info("Info on line " + FactorFuncCall.getLine() + ": Detected function call for function " + calledFunction.getName() + ".", null);
+        report_info("Info on line " + FactorFuncCall.getLine() + ": Detected function call for function " + calledFunction.peek().getName() + ".", null);
 
-        calledFunction = null;
-        currentActPar = 1;
+        calledFunction.pop();
+        currentActPar.pop();
 
     }
 
@@ -655,8 +655,8 @@ public class SemanticAnalyzer extends VisitorAdaptor {
     @Override
     public void visit(DesignatorStatementFuncDesignator DesignatorStatementFuncDesignator) {
 
-        currentActPar = 1;
-        calledFunction = DesignatorStatementFuncDesignator.getDesignator().obj;
+        currentActPar.push(1);
+        calledFunction.push(DesignatorStatementFuncDesignator.getDesignator().obj);
 
         if (DesignatorStatementFuncDesignator.getDesignator().obj.getKind() != Obj.Meth){
             report_error("Error on line " + DesignatorStatementFuncDesignator.getLine() + ": Designator must be function or method type.", null);
@@ -669,24 +669,24 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 
         Obj formPar = null;
 
-        if (calledFunction.getName().equals("ord")
-            || calledFunction.getName().equals("chr")
-            || calledFunction.getName().equals("len")){
+        if (calledFunction.peek().getName().equals("ord")
+            || calledFunction.peek().getName().equals("chr")
+            || calledFunction.peek().getName().equals("len")){
 
-            formPar = calledFunction.getLocalSymbols().iterator().next();
+            formPar = calledFunction.peek().getLocalSymbols().iterator().next();
 
         }
         else{
 
-            for (Obj obj : calledFunction.getLocalSymbols()){
+            for (Obj obj : calledFunction.peek().getLocalSymbols()){
 
                 formPar = obj;
 
-                if (obj.getFpPos() == currentActPar) break;
+                if (obj.getFpPos() == currentActPar.peek()) break;
 
             }
 
-            if (formPar != null && formPar.getFpPos() != currentActPar) formPar = null;
+            if (formPar != null && formPar.getFpPos() != currentActPar.peek()) formPar = null;
 
         }
 
@@ -701,28 +701,28 @@ public class SemanticAnalyzer extends VisitorAdaptor {
             report_error("Error on line " + ActParsExprNode.getLine() + ": Too much parameters passed to function.", null);
         }
 
-        currentActPar++;
+        currentActPar.push(currentActPar.pop() + 1);
 
     }
 
     @Override
     public void visit(DesignatorStatementFunc DesignatorStatementFunc) {
 
-        if (calledFunction.getLevel() >= currentActPar){
+        if (calledFunction.peek().getLevel() >= currentActPar.peek()){
             report_error("Error on line " + DesignatorStatementFunc.getLine() + ": Not enough actual parameters.", null);
         }
 
-        report_info("Info on line " + DesignatorStatementFunc.getLine() + ": Detected function call for function " + calledFunction.getName() + ".", null);
+        report_info("Info on line " + DesignatorStatementFunc.getLine() + ": Detected function call for function " + calledFunction.peek().getName() + ".", null);
 
-        calledFunction = null;
-        currentActPar = 1;
+        calledFunction.pop();
+        currentActPar.pop();
     }
 
     @Override
     public void visit(FactorFuncCallDesignator FactorFuncCallDesignator) {
 
-        currentActPar = 1;
-        calledFunction = FactorFuncCallDesignator.getDesignator().obj;
+        currentActPar.push(1);
+        calledFunction.push(FactorFuncCallDesignator.getDesignator().obj);
 
         if (FactorFuncCallDesignator.getDesignator().obj.getKind() != Obj.Meth){
             report_error("Error on line " + FactorFuncCallDesignator.getLine() + ": Designator must be function or method type.", null);

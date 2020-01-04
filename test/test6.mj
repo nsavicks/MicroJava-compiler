@@ -3,32 +3,20 @@ program Program
     int x;
 
     {
+
+        int p(){
+            return 2;
+        }
+
+        void q(int x){
+            print(x);
+        }
+
 	    void main()
 	    {
-	        t = 2;
 
-	        if (x == 0 && t == 1)
-	        {
-	            t = 1;
+	        q(p(), p());
 
-	            if (t == 1)
-	            {
-	                x = 2;
-	            }
-	            else
-	            {
-	                x = 2;
-	            }
+	    }
 
-	            t = 3;
-	        }
-	        else
-	        {
-	            t = 47;
-	        }
-
-	        print(x);
-	        print(eol);
-	        print(t);
-        }
 	}
