@@ -1,0 +1,47 @@
+program test
+
+    int x;
+    bool b;
+
+ {
+
+    void PrintBool(){
+        print(b);
+    }
+
+    void PrintInt(){
+        print(x);
+    }
+
+    void Print(int x, char c){
+
+        print(x);
+        print('-');
+        print(c);
+
+    }
+
+    void main()
+    bool b;
+    {
+
+        b = true;
+
+        print(b);
+        print(eol);
+        PrintBool();
+
+        print(eol);
+
+        x = 10;
+        print(x);
+        print(eol);
+        PrintInt();
+
+        print(eol);
+
+        Print(120, 'c');
+
+    }
+
+ }

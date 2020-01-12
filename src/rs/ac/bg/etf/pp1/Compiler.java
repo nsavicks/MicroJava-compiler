@@ -57,5 +57,6 @@ class Compiler {
             log.error("Parsiranje nije uspesno izvrseno.");
         }
     }
+
 }
 

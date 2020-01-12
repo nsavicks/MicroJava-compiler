@@ -130,51 +130,108 @@ public class CodeGenerator extends VisitorAdaptor {
 
     // CONDITIONS
 
+    ArrayList<Integer> andList = new ArrayList<>();
+    ArrayList<Integer> orList = new ArrayList<>();
+
     @Override
     public void visit(ConditionOr ConditionOr) {
 
-        Code.loadConst(1);
+        if (!(ConditionOr.getParent() instanceof ConditionOr)){
 
-        Code.putFalseJump(Code.ne, Code.pc + 11);
+            Code.loadConst(0);
+            Code.putJump(Code.pc + 4);
 
-        // B == false
+            for (Integer adr: orList){
 
-        Code.loadConst(1);
+                Code.fixup(adr);
 
-        Code.putFalseJump(Code.ne, Code.pc + 8);
+            }
 
-        // A == false
+            orList.clear();
 
-        // CONDITION NOT TRUE
-        Code.loadConst(0);
-        Code.putJump(Code.pc + 5);
+            Code.loadConst(1);
 
-        // CONDITION TRUE
-        Code.put(Code.pop);
-        Code.loadConst(1);
+        }
+
+    }
+
+    @Override
+    public void visit(ConditionTerm ConditionTerm) {
+
+
+        if (!(ConditionTerm.getParent() instanceof ConditionOr)){
+
+            Code.loadConst(0);
+            Code.putJump(Code.pc + 4);
+
+            for (Integer adr: orList){
+
+                Code.fixup(adr);
+
+            }
+
+            orList.clear();
+
+            Code.loadConst(1);
+
+        }
 
     }
 
     @Override
     public void visit(CondTermAnd CondTermAnd) {
 
-        Code.loadConst(1);
 
-        Code.putFalseJump(Code.eq, Code.pc + 11);
-        // B == true
-
+        if (!(CondTermAnd.getParent() instanceof CondTermAnd)){
+            // If finished with CondTerm fix jump addresses for optimized calculating (AND conditions)
             Code.loadConst(1);
-            Code.putFalseJump(Code.eq, Code.pc + 8);
-            // A == true
+            Code.putJump(Code.pc + 4);
 
-            // TERM TRUE
+            for (Integer adr: andList){
+
+                Code.fixup(adr);
+
+            }
+
+            andList.clear();
+
+            Code.loadConst(0);
+
+
+            // Put false jump if other OR condterms dont need to be calculated
             Code.loadConst(1);
-            Code.putJump(Code.pc + 5);
+            Code.putFalseJump(Code.ne, 0);
+            orList.add(Code.pc - 2);
 
+        }
 
-        // TERM NOT TRUE
-        Code.put(Code.pop);
-        Code.loadConst(0);
+    }
+
+    @Override
+    public void visit(CondTermFact CondTermFact) {
+
+        if (!(CondTermFact.getParent() instanceof CondTermAnd)){
+
+            // If finished with CondTerm fix jump addresses for optimized calculating (AND conditions)
+            Code.loadConst(1);
+            Code.putJump(Code.pc + 4);
+
+            for (Integer adr: andList){
+
+                Code.fixup(adr);
+
+            }
+
+            andList.clear();
+
+            Code.loadConst(0);
+
+            // Put false jump if other OR condterms dont need to be calculated
+            Code.loadConst(1);
+            Code.putFalseJump(Code.ne, 0);
+            orList.add(Code.pc - 2);
+
+        }
 
     }
 
@@ -195,6 +252,21 @@ public class CodeGenerator extends VisitorAdaptor {
         Code.loadConst(1);
         Code.putJump(Code.pc + 4);
         Code.loadConst(0);
+
+        // Jump to end of AND condition if not true
+        Code.loadConst(1);
+        Code.putFalseJump(Code.eq, 0);
+        andList.add(Code.pc - 2);
+
+    }
+
+    @Override
+    public void visit(CondFactExpr CondFactExpr) {
+
+        // Jump to end of AND condition if not true
+        Code.loadConst(1);
+        Code.putFalseJump(Code.eq, 0);
+        andList.add(Code.pc - 2);
 
     }
 

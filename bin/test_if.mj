@@ -1,0 +1,33 @@
+program test
+
+int x,y,z;
+bool a,b;
+
+{
+
+    void main()
+    {
+
+        a = true;
+        b = false;
+
+        x = 15;
+        y = 100;
+        z = 20;
+
+        if (a && x < 10){
+            print(x);
+        }
+        else{
+
+            if (b || y > 50){
+                print(y);
+            }
+            else{
+                print(z);
+            }
+
+        }
+
+    }
+}

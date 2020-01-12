@@ -1,0 +1,26 @@
+program test
+
+int x,,c;
+bool z, ;
+char niz[;
+
+ {
+
+    void fja(int, int x, int z[){
+
+    }
+
+
+    void main(){
+
+       x = ;
+       x = niz[;
+
+
+       for (; x != ;){
+
+       }
+
+    }
+
+ }

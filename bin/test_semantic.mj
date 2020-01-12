@@ -1,0 +1,65 @@
+program test
+
+int x;
+bool b;
+char c;
+int niz[];
+
+const int cc = true;
+
+{
+
+    void f(){
+
+    }
+
+    int f1(){
+
+    }
+
+    int f2(char c){
+        return c;
+    }
+
+    void main(){
+
+        b = null;
+        x = 'c';
+        x = ord('c');
+        niz = null;
+        c = null;
+
+        f();
+        f1();
+
+        x = f();
+
+        // f2();
+        // f2(b, c);
+        // f2(x);
+
+        niz = new char[10];
+        niz = new int['c'];
+
+        x();
+
+        read(niz);
+        print(niz);
+
+        break;
+
+        continue;
+
+        niz++;
+
+        for (; 3;){
+
+        }
+
+        if (niz > null){
+
+        }
+
+        x[10] = 10;
+    }
+}

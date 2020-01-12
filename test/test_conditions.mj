@@ -1,0 +1,43 @@
+program test
+    bool a, b, c;
+    int niz[];
+ {
+
+    bool v(){
+        print('V');
+        return true;
+    }
+
+    bool s(){
+        print('S');
+        return true;
+    }
+
+    void main(){
+
+        niz = null;
+
+        if (niz != null && niz[0] == 1){
+            print('D');
+        }
+
+        a = true;
+        b = false;
+
+        for (; a && b && v() || s() || v(); ) break;
+
+        print(eol);
+
+        if (1 == 2 && v()){
+
+        }
+
+        print(eol);
+
+        if (1==2 || s()){
+
+        }
+
+    }
+
+ }

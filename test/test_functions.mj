@@ -1,0 +1,55 @@
+program test
+int x, y;
+int niz[];
+{
+
+    int sum(int a, int b, int c){
+
+        return a + b + c;
+
+    }
+
+    int sumaNiza(int niz[], int n)
+    int sol, i;
+    {
+        sol = 0;
+        for (i = 0; i < n; i++){
+            sol = sol + niz[i];
+        }
+
+        return sol;
+    }
+
+    int getX(){
+        return x;
+    }
+
+    int getY(){
+        return y;
+    }
+
+    int Multiply(int a, int b){
+        return a * b;
+    }
+
+    void main()
+    int i;
+    {
+
+        x = 10;
+        y = 5;
+
+        print(sum(getX(), getY(), Multiply(getX(), getY())));
+        print(eol);
+        print(Multiply(ord('a'), ord('z')));
+
+        niz = new int[10];
+
+        for (i = 0; i < 10; i++){
+            niz[i] = i + 1;
+        }
+
+        print(eol);
+        print(sumaNiza(niz, 10));
+    }
+}

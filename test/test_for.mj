@@ -1,0 +1,59 @@
+program test
+
+const int N = 10;
+const int X = 26;
+char niz[];
+
+{
+    void main()
+    int i, j;
+    {
+
+        for (i = 0; i < N; i++){
+            print(i);
+        }
+
+        print(eol);
+
+        for (i = N - 1; i >= 0; i--) {
+            print(i);
+        }
+        print(eol);
+
+        i = 0;
+
+        for (;;){
+
+            if (i % 2 == 0){
+                print(i);
+            }
+
+            i++;
+            if (i == 10) break;
+        }
+
+        print(eol);
+
+        niz = new char[X];
+
+        for (i = 0; i < X; i++){
+
+            niz[i] = chr(i + 97);
+            if (niz[i] == 'c') continue;
+            print(niz[i]);
+        }
+
+        print(eol);
+
+        for (i = 0; i < N; i++)
+        {
+            print(i);
+            print(':');
+            for (j = 0; j < N; j++){
+                print(j);
+            }
+            print(eol);
+        }
+
+    }
+}
