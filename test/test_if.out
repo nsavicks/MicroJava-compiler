@@ -1,0 +1,512 @@
+INFO  04:46:15,806 - #2 program
+INFO  04:46:15,806 - #44 test
+INFO  04:46:15,806 - #44 int
+INFO  04:46:15,807 - #44 x
+INFO  04:46:15,808 - #34 ,
+INFO  04:46:15,810 - #44 y
+INFO  04:46:15,810 - #34 ,
+INFO  04:46:15,810 - #44 z
+INFO  04:46:15,810 - #33 ;
+INFO  04:46:15,810 - #44 bool
+INFO  04:46:15,810 - #44 a
+INFO  04:46:15,810 - #34 ,
+INFO  04:46:15,811 - #44 b
+INFO  04:46:15,811 - #33 ;
+INFO  04:46:15,811 - #40 {
+INFO  04:46:15,811 - #13 void
+INFO  04:46:15,811 - #44 main
+INFO  04:46:15,812 - #36 (
+INFO  04:46:15,812 - #37 )
+INFO  04:46:15,813 - #40 {
+INFO  04:46:15,814 - #44 a
+INFO  04:46:15,814 - #30 =
+INFO  04:46:15,815 - #42 true
+INFO  04:46:15,816 - #33 ;
+INFO  04:46:15,817 - #44 b
+INFO  04:46:15,817 - #30 =
+INFO  04:46:15,817 - #42 false
+INFO  04:46:15,817 - #33 ;
+INFO  04:46:15,818 - #44 x
+INFO  04:46:15,818 - #30 =
+INFO  04:46:15,818 - #43 15
+INFO  04:46:15,818 - #33 ;
+INFO  04:46:15,818 - #44 y
+INFO  04:46:15,818 - #30 =
+INFO  04:46:15,818 - #43 100
+INFO  04:46:15,818 - #33 ;
+INFO  04:46:15,818 - #44 z
+INFO  04:46:15,819 - #30 =
+INFO  04:46:15,819 - #43 20
+INFO  04:46:15,819 - #33 ;
+INFO  04:46:15,819 - #8 if
+INFO  04:46:15,819 - #36 (
+INFO  04:46:15,819 - #44 a
+INFO  04:46:15,819 - #28 &&
+INFO  04:46:15,819 - #44 x
+INFO  04:46:15,819 - #26 <
+INFO  04:46:15,819 - #43 10
+INFO  04:46:15,821 - #37 )
+INFO  04:46:15,821 - #40 {
+INFO  04:46:15,821 - #10 print
+INFO  04:46:15,821 - #36 (
+INFO  04:46:15,821 - #44 x
+INFO  04:46:15,821 - #37 )
+INFO  04:46:15,822 - #33 ;
+INFO  04:46:15,822 - #41 }
+INFO  04:46:15,822 - #6 else
+INFO  04:46:15,823 - #40 {
+INFO  04:46:15,824 - #8 if
+INFO  04:46:15,824 - #36 (
+INFO  04:46:15,825 - #44 b
+INFO  04:46:15,825 - #29 ||
+INFO  04:46:15,825 - #44 y
+INFO  04:46:15,825 - #24 >
+INFO  04:46:15,825 - #43 50
+INFO  04:46:15,826 - #37 )
+INFO  04:46:15,826 - #40 {
+INFO  04:46:15,831 - #10 print
+INFO  04:46:15,831 - #36 (
+INFO  04:46:15,831 - #44 y
+INFO  04:46:15,831 - #37 )
+INFO  04:46:15,831 - #33 ;
+INFO  04:46:15,831 - #41 }
+INFO  04:46:15,831 - #6 else
+INFO  04:46:15,831 - #40 {
+INFO  04:46:15,832 - #10 print
+INFO  04:46:15,832 - #36 (
+INFO  04:46:15,832 - #44 z
+INFO  04:46:15,832 - #37 )
+INFO  04:46:15,832 - #33 ;
+INFO  04:46:15,832 - #41 }
+INFO  04:46:15,832 - #41 }
+INFO  04:46:15,832 - #41 }
+INFO  04:46:15,832 - #41 }
+Program(
+  ProgName(
+   test
+  ) [ProgName]
+  DeclarationListNode(
+    DeclarationListNode(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      VarDeclaration(
+        VarDeclNode(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          VarIdentListNode(
+            VarIdentListNode(
+              VarIdentListSingle(
+                VarIdentSingleNode(
+                 x
+                  NoSquareSingle(
+                  ) [NoSquareSingle]
+                ) [VarIdentSingleNode]
+              ) [VarIdentListSingle]
+              VarIdentSingleNode(
+               y
+                NoSquareSingle(
+                ) [NoSquareSingle]
+              ) [VarIdentSingleNode]
+            ) [VarIdentListNode]
+            VarIdentSingleNode(
+             z
+              NoSquareSingle(
+              ) [NoSquareSingle]
+            ) [VarIdentSingleNode]
+          ) [VarIdentListNode]
+        ) [VarDeclNode]
+      ) [VarDeclaration]
+    ) [DeclarationListNode]
+    VarDeclaration(
+      VarDeclNode(
+        VarType(
+          Type(
+           bool
+          ) [Type]
+        ) [VarType]
+        VarIdentListNode(
+          VarIdentListSingle(
+            VarIdentSingleNode(
+             a
+              NoSquareSingle(
+              ) [NoSquareSingle]
+            ) [VarIdentSingleNode]
+          ) [VarIdentListSingle]
+          VarIdentSingleNode(
+           b
+            NoSquareSingle(
+            ) [NoSquareSingle]
+          ) [VarIdentSingleNode]
+        ) [VarIdentListNode]
+      ) [VarDeclNode]
+    ) [VarDeclaration]
+  ) [DeclarationListNode]
+  MethodDeclListNode(
+    NoMethodDeclList(
+    ) [NoMethodDeclList]
+    MethodDeclNode(
+      MethodDeclPrototype(
+        MethodDeclTypeIdentNode(
+          RetTypeVoid(
+          ) [RetTypeVoid]
+         main
+        ) [MethodDeclTypeIdentNode]
+        NoFormParsSingle(
+        ) [NoFormParsSingle]
+      ) [MethodDeclPrototype]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StatementListNode(
+        StatementListNode(
+          StatementListNode(
+            StatementListNode(
+              StatementListNode(
+                StatementListNode(
+                  NoStatementList(
+                  ) [NoStatementList]
+                  StatementDesignator(
+                    DesignatorStatementAssignNode(
+                      DesignatorAssignItemNode(
+                        DesignatorIdent(
+                         a
+                        ) [DesignatorIdent]
+                        Assignop(
+                        ) [Assignop]
+                        ExprTerm(
+                          NoSubSingle(
+                          ) [NoSubSingle]
+                          TermFactor(
+                            FactorConstant(
+                              ConstLiteralBool(
+                               true
+                              ) [ConstLiteralBool]
+                            ) [FactorConstant]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [DesignatorAssignItemNode]
+                    ) [DesignatorStatementAssignNode]
+                  ) [StatementDesignator]
+                ) [StatementListNode]
+                StatementDesignator(
+                  DesignatorStatementAssignNode(
+                    DesignatorAssignItemNode(
+                      DesignatorIdent(
+                       b
+                      ) [DesignatorIdent]
+                      Assignop(
+                      ) [Assignop]
+                      ExprTerm(
+                        NoSubSingle(
+                        ) [NoSubSingle]
+                        TermFactor(
+                          FactorConstant(
+                            ConstLiteralBool(
+                             false
+                            ) [ConstLiteralBool]
+                          ) [FactorConstant]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [DesignatorAssignItemNode]
+                  ) [DesignatorStatementAssignNode]
+                ) [StatementDesignator]
+              ) [StatementListNode]
+              StatementDesignator(
+                DesignatorStatementAssignNode(
+                  DesignatorAssignItemNode(
+                    DesignatorIdent(
+                     x
+                    ) [DesignatorIdent]
+                    Assignop(
+                    ) [Assignop]
+                    ExprTerm(
+                      NoSubSingle(
+                      ) [NoSubSingle]
+                      TermFactor(
+                        FactorConstant(
+                          ConstLiteralNum(
+                           15
+                          ) [ConstLiteralNum]
+                        ) [FactorConstant]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [DesignatorAssignItemNode]
+                ) [DesignatorStatementAssignNode]
+              ) [StatementDesignator]
+            ) [StatementListNode]
+            StatementDesignator(
+              DesignatorStatementAssignNode(
+                DesignatorAssignItemNode(
+                  DesignatorIdent(
+                   y
+                  ) [DesignatorIdent]
+                  Assignop(
+                  ) [Assignop]
+                  ExprTerm(
+                    NoSubSingle(
+                    ) [NoSubSingle]
+                    TermFactor(
+                      FactorConstant(
+                        ConstLiteralNum(
+                         100
+                        ) [ConstLiteralNum]
+                      ) [FactorConstant]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                ) [DesignatorAssignItemNode]
+              ) [DesignatorStatementAssignNode]
+            ) [StatementDesignator]
+          ) [StatementListNode]
+          StatementDesignator(
+            DesignatorStatementAssignNode(
+              DesignatorAssignItemNode(
+                DesignatorIdent(
+                 z
+                ) [DesignatorIdent]
+                Assignop(
+                ) [Assignop]
+                ExprTerm(
+                  NoSubSingle(
+                  ) [NoSubSingle]
+                  TermFactor(
+                    FactorConstant(
+                      ConstLiteralNum(
+                       20
+                      ) [ConstLiteralNum]
+                    ) [FactorConstant]
+                  ) [TermFactor]
+                ) [ExprTerm]
+              ) [DesignatorAssignItemNode]
+            ) [DesignatorStatementAssignNode]
+          ) [StatementDesignator]
+        ) [StatementListNode]
+        StatementIf(
+          IfHeaderNode(
+            ConditionTerm(
+              CondTermAnd(
+                CondTermFact(
+                  CondFactExpr(
+                    ExprTerm(
+                      NoSubSingle(
+                      ) [NoSubSingle]
+                      TermFactor(
+                        FactorVariable(
+                          DesignatorIdent(
+                           a
+                          ) [DesignatorIdent]
+                        ) [FactorVariable]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [CondFactExpr]
+                ) [CondTermFact]
+                CondFactRelop(
+                  ExprTerm(
+                    NoSubSingle(
+                    ) [NoSubSingle]
+                    TermFactor(
+                      FactorVariable(
+                        DesignatorIdent(
+                         x
+                        ) [DesignatorIdent]
+                      ) [FactorVariable]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                  Lesserop(
+                  ) [Lesserop]
+                  ExprTerm(
+                    NoSubSingle(
+                    ) [NoSubSingle]
+                    TermFactor(
+                      FactorConstant(
+                        ConstLiteralNum(
+                         10
+                        ) [ConstLiteralNum]
+                      ) [FactorConstant]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                ) [CondFactRelop]
+              ) [CondTermAnd]
+            ) [ConditionTerm]
+          ) [IfHeaderNode]
+          StatementStatementList(
+            StatementListNode(
+              NoStatementList(
+              ) [NoStatementList]
+              StatementPrint(
+                ExprTerm(
+                  NoSubSingle(
+                  ) [NoSubSingle]
+                  TermFactor(
+                    FactorVariable(
+                      DesignatorIdent(
+                       x
+                      ) [DesignatorIdent]
+                    ) [FactorVariable]
+                  ) [TermFactor]
+                ) [ExprTerm]
+                NoCommaNumConstSingle(
+                ) [NoCommaNumConstSingle]
+              ) [StatementPrint]
+            ) [StatementListNode]
+          ) [StatementStatementList]
+          ElseStatementSingleNode(
+            ElseNode(
+            ) [ElseNode]
+            StatementStatementList(
+              StatementListNode(
+                NoStatementList(
+                ) [NoStatementList]
+                StatementIf(
+                  IfHeaderNode(
+                    ConditionOr(
+                      ConditionTerm(
+                        CondTermFact(
+                          CondFactExpr(
+                            ExprTerm(
+                              NoSubSingle(
+                              ) [NoSubSingle]
+                              TermFactor(
+                                FactorVariable(
+                                  DesignatorIdent(
+                                   b
+                                  ) [DesignatorIdent]
+                                ) [FactorVariable]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                          ) [CondFactExpr]
+                        ) [CondTermFact]
+                      ) [ConditionTerm]
+                      CondTermFact(
+                        CondFactRelop(
+                          ExprTerm(
+                            NoSubSingle(
+                            ) [NoSubSingle]
+                            TermFactor(
+                              FactorVariable(
+                                DesignatorIdent(
+                                 y
+                                ) [DesignatorIdent]
+                              ) [FactorVariable]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                          Greaterop(
+                          ) [Greaterop]
+                          ExprTerm(
+                            NoSubSingle(
+                            ) [NoSubSingle]
+                            TermFactor(
+                              FactorConstant(
+                                ConstLiteralNum(
+                                 50
+                                ) [ConstLiteralNum]
+                              ) [FactorConstant]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                        ) [CondFactRelop]
+                      ) [CondTermFact]
+                    ) [ConditionOr]
+                  ) [IfHeaderNode]
+                  StatementStatementList(
+                    StatementListNode(
+                      NoStatementList(
+                      ) [NoStatementList]
+                      StatementPrint(
+                        ExprTerm(
+                          NoSubSingle(
+                          ) [NoSubSingle]
+                          TermFactor(
+                            FactorVariable(
+                              DesignatorIdent(
+                               y
+                              ) [DesignatorIdent]
+                            ) [FactorVariable]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                        NoCommaNumConstSingle(
+                        ) [NoCommaNumConstSingle]
+                      ) [StatementPrint]
+                    ) [StatementListNode]
+                  ) [StatementStatementList]
+                  ElseStatementSingleNode(
+                    ElseNode(
+                    ) [ElseNode]
+                    StatementStatementList(
+                      StatementListNode(
+                        NoStatementList(
+                        ) [NoStatementList]
+                        StatementPrint(
+                          ExprTerm(
+                            NoSubSingle(
+                            ) [NoSubSingle]
+                            TermFactor(
+                              FactorVariable(
+                                DesignatorIdent(
+                                 z
+                                ) [DesignatorIdent]
+                              ) [FactorVariable]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                          NoCommaNumConstSingle(
+                          ) [NoCommaNumConstSingle]
+                        ) [StatementPrint]
+                      ) [StatementListNode]
+                    ) [StatementStatementList]
+                  ) [ElseStatementSingleNode]
+                ) [StatementIf]
+              ) [StatementListNode]
+            ) [StatementStatementList]
+          ) [ElseStatementSingleNode]
+        ) [StatementIf]
+      ) [StatementListNode]
+    ) [MethodDeclNode]
+  ) [MethodDeclListNode]
+) [Program]
+===================================
+INFO  04:46:15,863 - Info on line: 11: Detected usage of global variable a.
+INFO  04:46:15,863 - Info on line: 12: Detected usage of global variable b.
+INFO  04:46:15,863 - Info on line: 14: Detected usage of global variable x.
+INFO  04:46:15,864 - Info on line: 15: Detected usage of global variable y.
+INFO  04:46:15,864 - Info on line: 16: Detected usage of global variable z.
+INFO  04:46:15,864 - Info on line: 18: Detected usage of global variable a.
+INFO  04:46:15,864 - Info on line: 18: Detected usage of global variable x.
+INFO  04:46:15,864 - Info on line: 19: Detected usage of global variable x.
+INFO  04:46:15,864 - Info on line: 23: Detected usage of global variable b.
+INFO  04:46:15,864 - Info on line: 23: Detected usage of global variable y.
+INFO  04:46:15,864 - Info on line: 24: Detected usage of global variable y.
+INFO  04:46:15,864 - Info on line: 27: Detected usage of global variable z.
+===================================
+=====================SYMBOL TABLE DUMP=========================
+Var x: int, 0, 0 
+Var y: int, 1, 0 
+Var z: int, 2, 0 
+Var a: , 3, 0 
+Var b: , 4, 0 
+Meth main: notype, 0, 0 
+
+Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: , 0, 1 
+Prog test: notype, 0, 1 
+   Var x: int, 0, 0 
+   Var y: int, 1, 0 
+   Var z: int, 2, 0 
+   Var a: , 3, 0 
+   Var b: , 4, 0 
+   Meth main: notype, 0, 0 
+
+
+
+INFO  04:46:15,875 - Parsiranje uspesno izvrseno.

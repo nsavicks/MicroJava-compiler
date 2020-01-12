@@ -1,0 +1,282 @@
+INFO  04:46:34,515 - #2 program
+INFO  04:46:34,516 - #44 test
+INFO  04:46:34,516 - #44 int
+INFO  04:46:34,517 - #44 x
+INFO  04:46:34,518 - #34 ,
+INFO  04:46:34,519 - #34 ,
+ERROR 04:46:34,519 - 
+Sintaksna greska na liniji 3
+INFO  04:46:34,519 - #44 c
+ERROR 04:46:34,525 - Izvrsen oporavak u liniji 3
+INFO  04:46:34,526 - #33 ;
+INFO  04:46:34,526 - #44 bool
+INFO  04:46:34,526 - #44 z
+INFO  04:46:34,527 - #34 ,
+INFO  04:46:34,527 - #33 ;
+ERROR 04:46:34,527 - 
+Sintaksna greska na liniji 4
+INFO  04:46:34,527 - #44 char
+ERROR 04:46:34,527 - Izvrsen oporavak u liniji 4
+INFO  04:46:34,527 - #44 niz
+INFO  04:46:34,527 - #38 [
+INFO  04:46:34,527 - #33 ;
+ERROR 04:46:34,527 - 
+Sintaksna greska na liniji 5
+INFO  04:46:34,527 - #40 {
+ERROR 04:46:34,527 - Izvrsen oporavak u liniji 5
+INFO  04:46:34,528 - #13 void
+INFO  04:46:34,528 - #44 fja
+INFO  04:46:34,529 - #36 (
+INFO  04:46:34,529 - #44 int
+INFO  04:46:34,529 - #34 ,
+ERROR 04:46:34,529 - 
+Sintaksna greska na liniji 9
+INFO  04:46:34,529 - #44 int
+ERROR 04:46:34,529 - Izvrsen oporavak u liniji 9
+INFO  04:46:34,530 - #44 x
+INFO  04:46:34,530 - #34 ,
+INFO  04:46:34,530 - #44 int
+INFO  04:46:34,530 - #44 z
+INFO  04:46:34,530 - #38 [
+INFO  04:46:34,530 - #37 )
+ERROR 04:46:34,530 - 
+Sintaksna greska na liniji 9
+INFO  04:46:34,530 - #40 {
+ERROR 04:46:34,530 - Izvrsen oporavak u liniji 9
+INFO  04:46:34,532 - #41 }
+INFO  04:46:34,532 - #13 void
+INFO  04:46:34,532 - #44 main
+INFO  04:46:34,532 - #36 (
+INFO  04:46:34,532 - #37 )
+INFO  04:46:34,533 - #40 {
+INFO  04:46:34,533 - #44 x
+INFO  04:46:34,533 - #30 =
+INFO  04:46:34,533 - #33 ;
+ERROR 04:46:34,533 - 
+Sintaksna greska na liniji 16
+INFO  04:46:34,533 - #44 x
+ERROR 04:46:34,533 - Izvrsen oporavak u liniji 15
+INFO  04:46:34,534 - #30 =
+INFO  04:46:34,534 - #44 niz
+INFO  04:46:34,536 - #38 [
+INFO  04:46:34,536 - #33 ;
+ERROR 04:46:34,536 - 
+Sintaksna greska na liniji 17
+INFO  04:46:34,536 - #14 for
+ERROR 04:46:34,536 - Izvrsen oporavak u liniji 15
+INFO  04:46:34,536 - #36 (
+INFO  04:46:34,536 - #33 ;
+INFO  04:46:34,537 - #44 x
+INFO  04:46:34,537 - #23 !=
+INFO  04:46:34,537 - #33 ;
+ERROR 04:46:34,537 - 
+Sintaksna greska na liniji 20
+INFO  04:46:34,537 - #37 )
+ERROR 04:46:34,537 - Izvrsen oporavak u liniji 12
+INFO  04:46:34,538 - #40 {
+INFO  04:46:34,538 - #41 }
+INFO  04:46:34,538 - #41 }
+INFO  04:46:34,539 - #41 }
+Program(
+  ProgName(
+   test
+  ) [ProgName]
+  DeclarationListNode(
+    DeclarationListNode(
+      DeclarationListNode(
+        NoDeclarationList(
+        ) [NoDeclarationList]
+        VarDeclaration(
+          VarDeclNode(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            VarIdentListNode(
+              VarIdentListNode(
+                VarIdentListSingle(
+                  VarIdentSingleNode(
+                   x
+                    NoSquareSingle(
+                    ) [NoSquareSingle]
+                  ) [VarIdentSingleNode]
+                ) [VarIdentListSingle]
+                ErrorVarIdentSingle(
+                ) [ErrorVarIdentSingle]
+              ) [VarIdentListNode]
+              VarIdentSingleNode(
+               c
+                NoSquareSingle(
+                ) [NoSquareSingle]
+              ) [VarIdentSingleNode]
+            ) [VarIdentListNode]
+          ) [VarDeclNode]
+        ) [VarDeclaration]
+      ) [DeclarationListNode]
+      VarDeclaration(
+        VarDeclNode(
+          VarType(
+            Type(
+             bool
+            ) [Type]
+          ) [VarType]
+          VarIdentListNode(
+            VarIdentListSingle(
+              VarIdentSingleNode(
+               z
+                NoSquareSingle(
+                ) [NoSquareSingle]
+              ) [VarIdentSingleNode]
+            ) [VarIdentListSingle]
+            ErrorVarIdentSingle(
+            ) [ErrorVarIdentSingle]
+          ) [VarIdentListNode]
+        ) [VarDeclNode]
+      ) [VarDeclaration]
+    ) [DeclarationListNode]
+    VarDeclaration(
+      VarDeclNode(
+        VarType(
+          Type(
+           char
+          ) [Type]
+        ) [VarType]
+        VarIdentListSingle(
+          ErrorVarIdentSingle(
+          ) [ErrorVarIdentSingle]
+        ) [VarIdentListSingle]
+      ) [VarDeclNode]
+    ) [VarDeclaration]
+  ) [DeclarationListNode]
+  MethodDeclListNode(
+    MethodDeclListNode(
+      NoMethodDeclList(
+      ) [NoMethodDeclList]
+      MethodDeclNode(
+        MethodDeclPrototype(
+          MethodDeclTypeIdentNode(
+            RetTypeVoid(
+            ) [RetTypeVoid]
+           fja
+          ) [MethodDeclTypeIdentNode]
+          FormParsSingleNode(
+            FormPars(
+              TypeIdentListNode(
+                TypeIdentListNode(
+                  SingleTypeIdentList(
+                    ErrorTypeIdentSingle(
+                    ) [ErrorTypeIdentSingle]
+                  ) [SingleTypeIdentList]
+                  TypeIdentSingleNode(
+                    Type(
+                     int
+                    ) [Type]
+                   x
+                    NoSquareSingle(
+                    ) [NoSquareSingle]
+                  ) [TypeIdentSingleNode]
+                ) [TypeIdentListNode]
+                ErrorTypeIdentSingle(
+                ) [ErrorTypeIdentSingle]
+              ) [TypeIdentListNode]
+            ) [FormPars]
+          ) [FormParsSingleNode]
+        ) [MethodDeclPrototype]
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        NoStatementList(
+        ) [NoStatementList]
+      ) [MethodDeclNode]
+    ) [MethodDeclListNode]
+    MethodDeclNode(
+      MethodDeclPrototype(
+        MethodDeclTypeIdentNode(
+          RetTypeVoid(
+          ) [RetTypeVoid]
+         main
+        ) [MethodDeclTypeIdentNode]
+        NoFormParsSingle(
+        ) [NoFormParsSingle]
+      ) [MethodDeclPrototype]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StatementListNode(
+        StatementListNode(
+          StatementListNode(
+            NoStatementList(
+            ) [NoStatementList]
+            StatementDesignator(
+              DesignatorStatementAssignNode(
+                ErrorDesignatorAssignItem(
+                ) [ErrorDesignatorAssignItem]
+              ) [DesignatorStatementAssignNode]
+            ) [StatementDesignator]
+          ) [StatementListNode]
+          StatementDesignator(
+            DesignatorStatementAssignNode(
+              ErrorDesignatorAssignItem(
+              ) [ErrorDesignatorAssignItem]
+            ) [DesignatorStatementAssignNode]
+          ) [StatementDesignator]
+        ) [StatementListNode]
+        StatementFor(
+          ForLoopHeaderNode(
+            ForInitNode(
+              NoDesignatorStatementSingle(
+              ) [NoDesignatorStatementSingle]
+            ) [ForInitNode]
+            ErrorForConditionSingleNode(
+            ) [ErrorForConditionSingleNode]
+            ForStepNode(
+              NoDesignatorStatementSingle(
+              ) [NoDesignatorStatementSingle]
+            ) [ForStepNode]
+          ) [ForLoopHeaderNode]
+          StatementStatementList(
+            NoStatementList(
+            ) [NoStatementList]
+          ) [StatementStatementList]
+        ) [StatementFor]
+      ) [StatementListNode]
+    ) [MethodDeclNode]
+  ) [MethodDeclListNode]
+) [Program]
+===================================
+INFO  04:46:34,548 - Info on line 11: Detected for loop.
+===================================
+=====================SYMBOL TABLE DUMP=========================
+Var x: int, 0, 0 
+Var c: int, 1, 0 
+Var z: , 2, 0 
+Meth fja: notype, 0, 1 
+   Var x: int, 0, 1 
+
+Meth main: notype, 0, 0 
+
+Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: , 0, 1 
+Prog test: notype, 0, 1 
+   Var x: int, 0, 0 
+   Var c: int, 1, 0 
+   Var z: , 2, 0 
+   Meth fja: notype, 0, 1 
+      Var x: int, 0, 1 
+
+   Meth main: notype, 0, 0 
+
+
+
+ERROR 04:46:34,549 - Parsiranje nije uspesno izvrseno.

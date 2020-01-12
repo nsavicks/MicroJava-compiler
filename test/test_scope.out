@@ -1,0 +1,637 @@
+INFO  04:46:52,862 - #2 program
+INFO  04:46:52,863 - #44 test
+INFO  04:46:52,863 - #44 int
+INFO  04:46:52,864 - #44 x
+INFO  04:46:52,866 - #33 ;
+INFO  04:46:52,867 - #44 bool
+INFO  04:46:52,867 - #44 b
+INFO  04:46:52,867 - #33 ;
+INFO  04:46:52,867 - #40 {
+INFO  04:46:52,868 - #13 void
+INFO  04:46:52,868 - #44 PrintBool
+INFO  04:46:52,869 - #36 (
+INFO  04:46:52,869 - #37 )
+INFO  04:46:52,870 - #40 {
+INFO  04:46:52,871 - #10 print
+INFO  04:46:52,872 - #36 (
+INFO  04:46:52,872 - #44 b
+INFO  04:46:52,873 - #37 )
+INFO  04:46:52,874 - #33 ;
+INFO  04:46:52,874 - #41 }
+INFO  04:46:52,875 - #13 void
+INFO  04:46:52,875 - #44 PrintInt
+INFO  04:46:52,875 - #36 (
+INFO  04:46:52,875 - #37 )
+INFO  04:46:52,875 - #40 {
+INFO  04:46:52,875 - #10 print
+INFO  04:46:52,875 - #36 (
+INFO  04:46:52,876 - #44 x
+INFO  04:46:52,876 - #37 )
+INFO  04:46:52,876 - #33 ;
+INFO  04:46:52,876 - #41 }
+INFO  04:46:52,876 - #13 void
+INFO  04:46:52,876 - #44 Print
+INFO  04:46:52,876 - #36 (
+INFO  04:46:52,876 - #44 int
+INFO  04:46:52,876 - #44 x
+INFO  04:46:52,876 - #34 ,
+INFO  04:46:52,877 - #44 char
+INFO  04:46:52,877 - #44 c
+INFO  04:46:52,877 - #37 )
+INFO  04:46:52,878 - #40 {
+INFO  04:46:52,878 - #10 print
+INFO  04:46:52,878 - #36 (
+INFO  04:46:52,878 - #44 x
+INFO  04:46:52,878 - #37 )
+INFO  04:46:52,878 - #33 ;
+INFO  04:46:52,878 - #10 print
+INFO  04:46:52,879 - #36 (
+INFO  04:46:52,879 - #45 -
+INFO  04:46:52,879 - #37 )
+INFO  04:46:52,879 - #33 ;
+INFO  04:46:52,879 - #10 print
+INFO  04:46:52,879 - #36 (
+INFO  04:46:52,879 - #44 c
+INFO  04:46:52,880 - #37 )
+INFO  04:46:52,880 - #33 ;
+INFO  04:46:52,880 - #41 }
+INFO  04:46:52,880 - #13 void
+INFO  04:46:52,880 - #44 main
+INFO  04:46:52,880 - #36 (
+INFO  04:46:52,880 - #37 )
+INFO  04:46:52,880 - #44 bool
+INFO  04:46:52,880 - #44 b
+INFO  04:46:52,880 - #33 ;
+INFO  04:46:52,880 - #40 {
+INFO  04:46:52,881 - #44 b
+INFO  04:46:52,881 - #30 =
+INFO  04:46:52,881 - #42 true
+INFO  04:46:52,882 - #33 ;
+INFO  04:46:52,882 - #10 print
+INFO  04:46:52,882 - #36 (
+INFO  04:46:52,882 - #44 b
+INFO  04:46:52,883 - #37 )
+INFO  04:46:52,883 - #33 ;
+INFO  04:46:52,883 - #10 print
+INFO  04:46:52,883 - #36 (
+INFO  04:46:52,883 - #44 eol
+INFO  04:46:52,883 - #37 )
+INFO  04:46:52,883 - #33 ;
+INFO  04:46:52,883 - #44 PrintBool
+INFO  04:46:52,883 - #36 (
+INFO  04:46:52,884 - #37 )
+INFO  04:46:52,885 - #33 ;
+INFO  04:46:52,885 - #10 print
+INFO  04:46:52,885 - #36 (
+INFO  04:46:52,885 - #44 eol
+INFO  04:46:52,885 - #37 )
+INFO  04:46:52,885 - #33 ;
+INFO  04:46:52,885 - #44 x
+INFO  04:46:52,885 - #30 =
+INFO  04:46:52,886 - #43 10
+INFO  04:46:52,886 - #33 ;
+INFO  04:46:52,886 - #10 print
+INFO  04:46:52,886 - #36 (
+INFO  04:46:52,886 - #44 x
+INFO  04:46:52,886 - #37 )
+INFO  04:46:52,886 - #33 ;
+INFO  04:46:52,886 - #10 print
+INFO  04:46:52,886 - #36 (
+INFO  04:46:52,886 - #44 eol
+INFO  04:46:52,886 - #37 )
+INFO  04:46:52,886 - #33 ;
+INFO  04:46:52,887 - #44 PrintInt
+INFO  04:46:52,887 - #36 (
+INFO  04:46:52,887 - #37 )
+INFO  04:46:52,887 - #33 ;
+INFO  04:46:52,887 - #10 print
+INFO  04:46:52,887 - #36 (
+INFO  04:46:52,887 - #44 eol
+INFO  04:46:52,887 - #37 )
+INFO  04:46:52,887 - #33 ;
+INFO  04:46:52,887 - #44 Print
+INFO  04:46:52,887 - #36 (
+INFO  04:46:52,887 - #43 120
+INFO  04:46:52,887 - #34 ,
+INFO  04:46:52,888 - #45 c
+INFO  04:46:52,888 - #37 )
+INFO  04:46:52,888 - #33 ;
+INFO  04:46:52,888 - #41 }
+INFO  04:46:52,888 - #41 }
+Program(
+  ProgName(
+   test
+  ) [ProgName]
+  DeclarationListNode(
+    DeclarationListNode(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      VarDeclaration(
+        VarDeclNode(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          VarIdentListSingle(
+            VarIdentSingleNode(
+             x
+              NoSquareSingle(
+              ) [NoSquareSingle]
+            ) [VarIdentSingleNode]
+          ) [VarIdentListSingle]
+        ) [VarDeclNode]
+      ) [VarDeclaration]
+    ) [DeclarationListNode]
+    VarDeclaration(
+      VarDeclNode(
+        VarType(
+          Type(
+           bool
+          ) [Type]
+        ) [VarType]
+        VarIdentListSingle(
+          VarIdentSingleNode(
+           b
+            NoSquareSingle(
+            ) [NoSquareSingle]
+          ) [VarIdentSingleNode]
+        ) [VarIdentListSingle]
+      ) [VarDeclNode]
+    ) [VarDeclaration]
+  ) [DeclarationListNode]
+  MethodDeclListNode(
+    MethodDeclListNode(
+      MethodDeclListNode(
+        MethodDeclListNode(
+          NoMethodDeclList(
+          ) [NoMethodDeclList]
+          MethodDeclNode(
+            MethodDeclPrototype(
+              MethodDeclTypeIdentNode(
+                RetTypeVoid(
+                ) [RetTypeVoid]
+               PrintBool
+              ) [MethodDeclTypeIdentNode]
+              NoFormParsSingle(
+              ) [NoFormParsSingle]
+            ) [MethodDeclPrototype]
+            NoVarDeclList(
+            ) [NoVarDeclList]
+            StatementListNode(
+              NoStatementList(
+              ) [NoStatementList]
+              StatementPrint(
+                ExprTerm(
+                  NoSubSingle(
+                  ) [NoSubSingle]
+                  TermFactor(
+                    FactorVariable(
+                      DesignatorIdent(
+                       b
+                      ) [DesignatorIdent]
+                    ) [FactorVariable]
+                  ) [TermFactor]
+                ) [ExprTerm]
+                NoCommaNumConstSingle(
+                ) [NoCommaNumConstSingle]
+              ) [StatementPrint]
+            ) [StatementListNode]
+          ) [MethodDeclNode]
+        ) [MethodDeclListNode]
+        MethodDeclNode(
+          MethodDeclPrototype(
+            MethodDeclTypeIdentNode(
+              RetTypeVoid(
+              ) [RetTypeVoid]
+             PrintInt
+            ) [MethodDeclTypeIdentNode]
+            NoFormParsSingle(
+            ) [NoFormParsSingle]
+          ) [MethodDeclPrototype]
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          StatementListNode(
+            NoStatementList(
+            ) [NoStatementList]
+            StatementPrint(
+              ExprTerm(
+                NoSubSingle(
+                ) [NoSubSingle]
+                TermFactor(
+                  FactorVariable(
+                    DesignatorIdent(
+                     x
+                    ) [DesignatorIdent]
+                  ) [FactorVariable]
+                ) [TermFactor]
+              ) [ExprTerm]
+              NoCommaNumConstSingle(
+              ) [NoCommaNumConstSingle]
+            ) [StatementPrint]
+          ) [StatementListNode]
+        ) [MethodDeclNode]
+      ) [MethodDeclListNode]
+      MethodDeclNode(
+        MethodDeclPrototype(
+          MethodDeclTypeIdentNode(
+            RetTypeVoid(
+            ) [RetTypeVoid]
+           Print
+          ) [MethodDeclTypeIdentNode]
+          FormParsSingleNode(
+            FormPars(
+              TypeIdentListNode(
+                SingleTypeIdentList(
+                  TypeIdentSingleNode(
+                    Type(
+                     int
+                    ) [Type]
+                   x
+                    NoSquareSingle(
+                    ) [NoSquareSingle]
+                  ) [TypeIdentSingleNode]
+                ) [SingleTypeIdentList]
+                TypeIdentSingleNode(
+                  Type(
+                   char
+                  ) [Type]
+                 c
+                  NoSquareSingle(
+                  ) [NoSquareSingle]
+                ) [TypeIdentSingleNode]
+              ) [TypeIdentListNode]
+            ) [FormPars]
+          ) [FormParsSingleNode]
+        ) [MethodDeclPrototype]
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        StatementListNode(
+          StatementListNode(
+            StatementListNode(
+              NoStatementList(
+              ) [NoStatementList]
+              StatementPrint(
+                ExprTerm(
+                  NoSubSingle(
+                  ) [NoSubSingle]
+                  TermFactor(
+                    FactorVariable(
+                      DesignatorIdent(
+                       x
+                      ) [DesignatorIdent]
+                    ) [FactorVariable]
+                  ) [TermFactor]
+                ) [ExprTerm]
+                NoCommaNumConstSingle(
+                ) [NoCommaNumConstSingle]
+              ) [StatementPrint]
+            ) [StatementListNode]
+            StatementPrint(
+              ExprTerm(
+                NoSubSingle(
+                ) [NoSubSingle]
+                TermFactor(
+                  FactorConstant(
+                    ConstLiteralChar(
+                     -
+                    ) [ConstLiteralChar]
+                  ) [FactorConstant]
+                ) [TermFactor]
+              ) [ExprTerm]
+              NoCommaNumConstSingle(
+              ) [NoCommaNumConstSingle]
+            ) [StatementPrint]
+          ) [StatementListNode]
+          StatementPrint(
+            ExprTerm(
+              NoSubSingle(
+              ) [NoSubSingle]
+              TermFactor(
+                FactorVariable(
+                  DesignatorIdent(
+                   c
+                  ) [DesignatorIdent]
+                ) [FactorVariable]
+              ) [TermFactor]
+            ) [ExprTerm]
+            NoCommaNumConstSingle(
+            ) [NoCommaNumConstSingle]
+          ) [StatementPrint]
+        ) [StatementListNode]
+      ) [MethodDeclNode]
+    ) [MethodDeclListNode]
+    MethodDeclNode(
+      MethodDeclPrototype(
+        MethodDeclTypeIdentNode(
+          RetTypeVoid(
+          ) [RetTypeVoid]
+         main
+        ) [MethodDeclTypeIdentNode]
+        NoFormParsSingle(
+        ) [NoFormParsSingle]
+      ) [MethodDeclPrototype]
+      VarDeclListNode(
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        VarDeclNode(
+          VarType(
+            Type(
+             bool
+            ) [Type]
+          ) [VarType]
+          VarIdentListSingle(
+            VarIdentSingleNode(
+             b
+              NoSquareSingle(
+              ) [NoSquareSingle]
+            ) [VarIdentSingleNode]
+          ) [VarIdentListSingle]
+        ) [VarDeclNode]
+      ) [VarDeclListNode]
+      StatementListNode(
+        StatementListNode(
+          StatementListNode(
+            StatementListNode(
+              StatementListNode(
+                StatementListNode(
+                  StatementListNode(
+                    StatementListNode(
+                      StatementListNode(
+                        StatementListNode(
+                          StatementListNode(
+                            NoStatementList(
+                            ) [NoStatementList]
+                            StatementDesignator(
+                              DesignatorStatementAssignNode(
+                                DesignatorAssignItemNode(
+                                  DesignatorIdent(
+                                   b
+                                  ) [DesignatorIdent]
+                                  Assignop(
+                                  ) [Assignop]
+                                  ExprTerm(
+                                    NoSubSingle(
+                                    ) [NoSubSingle]
+                                    TermFactor(
+                                      FactorConstant(
+                                        ConstLiteralBool(
+                                         true
+                                        ) [ConstLiteralBool]
+                                      ) [FactorConstant]
+                                    ) [TermFactor]
+                                  ) [ExprTerm]
+                                ) [DesignatorAssignItemNode]
+                              ) [DesignatorStatementAssignNode]
+                            ) [StatementDesignator]
+                          ) [StatementListNode]
+                          StatementPrint(
+                            ExprTerm(
+                              NoSubSingle(
+                              ) [NoSubSingle]
+                              TermFactor(
+                                FactorVariable(
+                                  DesignatorIdent(
+                                   b
+                                  ) [DesignatorIdent]
+                                ) [FactorVariable]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                            NoCommaNumConstSingle(
+                            ) [NoCommaNumConstSingle]
+                          ) [StatementPrint]
+                        ) [StatementListNode]
+                        StatementPrint(
+                          ExprTerm(
+                            NoSubSingle(
+                            ) [NoSubSingle]
+                            TermFactor(
+                              FactorVariable(
+                                DesignatorIdent(
+                                 eol
+                                ) [DesignatorIdent]
+                              ) [FactorVariable]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                          NoCommaNumConstSingle(
+                          ) [NoCommaNumConstSingle]
+                        ) [StatementPrint]
+                      ) [StatementListNode]
+                      StatementDesignator(
+                        DesignatorStatementFunc(
+                          DesignatorStatementFuncDesignator(
+                            DesignatorIdent(
+                             PrintBool
+                            ) [DesignatorIdent]
+                          ) [DesignatorStatementFuncDesignator]
+                          NoActParsSingle(
+                          ) [NoActParsSingle]
+                        ) [DesignatorStatementFunc]
+                      ) [StatementDesignator]
+                    ) [StatementListNode]
+                    StatementPrint(
+                      ExprTerm(
+                        NoSubSingle(
+                        ) [NoSubSingle]
+                        TermFactor(
+                          FactorVariable(
+                            DesignatorIdent(
+                             eol
+                            ) [DesignatorIdent]
+                          ) [FactorVariable]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                      NoCommaNumConstSingle(
+                      ) [NoCommaNumConstSingle]
+                    ) [StatementPrint]
+                  ) [StatementListNode]
+                  StatementDesignator(
+                    DesignatorStatementAssignNode(
+                      DesignatorAssignItemNode(
+                        DesignatorIdent(
+                         x
+                        ) [DesignatorIdent]
+                        Assignop(
+                        ) [Assignop]
+                        ExprTerm(
+                          NoSubSingle(
+                          ) [NoSubSingle]
+                          TermFactor(
+                            FactorConstant(
+                              ConstLiteralNum(
+                               10
+                              ) [ConstLiteralNum]
+                            ) [FactorConstant]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [DesignatorAssignItemNode]
+                    ) [DesignatorStatementAssignNode]
+                  ) [StatementDesignator]
+                ) [StatementListNode]
+                StatementPrint(
+                  ExprTerm(
+                    NoSubSingle(
+                    ) [NoSubSingle]
+                    TermFactor(
+                      FactorVariable(
+                        DesignatorIdent(
+                         x
+                        ) [DesignatorIdent]
+                      ) [FactorVariable]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                  NoCommaNumConstSingle(
+                  ) [NoCommaNumConstSingle]
+                ) [StatementPrint]
+              ) [StatementListNode]
+              StatementPrint(
+                ExprTerm(
+                  NoSubSingle(
+                  ) [NoSubSingle]
+                  TermFactor(
+                    FactorVariable(
+                      DesignatorIdent(
+                       eol
+                      ) [DesignatorIdent]
+                    ) [FactorVariable]
+                  ) [TermFactor]
+                ) [ExprTerm]
+                NoCommaNumConstSingle(
+                ) [NoCommaNumConstSingle]
+              ) [StatementPrint]
+            ) [StatementListNode]
+            StatementDesignator(
+              DesignatorStatementFunc(
+                DesignatorStatementFuncDesignator(
+                  DesignatorIdent(
+                   PrintInt
+                  ) [DesignatorIdent]
+                ) [DesignatorStatementFuncDesignator]
+                NoActParsSingle(
+                ) [NoActParsSingle]
+              ) [DesignatorStatementFunc]
+            ) [StatementDesignator]
+          ) [StatementListNode]
+          StatementPrint(
+            ExprTerm(
+              NoSubSingle(
+              ) [NoSubSingle]
+              TermFactor(
+                FactorVariable(
+                  DesignatorIdent(
+                   eol
+                  ) [DesignatorIdent]
+                ) [FactorVariable]
+              ) [TermFactor]
+            ) [ExprTerm]
+            NoCommaNumConstSingle(
+            ) [NoCommaNumConstSingle]
+          ) [StatementPrint]
+        ) [StatementListNode]
+        StatementDesignator(
+          DesignatorStatementFunc(
+            DesignatorStatementFuncDesignator(
+              DesignatorIdent(
+               Print
+              ) [DesignatorIdent]
+            ) [DesignatorStatementFuncDesignator]
+            ActParsSingleNode(
+              ActParsNode(
+                ActParsListNode(
+                  ActParsListExpr(
+                    ActParsExprNode(
+                      ExprTerm(
+                        NoSubSingle(
+                        ) [NoSubSingle]
+                        TermFactor(
+                          FactorConstant(
+                            ConstLiteralNum(
+                             120
+                            ) [ConstLiteralNum]
+                          ) [FactorConstant]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [ActParsExprNode]
+                  ) [ActParsListExpr]
+                  ActParsExprNode(
+                    ExprTerm(
+                      NoSubSingle(
+                      ) [NoSubSingle]
+                      TermFactor(
+                        FactorConstant(
+                          ConstLiteralChar(
+                           c
+                          ) [ConstLiteralChar]
+                        ) [FactorConstant]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [ActParsExprNode]
+                ) [ActParsListNode]
+              ) [ActParsNode]
+            ) [ActParsSingleNode]
+          ) [DesignatorStatementFunc]
+        ) [StatementDesignator]
+      ) [StatementListNode]
+    ) [MethodDeclNode]
+  ) [MethodDeclListNode]
+) [Program]
+===================================
+INFO  04:46:52,913 - Info on line: 9: Detected usage of global variable b.
+INFO  04:46:52,914 - Info on line: 13: Detected usage of global variable x.
+INFO  04:46:52,914 - Info on line: 18: Detected usage of function formal parameter x.
+INFO  04:46:52,914 - Info on line: 20: Detected usage of function formal parameter c.
+INFO  04:46:52,915 - Info on line: 31: Detected usage of symbolic constant eol.
+INFO  04:46:52,915 - Info on line 32: Detected function call for function PrintBool.
+INFO  04:46:52,915 - Info on line: 34: Detected usage of symbolic constant eol.
+INFO  04:46:52,915 - Info on line: 36: Detected usage of global variable x.
+INFO  04:46:52,915 - Info on line: 37: Detected usage of global variable x.
+INFO  04:46:52,921 - Info on line: 38: Detected usage of symbolic constant eol.
+INFO  04:46:52,922 - Info on line 39: Detected function call for function PrintInt.
+INFO  04:46:52,922 - Info on line: 41: Detected usage of symbolic constant eol.
+INFO  04:46:52,922 - Info on line 43: Detected function call for function Print.
+===================================
+=====================SYMBOL TABLE DUMP=========================
+Var x: int, 0, 0 
+Var b: , 1, 0 
+Meth PrintBool: notype, 0, 0 
+
+Meth PrintInt: notype, 0, 0 
+
+Meth Print: notype, 0, 2 
+   Var x: int, 0, 1 
+   Var c: char, 1, 1 
+
+Meth main: notype, 0, 0 
+   Var b: , 0, 1 
+
+Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: , 0, 1 
+Prog test: notype, 0, 1 
+   Var x: int, 0, 0 
+   Var b: , 1, 0 
+   Meth PrintBool: notype, 0, 0 
+
+   Meth PrintInt: notype, 0, 0 
+
+   Meth Print: notype, 0, 2 
+      Var x: int, 0, 1 
+      Var c: char, 1, 1 
+
+   Meth main: notype, 0, 0 
+      Var b: , 0, 1 
+
+
+
+INFO  04:46:52,930 - Parsiranje uspesno izvrseno.

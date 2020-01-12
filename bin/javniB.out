@@ -1,0 +1,2300 @@
+INFO  04:44:45,746 - #2 program
+INFO  04:44:45,747 - #44 test302
+INFO  04:44:45,747 - #7 const
+INFO  04:44:45,748 - #44 int
+INFO  04:44:45,748 - #44 jedan
+INFO  04:44:45,749 - #30 =
+INFO  04:44:45,749 - #43 1
+INFO  04:44:45,749 - #33 ;
+INFO  04:44:45,750 - #44 int
+INFO  04:44:45,751 - #44 i
+INFO  04:44:45,752 - #33 ;
+INFO  04:44:45,753 - #44 bool
+INFO  04:44:45,754 - #44 ibool
+INFO  04:44:45,754 - #33 ;
+INFO  04:44:45,754 - #44 int
+INFO  04:44:45,754 - #44 niz
+INFO  04:44:45,754 - #38 [
+INFO  04:44:45,754 - #39 ]
+INFO  04:44:45,754 - #33 ;
+INFO  04:44:45,755 - #40 {
+INFO  04:44:45,755 - #44 int
+INFO  04:44:45,756 - #44 sum
+INFO  04:44:45,756 - #36 (
+INFO  04:44:45,756 - #44 int
+INFO  04:44:45,756 - #44 z
+INFO  04:44:45,756 - #34 ,
+INFO  04:44:45,756 - #44 int
+INFO  04:44:45,756 - #44 d
+INFO  04:44:45,756 - #37 )
+INFO  04:44:45,757 - #40 {
+INFO  04:44:45,758 - #12 return
+INFO  04:44:45,759 - #44 z
+INFO  04:44:45,760 - #17 +
+INFO  04:44:45,761 - #44 d
+INFO  04:44:45,762 - #33 ;
+INFO  04:44:45,763 - #41 }
+INFO  04:44:45,763 - #44 int
+INFO  04:44:45,764 - #44 inkrement
+INFO  04:44:45,764 - #36 (
+INFO  04:44:45,764 - #44 int
+INFO  04:44:45,764 - #44 a
+INFO  04:44:45,764 - #34 ,
+INFO  04:44:45,764 - #44 int
+INFO  04:44:45,764 - #44 inc
+INFO  04:44:45,764 - #37 )
+INFO  04:44:45,764 - #44 int
+INFO  04:44:45,765 - #44 pom
+INFO  04:44:45,765 - #33 ;
+INFO  04:44:45,765 - #40 {
+INFO  04:44:45,765 - #8 if
+INFO  04:44:45,765 - #36 (
+INFO  04:44:45,765 - #44 inc
+INFO  04:44:45,765 - #22 ==
+INFO  04:44:45,765 - #44 jedan
+INFO  04:44:45,767 - #37 )
+INFO  04:44:45,767 - #44 pom
+INFO  04:44:45,768 - #30 =
+INFO  04:44:45,768 - #43 1
+INFO  04:44:45,768 - #33 ;
+INFO  04:44:45,769 - #6 else
+INFO  04:44:45,769 - #8 if
+INFO  04:44:45,770 - #36 (
+INFO  04:44:45,770 - #44 inc
+INFO  04:44:45,770 - #22 ==
+INFO  04:44:45,771 - #43 2
+INFO  04:44:45,771 - #37 )
+INFO  04:44:45,771 - #44 pom
+INFO  04:44:45,771 - #30 =
+INFO  04:44:45,771 - #44 a
+INFO  04:44:45,771 - #33 ;
+INFO  04:44:45,772 - #12 return
+INFO  04:44:45,772 - #44 sum
+INFO  04:44:45,773 - #36 (
+INFO  04:44:45,773 - #44 a
+INFO  04:44:45,773 - #34 ,
+INFO  04:44:45,773 - #44 pom
+INFO  04:44:45,774 - #37 )
+INFO  04:44:45,774 - #33 ;
+INFO  04:44:45,774 - #41 }
+INFO  04:44:45,774 - #44 bool
+INFO  04:44:45,774 - #44 verify
+INFO  04:44:45,774 - #36 (
+INFO  04:44:45,774 - #37 )
+INFO  04:44:45,775 - #40 {
+INFO  04:44:45,775 - #10 print
+INFO  04:44:45,775 - #36 (
+INFO  04:44:45,775 - #45 v
+INFO  04:44:45,775 - #37 )
+INFO  04:44:45,776 - #33 ;
+INFO  04:44:45,776 - #12 return
+INFO  04:44:45,777 - #42 false
+INFO  04:44:45,777 - #33 ;
+INFO  04:44:45,777 - #41 }
+INFO  04:44:45,777 - #13 void
+INFO  04:44:45,777 - #44 main
+INFO  04:44:45,778 - #36 (
+INFO  04:44:45,778 - #37 )
+INFO  04:44:45,778 - #40 {
+INFO  04:44:45,778 - #8 if
+INFO  04:44:45,778 - #36 (
+INFO  04:44:45,778 - #43 1
+INFO  04:44:45,778 - #23 !=
+INFO  04:44:45,778 - #43 1
+INFO  04:44:45,779 - #37 )
+INFO  04:44:45,779 - #10 print
+INFO  04:44:45,779 - #36 (
+INFO  04:44:45,779 - #18 -
+INFO  04:44:45,779 - #43 6
+INFO  04:44:45,780 - #37 )
+INFO  04:44:45,780 - #33 ;
+INFO  04:44:45,780 - #6 else
+INFO  04:44:45,780 - #10 print
+INFO  04:44:45,781 - #36 (
+INFO  04:44:45,781 - #43 0
+INFO  04:44:45,782 - #37 )
+INFO  04:44:45,782 - #33 ;
+INFO  04:44:45,782 - #44 ibool
+INFO  04:44:45,782 - #30 =
+INFO  04:44:45,782 - #42 false
+INFO  04:44:45,782 - #33 ;
+INFO  04:44:45,782 - #44 i
+INFO  04:44:45,782 - #30 =
+INFO  04:44:45,782 - #43 0
+INFO  04:44:45,782 - #33 ;
+INFO  04:44:45,782 - #14 for
+INFO  04:44:45,782 - #36 (
+INFO  04:44:45,782 - #44 i
+INFO  04:44:45,782 - #30 =
+INFO  04:44:45,782 - #43 0
+INFO  04:44:45,783 - #33 ;
+INFO  04:44:45,783 - #44 i
+INFO  04:44:45,783 - #26 <
+INFO  04:44:45,783 - #43 5
+INFO  04:44:45,785 - #33 ;
+INFO  04:44:45,785 - #44 i
+INFO  04:44:45,786 - #31 ++
+INFO  04:44:45,786 - #37 )
+INFO  04:44:45,786 - #40 {
+INFO  04:44:45,786 - #8 if
+INFO  04:44:45,786 - #36 (
+INFO  04:44:45,786 - #44 i
+INFO  04:44:45,786 - #22 ==
+INFO  04:44:45,787 - #43 2
+INFO  04:44:45,787 - #37 )
+INFO  04:44:45,787 - #44 ibool
+INFO  04:44:45,787 - #30 =
+INFO  04:44:45,787 - #42 true
+INFO  04:44:45,787 - #33 ;
+INFO  04:44:45,787 - #41 }
+INFO  04:44:45,787 - #8 if
+INFO  04:44:45,787 - #36 (
+INFO  04:44:45,787 - #44 ibool
+INFO  04:44:45,787 - #37 )
+INFO  04:44:45,788 - #8 if
+INFO  04:44:45,788 - #36 (
+INFO  04:44:45,788 - #44 i
+INFO  04:44:45,788 - #22 ==
+INFO  04:44:45,788 - #43 5
+INFO  04:44:45,788 - #37 )
+INFO  04:44:45,788 - #10 print
+INFO  04:44:45,788 - #36 (
+INFO  04:44:45,789 - #43 1
+INFO  04:44:45,789 - #37 )
+INFO  04:44:45,789 - #33 ;
+INFO  04:44:45,789 - #6 else
+INFO  04:44:45,789 - #10 print
+INFO  04:44:45,789 - #36 (
+INFO  04:44:45,789 - #18 -
+INFO  04:44:45,789 - #43 1
+INFO  04:44:45,789 - #37 )
+INFO  04:44:45,789 - #33 ;
+INFO  04:44:45,790 - #44 niz
+INFO  04:44:45,791 - #30 =
+INFO  04:44:45,791 - #9 new
+INFO  04:44:45,791 - #44 int
+INFO  04:44:45,791 - #38 [
+INFO  04:44:45,791 - #43 3
+INFO  04:44:45,791 - #39 ]
+INFO  04:44:45,791 - #33 ;
+INFO  04:44:45,791 - #44 niz
+INFO  04:44:45,792 - #38 [
+INFO  04:44:45,792 - #43 0
+INFO  04:44:45,792 - #39 ]
+INFO  04:44:45,792 - #30 =
+INFO  04:44:45,792 - #43 1
+INFO  04:44:45,792 - #33 ;
+INFO  04:44:45,793 - #44 niz
+INFO  04:44:45,793 - #38 [
+INFO  04:44:45,793 - #43 1
+INFO  04:44:45,793 - #39 ]
+INFO  04:44:45,793 - #30 =
+INFO  04:44:45,793 - #43 2
+INFO  04:44:45,793 - #33 ;
+INFO  04:44:45,794 - #44 niz
+INFO  04:44:45,801 - #38 [
+INFO  04:44:45,801 - #43 2
+INFO  04:44:45,801 - #39 ]
+INFO  04:44:45,801 - #30 =
+INFO  04:44:45,801 - #44 sum
+INFO  04:44:45,801 - #36 (
+INFO  04:44:45,801 - #44 niz
+INFO  04:44:45,802 - #38 [
+INFO  04:44:45,802 - #43 1
+INFO  04:44:45,802 - #39 ]
+INFO  04:44:45,802 - #34 ,
+INFO  04:44:45,802 - #44 niz
+INFO  04:44:45,802 - #38 [
+INFO  04:44:45,802 - #43 0
+INFO  04:44:45,802 - #39 ]
+INFO  04:44:45,802 - #37 )
+INFO  04:44:45,802 - #17 +
+INFO  04:44:45,802 - #43 1
+INFO  04:44:45,802 - #33 ;
+INFO  04:44:45,802 - #8 if
+INFO  04:44:45,802 - #36 (
+INFO  04:44:45,802 - #44 niz
+INFO  04:44:45,802 - #38 [
+INFO  04:44:45,803 - #43 2
+INFO  04:44:45,803 - #39 ]
+INFO  04:44:45,803 - #22 ==
+INFO  04:44:45,803 - #43 4
+INFO  04:44:45,803 - #29 ||
+INFO  04:44:45,803 - #44 verify
+INFO  04:44:45,803 - #36 (
+INFO  04:44:45,803 - #37 )
+INFO  04:44:45,804 - #37 )
+INFO  04:44:45,804 - #10 print
+INFO  04:44:45,804 - #36 (
+INFO  04:44:45,804 - #44 ord
+INFO  04:44:45,804 - #36 (
+INFO  04:44:45,804 - #45 A
+INFO  04:44:45,804 - #37 )
+INFO  04:44:45,804 - #37 )
+INFO  04:44:45,804 - #33 ;
+INFO  04:44:45,805 - #6 else
+INFO  04:44:45,805 - #10 print
+INFO  04:44:45,805 - #36 (
+INFO  04:44:45,805 - #44 ord
+INFO  04:44:45,805 - #36 (
+INFO  04:44:45,805 - #45 a
+INFO  04:44:45,805 - #37 )
+INFO  04:44:45,805 - #37 )
+INFO  04:44:45,805 - #33 ;
+INFO  04:44:45,805 - #10 print
+INFO  04:44:45,805 - #36 (
+INFO  04:44:45,805 - #44 eol
+INFO  04:44:45,805 - #37 )
+INFO  04:44:45,805 - #33 ;
+INFO  04:44:45,805 - #44 i
+INFO  04:44:45,805 - #30 =
+INFO  04:44:45,805 - #43 0
+INFO  04:44:45,805 - #33 ;
+INFO  04:44:45,805 - #14 for
+INFO  04:44:45,805 - #36 (
+INFO  04:44:45,805 - #33 ;
+INFO  04:44:45,806 - #44 i
+INFO  04:44:45,807 - #26 <
+INFO  04:44:45,807 - #43 10
+INFO  04:44:45,807 - #33 ;
+INFO  04:44:45,807 - #37 )
+INFO  04:44:45,807 - #40 {
+INFO  04:44:45,807 - #8 if
+INFO  04:44:45,807 - #36 (
+INFO  04:44:45,807 - #44 i
+INFO  04:44:45,807 - #22 ==
+INFO  04:44:45,807 - #43 3
+INFO  04:44:45,807 - #37 )
+INFO  04:44:45,807 - #40 {
+INFO  04:44:45,807 - #44 i
+INFO  04:44:45,807 - #31 ++
+INFO  04:44:45,807 - #33 ;
+INFO  04:44:45,807 - #16 continue
+INFO  04:44:45,807 - #33 ;
+INFO  04:44:45,807 - #41 }
+INFO  04:44:45,808 - #8 if
+INFO  04:44:45,808 - #36 (
+INFO  04:44:45,808 - #44 i
+INFO  04:44:45,808 - #22 ==
+INFO  04:44:45,808 - #43 4
+INFO  04:44:45,808 - #37 )
+INFO  04:44:45,808 - #3 break
+INFO  04:44:45,809 - #33 ;
+INFO  04:44:45,809 - #44 i
+INFO  04:44:45,809 - #30 =
+INFO  04:44:45,809 - #44 inkrement
+INFO  04:44:45,809 - #36 (
+INFO  04:44:45,810 - #44 i
+INFO  04:44:45,810 - #34 ,
+INFO  04:44:45,810 - #43 1
+INFO  04:44:45,810 - #37 )
+INFO  04:44:45,810 - #33 ;
+INFO  04:44:45,810 - #41 }
+INFO  04:44:45,810 - #8 if
+INFO  04:44:45,810 - #36 (
+INFO  04:44:45,810 - #44 i
+INFO  04:44:45,810 - #22 ==
+INFO  04:44:45,810 - #43 3
+INFO  04:44:45,810 - #28 &&
+INFO  04:44:45,810 - #44 verify
+INFO  04:44:45,810 - #36 (
+INFO  04:44:45,810 - #37 )
+INFO  04:44:45,810 - #37 )
+INFO  04:44:45,810 - #10 print
+INFO  04:44:45,811 - #36 (
+INFO  04:44:45,811 - #43 4
+INFO  04:44:45,811 - #37 )
+INFO  04:44:45,811 - #33 ;
+INFO  04:44:45,811 - #6 else
+INFO  04:44:45,811 - #10 print
+INFO  04:44:45,811 - #36 (
+INFO  04:44:45,811 - #18 -
+INFO  04:44:45,811 - #43 4
+INFO  04:44:45,811 - #37 )
+INFO  04:44:45,811 - #33 ;
+INFO  04:44:45,811 - #11 read
+INFO  04:44:45,811 - #36 (
+INFO  04:44:45,811 - #44 niz
+INFO  04:44:45,811 - #38 [
+INFO  04:44:45,811 - #43 0
+INFO  04:44:45,811 - #39 ]
+INFO  04:44:45,811 - #37 )
+INFO  04:44:45,811 - #33 ;
+INFO  04:44:45,811 - #11 read
+INFO  04:44:45,811 - #36 (
+INFO  04:44:45,811 - #44 niz
+INFO  04:44:45,811 - #38 [
+INFO  04:44:45,812 - #43 1
+INFO  04:44:45,812 - #39 ]
+INFO  04:44:45,812 - #37 )
+INFO  04:44:45,812 - #33 ;
+INFO  04:44:45,812 - #11 read
+INFO  04:44:45,812 - #36 (
+INFO  04:44:45,812 - #44 niz
+INFO  04:44:45,812 - #38 [
+INFO  04:44:45,812 - #43 2
+INFO  04:44:45,812 - #39 ]
+INFO  04:44:45,812 - #37 )
+INFO  04:44:45,812 - #33 ;
+INFO  04:44:45,812 - #10 print
+INFO  04:44:45,812 - #36 (
+INFO  04:44:45,812 - #44 eol
+INFO  04:44:45,812 - #37 )
+INFO  04:44:45,812 - #33 ;
+INFO  04:44:45,812 - #10 print
+INFO  04:44:45,812 - #36 (
+INFO  04:44:45,812 - #44 sum
+INFO  04:44:45,812 - #36 (
+INFO  04:44:45,812 - #44 sum
+INFO  04:44:45,812 - #36 (
+INFO  04:44:45,812 - #44 niz
+INFO  04:44:45,813 - #38 [
+INFO  04:44:45,813 - #43 0
+INFO  04:44:45,813 - #39 ]
+INFO  04:44:45,813 - #34 ,
+INFO  04:44:45,813 - #44 niz
+INFO  04:44:45,813 - #38 [
+INFO  04:44:45,813 - #43 1
+INFO  04:44:45,813 - #39 ]
+INFO  04:44:45,813 - #37 )
+INFO  04:44:45,813 - #34 ,
+INFO  04:44:45,813 - #44 niz
+INFO  04:44:45,813 - #38 [
+INFO  04:44:45,813 - #43 2
+INFO  04:44:45,813 - #39 ]
+INFO  04:44:45,813 - #37 )
+INFO  04:44:45,813 - #37 )
+INFO  04:44:45,813 - #33 ;
+INFO  04:44:45,813 - #10 print
+INFO  04:44:45,813 - #36 (
+INFO  04:44:45,813 - #44 eol
+INFO  04:44:45,813 - #37 )
+INFO  04:44:45,813 - #33 ;
+INFO  04:44:45,813 - #10 print
+INFO  04:44:45,813 - #36 (
+INFO  04:44:45,813 - #44 inkrement
+INFO  04:44:45,814 - #36 (
+INFO  04:44:45,814 - #44 niz
+INFO  04:44:45,814 - #38 [
+INFO  04:44:45,814 - #43 2
+INFO  04:44:45,814 - #39 ]
+INFO  04:44:45,814 - #34 ,
+INFO  04:44:45,814 - #43 2
+INFO  04:44:45,814 - #37 )
+INFO  04:44:45,814 - #37 )
+INFO  04:44:45,814 - #33 ;
+INFO  04:44:45,814 - #41 }
+INFO  04:44:45,814 - #41 }
+Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationListNode(
+    DeclarationListNode(
+      DeclarationListNode(
+        DeclarationListNode(
+          NoDeclarationList(
+          ) [NoDeclarationList]
+          ConstDeclaration(
+            ConstDecl(
+              ConstType(
+                Type(
+                 int
+                ) [Type]
+              ) [ConstType]
+              ConstDeclListSingle(
+                ConstDeclListItem(
+                 jedan
+                  ConstLiteralNum(
+                   1
+                  ) [ConstLiteralNum]
+                ) [ConstDeclListItem]
+              ) [ConstDeclListSingle]
+            ) [ConstDecl]
+          ) [ConstDeclaration]
+        ) [DeclarationListNode]
+        VarDeclaration(
+          VarDeclNode(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            VarIdentListSingle(
+              VarIdentSingleNode(
+               i
+                NoSquareSingle(
+                ) [NoSquareSingle]
+              ) [VarIdentSingleNode]
+            ) [VarIdentListSingle]
+          ) [VarDeclNode]
+        ) [VarDeclaration]
+      ) [DeclarationListNode]
+      VarDeclaration(
+        VarDeclNode(
+          VarType(
+            Type(
+             bool
+            ) [Type]
+          ) [VarType]
+          VarIdentListSingle(
+            VarIdentSingleNode(
+             ibool
+              NoSquareSingle(
+              ) [NoSquareSingle]
+            ) [VarIdentSingleNode]
+          ) [VarIdentListSingle]
+        ) [VarDeclNode]
+      ) [VarDeclaration]
+    ) [DeclarationListNode]
+    VarDeclaration(
+      VarDeclNode(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        VarIdentListSingle(
+          VarIdentSingleNode(
+           niz
+            SquareSingleNode(
+            ) [SquareSingleNode]
+          ) [VarIdentSingleNode]
+        ) [VarIdentListSingle]
+      ) [VarDeclNode]
+    ) [VarDeclaration]
+  ) [DeclarationListNode]
+  MethodDeclListNode(
+    MethodDeclListNode(
+      MethodDeclListNode(
+        MethodDeclListNode(
+          NoMethodDeclList(
+          ) [NoMethodDeclList]
+          MethodDeclNode(
+            MethodDeclPrototype(
+              MethodDeclTypeIdentNode(
+                RetTypeNode(
+                  Type(
+                   int
+                  ) [Type]
+                ) [RetTypeNode]
+               sum
+              ) [MethodDeclTypeIdentNode]
+              FormParsSingleNode(
+                FormPars(
+                  TypeIdentListNode(
+                    SingleTypeIdentList(
+                      TypeIdentSingleNode(
+                        Type(
+                         int
+                        ) [Type]
+                       z
+                        NoSquareSingle(
+                        ) [NoSquareSingle]
+                      ) [TypeIdentSingleNode]
+                    ) [SingleTypeIdentList]
+                    TypeIdentSingleNode(
+                      Type(
+                       int
+                      ) [Type]
+                     d
+                      NoSquareSingle(
+                      ) [NoSquareSingle]
+                    ) [TypeIdentSingleNode]
+                  ) [TypeIdentListNode]
+                ) [FormPars]
+              ) [FormParsSingleNode]
+            ) [MethodDeclPrototype]
+            NoVarDeclList(
+            ) [NoVarDeclList]
+            StatementListNode(
+              NoStatementList(
+              ) [NoStatementList]
+              StatementReturn(
+                ExprSingleNode(
+                  ExprAdd(
+                    ExprTerm(
+                      NoSubSingle(
+                      ) [NoSubSingle]
+                      TermFactor(
+                        FactorVariable(
+                          DesignatorIdent(
+                           z
+                          ) [DesignatorIdent]
+                        ) [FactorVariable]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                    AddopNode(
+                    ) [AddopNode]
+                    TermFactor(
+                      FactorVariable(
+                        DesignatorIdent(
+                         d
+                        ) [DesignatorIdent]
+                      ) [FactorVariable]
+                    ) [TermFactor]
+                  ) [ExprAdd]
+                ) [ExprSingleNode]
+              ) [StatementReturn]
+            ) [StatementListNode]
+          ) [MethodDeclNode]
+        ) [MethodDeclListNode]
+        MethodDeclNode(
+          MethodDeclPrototype(
+            MethodDeclTypeIdentNode(
+              RetTypeNode(
+                Type(
+                 int
+                ) [Type]
+              ) [RetTypeNode]
+             inkrement
+            ) [MethodDeclTypeIdentNode]
+            FormParsSingleNode(
+              FormPars(
+                TypeIdentListNode(
+                  SingleTypeIdentList(
+                    TypeIdentSingleNode(
+                      Type(
+                       int
+                      ) [Type]
+                     a
+                      NoSquareSingle(
+                      ) [NoSquareSingle]
+                    ) [TypeIdentSingleNode]
+                  ) [SingleTypeIdentList]
+                  TypeIdentSingleNode(
+                    Type(
+                     int
+                    ) [Type]
+                   inc
+                    NoSquareSingle(
+                    ) [NoSquareSingle]
+                  ) [TypeIdentSingleNode]
+                ) [TypeIdentListNode]
+              ) [FormPars]
+            ) [FormParsSingleNode]
+          ) [MethodDeclPrototype]
+          VarDeclListNode(
+            NoVarDeclList(
+            ) [NoVarDeclList]
+            VarDeclNode(
+              VarType(
+                Type(
+                 int
+                ) [Type]
+              ) [VarType]
+              VarIdentListSingle(
+                VarIdentSingleNode(
+                 pom
+                  NoSquareSingle(
+                  ) [NoSquareSingle]
+                ) [VarIdentSingleNode]
+              ) [VarIdentListSingle]
+            ) [VarDeclNode]
+          ) [VarDeclListNode]
+          StatementListNode(
+            StatementListNode(
+              NoStatementList(
+              ) [NoStatementList]
+              StatementIf(
+                IfHeaderNode(
+                  ConditionTerm(
+                    CondTermFact(
+                      CondFactRelop(
+                        ExprTerm(
+                          NoSubSingle(
+                          ) [NoSubSingle]
+                          TermFactor(
+                            FactorVariable(
+                              DesignatorIdent(
+                               inc
+                              ) [DesignatorIdent]
+                            ) [FactorVariable]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                        Equalop(
+                        ) [Equalop]
+                        ExprTerm(
+                          NoSubSingle(
+                          ) [NoSubSingle]
+                          TermFactor(
+                            FactorVariable(
+                              DesignatorIdent(
+                               jedan
+                              ) [DesignatorIdent]
+                            ) [FactorVariable]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [CondFactRelop]
+                    ) [CondTermFact]
+                  ) [ConditionTerm]
+                ) [IfHeaderNode]
+                StatementDesignator(
+                  DesignatorStatementAssignNode(
+                    DesignatorAssignItemNode(
+                      DesignatorIdent(
+                       pom
+                      ) [DesignatorIdent]
+                      Assignop(
+                      ) [Assignop]
+                      ExprTerm(
+                        NoSubSingle(
+                        ) [NoSubSingle]
+                        TermFactor(
+                          FactorConstant(
+                            ConstLiteralNum(
+                             1
+                            ) [ConstLiteralNum]
+                          ) [FactorConstant]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [DesignatorAssignItemNode]
+                  ) [DesignatorStatementAssignNode]
+                ) [StatementDesignator]
+                ElseStatementSingleNode(
+                  ElseNode(
+                  ) [ElseNode]
+                  StatementIf(
+                    IfHeaderNode(
+                      ConditionTerm(
+                        CondTermFact(
+                          CondFactRelop(
+                            ExprTerm(
+                              NoSubSingle(
+                              ) [NoSubSingle]
+                              TermFactor(
+                                FactorVariable(
+                                  DesignatorIdent(
+                                   inc
+                                  ) [DesignatorIdent]
+                                ) [FactorVariable]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                            Equalop(
+                            ) [Equalop]
+                            ExprTerm(
+                              NoSubSingle(
+                              ) [NoSubSingle]
+                              TermFactor(
+                                FactorConstant(
+                                  ConstLiteralNum(
+                                   2
+                                  ) [ConstLiteralNum]
+                                ) [FactorConstant]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                          ) [CondFactRelop]
+                        ) [CondTermFact]
+                      ) [ConditionTerm]
+                    ) [IfHeaderNode]
+                    StatementDesignator(
+                      DesignatorStatementAssignNode(
+                        DesignatorAssignItemNode(
+                          DesignatorIdent(
+                           pom
+                          ) [DesignatorIdent]
+                          Assignop(
+                          ) [Assignop]
+                          ExprTerm(
+                            NoSubSingle(
+                            ) [NoSubSingle]
+                            TermFactor(
+                              FactorVariable(
+                                DesignatorIdent(
+                                 a
+                                ) [DesignatorIdent]
+                              ) [FactorVariable]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                        ) [DesignatorAssignItemNode]
+                      ) [DesignatorStatementAssignNode]
+                    ) [StatementDesignator]
+                    NoElseStatementSingle(
+                    ) [NoElseStatementSingle]
+                  ) [StatementIf]
+                ) [ElseStatementSingleNode]
+              ) [StatementIf]
+            ) [StatementListNode]
+            StatementReturn(
+              ExprSingleNode(
+                ExprTerm(
+                  NoSubSingle(
+                  ) [NoSubSingle]
+                  TermFactor(
+                    FactorFuncCall(
+                      FactorFuncCallDesignator(
+                        DesignatorIdent(
+                         sum
+                        ) [DesignatorIdent]
+                      ) [FactorFuncCallDesignator]
+                      ActParsSingleNode(
+                        ActParsNode(
+                          ActParsListNode(
+                            ActParsListExpr(
+                              ActParsExprNode(
+                                ExprTerm(
+                                  NoSubSingle(
+                                  ) [NoSubSingle]
+                                  TermFactor(
+                                    FactorVariable(
+                                      DesignatorIdent(
+                                       a
+                                      ) [DesignatorIdent]
+                                    ) [FactorVariable]
+                                  ) [TermFactor]
+                                ) [ExprTerm]
+                              ) [ActParsExprNode]
+                            ) [ActParsListExpr]
+                            ActParsExprNode(
+                              ExprTerm(
+                                NoSubSingle(
+                                ) [NoSubSingle]
+                                TermFactor(
+                                  FactorVariable(
+                                    DesignatorIdent(
+                                     pom
+                                    ) [DesignatorIdent]
+                                  ) [FactorVariable]
+                                ) [TermFactor]
+                              ) [ExprTerm]
+                            ) [ActParsExprNode]
+                          ) [ActParsListNode]
+                        ) [ActParsNode]
+                      ) [ActParsSingleNode]
+                    ) [FactorFuncCall]
+                  ) [TermFactor]
+                ) [ExprTerm]
+              ) [ExprSingleNode]
+            ) [StatementReturn]
+          ) [StatementListNode]
+        ) [MethodDeclNode]
+      ) [MethodDeclListNode]
+      MethodDeclNode(
+        MethodDeclPrototype(
+          MethodDeclTypeIdentNode(
+            RetTypeNode(
+              Type(
+               bool
+              ) [Type]
+            ) [RetTypeNode]
+           verify
+          ) [MethodDeclTypeIdentNode]
+          NoFormParsSingle(
+          ) [NoFormParsSingle]
+        ) [MethodDeclPrototype]
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        StatementListNode(
+          StatementListNode(
+            NoStatementList(
+            ) [NoStatementList]
+            StatementPrint(
+              ExprTerm(
+                NoSubSingle(
+                ) [NoSubSingle]
+                TermFactor(
+                  FactorConstant(
+                    ConstLiteralChar(
+                     v
+                    ) [ConstLiteralChar]
+                  ) [FactorConstant]
+                ) [TermFactor]
+              ) [ExprTerm]
+              NoCommaNumConstSingle(
+              ) [NoCommaNumConstSingle]
+            ) [StatementPrint]
+          ) [StatementListNode]
+          StatementReturn(
+            ExprSingleNode(
+              ExprTerm(
+                NoSubSingle(
+                ) [NoSubSingle]
+                TermFactor(
+                  FactorConstant(
+                    ConstLiteralBool(
+                     false
+                    ) [ConstLiteralBool]
+                  ) [FactorConstant]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [ExprSingleNode]
+          ) [StatementReturn]
+        ) [StatementListNode]
+      ) [MethodDeclNode]
+    ) [MethodDeclListNode]
+    MethodDeclNode(
+      MethodDeclPrototype(
+        MethodDeclTypeIdentNode(
+          RetTypeVoid(
+          ) [RetTypeVoid]
+         main
+        ) [MethodDeclTypeIdentNode]
+        NoFormParsSingle(
+        ) [NoFormParsSingle]
+      ) [MethodDeclPrototype]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StatementListNode(
+        StatementListNode(
+          StatementListNode(
+            StatementListNode(
+              StatementListNode(
+                StatementListNode(
+                  StatementListNode(
+                    StatementListNode(
+                      StatementListNode(
+                        StatementListNode(
+                          StatementListNode(
+                            StatementListNode(
+                              StatementListNode(
+                                StatementListNode(
+                                  StatementListNode(
+                                    StatementListNode(
+                                      StatementListNode(
+                                        StatementListNode(
+                                          StatementListNode(
+                                            StatementListNode(
+                                              StatementListNode(
+                                                NoStatementList(
+                                                ) [NoStatementList]
+                                                StatementIf(
+                                                  IfHeaderNode(
+                                                    ConditionTerm(
+                                                      CondTermFact(
+                                                        CondFactRelop(
+                                                          ExprTerm(
+                                                            NoSubSingle(
+                                                            ) [NoSubSingle]
+                                                            TermFactor(
+                                                              FactorConstant(
+                                                                ConstLiteralNum(
+                                                                 1
+                                                                ) [ConstLiteralNum]
+                                                              ) [FactorConstant]
+                                                            ) [TermFactor]
+                                                          ) [ExprTerm]
+                                                          NotEqualop(
+                                                          ) [NotEqualop]
+                                                          ExprTerm(
+                                                            NoSubSingle(
+                                                            ) [NoSubSingle]
+                                                            TermFactor(
+                                                              FactorConstant(
+                                                                ConstLiteralNum(
+                                                                 1
+                                                                ) [ConstLiteralNum]
+                                                              ) [FactorConstant]
+                                                            ) [TermFactor]
+                                                          ) [ExprTerm]
+                                                        ) [CondFactRelop]
+                                                      ) [CondTermFact]
+                                                    ) [ConditionTerm]
+                                                  ) [IfHeaderNode]
+                                                  StatementPrint(
+                                                    ExprTerm(
+                                                      SubSingleNode(
+                                                      ) [SubSingleNode]
+                                                      TermFactor(
+                                                        FactorConstant(
+                                                          ConstLiteralNum(
+                                                           6
+                                                          ) [ConstLiteralNum]
+                                                        ) [FactorConstant]
+                                                      ) [TermFactor]
+                                                    ) [ExprTerm]
+                                                    NoCommaNumConstSingle(
+                                                    ) [NoCommaNumConstSingle]
+                                                  ) [StatementPrint]
+                                                  ElseStatementSingleNode(
+                                                    ElseNode(
+                                                    ) [ElseNode]
+                                                    StatementPrint(
+                                                      ExprTerm(
+                                                        NoSubSingle(
+                                                        ) [NoSubSingle]
+                                                        TermFactor(
+                                                          FactorConstant(
+                                                            ConstLiteralNum(
+                                                             0
+                                                            ) [ConstLiteralNum]
+                                                          ) [FactorConstant]
+                                                        ) [TermFactor]
+                                                      ) [ExprTerm]
+                                                      NoCommaNumConstSingle(
+                                                      ) [NoCommaNumConstSingle]
+                                                    ) [StatementPrint]
+                                                  ) [ElseStatementSingleNode]
+                                                ) [StatementIf]
+                                              ) [StatementListNode]
+                                              StatementDesignator(
+                                                DesignatorStatementAssignNode(
+                                                  DesignatorAssignItemNode(
+                                                    DesignatorIdent(
+                                                     ibool
+                                                    ) [DesignatorIdent]
+                                                    Assignop(
+                                                    ) [Assignop]
+                                                    ExprTerm(
+                                                      NoSubSingle(
+                                                      ) [NoSubSingle]
+                                                      TermFactor(
+                                                        FactorConstant(
+                                                          ConstLiteralBool(
+                                                           false
+                                                          ) [ConstLiteralBool]
+                                                        ) [FactorConstant]
+                                                      ) [TermFactor]
+                                                    ) [ExprTerm]
+                                                  ) [DesignatorAssignItemNode]
+                                                ) [DesignatorStatementAssignNode]
+                                              ) [StatementDesignator]
+                                            ) [StatementListNode]
+                                            StatementDesignator(
+                                              DesignatorStatementAssignNode(
+                                                DesignatorAssignItemNode(
+                                                  DesignatorIdent(
+                                                   i
+                                                  ) [DesignatorIdent]
+                                                  Assignop(
+                                                  ) [Assignop]
+                                                  ExprTerm(
+                                                    NoSubSingle(
+                                                    ) [NoSubSingle]
+                                                    TermFactor(
+                                                      FactorConstant(
+                                                        ConstLiteralNum(
+                                                         0
+                                                        ) [ConstLiteralNum]
+                                                      ) [FactorConstant]
+                                                    ) [TermFactor]
+                                                  ) [ExprTerm]
+                                                ) [DesignatorAssignItemNode]
+                                              ) [DesignatorStatementAssignNode]
+                                            ) [StatementDesignator]
+                                          ) [StatementListNode]
+                                          StatementFor(
+                                            ForLoopHeaderNode(
+                                              ForInitNode(
+                                                DesignatorStatementSingleNode(
+                                                  DesignatorStatementAssignNode(
+                                                    DesignatorAssignItemNode(
+                                                      DesignatorIdent(
+                                                       i
+                                                      ) [DesignatorIdent]
+                                                      Assignop(
+                                                      ) [Assignop]
+                                                      ExprTerm(
+                                                        NoSubSingle(
+                                                        ) [NoSubSingle]
+                                                        TermFactor(
+                                                          FactorConstant(
+                                                            ConstLiteralNum(
+                                                             0
+                                                            ) [ConstLiteralNum]
+                                                          ) [FactorConstant]
+                                                        ) [TermFactor]
+                                                      ) [ExprTerm]
+                                                    ) [DesignatorAssignItemNode]
+                                                  ) [DesignatorStatementAssignNode]
+                                                ) [DesignatorStatementSingleNode]
+                                              ) [ForInitNode]
+                                              ForConditionSingleNode(
+                                                ConditionSingleNode(
+                                                  ConditionTerm(
+                                                    CondTermFact(
+                                                      CondFactRelop(
+                                                        ExprTerm(
+                                                          NoSubSingle(
+                                                          ) [NoSubSingle]
+                                                          TermFactor(
+                                                            FactorVariable(
+                                                              DesignatorIdent(
+                                                               i
+                                                              ) [DesignatorIdent]
+                                                            ) [FactorVariable]
+                                                          ) [TermFactor]
+                                                        ) [ExprTerm]
+                                                        Lesserop(
+                                                        ) [Lesserop]
+                                                        ExprTerm(
+                                                          NoSubSingle(
+                                                          ) [NoSubSingle]
+                                                          TermFactor(
+                                                            FactorConstant(
+                                                              ConstLiteralNum(
+                                                               5
+                                                              ) [ConstLiteralNum]
+                                                            ) [FactorConstant]
+                                                          ) [TermFactor]
+                                                        ) [ExprTerm]
+                                                      ) [CondFactRelop]
+                                                    ) [CondTermFact]
+                                                  ) [ConditionTerm]
+                                                ) [ConditionSingleNode]
+                                              ) [ForConditionSingleNode]
+                                              ForStepNode(
+                                                DesignatorStatementSingleNode(
+                                                  DesignatorStatementInc(
+                                                    DesignatorIdent(
+                                                     i
+                                                    ) [DesignatorIdent]
+                                                  ) [DesignatorStatementInc]
+                                                ) [DesignatorStatementSingleNode]
+                                              ) [ForStepNode]
+                                            ) [ForLoopHeaderNode]
+                                            StatementStatementList(
+                                              StatementListNode(
+                                                NoStatementList(
+                                                ) [NoStatementList]
+                                                StatementIf(
+                                                  IfHeaderNode(
+                                                    ConditionTerm(
+                                                      CondTermFact(
+                                                        CondFactRelop(
+                                                          ExprTerm(
+                                                            NoSubSingle(
+                                                            ) [NoSubSingle]
+                                                            TermFactor(
+                                                              FactorVariable(
+                                                                DesignatorIdent(
+                                                                 i
+                                                                ) [DesignatorIdent]
+                                                              ) [FactorVariable]
+                                                            ) [TermFactor]
+                                                          ) [ExprTerm]
+                                                          Equalop(
+                                                          ) [Equalop]
+                                                          ExprTerm(
+                                                            NoSubSingle(
+                                                            ) [NoSubSingle]
+                                                            TermFactor(
+                                                              FactorConstant(
+                                                                ConstLiteralNum(
+                                                                 2
+                                                                ) [ConstLiteralNum]
+                                                              ) [FactorConstant]
+                                                            ) [TermFactor]
+                                                          ) [ExprTerm]
+                                                        ) [CondFactRelop]
+                                                      ) [CondTermFact]
+                                                    ) [ConditionTerm]
+                                                  ) [IfHeaderNode]
+                                                  StatementDesignator(
+                                                    DesignatorStatementAssignNode(
+                                                      DesignatorAssignItemNode(
+                                                        DesignatorIdent(
+                                                         ibool
+                                                        ) [DesignatorIdent]
+                                                        Assignop(
+                                                        ) [Assignop]
+                                                        ExprTerm(
+                                                          NoSubSingle(
+                                                          ) [NoSubSingle]
+                                                          TermFactor(
+                                                            FactorConstant(
+                                                              ConstLiteralBool(
+                                                               true
+                                                              ) [ConstLiteralBool]
+                                                            ) [FactorConstant]
+                                                          ) [TermFactor]
+                                                        ) [ExprTerm]
+                                                      ) [DesignatorAssignItemNode]
+                                                    ) [DesignatorStatementAssignNode]
+                                                  ) [StatementDesignator]
+                                                  NoElseStatementSingle(
+                                                  ) [NoElseStatementSingle]
+                                                ) [StatementIf]
+                                              ) [StatementListNode]
+                                            ) [StatementStatementList]
+                                          ) [StatementFor]
+                                        ) [StatementListNode]
+                                        StatementIf(
+                                          IfHeaderNode(
+                                            ConditionTerm(
+                                              CondTermFact(
+                                                CondFactExpr(
+                                                  ExprTerm(
+                                                    NoSubSingle(
+                                                    ) [NoSubSingle]
+                                                    TermFactor(
+                                                      FactorVariable(
+                                                        DesignatorIdent(
+                                                         ibool
+                                                        ) [DesignatorIdent]
+                                                      ) [FactorVariable]
+                                                    ) [TermFactor]
+                                                  ) [ExprTerm]
+                                                ) [CondFactExpr]
+                                              ) [CondTermFact]
+                                            ) [ConditionTerm]
+                                          ) [IfHeaderNode]
+                                          StatementIf(
+                                            IfHeaderNode(
+                                              ConditionTerm(
+                                                CondTermFact(
+                                                  CondFactRelop(
+                                                    ExprTerm(
+                                                      NoSubSingle(
+                                                      ) [NoSubSingle]
+                                                      TermFactor(
+                                                        FactorVariable(
+                                                          DesignatorIdent(
+                                                           i
+                                                          ) [DesignatorIdent]
+                                                        ) [FactorVariable]
+                                                      ) [TermFactor]
+                                                    ) [ExprTerm]
+                                                    Equalop(
+                                                    ) [Equalop]
+                                                    ExprTerm(
+                                                      NoSubSingle(
+                                                      ) [NoSubSingle]
+                                                      TermFactor(
+                                                        FactorConstant(
+                                                          ConstLiteralNum(
+                                                           5
+                                                          ) [ConstLiteralNum]
+                                                        ) [FactorConstant]
+                                                      ) [TermFactor]
+                                                    ) [ExprTerm]
+                                                  ) [CondFactRelop]
+                                                ) [CondTermFact]
+                                              ) [ConditionTerm]
+                                            ) [IfHeaderNode]
+                                            StatementPrint(
+                                              ExprTerm(
+                                                NoSubSingle(
+                                                ) [NoSubSingle]
+                                                TermFactor(
+                                                  FactorConstant(
+                                                    ConstLiteralNum(
+                                                     1
+                                                    ) [ConstLiteralNum]
+                                                  ) [FactorConstant]
+                                                ) [TermFactor]
+                                              ) [ExprTerm]
+                                              NoCommaNumConstSingle(
+                                              ) [NoCommaNumConstSingle]
+                                            ) [StatementPrint]
+                                            ElseStatementSingleNode(
+                                              ElseNode(
+                                              ) [ElseNode]
+                                              StatementPrint(
+                                                ExprTerm(
+                                                  SubSingleNode(
+                                                  ) [SubSingleNode]
+                                                  TermFactor(
+                                                    FactorConstant(
+                                                      ConstLiteralNum(
+                                                       1
+                                                      ) [ConstLiteralNum]
+                                                    ) [FactorConstant]
+                                                  ) [TermFactor]
+                                                ) [ExprTerm]
+                                                NoCommaNumConstSingle(
+                                                ) [NoCommaNumConstSingle]
+                                              ) [StatementPrint]
+                                            ) [ElseStatementSingleNode]
+                                          ) [StatementIf]
+                                          NoElseStatementSingle(
+                                          ) [NoElseStatementSingle]
+                                        ) [StatementIf]
+                                      ) [StatementListNode]
+                                      StatementDesignator(
+                                        DesignatorStatementAssignNode(
+                                          DesignatorAssignItemNode(
+                                            DesignatorIdent(
+                                             niz
+                                            ) [DesignatorIdent]
+                                            Assignop(
+                                            ) [Assignop]
+                                            ExprTerm(
+                                              NoSubSingle(
+                                              ) [NoSubSingle]
+                                              TermFactor(
+                                                FactorNewArray(
+                                                  Type(
+                                                   int
+                                                  ) [Type]
+                                                  ExprTerm(
+                                                    NoSubSingle(
+                                                    ) [NoSubSingle]
+                                                    TermFactor(
+                                                      FactorConstant(
+                                                        ConstLiteralNum(
+                                                         3
+                                                        ) [ConstLiteralNum]
+                                                      ) [FactorConstant]
+                                                    ) [TermFactor]
+                                                  ) [ExprTerm]
+                                                ) [FactorNewArray]
+                                              ) [TermFactor]
+                                            ) [ExprTerm]
+                                          ) [DesignatorAssignItemNode]
+                                        ) [DesignatorStatementAssignNode]
+                                      ) [StatementDesignator]
+                                    ) [StatementListNode]
+                                    StatementDesignator(
+                                      DesignatorStatementAssignNode(
+                                        DesignatorAssignItemNode(
+                                          DesignatorArray(
+                                            DesignatorIdent(
+                                             niz
+                                            ) [DesignatorIdent]
+                                            ExprTerm(
+                                              NoSubSingle(
+                                              ) [NoSubSingle]
+                                              TermFactor(
+                                                FactorConstant(
+                                                  ConstLiteralNum(
+                                                   0
+                                                  ) [ConstLiteralNum]
+                                                ) [FactorConstant]
+                                              ) [TermFactor]
+                                            ) [ExprTerm]
+                                          ) [DesignatorArray]
+                                          Assignop(
+                                          ) [Assignop]
+                                          ExprTerm(
+                                            NoSubSingle(
+                                            ) [NoSubSingle]
+                                            TermFactor(
+                                              FactorConstant(
+                                                ConstLiteralNum(
+                                                 1
+                                                ) [ConstLiteralNum]
+                                              ) [FactorConstant]
+                                            ) [TermFactor]
+                                          ) [ExprTerm]
+                                        ) [DesignatorAssignItemNode]
+                                      ) [DesignatorStatementAssignNode]
+                                    ) [StatementDesignator]
+                                  ) [StatementListNode]
+                                  StatementDesignator(
+                                    DesignatorStatementAssignNode(
+                                      DesignatorAssignItemNode(
+                                        DesignatorArray(
+                                          DesignatorIdent(
+                                           niz
+                                          ) [DesignatorIdent]
+                                          ExprTerm(
+                                            NoSubSingle(
+                                            ) [NoSubSingle]
+                                            TermFactor(
+                                              FactorConstant(
+                                                ConstLiteralNum(
+                                                 1
+                                                ) [ConstLiteralNum]
+                                              ) [FactorConstant]
+                                            ) [TermFactor]
+                                          ) [ExprTerm]
+                                        ) [DesignatorArray]
+                                        Assignop(
+                                        ) [Assignop]
+                                        ExprTerm(
+                                          NoSubSingle(
+                                          ) [NoSubSingle]
+                                          TermFactor(
+                                            FactorConstant(
+                                              ConstLiteralNum(
+                                               2
+                                              ) [ConstLiteralNum]
+                                            ) [FactorConstant]
+                                          ) [TermFactor]
+                                        ) [ExprTerm]
+                                      ) [DesignatorAssignItemNode]
+                                    ) [DesignatorStatementAssignNode]
+                                  ) [StatementDesignator]
+                                ) [StatementListNode]
+                                StatementDesignator(
+                                  DesignatorStatementAssignNode(
+                                    DesignatorAssignItemNode(
+                                      DesignatorArray(
+                                        DesignatorIdent(
+                                         niz
+                                        ) [DesignatorIdent]
+                                        ExprTerm(
+                                          NoSubSingle(
+                                          ) [NoSubSingle]
+                                          TermFactor(
+                                            FactorConstant(
+                                              ConstLiteralNum(
+                                               2
+                                              ) [ConstLiteralNum]
+                                            ) [FactorConstant]
+                                          ) [TermFactor]
+                                        ) [ExprTerm]
+                                      ) [DesignatorArray]
+                                      Assignop(
+                                      ) [Assignop]
+                                      ExprAdd(
+                                        ExprTerm(
+                                          NoSubSingle(
+                                          ) [NoSubSingle]
+                                          TermFactor(
+                                            FactorFuncCall(
+                                              FactorFuncCallDesignator(
+                                                DesignatorIdent(
+                                                 sum
+                                                ) [DesignatorIdent]
+                                              ) [FactorFuncCallDesignator]
+                                              ActParsSingleNode(
+                                                ActParsNode(
+                                                  ActParsListNode(
+                                                    ActParsListExpr(
+                                                      ActParsExprNode(
+                                                        ExprTerm(
+                                                          NoSubSingle(
+                                                          ) [NoSubSingle]
+                                                          TermFactor(
+                                                            FactorVariable(
+                                                              DesignatorArray(
+                                                                DesignatorIdent(
+                                                                 niz
+                                                                ) [DesignatorIdent]
+                                                                ExprTerm(
+                                                                  NoSubSingle(
+                                                                  ) [NoSubSingle]
+                                                                  TermFactor(
+                                                                    FactorConstant(
+                                                                      ConstLiteralNum(
+                                                                       1
+                                                                      ) [ConstLiteralNum]
+                                                                    ) [FactorConstant]
+                                                                  ) [TermFactor]
+                                                                ) [ExprTerm]
+                                                              ) [DesignatorArray]
+                                                            ) [FactorVariable]
+                                                          ) [TermFactor]
+                                                        ) [ExprTerm]
+                                                      ) [ActParsExprNode]
+                                                    ) [ActParsListExpr]
+                                                    ActParsExprNode(
+                                                      ExprTerm(
+                                                        NoSubSingle(
+                                                        ) [NoSubSingle]
+                                                        TermFactor(
+                                                          FactorVariable(
+                                                            DesignatorArray(
+                                                              DesignatorIdent(
+                                                               niz
+                                                              ) [DesignatorIdent]
+                                                              ExprTerm(
+                                                                NoSubSingle(
+                                                                ) [NoSubSingle]
+                                                                TermFactor(
+                                                                  FactorConstant(
+                                                                    ConstLiteralNum(
+                                                                     0
+                                                                    ) [ConstLiteralNum]
+                                                                  ) [FactorConstant]
+                                                                ) [TermFactor]
+                                                              ) [ExprTerm]
+                                                            ) [DesignatorArray]
+                                                          ) [FactorVariable]
+                                                        ) [TermFactor]
+                                                      ) [ExprTerm]
+                                                    ) [ActParsExprNode]
+                                                  ) [ActParsListNode]
+                                                ) [ActParsNode]
+                                              ) [ActParsSingleNode]
+                                            ) [FactorFuncCall]
+                                          ) [TermFactor]
+                                        ) [ExprTerm]
+                                        AddopNode(
+                                        ) [AddopNode]
+                                        TermFactor(
+                                          FactorConstant(
+                                            ConstLiteralNum(
+                                             1
+                                            ) [ConstLiteralNum]
+                                          ) [FactorConstant]
+                                        ) [TermFactor]
+                                      ) [ExprAdd]
+                                    ) [DesignatorAssignItemNode]
+                                  ) [DesignatorStatementAssignNode]
+                                ) [StatementDesignator]
+                              ) [StatementListNode]
+                              StatementIf(
+                                IfHeaderNode(
+                                  ConditionOr(
+                                    ConditionTerm(
+                                      CondTermFact(
+                                        CondFactRelop(
+                                          ExprTerm(
+                                            NoSubSingle(
+                                            ) [NoSubSingle]
+                                            TermFactor(
+                                              FactorVariable(
+                                                DesignatorArray(
+                                                  DesignatorIdent(
+                                                   niz
+                                                  ) [DesignatorIdent]
+                                                  ExprTerm(
+                                                    NoSubSingle(
+                                                    ) [NoSubSingle]
+                                                    TermFactor(
+                                                      FactorConstant(
+                                                        ConstLiteralNum(
+                                                         2
+                                                        ) [ConstLiteralNum]
+                                                      ) [FactorConstant]
+                                                    ) [TermFactor]
+                                                  ) [ExprTerm]
+                                                ) [DesignatorArray]
+                                              ) [FactorVariable]
+                                            ) [TermFactor]
+                                          ) [ExprTerm]
+                                          Equalop(
+                                          ) [Equalop]
+                                          ExprTerm(
+                                            NoSubSingle(
+                                            ) [NoSubSingle]
+                                            TermFactor(
+                                              FactorConstant(
+                                                ConstLiteralNum(
+                                                 4
+                                                ) [ConstLiteralNum]
+                                              ) [FactorConstant]
+                                            ) [TermFactor]
+                                          ) [ExprTerm]
+                                        ) [CondFactRelop]
+                                      ) [CondTermFact]
+                                    ) [ConditionTerm]
+                                    CondTermFact(
+                                      CondFactExpr(
+                                        ExprTerm(
+                                          NoSubSingle(
+                                          ) [NoSubSingle]
+                                          TermFactor(
+                                            FactorFuncCall(
+                                              FactorFuncCallDesignator(
+                                                DesignatorIdent(
+                                                 verify
+                                                ) [DesignatorIdent]
+                                              ) [FactorFuncCallDesignator]
+                                              NoActParsSingle(
+                                              ) [NoActParsSingle]
+                                            ) [FactorFuncCall]
+                                          ) [TermFactor]
+                                        ) [ExprTerm]
+                                      ) [CondFactExpr]
+                                    ) [CondTermFact]
+                                  ) [ConditionOr]
+                                ) [IfHeaderNode]
+                                StatementPrint(
+                                  ExprTerm(
+                                    NoSubSingle(
+                                    ) [NoSubSingle]
+                                    TermFactor(
+                                      FactorFuncCall(
+                                        FactorFuncCallDesignator(
+                                          DesignatorIdent(
+                                           ord
+                                          ) [DesignatorIdent]
+                                        ) [FactorFuncCallDesignator]
+                                        ActParsSingleNode(
+                                          ActParsNode(
+                                            ActParsListExpr(
+                                              ActParsExprNode(
+                                                ExprTerm(
+                                                  NoSubSingle(
+                                                  ) [NoSubSingle]
+                                                  TermFactor(
+                                                    FactorConstant(
+                                                      ConstLiteralChar(
+                                                       A
+                                                      ) [ConstLiteralChar]
+                                                    ) [FactorConstant]
+                                                  ) [TermFactor]
+                                                ) [ExprTerm]
+                                              ) [ActParsExprNode]
+                                            ) [ActParsListExpr]
+                                          ) [ActParsNode]
+                                        ) [ActParsSingleNode]
+                                      ) [FactorFuncCall]
+                                    ) [TermFactor]
+                                  ) [ExprTerm]
+                                  NoCommaNumConstSingle(
+                                  ) [NoCommaNumConstSingle]
+                                ) [StatementPrint]
+                                ElseStatementSingleNode(
+                                  ElseNode(
+                                  ) [ElseNode]
+                                  StatementPrint(
+                                    ExprTerm(
+                                      NoSubSingle(
+                                      ) [NoSubSingle]
+                                      TermFactor(
+                                        FactorFuncCall(
+                                          FactorFuncCallDesignator(
+                                            DesignatorIdent(
+                                             ord
+                                            ) [DesignatorIdent]
+                                          ) [FactorFuncCallDesignator]
+                                          ActParsSingleNode(
+                                            ActParsNode(
+                                              ActParsListExpr(
+                                                ActParsExprNode(
+                                                  ExprTerm(
+                                                    NoSubSingle(
+                                                    ) [NoSubSingle]
+                                                    TermFactor(
+                                                      FactorConstant(
+                                                        ConstLiteralChar(
+                                                         a
+                                                        ) [ConstLiteralChar]
+                                                      ) [FactorConstant]
+                                                    ) [TermFactor]
+                                                  ) [ExprTerm]
+                                                ) [ActParsExprNode]
+                                              ) [ActParsListExpr]
+                                            ) [ActParsNode]
+                                          ) [ActParsSingleNode]
+                                        ) [FactorFuncCall]
+                                      ) [TermFactor]
+                                    ) [ExprTerm]
+                                    NoCommaNumConstSingle(
+                                    ) [NoCommaNumConstSingle]
+                                  ) [StatementPrint]
+                                ) [ElseStatementSingleNode]
+                              ) [StatementIf]
+                            ) [StatementListNode]
+                            StatementPrint(
+                              ExprTerm(
+                                NoSubSingle(
+                                ) [NoSubSingle]
+                                TermFactor(
+                                  FactorVariable(
+                                    DesignatorIdent(
+                                     eol
+                                    ) [DesignatorIdent]
+                                  ) [FactorVariable]
+                                ) [TermFactor]
+                              ) [ExprTerm]
+                              NoCommaNumConstSingle(
+                              ) [NoCommaNumConstSingle]
+                            ) [StatementPrint]
+                          ) [StatementListNode]
+                          StatementDesignator(
+                            DesignatorStatementAssignNode(
+                              DesignatorAssignItemNode(
+                                DesignatorIdent(
+                                 i
+                                ) [DesignatorIdent]
+                                Assignop(
+                                ) [Assignop]
+                                ExprTerm(
+                                  NoSubSingle(
+                                  ) [NoSubSingle]
+                                  TermFactor(
+                                    FactorConstant(
+                                      ConstLiteralNum(
+                                       0
+                                      ) [ConstLiteralNum]
+                                    ) [FactorConstant]
+                                  ) [TermFactor]
+                                ) [ExprTerm]
+                              ) [DesignatorAssignItemNode]
+                            ) [DesignatorStatementAssignNode]
+                          ) [StatementDesignator]
+                        ) [StatementListNode]
+                        StatementFor(
+                          ForLoopHeaderNode(
+                            ForInitNode(
+                              NoDesignatorStatementSingle(
+                              ) [NoDesignatorStatementSingle]
+                            ) [ForInitNode]
+                            ForConditionSingleNode(
+                              ConditionSingleNode(
+                                ConditionTerm(
+                                  CondTermFact(
+                                    CondFactRelop(
+                                      ExprTerm(
+                                        NoSubSingle(
+                                        ) [NoSubSingle]
+                                        TermFactor(
+                                          FactorVariable(
+                                            DesignatorIdent(
+                                             i
+                                            ) [DesignatorIdent]
+                                          ) [FactorVariable]
+                                        ) [TermFactor]
+                                      ) [ExprTerm]
+                                      Lesserop(
+                                      ) [Lesserop]
+                                      ExprTerm(
+                                        NoSubSingle(
+                                        ) [NoSubSingle]
+                                        TermFactor(
+                                          FactorConstant(
+                                            ConstLiteralNum(
+                                             10
+                                            ) [ConstLiteralNum]
+                                          ) [FactorConstant]
+                                        ) [TermFactor]
+                                      ) [ExprTerm]
+                                    ) [CondFactRelop]
+                                  ) [CondTermFact]
+                                ) [ConditionTerm]
+                              ) [ConditionSingleNode]
+                            ) [ForConditionSingleNode]
+                            ForStepNode(
+                              NoDesignatorStatementSingle(
+                              ) [NoDesignatorStatementSingle]
+                            ) [ForStepNode]
+                          ) [ForLoopHeaderNode]
+                          StatementStatementList(
+                            StatementListNode(
+                              StatementListNode(
+                                StatementListNode(
+                                  NoStatementList(
+                                  ) [NoStatementList]
+                                  StatementIf(
+                                    IfHeaderNode(
+                                      ConditionTerm(
+                                        CondTermFact(
+                                          CondFactRelop(
+                                            ExprTerm(
+                                              NoSubSingle(
+                                              ) [NoSubSingle]
+                                              TermFactor(
+                                                FactorVariable(
+                                                  DesignatorIdent(
+                                                   i
+                                                  ) [DesignatorIdent]
+                                                ) [FactorVariable]
+                                              ) [TermFactor]
+                                            ) [ExprTerm]
+                                            Equalop(
+                                            ) [Equalop]
+                                            ExprTerm(
+                                              NoSubSingle(
+                                              ) [NoSubSingle]
+                                              TermFactor(
+                                                FactorConstant(
+                                                  ConstLiteralNum(
+                                                   3
+                                                  ) [ConstLiteralNum]
+                                                ) [FactorConstant]
+                                              ) [TermFactor]
+                                            ) [ExprTerm]
+                                          ) [CondFactRelop]
+                                        ) [CondTermFact]
+                                      ) [ConditionTerm]
+                                    ) [IfHeaderNode]
+                                    StatementStatementList(
+                                      StatementListNode(
+                                        StatementListNode(
+                                          NoStatementList(
+                                          ) [NoStatementList]
+                                          StatementDesignator(
+                                            DesignatorStatementInc(
+                                              DesignatorIdent(
+                                               i
+                                              ) [DesignatorIdent]
+                                            ) [DesignatorStatementInc]
+                                          ) [StatementDesignator]
+                                        ) [StatementListNode]
+                                        StatementContinue(
+                                        ) [StatementContinue]
+                                      ) [StatementListNode]
+                                    ) [StatementStatementList]
+                                    NoElseStatementSingle(
+                                    ) [NoElseStatementSingle]
+                                  ) [StatementIf]
+                                ) [StatementListNode]
+                                StatementIf(
+                                  IfHeaderNode(
+                                    ConditionTerm(
+                                      CondTermFact(
+                                        CondFactRelop(
+                                          ExprTerm(
+                                            NoSubSingle(
+                                            ) [NoSubSingle]
+                                            TermFactor(
+                                              FactorVariable(
+                                                DesignatorIdent(
+                                                 i
+                                                ) [DesignatorIdent]
+                                              ) [FactorVariable]
+                                            ) [TermFactor]
+                                          ) [ExprTerm]
+                                          Equalop(
+                                          ) [Equalop]
+                                          ExprTerm(
+                                            NoSubSingle(
+                                            ) [NoSubSingle]
+                                            TermFactor(
+                                              FactorConstant(
+                                                ConstLiteralNum(
+                                                 4
+                                                ) [ConstLiteralNum]
+                                              ) [FactorConstant]
+                                            ) [TermFactor]
+                                          ) [ExprTerm]
+                                        ) [CondFactRelop]
+                                      ) [CondTermFact]
+                                    ) [ConditionTerm]
+                                  ) [IfHeaderNode]
+                                  StatementBreak(
+                                  ) [StatementBreak]
+                                  NoElseStatementSingle(
+                                  ) [NoElseStatementSingle]
+                                ) [StatementIf]
+                              ) [StatementListNode]
+                              StatementDesignator(
+                                DesignatorStatementAssignNode(
+                                  DesignatorAssignItemNode(
+                                    DesignatorIdent(
+                                     i
+                                    ) [DesignatorIdent]
+                                    Assignop(
+                                    ) [Assignop]
+                                    ExprTerm(
+                                      NoSubSingle(
+                                      ) [NoSubSingle]
+                                      TermFactor(
+                                        FactorFuncCall(
+                                          FactorFuncCallDesignator(
+                                            DesignatorIdent(
+                                             inkrement
+                                            ) [DesignatorIdent]
+                                          ) [FactorFuncCallDesignator]
+                                          ActParsSingleNode(
+                                            ActParsNode(
+                                              ActParsListNode(
+                                                ActParsListExpr(
+                                                  ActParsExprNode(
+                                                    ExprTerm(
+                                                      NoSubSingle(
+                                                      ) [NoSubSingle]
+                                                      TermFactor(
+                                                        FactorVariable(
+                                                          DesignatorIdent(
+                                                           i
+                                                          ) [DesignatorIdent]
+                                                        ) [FactorVariable]
+                                                      ) [TermFactor]
+                                                    ) [ExprTerm]
+                                                  ) [ActParsExprNode]
+                                                ) [ActParsListExpr]
+                                                ActParsExprNode(
+                                                  ExprTerm(
+                                                    NoSubSingle(
+                                                    ) [NoSubSingle]
+                                                    TermFactor(
+                                                      FactorConstant(
+                                                        ConstLiteralNum(
+                                                         1
+                                                        ) [ConstLiteralNum]
+                                                      ) [FactorConstant]
+                                                    ) [TermFactor]
+                                                  ) [ExprTerm]
+                                                ) [ActParsExprNode]
+                                              ) [ActParsListNode]
+                                            ) [ActParsNode]
+                                          ) [ActParsSingleNode]
+                                        ) [FactorFuncCall]
+                                      ) [TermFactor]
+                                    ) [ExprTerm]
+                                  ) [DesignatorAssignItemNode]
+                                ) [DesignatorStatementAssignNode]
+                              ) [StatementDesignator]
+                            ) [StatementListNode]
+                          ) [StatementStatementList]
+                        ) [StatementFor]
+                      ) [StatementListNode]
+                      StatementIf(
+                        IfHeaderNode(
+                          ConditionTerm(
+                            CondTermAnd(
+                              CondTermFact(
+                                CondFactRelop(
+                                  ExprTerm(
+                                    NoSubSingle(
+                                    ) [NoSubSingle]
+                                    TermFactor(
+                                      FactorVariable(
+                                        DesignatorIdent(
+                                         i
+                                        ) [DesignatorIdent]
+                                      ) [FactorVariable]
+                                    ) [TermFactor]
+                                  ) [ExprTerm]
+                                  Equalop(
+                                  ) [Equalop]
+                                  ExprTerm(
+                                    NoSubSingle(
+                                    ) [NoSubSingle]
+                                    TermFactor(
+                                      FactorConstant(
+                                        ConstLiteralNum(
+                                         3
+                                        ) [ConstLiteralNum]
+                                      ) [FactorConstant]
+                                    ) [TermFactor]
+                                  ) [ExprTerm]
+                                ) [CondFactRelop]
+                              ) [CondTermFact]
+                              CondFactExpr(
+                                ExprTerm(
+                                  NoSubSingle(
+                                  ) [NoSubSingle]
+                                  TermFactor(
+                                    FactorFuncCall(
+                                      FactorFuncCallDesignator(
+                                        DesignatorIdent(
+                                         verify
+                                        ) [DesignatorIdent]
+                                      ) [FactorFuncCallDesignator]
+                                      NoActParsSingle(
+                                      ) [NoActParsSingle]
+                                    ) [FactorFuncCall]
+                                  ) [TermFactor]
+                                ) [ExprTerm]
+                              ) [CondFactExpr]
+                            ) [CondTermAnd]
+                          ) [ConditionTerm]
+                        ) [IfHeaderNode]
+                        StatementPrint(
+                          ExprTerm(
+                            NoSubSingle(
+                            ) [NoSubSingle]
+                            TermFactor(
+                              FactorConstant(
+                                ConstLiteralNum(
+                                 4
+                                ) [ConstLiteralNum]
+                              ) [FactorConstant]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                          NoCommaNumConstSingle(
+                          ) [NoCommaNumConstSingle]
+                        ) [StatementPrint]
+                        ElseStatementSingleNode(
+                          ElseNode(
+                          ) [ElseNode]
+                          StatementPrint(
+                            ExprTerm(
+                              SubSingleNode(
+                              ) [SubSingleNode]
+                              TermFactor(
+                                FactorConstant(
+                                  ConstLiteralNum(
+                                   4
+                                  ) [ConstLiteralNum]
+                                ) [FactorConstant]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                            NoCommaNumConstSingle(
+                            ) [NoCommaNumConstSingle]
+                          ) [StatementPrint]
+                        ) [ElseStatementSingleNode]
+                      ) [StatementIf]
+                    ) [StatementListNode]
+                    StatementRead(
+                      DesignatorArray(
+                        DesignatorIdent(
+                         niz
+                        ) [DesignatorIdent]
+                        ExprTerm(
+                          NoSubSingle(
+                          ) [NoSubSingle]
+                          TermFactor(
+                            FactorConstant(
+                              ConstLiteralNum(
+                               0
+                              ) [ConstLiteralNum]
+                            ) [FactorConstant]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [DesignatorArray]
+                    ) [StatementRead]
+                  ) [StatementListNode]
+                  StatementRead(
+                    DesignatorArray(
+                      DesignatorIdent(
+                       niz
+                      ) [DesignatorIdent]
+                      ExprTerm(
+                        NoSubSingle(
+                        ) [NoSubSingle]
+                        TermFactor(
+                          FactorConstant(
+                            ConstLiteralNum(
+                             1
+                            ) [ConstLiteralNum]
+                          ) [FactorConstant]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [DesignatorArray]
+                  ) [StatementRead]
+                ) [StatementListNode]
+                StatementRead(
+                  DesignatorArray(
+                    DesignatorIdent(
+                     niz
+                    ) [DesignatorIdent]
+                    ExprTerm(
+                      NoSubSingle(
+                      ) [NoSubSingle]
+                      TermFactor(
+                        FactorConstant(
+                          ConstLiteralNum(
+                           2
+                          ) [ConstLiteralNum]
+                        ) [FactorConstant]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [DesignatorArray]
+                ) [StatementRead]
+              ) [StatementListNode]
+              StatementPrint(
+                ExprTerm(
+                  NoSubSingle(
+                  ) [NoSubSingle]
+                  TermFactor(
+                    FactorVariable(
+                      DesignatorIdent(
+                       eol
+                      ) [DesignatorIdent]
+                    ) [FactorVariable]
+                  ) [TermFactor]
+                ) [ExprTerm]
+                NoCommaNumConstSingle(
+                ) [NoCommaNumConstSingle]
+              ) [StatementPrint]
+            ) [StatementListNode]
+            StatementPrint(
+              ExprTerm(
+                NoSubSingle(
+                ) [NoSubSingle]
+                TermFactor(
+                  FactorFuncCall(
+                    FactorFuncCallDesignator(
+                      DesignatorIdent(
+                       sum
+                      ) [DesignatorIdent]
+                    ) [FactorFuncCallDesignator]
+                    ActParsSingleNode(
+                      ActParsNode(
+                        ActParsListNode(
+                          ActParsListExpr(
+                            ActParsExprNode(
+                              ExprTerm(
+                                NoSubSingle(
+                                ) [NoSubSingle]
+                                TermFactor(
+                                  FactorFuncCall(
+                                    FactorFuncCallDesignator(
+                                      DesignatorIdent(
+                                       sum
+                                      ) [DesignatorIdent]
+                                    ) [FactorFuncCallDesignator]
+                                    ActParsSingleNode(
+                                      ActParsNode(
+                                        ActParsListNode(
+                                          ActParsListExpr(
+                                            ActParsExprNode(
+                                              ExprTerm(
+                                                NoSubSingle(
+                                                ) [NoSubSingle]
+                                                TermFactor(
+                                                  FactorVariable(
+                                                    DesignatorArray(
+                                                      DesignatorIdent(
+                                                       niz
+                                                      ) [DesignatorIdent]
+                                                      ExprTerm(
+                                                        NoSubSingle(
+                                                        ) [NoSubSingle]
+                                                        TermFactor(
+                                                          FactorConstant(
+                                                            ConstLiteralNum(
+                                                             0
+                                                            ) [ConstLiteralNum]
+                                                          ) [FactorConstant]
+                                                        ) [TermFactor]
+                                                      ) [ExprTerm]
+                                                    ) [DesignatorArray]
+                                                  ) [FactorVariable]
+                                                ) [TermFactor]
+                                              ) [ExprTerm]
+                                            ) [ActParsExprNode]
+                                          ) [ActParsListExpr]
+                                          ActParsExprNode(
+                                            ExprTerm(
+                                              NoSubSingle(
+                                              ) [NoSubSingle]
+                                              TermFactor(
+                                                FactorVariable(
+                                                  DesignatorArray(
+                                                    DesignatorIdent(
+                                                     niz
+                                                    ) [DesignatorIdent]
+                                                    ExprTerm(
+                                                      NoSubSingle(
+                                                      ) [NoSubSingle]
+                                                      TermFactor(
+                                                        FactorConstant(
+                                                          ConstLiteralNum(
+                                                           1
+                                                          ) [ConstLiteralNum]
+                                                        ) [FactorConstant]
+                                                      ) [TermFactor]
+                                                    ) [ExprTerm]
+                                                  ) [DesignatorArray]
+                                                ) [FactorVariable]
+                                              ) [TermFactor]
+                                            ) [ExprTerm]
+                                          ) [ActParsExprNode]
+                                        ) [ActParsListNode]
+                                      ) [ActParsNode]
+                                    ) [ActParsSingleNode]
+                                  ) [FactorFuncCall]
+                                ) [TermFactor]
+                              ) [ExprTerm]
+                            ) [ActParsExprNode]
+                          ) [ActParsListExpr]
+                          ActParsExprNode(
+                            ExprTerm(
+                              NoSubSingle(
+                              ) [NoSubSingle]
+                              TermFactor(
+                                FactorVariable(
+                                  DesignatorArray(
+                                    DesignatorIdent(
+                                     niz
+                                    ) [DesignatorIdent]
+                                    ExprTerm(
+                                      NoSubSingle(
+                                      ) [NoSubSingle]
+                                      TermFactor(
+                                        FactorConstant(
+                                          ConstLiteralNum(
+                                           2
+                                          ) [ConstLiteralNum]
+                                        ) [FactorConstant]
+                                      ) [TermFactor]
+                                    ) [ExprTerm]
+                                  ) [DesignatorArray]
+                                ) [FactorVariable]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                          ) [ActParsExprNode]
+                        ) [ActParsListNode]
+                      ) [ActParsNode]
+                    ) [ActParsSingleNode]
+                  ) [FactorFuncCall]
+                ) [TermFactor]
+              ) [ExprTerm]
+              NoCommaNumConstSingle(
+              ) [NoCommaNumConstSingle]
+            ) [StatementPrint]
+          ) [StatementListNode]
+          StatementPrint(
+            ExprTerm(
+              NoSubSingle(
+              ) [NoSubSingle]
+              TermFactor(
+                FactorVariable(
+                  DesignatorIdent(
+                   eol
+                  ) [DesignatorIdent]
+                ) [FactorVariable]
+              ) [TermFactor]
+            ) [ExprTerm]
+            NoCommaNumConstSingle(
+            ) [NoCommaNumConstSingle]
+          ) [StatementPrint]
+        ) [StatementListNode]
+        StatementPrint(
+          ExprTerm(
+            NoSubSingle(
+            ) [NoSubSingle]
+            TermFactor(
+              FactorFuncCall(
+                FactorFuncCallDesignator(
+                  DesignatorIdent(
+                   inkrement
+                  ) [DesignatorIdent]
+                ) [FactorFuncCallDesignator]
+                ActParsSingleNode(
+                  ActParsNode(
+                    ActParsListNode(
+                      ActParsListExpr(
+                        ActParsExprNode(
+                          ExprTerm(
+                            NoSubSingle(
+                            ) [NoSubSingle]
+                            TermFactor(
+                              FactorVariable(
+                                DesignatorArray(
+                                  DesignatorIdent(
+                                   niz
+                                  ) [DesignatorIdent]
+                                  ExprTerm(
+                                    NoSubSingle(
+                                    ) [NoSubSingle]
+                                    TermFactor(
+                                      FactorConstant(
+                                        ConstLiteralNum(
+                                         2
+                                        ) [ConstLiteralNum]
+                                      ) [FactorConstant]
+                                    ) [TermFactor]
+                                  ) [ExprTerm]
+                                ) [DesignatorArray]
+                              ) [FactorVariable]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                        ) [ActParsExprNode]
+                      ) [ActParsListExpr]
+                      ActParsExprNode(
+                        ExprTerm(
+                          NoSubSingle(
+                          ) [NoSubSingle]
+                          TermFactor(
+                            FactorConstant(
+                              ConstLiteralNum(
+                               2
+                              ) [ConstLiteralNum]
+                            ) [FactorConstant]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [ActParsExprNode]
+                    ) [ActParsListNode]
+                  ) [ActParsNode]
+                ) [ActParsSingleNode]
+              ) [FactorFuncCall]
+            ) [TermFactor]
+          ) [ExprTerm]
+          NoCommaNumConstSingle(
+          ) [NoCommaNumConstSingle]
+        ) [StatementPrint]
+      ) [StatementListNode]
+    ) [MethodDeclNode]
+  ) [MethodDeclListNode]
+) [Program]
+===================================
+INFO  04:44:45,868 - Info on line: 15: Detected usage of function formal parameter z.
+INFO  04:44:45,869 - Info on line: 15: Detected usage of function formal parameter d.
+INFO  04:44:45,869 - Info on line: 20: Detected usage of function formal parameter inc.
+INFO  04:44:45,869 - Info on line: 20: Detected usage of symbolic constant jedan.
+INFO  04:44:45,869 - Info on line: 21: Detected usage of function formal parameter inc.
+INFO  04:44:45,869 - Info on line: 21: Detected usage of function formal parameter a.
+INFO  04:44:45,870 - Info on line: 23: Detected usage of function formal parameter a.
+INFO  04:44:45,870 - Info on line 23: Detected function call for function sum.
+INFO  04:44:45,870 - Info on line: 36: Detected usage of global variable ibool.
+INFO  04:44:45,870 - Info on line: 37: Detected usage of global variable i.
+INFO  04:44:45,870 - Info on line: 38: Detected usage of global variable i.
+INFO  04:44:45,870 - Info on line: 38: Detected usage of global variable i.
+INFO  04:44:45,870 - Info on line: 38: Detected usage of global variable i.
+INFO  04:44:45,870 - Info on line 38: Detected for loop.
+INFO  04:44:45,870 - Info on line: 40: Detected usage of global variable i.
+INFO  04:44:45,870 - Info on line: 40: Detected usage of global variable ibool.
+INFO  04:44:45,870 - Info on line: 43: Detected usage of global variable ibool.
+INFO  04:44:45,870 - Info on line: 44: Detected usage of global variable i.
+INFO  04:44:45,870 - Info on line: 47: Detected usage of global variable niz.
+INFO  04:44:45,871 - Info on line: 48: Detected usage of global variable niz.
+INFO  04:44:45,871 - Info on line 48: Detected usage of array element.
+INFO  04:44:45,871 - Info on line: 49: Detected usage of global variable niz.
+INFO  04:44:45,871 - Info on line 49: Detected usage of array element.
+INFO  04:44:45,871 - Info on line: 50: Detected usage of global variable niz.
+INFO  04:44:45,871 - Info on line 50: Detected usage of array element.
+INFO  04:44:45,871 - Info on line: 50: Detected usage of global variable niz.
+INFO  04:44:45,871 - Info on line 50: Detected usage of array element.
+INFO  04:44:45,871 - Info on line: 50: Detected usage of global variable niz.
+INFO  04:44:45,871 - Info on line 50: Detected usage of array element.
+INFO  04:44:45,871 - Info on line 50: Detected function call for function sum.
+INFO  04:44:45,871 - Info on line: 51: Detected usage of global variable niz.
+INFO  04:44:45,871 - Info on line 51: Detected usage of array element.
+INFO  04:44:45,871 - Info on line 51: Detected function call for function verify.
+INFO  04:44:45,871 - Info on line 51: Detected function call for function ord.
+INFO  04:44:45,871 - Info on line 52: Detected function call for function ord.
+INFO  04:44:45,871 - Info on line: 54: Detected usage of symbolic constant eol.
+INFO  04:44:45,872 - Info on line: 55: Detected usage of global variable i.
+INFO  04:44:45,872 - Info on line: 56: Detected usage of global variable i.
+INFO  04:44:45,872 - Info on line 5: Detected for loop.
+INFO  04:44:45,872 - Info on line: 58: Detected usage of global variable i.
+INFO  04:44:45,872 - Info on line: 60: Detected usage of global variable i.
+INFO  04:44:45,872 - Info on line: 63: Detected usage of global variable i.
+INFO  04:44:45,872 - Info on line: 64: Detected usage of global variable i.
+INFO  04:44:45,872 - Info on line: 64: Detected usage of global variable i.
+INFO  04:44:45,872 - Info on line 64: Detected function call for function inkrement.
+INFO  04:44:45,872 - Info on line: 67: Detected usage of global variable i.
+INFO  04:44:45,872 - Info on line 67: Detected function call for function verify.
+INFO  04:44:45,872 - Info on line: 70: Detected usage of global variable niz.
+INFO  04:44:45,872 - Info on line 70: Detected usage of array element.
+INFO  04:44:45,872 - Info on line: 71: Detected usage of global variable niz.
+INFO  04:44:45,872 - Info on line 71: Detected usage of array element.
+INFO  04:44:45,872 - Info on line: 72: Detected usage of global variable niz.
+INFO  04:44:45,872 - Info on line 72: Detected usage of array element.
+INFO  04:44:45,872 - Info on line: 73: Detected usage of symbolic constant eol.
+INFO  04:44:45,873 - Info on line: 75: Detected usage of global variable niz.
+INFO  04:44:45,873 - Info on line 75: Detected usage of array element.
+INFO  04:44:45,873 - Info on line: 75: Detected usage of global variable niz.
+INFO  04:44:45,873 - Info on line 75: Detected usage of array element.
+INFO  04:44:45,873 - Info on line 75: Detected function call for function sum.
+INFO  04:44:45,873 - Info on line: 75: Detected usage of global variable niz.
+INFO  04:44:45,873 - Info on line 75: Detected usage of array element.
+INFO  04:44:45,873 - Info on line 75: Detected function call for function sum.
+INFO  04:44:45,873 - Info on line: 77: Detected usage of symbolic constant eol.
+INFO  04:44:45,873 - Info on line: 78: Detected usage of global variable niz.
+INFO  04:44:45,873 - Info on line 78: Detected usage of array element.
+INFO  04:44:45,873 - Info on line 78: Detected function call for function inkrement.
+===================================
+=====================SYMBOL TABLE DUMP=========================
+Con jedan: int, 1, 0 
+Var i: int, 0, 0 
+Var ibool: , 1, 0 
+Var niz: Arr of int, 2, 0 
+Meth sum: int, 0, 2 
+   Var z: int, 0, 1 
+   Var d: int, 1, 1 
+
+Meth inkrement: int, 0, 2 
+   Var a: int, 0, 1 
+   Var inc: int, 1, 1 
+   Var pom: int, 2, 1 
+
+Meth verify: , 0, 0 
+
+Meth main: notype, 0, 0 
+
+Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: , 0, 1 
+Prog test302: notype, 0, 1 
+   Con jedan: int, 1, 0 
+   Var i: int, 0, 0 
+   Var ibool: , 1, 0 
+   Var niz: Arr of int, 2, 0 
+   Meth sum: int, 0, 2 
+      Var z: int, 0, 1 
+      Var d: int, 1, 1 
+
+   Meth inkrement: int, 0, 2 
+      Var a: int, 0, 1 
+      Var inc: int, 1, 1 
+      Var pom: int, 2, 1 
+
+   Meth verify: , 0, 0 
+
+   Meth main: notype, 0, 0 
+
+
+
+INFO  04:44:45,883 - Parsiranje uspesno izvrseno.
