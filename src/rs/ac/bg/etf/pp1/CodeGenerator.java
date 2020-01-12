@@ -301,6 +301,10 @@ public class CodeGenerator extends VisitorAdaptor {
             Code.put(Code.exit);
             Code.put(Code.return_);
         }
+        else{
+            Code.put(Code.trap);
+            Code.put(0);
+        }
     }
 
     @Override
